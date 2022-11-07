@@ -35,7 +35,6 @@ namespace is_4_20_st6_KURS
             this.аРТИСТЫToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.аФИШАToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.бИЛЕТЫToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.оБРАТНАЯСВЯЗЬToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лИЧНЫЙКАБИНЕТToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -45,7 +44,7 @@ namespace is_4_20_st6_KURS
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(697, 286);
+            this.metroPanel1.Location = new System.Drawing.Point(1085, 373);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(200, 100);
             this.metroPanel1.TabIndex = 1;
@@ -60,11 +59,10 @@ namespace is_4_20_st6_KURS
             this.аРТИСТЫToolStripMenuItem,
             this.аФИШАToolStripMenuItem,
             this.бИЛЕТЫToolStripMenuItem,
-            this.оБРАТНАЯСВЯЗЬToolStripMenuItem,
             this.лИЧНЫЙКАБИНЕТToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(20, 60);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(695, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1122, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -93,12 +91,6 @@ namespace is_4_20_st6_KURS
             this.бИЛЕТЫToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.бИЛЕТЫToolStripMenuItem.Text = "БИЛЕТЫ";
             // 
-            // оБРАТНАЯСВЯЗЬToolStripMenuItem
-            // 
-            this.оБРАТНАЯСВЯЗЬToolStripMenuItem.Name = "оБРАТНАЯСВЯЗЬToolStripMenuItem";
-            this.оБРАТНАЯСВЯЗЬToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
-            this.оБРАТНАЯСВЯЗЬToolStripMenuItem.Text = "ОБРАТНАЯ СВЯЗЬ";
-            // 
             // лИЧНЫЙКАБИНЕТToolStripMenuItem
             // 
             this.лИЧНЫЙКАБИНЕТToolStripMenuItem.Name = "лИЧНЫЙКАБИНЕТToolStripMenuItem";
@@ -110,7 +102,7 @@ namespace is_4_20_st6_KURS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 316);
+            this.ClientSize = new System.Drawing.Size(1162, 420);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.metroPanel1);
             this.MainMenuStrip = this.menuStrip1;
@@ -134,7 +126,6 @@ namespace is_4_20_st6_KURS
         private System.Windows.Forms.ToolStripMenuItem аРТИСТЫToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem аФИШАToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem бИЛЕТЫToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem оБРАТНАЯСВЯЗЬToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem лИЧНЫЙКАБИНЕТToolStripMenuItem;
     }
 }

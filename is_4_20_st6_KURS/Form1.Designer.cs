@@ -164,11 +164,11 @@ namespace is_4_20_st6_KURS
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(80, 175);
+            this.metroLabel4.Location = new System.Drawing.Point(88, 175);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(158, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(145, 19);
             this.metroLabel4.TabIndex = 9;
-            this.metroLabel4.Text = "Не зарегистрированы ? ";
+            this.metroLabel4.Text = "Нет личного кабинета";
             this.metroLabel4.Click += new System.EventHandler(this.metroLabel4_Click);
             // 
             // Form1
