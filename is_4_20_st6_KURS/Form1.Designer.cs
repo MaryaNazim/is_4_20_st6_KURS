@@ -29,20 +29,25 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(32, 135);
+            this.metroButton1.BackColor = System.Drawing.Color.Gray;
+            this.metroButton1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.metroButton1.Location = new System.Drawing.Point(183, 299);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(84, 23);
             this.metroButton1.TabIndex = 1;
@@ -52,6 +57,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroTextBox1
             // 
+            this.metroTextBox1.BackColor = System.Drawing.Color.Gray;
             // 
             // 
             // 
@@ -64,8 +70,9 @@ namespace is_4_20_st6_KURS
             this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox1.CustomButton.UseSelectable = true;
             this.metroTextBox1.CustomButton.Visible = false;
+            this.metroTextBox1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.metroTextBox1.Lines = new string[0];
-            this.metroTextBox1.Location = new System.Drawing.Point(143, 46);
+            this.metroTextBox1.Location = new System.Drawing.Point(183, 223);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
@@ -82,6 +89,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroTextBox2
             // 
+            this.metroTextBox2.BackColor = System.Drawing.Color.Gray;
             // 
             // 
             // 
@@ -95,7 +103,7 @@ namespace is_4_20_st6_KURS
             this.metroTextBox2.CustomButton.UseSelectable = true;
             this.metroTextBox2.CustomButton.Visible = false;
             this.metroTextBox2.Lines = new string[0];
-            this.metroTextBox2.Location = new System.Drawing.Point(143, 90);
+            this.metroTextBox2.Location = new System.Drawing.Point(183, 264);
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '\0';
@@ -110,20 +118,10 @@ namespace is_4_20_st6_KURS
             this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(112, 9);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(107, 19);
-            this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "АВТОРИЗАЦИЯ";
-            this.metroLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(32, 46);
+            this.metroLabel2.Location = new System.Drawing.Point(111, 268);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(57, 19);
             this.metroLabel2.TabIndex = 5;
@@ -132,7 +130,7 @@ namespace is_4_20_st6_KURS
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(32, 90);
+            this.metroLabel3.Location = new System.Drawing.Point(111, 227);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(66, 19);
             this.metroLabel3.TabIndex = 6;
@@ -143,7 +141,7 @@ namespace is_4_20_st6_KURS
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(308, 175);
+            this.metroPanel1.Location = new System.Drawing.Point(332, 299);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(200, 100);
             this.metroPanel1.TabIndex = 7;
@@ -151,48 +149,60 @@ namespace is_4_20_st6_KURS
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // metroButton2
-            // 
-            this.metroButton2.Location = new System.Drawing.Point(143, 135);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(160, 23);
-            this.metroButton2.TabIndex = 8;
-            this.metroButton2.Text = "ВЕРНУТЬСЯ НА ГЛАВНУЮ";
-            this.metroButton2.UseSelectable = true;
-            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
-            // 
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(88, 175);
+            this.metroLabel4.Location = new System.Drawing.Point(9, 303);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(145, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(159, 19);
             this.metroLabel4.TabIndex = 9;
-            this.metroLabel4.Text = "Нет личного кабинета";
-            this.metroLabel4.Click += new System.EventHandler(this.metroLabel4_Click);
+            this.metroLabel4.Text = "ЗАРЕГИСТРИРОВАТЬСЯ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(9, 223);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(95, 60);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(15, 54);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(328, 154);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(332, 204);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(366, 342);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.metroLabel4);
-            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
-            this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroTextBox2);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroButton1);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.ShowIcon = false;
             this.Style = MetroFramework.MetroColorStyle.Red;
+            this.Text = "АВТОРИЗАЦИЯ";
             this.Theme = MetroFramework.MetroThemeStyle.Default;
+            this.TransparencyKey = System.Drawing.Color.Empty;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,12 +213,12 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
         private MetroFramework.Controls.MetroTextBox metroTextBox2;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroLabel metroLabel4;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

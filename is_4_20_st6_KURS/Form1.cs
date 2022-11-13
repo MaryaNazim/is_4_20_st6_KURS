@@ -47,7 +47,7 @@ namespace is_4_20_st6_KURS
             while (reader.Read())
             {
                 // элементы массива [] - это значения столбцов из запроса SELECT
-                Form1.login = reader[3].ToString(); 
+                Form1.login = reader[3].ToString();
                 Form1.password = reader[4].ToString();
             }
             reader.Close(); // закрываем reader
@@ -95,18 +95,6 @@ namespace is_4_20_st6_KURS
                 //Отобразить сообщение о том, что авторизаия неуспешна
                 MessageBox.Show("Неверные данные авторизации!");
             }
-        }
-
-        private void metroButton2_Click(object sender, EventArgs e)
-        {
-            Form0 form = new Form0();
-            form.Show();
-            this.Hide();
-        }
-
-        private void metroLabel4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

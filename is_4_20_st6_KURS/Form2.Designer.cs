@@ -37,6 +37,7 @@ namespace is_4_20_st6_KURS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(545, 291);
             this.Name = "Form2";
+            this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "Form2";
             this.ResumeLayout(false);
 
