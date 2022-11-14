@@ -87,7 +87,6 @@ namespace is_4_20_st6_KURS
             //Если вернулась больше 0 строк, значит такой пользователь существует
             if (table.Rows.Count > 0)
             {
-
                 MessageBox.Show("Добро пожаловать");
             }
             else
@@ -95,6 +94,13 @@ namespace is_4_20_st6_KURS
                 //Отобразить сообщение о том, что авторизаия неуспешна
                 MessageBox.Show("Неверные данные авторизации!");
             }
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 Form2 = new Form2();
+            Form2.Show();
         }
     }
 }
