@@ -20,5 +20,9 @@ namespace is_4_20_st6_KURS
             InitializeComponent();
         }
 
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
