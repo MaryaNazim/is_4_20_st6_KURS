@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using MetroFramework.Components;
 using MetroFramework.Forms;
 
 
@@ -105,24 +104,22 @@ namespace is_4_20_st6_KURS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            metroTextBox2.PasswordChar = '●';
-            pictureBox3.Visible = false;
-            metroTextBox1.MaxLength = 50;
-            metroTextBox2.MaxLength = 50;
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            metroTextBox2.UseSystemPasswordChar = false;
-            pictureBox4.Visible = false;
-            pictureBox3.Visible = true;
+             metroTextBox2.PasswordChar = '●';
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            metroTextBox2.UseSystemPasswordChar = true;
-            pictureBox4.Visible = true;
+            metroTextBox2.PasswordChar = '●';
             pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            metroTextBox2.PasswordChar = '\0';
+            pictureBox3.Visible = true;
+            pictureBox4.Visible = false;
+
         }
     }
 }

@@ -24,5 +24,24 @@ namespace is_4_20_st6_KURS
         {
             
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            metroTextBox2.PasswordChar = '●';
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            metroTextBox2.PasswordChar = '●';
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            metroTextBox2.PasswordChar = '\0';
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = false;
+        }
     }
 }

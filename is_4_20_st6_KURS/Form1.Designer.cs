@@ -165,7 +165,7 @@ namespace is_4_20_st6_KURS
             // metroButton1
             // 
             this.metroButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.metroButton1.Location = new System.Drawing.Point(183, 299);
+            this.metroButton1.Location = new System.Drawing.Point(195, 320);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(110, 23);
             this.metroButton1.TabIndex = 14;
@@ -178,7 +178,7 @@ namespace is_4_20_st6_KURS
             // metroButton2
             // 
             this.metroButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.metroButton2.Location = new System.Drawing.Point(15, 299);
+            this.metroButton2.Location = new System.Drawing.Point(9, 320);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(153, 23);
             this.metroButton2.TabIndex = 15;
@@ -191,9 +191,9 @@ namespace is_4_20_st6_KURS
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(311, 264);
+            this.pictureBox3.Location = new System.Drawing.Point(311, 256);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(53, 41);
+            this.pictureBox3.Size = new System.Drawing.Size(36, 36);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
@@ -202,9 +202,9 @@ namespace is_4_20_st6_KURS
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(311, 214);
+            this.pictureBox4.Location = new System.Drawing.Point(311, 257);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(53, 41);
+            this.pictureBox4.Size = new System.Drawing.Size(36, 36);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 17;
             this.pictureBox4.TabStop = false;
@@ -214,7 +214,7 @@ namespace is_4_20_st6_KURS
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(387, 342);
+            this.ClientSize = new System.Drawing.Size(362, 366);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.metroButton2);
