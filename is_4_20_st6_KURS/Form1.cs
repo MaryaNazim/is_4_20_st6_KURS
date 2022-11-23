@@ -17,8 +17,8 @@ namespace is_4_20_st6_KURS
     {
         // строка подключения к БД
         MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
-        private static string login;
-        private static string password;
+        public static string login;
+        public static string password;
         //Метод запроса данных пользователя по логину для запоминания их в полях класса
         static string sha256(string randomString)
         {

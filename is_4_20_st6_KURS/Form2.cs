@@ -8,13 +8,52 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using MetroFramework.Components;
 using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
     public partial class Form2 : MetroForm
     {
+        // строка подключения к БД
+        MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
+        public static string login;
+        public static string password;
+        //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
+        public bool InsertUser(string login, string password)
+        {
+            //определяем переменную, хранящую количество вставленных строк
+            int InsertCount = 0;
+            //Объявляем переменную храняющую результат операции
+            bool result = false;
+            // открываем соединение
+            conn.Open();
+            // запросы
+            // запрос вставки данных
+            string query = $"INSERT INTO `Users` (`login`, `password`) VALUES (`{login}`, `{password}`)";
+            try
+            {
+                // объект для выполнения SQL-запроса
+                MySqlCommand command = new MySqlCommand(query, conn);
+                // выполняем запрос
+                InsertCount = command.ExecuteNonQuery();
+                // закрываем подключение к БД
+                conn.Close();
+            }
+            finally
+            {
+                //Но в любом случае, нужно закрыть соединение
+                conn.Close();
+                //Ессли количество вставленных строк было не 0, то есть вставлена хотя бы 1 строка
+                if (InsertCount != 0)
+                {
+                    //то результат операции - истина
+                    result = true;
+                }
+            }
+            //Вернём результат операции, где его обработает алгоритм
+            return result;
+        }
+
         public Form2()
         {
             InitializeComponent();
@@ -22,7 +61,19 @@ namespace is_4_20_st6_KURS
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            
+            //Объявляем переменные для вставки в БД
+            string login = metroTextBox1.Text;
+            string password = metroTextBox2.Text;
+            //Если метод вставки записи в БД вернёт истину, то просто обновим список и увидим вставленное значение
+            if (InsertUser(login, password))
+            {
+                MessageBox.Show("Пользователь зарегистрирован");
+            }
+            //Иначе произошла какая то ошибка и покажем пользователю уведомление
+            else
+            {
+                MessageBox.Show("Ошибка при регистрации");
+            }
         }
 
         private void Form2_Load(object sender, EventArgs e)
