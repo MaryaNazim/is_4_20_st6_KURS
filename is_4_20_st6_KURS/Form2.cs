@@ -16,10 +16,11 @@ namespace is_4_20_st6_KURS
     {
         // строка подключения к БД
         MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
+        public static int id_emp = 1;
         public static string login;
         public static string password;
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
-        public bool InsertUser(string login, string password)
+        public bool InsertUser(int id_emp,string login, string password)
         {
             //определяем переменную, хранящую количество вставленных строк
             int InsertCount = 0;
@@ -29,7 +30,7 @@ namespace is_4_20_st6_KURS
             conn.Open();
             // запросы
             // запрос вставки данных
-            string query = $"INSERT INTO `Users` (`login`, `password`) VALUES (`{login}`, `{password}`)";
+            string query = $"INSERT INTO `Users` (`id_emp`,`login`,`password`) VALUES ('{id_emp}','{login}','{password}')";
             try
             {
                 // объект для выполнения SQL-запроса
@@ -65,7 +66,7 @@ namespace is_4_20_st6_KURS
             string login = metroTextBox1.Text;
             string password = metroTextBox2.Text;
             //Если метод вставки записи в БД вернёт истину, то просто обновим список и увидим вставленное значение
-            if (InsertUser(login, password))
+            if (InsertUser(id_emp,login, password))
             {
                 MessageBox.Show("Пользователь зарегистрирован");
             }
@@ -93,6 +94,13 @@ namespace is_4_20_st6_KURS
             metroTextBox2.PasswordChar = '\0';
             pictureBox2.Visible = true;
             pictureBox3.Visible = false;
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 Form1 = new Form1();
+            Form1.Show();
         }
     }
 }

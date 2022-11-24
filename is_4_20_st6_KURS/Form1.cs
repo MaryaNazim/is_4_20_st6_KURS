@@ -20,18 +20,7 @@ namespace is_4_20_st6_KURS
         public static string login;
         public static string password;
         //Метод запроса данных пользователя по логину для запоминания их в полях класса
-        static string sha256(string randomString)
-        {
-            //Тут происходит криптографическая магия. Смысл данного метода заключается в том, что строка залетает в метод
-            var crypt = new System.Security.Cryptography.SHA256Managed();
-            var hash = new System.Text.StringBuilder();
-            byte[] crypto = crypt.ComputeHash(Encoding.UTF8.GetBytes(randomString));
-            foreach (byte theByte in crypto)
-            {
-                hash.Append(theByte.ToString("x2"));
-            }
-            return hash.ToString();
-        }
+       
         public void GetUserInfo(string login)
         {
             // устанавливаем соединение с БД
@@ -76,7 +65,7 @@ namespace is_4_20_st6_KURS
             command.Parameters.Add("@up", MySqlDbType.VarChar, 255);
             //Присваиваем параметрам значение
             command.Parameters["@un"].Value = metroTextBox1.Text;
-            command.Parameters["@up"].Value = sha256(metroTextBox2.Text);
+            command.Parameters["@up"].Value = metroTextBox2.Text;
             //Заносим команду в адаптер
             adapter.SelectCommand = command;
             //Заполняем таблицу
