@@ -76,6 +76,9 @@ namespace is_4_20_st6_KURS
             if (table.Rows.Count > 0)
             {
                 MessageBox.Show("Добро пожаловать");
+                this.Hide();
+                Form3 Form3 = new Form3();
+                Form3.Show();
             }
             else
             {
