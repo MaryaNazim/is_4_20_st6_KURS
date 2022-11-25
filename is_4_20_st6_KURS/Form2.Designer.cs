@@ -138,7 +138,7 @@ namespace is_4_20_st6_KURS
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(274, 195);
+            this.metroPanel1.Location = new System.Drawing.Point(342, 178);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(200, 100);
             this.metroPanel1.TabIndex = 5;
@@ -148,7 +148,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(182, 155);
+            this.metroButton1.Location = new System.Drawing.Point(182, 165);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(129, 23);
             this.metroButton1.TabIndex = 6;
@@ -180,7 +180,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(47, 155);
+            this.metroButton2.Location = new System.Drawing.Point(44, 165);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(129, 23);
             this.metroButton2.TabIndex = 9;
@@ -192,7 +192,7 @@ namespace is_4_20_st6_KURS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 215);
+            this.ClientSize = new System.Drawing.Size(375, 200);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);

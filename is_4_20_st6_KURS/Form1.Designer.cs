@@ -133,7 +133,7 @@ namespace is_4_20_st6_KURS
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(342, 299);
+            this.metroPanel1.Location = new System.Drawing.Point(336, 335);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(200, 100);
             this.metroPanel1.TabIndex = 7;
@@ -165,7 +165,7 @@ namespace is_4_20_st6_KURS
             // metroButton1
             // 
             this.metroButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.metroButton1.Location = new System.Drawing.Point(195, 320);
+            this.metroButton1.Location = new System.Drawing.Point(195, 311);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(110, 23);
             this.metroButton1.TabIndex = 14;
@@ -178,7 +178,7 @@ namespace is_4_20_st6_KURS
             // metroButton2
             // 
             this.metroButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.metroButton2.Location = new System.Drawing.Point(9, 320);
+            this.metroButton2.Location = new System.Drawing.Point(9, 311);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(153, 23);
             this.metroButton2.TabIndex = 15;
@@ -214,7 +214,7 @@ namespace is_4_20_st6_KURS
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(362, 366);
+            this.ClientSize = new System.Drawing.Size(362, 358);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.metroButton2);

@@ -16,7 +16,7 @@ namespace is_4_20_st6_KURS
     public partial class Form1 : MetroForm
     {
         // строка подключения к БД
-        MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
+        MySqlConnection conn = new MySqlConnection("server=10.90.12.110;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
         public static string login;
         public static string password;
         //Метод запроса данных пользователя по логину для запоминания их в полях класса

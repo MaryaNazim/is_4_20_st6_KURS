@@ -15,7 +15,7 @@ namespace is_4_20_st6_KURS
     public partial class Form2 : MetroForm
     {
         // строка подключения к БД
-        MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
+        MySqlConnection conn = new MySqlConnection("server=10.90.12.110;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
         public static int id_emp = 1;
         public static string login;
         public static string password;
@@ -69,6 +69,9 @@ namespace is_4_20_st6_KURS
             if (InsertUser(id_emp,login, password))
             {
                 MessageBox.Show("Пользователь зарегистрирован");
+                this.Hide();
+                Form3 Form3 = new Form3();
+                Form3.Show();
             }
             //Иначе произошла какая то ошибка и покажем пользователю уведомление
             else
