@@ -17,9 +17,16 @@ namespace is_4_20_st6_KURS
         public Form3()
         {
             InitializeComponent();
+            metroDateTime1.Visible = false;
+            metroLabel1.Visible = false;
         }
 
-        private void metroLabel1_Click(object sender, EventArgs e)
+        private void операToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            metroDateTime1.Visible = true;
+        }
+
+        private void купитьБилетToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form4 Form4 = new Form4();
@@ -32,3 +39,5 @@ namespace is_4_20_st6_KURS
         }
     }
 }
+    
+
