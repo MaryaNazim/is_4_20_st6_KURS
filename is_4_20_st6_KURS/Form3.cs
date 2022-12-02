@@ -17,8 +17,12 @@ namespace is_4_20_st6_KURS
         public Form3()
         {
             InitializeComponent();
+            metroDateTime1.Format = DateTimePickerFormat.Time;
+            metroDateTime1.ValueChanged += metroDateTime1_ValueChanged;
             metroDateTime1.Visible = false;
             metroLabel1.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
         }
 
         private void операToolStripMenuItem_Click(object sender, EventArgs e)
@@ -35,7 +39,17 @@ namespace is_4_20_st6_KURS
 
         private void metroDateTime1_ValueChanged(object sender, EventArgs e)
         {
+            
+        }
 
+        public void DateTime1()
+        {
+            pictureBox1.Visible = true;
+        }
+
+        public void DateTime2()
+        {
+            pictureBox2.Visible = true;
         }
     }
 }

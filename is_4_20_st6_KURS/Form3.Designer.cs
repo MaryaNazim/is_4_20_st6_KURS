@@ -29,18 +29,23 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.афишаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.операToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.балетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.купитьБилетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оТеареToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.артистыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.операToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.балетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // metroPanel1
@@ -88,6 +93,19 @@ namespace is_4_20_st6_KURS
             this.афишаToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.афишаToolStripMenuItem.Text = "Афиша";
             // 
+            // операToolStripMenuItem
+            // 
+            this.операToolStripMenuItem.Name = "операToolStripMenuItem";
+            this.операToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.операToolStripMenuItem.Text = "опера";
+            this.операToolStripMenuItem.Click += new System.EventHandler(this.операToolStripMenuItem_Click);
+            // 
+            // балетToolStripMenuItem
+            // 
+            this.балетToolStripMenuItem.Name = "балетToolStripMenuItem";
+            this.балетToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.балетToolStripMenuItem.Text = "балет";
+            // 
             // купитьБилетToolStripMenuItem
             // 
             this.купитьБилетToolStripMenuItem.Name = "купитьБилетToolStripMenuItem";
@@ -113,22 +131,9 @@ namespace is_4_20_st6_KURS
             this.toolStripMenuItem1.Size = new System.Drawing.Size(22, 20);
             this.toolStripMenuItem1.Text = " ";
             // 
-            // операToolStripMenuItem
-            // 
-            this.операToolStripMenuItem.Name = "операToolStripMenuItem";
-            this.операToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.операToolStripMenuItem.Text = "опера";
-            this.операToolStripMenuItem.Click += new System.EventHandler(this.операToolStripMenuItem_Click);
-            // 
-            // балетToolStripMenuItem
-            // 
-            this.балетToolStripMenuItem.Name = "балетToolStripMenuItem";
-            this.балетToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.балетToolStripMenuItem.Text = "балет";
-            // 
             // metroDateTime1
             // 
-            this.metroDateTime1.Location = new System.Drawing.Point(29, 108);
+            this.metroDateTime1.Location = new System.Drawing.Point(23, 118);
             this.metroDateTime1.MaxDate = new System.DateTime(2022, 12, 31, 0, 0, 0, 0);
             this.metroDateTime1.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
@@ -138,11 +143,33 @@ namespace is_4_20_st6_KURS
             this.metroDateTime1.Value = new System.DateTime(2022, 12, 1, 0, 0, 0, 0);
             this.metroDateTime1.ValueChanged += new System.EventHandler(this.metroDateTime1_ValueChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(23, 167);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(192, 136);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(221, 167);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(197, 136);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 543);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.metroDateTime1);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroPanel1);
@@ -152,6 +179,8 @@ namespace is_4_20_st6_KURS
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,5 +198,7 @@ namespace is_4_20_st6_KURS
         private System.Windows.Forms.ToolStripMenuItem артистыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private MetroFramework.Controls.MetroDateTime metroDateTime1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
