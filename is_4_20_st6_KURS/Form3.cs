@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
@@ -17,17 +16,12 @@ namespace is_4_20_st6_KURS
         public Form3()
         {
             InitializeComponent();
-            metroDateTime1.Format = DateTimePickerFormat.Time;
-            metroDateTime1.ValueChanged += metroDateTime1_ValueChanged;
-            metroDateTime1.Visible = false;
             metroLabel1.Visible = false;
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
-        }
+            metroDateTime1.Visible = false;
+            metroDateTime1.Format = DateTimePickerFormat.Custom; 
 
-        private void операToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            metroDateTime1.Visible = true;
         }
 
         private void купитьБилетToolStripMenuItem_Click(object sender, EventArgs e)
@@ -37,20 +31,21 @@ namespace is_4_20_st6_KURS
             Form4.Show();
         }
 
+        private void афишаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            metroDateTime1.Visible = true;
+        }
         private void metroDateTime1_ValueChanged(object sender, EventArgs e)
         {
-            
+            Picture();
         }
-
-        public void DateTime1()
+        private void Picture()
         {
+            metroDateTime1.CustomFormat = "dddd 4 декабря 2022";
             pictureBox1.Visible = true;
+            metroLabel1.Text = String.Format("Паяльцы");
         }
 
-        public void DateTime2()
-        {
-            pictureBox2.Visible = true;
-        }
     }
 }
     
