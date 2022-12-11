@@ -23,8 +23,8 @@ namespace is_4_20_st6_KURS
             metroDateTime1.Format = DateTimePickerFormat.Custom; 
 
         }
-        string im1 = "C:/Users/Brux/Desktop/изображения/афиша/payazi-afisha.jpg"; //im1 - переменная для хранения пути изображения 1
-        string im2 = "C:/Users/Brux/Desktop/изображения/афиша/237karenina.jpg"; //im2- переменная для хранения пути изображения 2
+
+        //string im1 = Properties.Resources.payazi_afisha; //im1 - переменная для хранения пути изображения 1
 
         private void купитьБилетToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -42,22 +42,14 @@ namespace is_4_20_st6_KURS
             switch (metroDateTime1.Value.ToShortDateString()) //dateTimePicker1.Value - значение в dateTimePicker1. ".ToShortDateString()" - преобразование типа данных в string
             {
                 case "04.12.2022": //В случае если выбранная дата - 04.12.2022
-                    Test(im1);//Выводится картинка, по пути, прописанный в переменной im1
-                    break;
-                case "05.12.2022":
-                    Test(im2);
+                    Test();//Выводится картинка, по пути, прописанный в переменной im1
                     break;
             }
         }
-        public void Test(string one)
+        public void Test()
         {
-            pictureBox1.Image = Image.FromFile(one);
+            pictureBox1.Image = Properties.Resources.payazi_afisha;
             pictureBox1.Visible = true;
-        }
-        public void Test1(string one)
-        {
-            pictureBox2.Image = Image.FromFile(one);
-            pictureBox2.Visible = true;
         }
 
     }
