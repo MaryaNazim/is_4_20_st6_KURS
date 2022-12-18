@@ -16,42 +16,62 @@ namespace is_4_20_st6_KURS
         public Form3()
         {
             InitializeComponent();
-            metroLabel1.Visible = false;
             pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            metroDateTime1.Visible = false;
-            metroDateTime1.Format = DateTimePickerFormat.Custom; 
-
         }
 
-        //string im1 = Properties.Resources.payazi_afisha; //im1 - переменная для хранения пути изображения 1
-
-        private void купитьБилетToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form4 Form4 = new Form4();
-            Form4.Show();
-        }
-
-        private void афишаToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            metroDateTime1.Visible = true;
-        }
         private void metroDateTime1_ValueChanged(object sender, EventArgs e)
         {
+            pictureBox1.Visible = true;
             switch (metroDateTime1.Value.ToShortDateString()) //dateTimePicker1.Value - значение в dateTimePicker1. ".ToShortDateString()" - преобразование типа данных в string
             {
                 case "04.12.2022": //В случае если выбранная дата - 04.12.2022
-                    Test();//Выводится картинка, по пути, прописанный в переменной im1
+                    Payazi();//Выводится картинка, по пути, прописанный в переменной im1
                     break;
+                case "09.12.2022":
+                    MisterX();
+                    break;
+                case "26.12.2022":
+                    Shelkunchic();
+                    break;
+                case "27.12.2022":
+                    Shelkunchic();
+                    break;
+                case "28.12.2022":
+                    Karenina();
+                    break;
+
             }
         }
-        public void Test()
+        public void Payazi()
         {
+            metroLabel1.Text = "Р. Леонкавалло «Паяцы»";
             pictureBox1.Image = Properties.Resources.payazi_afisha;
             pictureBox1.Visible = true;
         }
+        public void Shelkunchic()
+        {
+            metroLabel1.Text = "П. Чайковский «Щелкунчик»";
+            pictureBox1.Image = Properties.Resources.shelkuunchik;
+            pictureBox1.Visible = true;
+        }
+        public void Karenina()
+        {
+            metroLabel1.Text = "К. Монтеверди, В. А. Моцарт, Ф. Лист, С. Рахманинов, О. Респиги, Б. Бриттен, Л. Левашкевич «Анна Каренина»";
+            pictureBox1.Image = Properties.Resources._237karenina;
+            pictureBox1.Visible = true;
+        }
+        public void MisterX()
+        {
+            metroLabel1.Text = "И. Кальман «Мистер Икс»";
+            pictureBox1.Image = Properties.Resources.misterx;
+            pictureBox1.Visible = true;
+        }
 
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            Form4 Form4 = new Form4();
+            Form4.ShowDialog();
+        }
     }
 }
     

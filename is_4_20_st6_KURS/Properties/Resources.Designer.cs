@@ -63,9 +63,39 @@ namespace is_4_20_st6_KURS.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _237karenina {
+            get {
+                object obj = ResourceManager.GetObject("_237karenina", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap misterx {
+            get {
+                object obj = ResourceManager.GetObject("misterx", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap payazi_afisha {
             get {
                 object obj = ResourceManager.GetObject("payazi_afisha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shelkuunchik {
+            get {
+                object obj = ResourceManager.GetObject("shelkuunchik", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -13,14 +13,13 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form1 : MetroForm
+    public partial class Form1_auth : MetroForm
     {
         // строка подключения к БД
-        MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
-        public static string login;
-        public static string password;
+        string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+        MySqlConnection conn;
         //Метод запроса данных пользователя по логину для запоминания их в полях класса
-       
+
         public void GetUserInfo(string login)
         {
             // устанавливаем соединение с БД
@@ -35,15 +34,16 @@ namespace is_4_20_st6_KURS
             while (reader.Read())
             {
                 // элементы массива [] - это значения столбцов из запроса SELECT
-                Form1.login = reader[3].ToString();
-                Form1.password = reader[4].ToString();
+                Auth.login = reader[3].ToString();
+                Auth.password = reader[4].ToString();
+                Auth.auth_role = Convert.ToInt32(reader[4].ToString());
             }
             reader.Close(); // закрываем reader
             // закрываем соединение с БД
             conn.Close();
         }
 
-        public Form1()
+        public Form1_auth()
         {
             InitializeComponent();
         }
@@ -75,10 +75,12 @@ namespace is_4_20_st6_KURS
             //Если вернулась больше 0 строк, значит такой пользователь существует
             if (table.Rows.Count > 0)
             {
-                MessageBox.Show("Добро пожаловать");
-                this.Hide();
-                Form3 Form3 = new Form3();
-                Form3.Show();
+                //Присваеваем глобальный признак авторизации
+                Auth.auth = true;
+                //Достаем данные пользователя в случае успеха
+                MessageBox.Show("Авторизация успешна");
+                //Закрываем форму
+                this.Close();
             }
             else
             {
@@ -90,13 +92,15 @@ namespace is_4_20_st6_KURS
         private void metroButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 Form2 = new Form2();
+            Form2_registr Form2 = new Form2_registr();
             Form2.Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_auth2_Load(object sender, EventArgs e)
         {
-             metroTextBox2.PasswordChar = '●';
+            //Инициализируем соединение с подходящей строкой
+            conn = new MySqlConnection(connStr);
+            metroTextBox2.PasswordChar = '●';
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

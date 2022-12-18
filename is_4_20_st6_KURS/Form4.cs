@@ -7,9 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 using MetroFramework.Forms;
-
 
 namespace is_4_20_st6_KURS
 {
@@ -18,6 +16,11 @@ namespace is_4_20_st6_KURS
         public Form4()
         {
             InitializeComponent();
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

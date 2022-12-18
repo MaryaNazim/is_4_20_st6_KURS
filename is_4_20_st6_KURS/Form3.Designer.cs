@@ -29,23 +29,12 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.афишаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.операToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.балетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.купитьБилетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.оТеареToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.артистыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
-            this.menuStrip1.SuspendLayout();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // metroPanel1
@@ -64,120 +53,55 @@ namespace is_4_20_st6_KURS
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(50, 120);
+            this.metroLabel1.Location = new System.Drawing.Point(93, 124);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(130, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(112, 19);
             this.metroLabel1.TabIndex = 13;
-            this.metroLabel1.Text = "название спектакля";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.афишаToolStripMenuItem,
-            this.купитьБилетToolStripMenuItem,
-            this.оТеареToolStripMenuItem,
-            this.артистыToolStripMenuItem,
-            this.toolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(20, 60);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(559, 24);
-            this.menuStrip1.TabIndex = 17;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // афишаToolStripMenuItem
-            // 
-            this.афишаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.операToolStripMenuItem,
-            this.балетToolStripMenuItem});
-            this.афишаToolStripMenuItem.Name = "афишаToolStripMenuItem";
-            this.афишаToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.афишаToolStripMenuItem.Text = "Афиша";
-            this.афишаToolStripMenuItem.Click += new System.EventHandler(this.афишаToolStripMenuItem_Click);
-            // 
-            // операToolStripMenuItem
-            // 
-            this.операToolStripMenuItem.Name = "операToolStripMenuItem";
-            this.операToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.операToolStripMenuItem.Text = "опера";
-            // 
-            // балетToolStripMenuItem
-            // 
-            this.балетToolStripMenuItem.Name = "балетToolStripMenuItem";
-            this.балетToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.балетToolStripMenuItem.Text = "балет";
-            // 
-            // купитьБилетToolStripMenuItem
-            // 
-            this.купитьБилетToolStripMenuItem.Name = "купитьБилетToolStripMenuItem";
-            this.купитьБилетToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
-            this.купитьБилетToolStripMenuItem.Text = "Купить билет";
-            this.купитьБилетToolStripMenuItem.Click += new System.EventHandler(this.купитьБилетToolStripMenuItem_Click);
-            // 
-            // оТеареToolStripMenuItem
-            // 
-            this.оТеареToolStripMenuItem.Name = "оТеареToolStripMenuItem";
-            this.оТеареToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.оТеареToolStripMenuItem.Text = "О теаре";
-            // 
-            // артистыToolStripMenuItem
-            // 
-            this.артистыToolStripMenuItem.Name = "артистыToolStripMenuItem";
-            this.артистыToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
-            this.артистыToolStripMenuItem.Text = "Актёрский состав";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(22, 20);
-            this.toolStripMenuItem1.Text = " ";
+            this.metroLabel1.Text = "ВЫБЕРИТЕ ДАТУ";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 142);
+            this.pictureBox1.Image = global::is_4_20_st6_KURS.Properties.Resources.payazi_afisha;
+            this.pictureBox1.Location = new System.Drawing.Point(53, 163);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 136);
+            this.pictureBox1.Size = new System.Drawing.Size(226, 224);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(218, 142);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(197, 136);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
             // metroDateTime1
             // 
-            this.metroDateTime1.Location = new System.Drawing.Point(218, 107);
+            this.metroDateTime1.Location = new System.Drawing.Point(23, 63);
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(327, 29);
+            this.metroDateTime1.Size = new System.Drawing.Size(288, 29);
             this.metroDateTime1.TabIndex = 21;
             this.metroDateTime1.ValueChanged += new System.EventHandler(this.metroDateTime1_ValueChanged);
+            // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(53, 398);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(226, 23);
+            this.metroButton1.TabIndex = 22;
+            this.metroButton1.Text = "купить билет";
+            this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 332);
+            this.ClientSize = new System.Drawing.Size(354, 444);
+            this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroDateTime1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroPanel1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form3";
             this.Style = MetroFramework.MetroColorStyle.Red;
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Text = "Афиша";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,16 +110,8 @@ namespace is_4_20_st6_KURS
         #endregion
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem афишаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem операToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem балетToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem купитьБилетToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem оТеареToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem артистыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private MetroFramework.Controls.MetroDateTime metroDateTime1;
+        private MetroFramework.Controls.MetroButton metroButton1;
     }
 }

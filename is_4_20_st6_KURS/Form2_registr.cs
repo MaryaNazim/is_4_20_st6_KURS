@@ -12,7 +12,7 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form2 : MetroForm
+    public partial class Form2_registr : MetroForm
     {
         // строка подключения к БД
         MySqlConnection conn = new MySqlConnection("server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;");
@@ -55,7 +55,7 @@ namespace is_4_20_st6_KURS
             return result;
         }
 
-        public Form2()
+        public Form2_registr()
         {
             InitializeComponent();
         }
@@ -102,7 +102,7 @@ namespace is_4_20_st6_KURS
         private void metroButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 Form1 = new Form1();
+            Form1_auth Form1 = new Form1_auth();
             Form1.Show();
         }
     }

@@ -1,7 +1,7 @@
 ﻿
 namespace is_4_20_st6_KURS
 {
-    partial class Form2
+    partial class Form2_registr
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2_registr));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
@@ -188,7 +188,7 @@ namespace is_4_20_st6_KURS
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
-            // Form2
+            // Form2_registr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -203,7 +203,7 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form2";
+            this.Name = "Form2_registr";
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "РЕГИСТРАЦИЯ";
             this.Load += new System.EventHandler(this.Form2_Load);
