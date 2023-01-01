@@ -38,7 +38,6 @@ namespace is_4_20_st6_KURS
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -165,7 +164,7 @@ namespace is_4_20_st6_KURS
             // metroButton1
             // 
             this.metroButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.metroButton1.Location = new System.Drawing.Point(195, 303);
+            this.metroButton1.Location = new System.Drawing.Point(145, 302);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(110, 23);
             this.metroButton1.TabIndex = 14;
@@ -174,19 +173,6 @@ namespace is_4_20_st6_KURS
             this.metroButton1.UseCustomForeColor = true;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
-            // 
-            // metroButton2
-            // 
-            this.metroButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.metroButton2.Location = new System.Drawing.Point(9, 303);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(153, 23);
-            this.metroButton2.TabIndex = 15;
-            this.metroButton2.Text = "ЗАРЕГИСТРИРОВАТЬСЯ";
-            this.metroButton2.UseCustomBackColor = true;
-            this.metroButton2.UseCustomForeColor = true;
-            this.metroButton2.UseSelectable = true;
-            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // pictureBox3
             // 
@@ -210,14 +196,13 @@ namespace is_4_20_st6_KURS
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // Form1_auth2
+            // Form1_auth
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(362, 358);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -229,7 +214,7 @@ namespace is_4_20_st6_KURS
             this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1_auth2";
+            this.Name = "Form1_auth";
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "АВТОРИЗАЦИЯ";
             this.Theme = MetroFramework.MetroThemeStyle.Default;
@@ -253,7 +238,6 @@ namespace is_4_20_st6_KURS
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroButton metroButton2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
     }

@@ -18,22 +18,28 @@ namespace is_4_20_st6_KURS
             InitializeComponent();
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
+        private void авторизацияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1_auth Form1 = new Form1_auth();
+            Form1.ShowDialog();
+        }
+
+        private void регистрацияToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form2_registr Form2 = new Form2_registr();
+            Form2.ShowDialog();
+        }
+
+        private void афишаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 Form3 = new Form3();
             Form3.ShowDialog();
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
+        private void схемаЗалаToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1_auth Form1_auth = new Form1_auth();
-            Form1_auth.ShowDialog();
-        }
-
-        private void metroButton3_Click(object sender, EventArgs e)
-        {
-            Form2_registr Form2_registr = new Form2_registr();
-            Form2_registr.ShowDialog();
+            Form4 Form4 = new Form4();
+            Form4.ShowDialog();
         }
     }
 }

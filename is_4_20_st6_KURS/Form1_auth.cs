@@ -89,13 +89,6 @@ namespace is_4_20_st6_KURS
             }
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form2_registr Form2 = new Form2_registr();
-            Form2.Show();
-        }
-
         private void Form1_auth2_Load(object sender, EventArgs e)
         {
             //Инициализируем соединение с подходящей строкой

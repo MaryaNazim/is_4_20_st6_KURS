@@ -98,12 +98,5 @@ namespace is_4_20_st6_KURS
             pictureBox2.Visible = true;
             pictureBox3.Visible = false;
         }
-
-        private void metroButton2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form1_auth Form1 = new Form1_auth();
-            Form1.Show();
-        }
     }
 }
