@@ -34,9 +34,9 @@ namespace is_4_20_st6_KURS
             while (reader.Read())
             {
                 // элементы массива [] - это значения столбцов из запроса SELECT
-                Auth.login = reader[3].ToString();
-                Auth.password = reader[4].ToString();
-                Auth.auth_role = Convert.ToInt32(reader[4].ToString());
+                Auth.auth_login = reader[3].ToString();
+                Auth.auth_password = reader[4].ToString();
+                Auth.auth_role = Convert.ToInt32(reader[5].ToString());
             }
             reader.Close(); // закрываем reader
             // закрываем соединение с БД
@@ -95,6 +95,7 @@ namespace is_4_20_st6_KURS
             conn = new MySqlConnection(connStr);
             metroTextBox2.PasswordChar = '●';
         }
+
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {

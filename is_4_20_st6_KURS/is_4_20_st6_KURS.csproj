@@ -99,23 +99,29 @@
     <Compile Include="Form1_auth.Designer.cs">
       <DependentUpon>Form1_auth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1_auth1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_auth1.Designer.cs">
+      <DependentUpon>Form1_auth1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2_registr.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form2_registr.Designer.cs">
       <DependentUpon>Form2_registr.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3%281%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3%281%29.Designer.cs">
-      <DependentUpon>Form3%281%29.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_afisha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_afisha.Designer.cs">
+      <DependentUpon>Form3_afisha.cs</DependentUpon>
     </Compile>
     <Compile Include="Form4.cs">
       <SubType>Form</SubType>
@@ -134,14 +140,17 @@
     <EmbeddedResource Include="Form1_auth.resx">
       <DependentUpon>Form1_auth.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1_auth1.resx">
+      <DependentUpon>Form1_auth1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2_registr.resx">
       <DependentUpon>Form2_registr.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3%281%29.resx">
-      <DependentUpon>Form3%281%29.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_afisha.resx">
+      <DependentUpon>Form3_afisha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>

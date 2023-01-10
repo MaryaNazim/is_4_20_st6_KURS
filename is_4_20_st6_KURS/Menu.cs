@@ -20,8 +20,8 @@ namespace is_4_20_st6_KURS
 
         private void авторизацияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1_auth Form1 = new Form1_auth();
-            Form1.ShowDialog();
+            Form1_auth1 form1_Auth = new Form1_auth1();
+            form1_Auth.ShowDialog();
         }
 
         private void регистрацияToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -40,6 +40,12 @@ namespace is_4_20_st6_KURS
         {
             Form4 Form4 = new Form4();
             Form4.ShowDialog();
+        }
+
+        private void авторизация1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1_auth1 Form1_auth1 = new Form1_auth1();
+            Form1_auth1.ShowDialog();
         }
     }
 }

@@ -53,7 +53,7 @@ namespace is_4_20_st6_KURS
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(93, 124);
+            this.metroLabel1.Location = new System.Drawing.Point(23, 60);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(112, 19);
             this.metroLabel1.TabIndex = 13;
@@ -62,7 +62,7 @@ namespace is_4_20_st6_KURS
             // pictureBox1
             // 
             this.pictureBox1.Image = global::is_4_20_st6_KURS.Properties.Resources.payazi_afisha;
-            this.pictureBox1.Location = new System.Drawing.Point(53, 163);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 129);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(226, 224);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -71,7 +71,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroDateTime1
             // 
-            this.metroDateTime1.Location = new System.Drawing.Point(23, 63);
+            this.metroDateTime1.Location = new System.Drawing.Point(23, 94);
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
             this.metroDateTime1.Size = new System.Drawing.Size(288, 29);
@@ -80,7 +80,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(53, 398);
+            this.metroButton1.Location = new System.Drawing.Point(53, 372);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(226, 23);
             this.metroButton1.TabIndex = 22;

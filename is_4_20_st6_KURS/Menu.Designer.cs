@@ -38,6 +38,7 @@ namespace is_4_20_st6_KURS
             this.афишаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.регистрацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.схемаЗалаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.актёрскийСоставToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +59,8 @@ namespace is_4_20_st6_KURS
             this.входВЛичныйКабинетToolStripMenuItem,
             this.афишаToolStripMenuItem,
             this.регистрацияToolStripMenuItem,
-            this.схемаЗалаToolStripMenuItem});
+            this.схемаЗалаToolStripMenuItem,
+            this.актёрскийСоставToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(20, 60);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(452, 24);
@@ -77,14 +79,14 @@ namespace is_4_20_st6_KURS
             // авторизацияToolStripMenuItem
             // 
             this.авторизацияToolStripMenuItem.Name = "авторизацияToolStripMenuItem";
-            this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.авторизацияToolStripMenuItem.Text = "Авторизация";
             this.авторизацияToolStripMenuItem.Click += new System.EventHandler(this.авторизацияToolStripMenuItem_Click);
             // 
             // регистрацияToolStripMenuItem1
             // 
             this.регистрацияToolStripMenuItem1.Name = "регистрацияToolStripMenuItem1";
-            this.регистрацияToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.регистрацияToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
             this.регистрацияToolStripMenuItem1.Text = "Регистрация";
             this.регистрацияToolStripMenuItem1.Click += new System.EventHandler(this.регистрацияToolStripMenuItem1_Click);
             // 
@@ -106,6 +108,12 @@ namespace is_4_20_st6_KURS
             this.схемаЗалаToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.схемаЗалаToolStripMenuItem.Text = "Схема зала";
             this.схемаЗалаToolStripMenuItem.Click += new System.EventHandler(this.схемаЗалаToolStripMenuItem_Click);
+            // 
+            // актёрскийСоставToolStripMenuItem
+            // 
+            this.актёрскийСоставToolStripMenuItem.Name = "актёрскийСоставToolStripMenuItem";
+            this.актёрскийСоставToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
+            this.актёрскийСоставToolStripMenuItem.Text = "Актёрский состав";
             // 
             // Menu
             // 
@@ -135,5 +143,6 @@ namespace is_4_20_st6_KURS
         private System.Windows.Forms.ToolStripMenuItem схемаЗалаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem авторизацияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem регистрацияToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem актёрскийСоставToolStripMenuItem;
     }
 }

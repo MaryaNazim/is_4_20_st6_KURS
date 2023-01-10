@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
+using MySql.Data.MySqlClient;
 
 namespace is_4_20_st6_KURS
 {
@@ -72,6 +73,7 @@ namespace is_4_20_st6_KURS
             Form4 Form4 = new Form4();
             Form4.ShowDialog();
         }
+
     }
 }
     
