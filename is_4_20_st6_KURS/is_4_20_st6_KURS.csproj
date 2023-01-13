@@ -123,6 +123,24 @@
     <Compile Include="Form3_afisha.Designer.cs">
       <DependentUpon>Form3_afisha.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3_afishatable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_afishatable.Designer.cs">
+      <DependentUpon>Form3_afishatable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_afishadelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_afishadelete.Designer.cs">
+      <DependentUpon>Form3_afishadelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_afishainsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_afishainsert.Designer.cs">
+      <DependentUpon>Form3_afishainsert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +169,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3_afisha.resx">
       <DependentUpon>Form3_afisha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_afishatable.resx">
+      <DependentUpon>Form3_afishatable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_afishadelete.resx">
+      <DependentUpon>Form3_afishadelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_afishainsert.resx">
+      <DependentUpon>Form3_afishainsert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
