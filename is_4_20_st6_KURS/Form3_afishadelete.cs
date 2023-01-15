@@ -41,11 +41,11 @@ namespace is_4_20_st6_KURS
             }
             reader.Close(); // закрываем reader
             // закрываем соединение с БД
-            conn.Close();
+           conn.Close();
         }
 
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
-        public bool DeleteAfisha(string id_Afish)
+        public bool DeleteAfisha(string id_del)
         {
             //определяем переменную, хранящую количество вставленных строк
             int InsertCount = 0;
@@ -54,7 +54,7 @@ namespace is_4_20_st6_KURS
             // открываем соединение
             conn.Open();
             // запрос удаления данных
-            string query = $"DELETE FROM Afisha WHERE (id_del='{id_Afish}')";
+            string query = $"DELETE FROM Afisha WHERE (id_Afish='{id_del}')";
             try
             {
                 // объект для выполнения SQL-запроса
