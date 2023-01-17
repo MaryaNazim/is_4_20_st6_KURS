@@ -37,12 +37,14 @@ namespace is_4_20_st6_KURS
             this.регистрацияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.афишаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.редактироватьАфишуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.просмотрАфишиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.регистрацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.схемаЗалаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.редактироватьБрониToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.актёрскийСоставToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.добавитьудалитьАктераToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.просмотрАфишиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.удалитьЗаписьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.добавитьЗаписьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -98,7 +100,9 @@ namespace is_4_20_st6_KURS
             // 
             this.афишаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.редактироватьАфишуToolStripMenuItem,
-            this.просмотрАфишиToolStripMenuItem});
+            this.просмотрАфишиToolStripMenuItem,
+            this.удалитьЗаписьToolStripMenuItem,
+            this.добавитьЗаписьToolStripMenuItem});
             this.афишаToolStripMenuItem.Name = "афишаToolStripMenuItem";
             this.афишаToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.афишаToolStripMenuItem.Text = "Афиша";
@@ -106,10 +110,17 @@ namespace is_4_20_st6_KURS
             // 
             // редактироватьАфишуToolStripMenuItem
             // 
-            this.редактироватьАфишуToolStripMenuItem.Name = "редактироватьАфишуToolStripMenuItem";
+            this.редактироватьАфишуToolStripMenuItem.Name = "фильтрзаписейToolStripMenuItem";
             this.редактироватьАфишуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.редактироватьАфишуToolStripMenuItem.Text = "таблица афиши";
-            this.редактироватьАфишуToolStripMenuItem.Click += new System.EventHandler(this.редактироватьАфишуToolStripMenuItem_Click);
+            this.редактироватьАфишуToolStripMenuItem.Text = "фильтр записей";
+            this.редактироватьАфишуToolStripMenuItem.Click += new System.EventHandler(this.фильтрзаписейToolStripMenuItem_Click);
+            // 
+            // просмотрАфишиToolStripMenuItem
+            // 
+            this.просмотрАфишиToolStripMenuItem.Name = "просмотрАфишиToolStripMenuItem";
+            this.просмотрАфишиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.просмотрАфишиToolStripMenuItem.Text = "просмотр афиши";
+            this.просмотрАфишиToolStripMenuItem.Click += new System.EventHandler(this.просмотрАфишиToolStripMenuItem_Click);
             // 
             // регистрацияToolStripMenuItem
             // 
@@ -145,12 +156,19 @@ namespace is_4_20_st6_KURS
             this.добавитьудалитьАктераToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.добавитьудалитьАктераToolStripMenuItem.Text = "добавить\\удалить актера";
             // 
-            // просмотрАфишиToolStripMenuItem
+            // удалитьЗаписьToolStripMenuItem
             // 
-            this.просмотрАфишиToolStripMenuItem.Name = "просмотрАфишиToolStripMenuItem";
-            this.просмотрАфишиToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.просмотрАфишиToolStripMenuItem.Text = "просмотр афиши";
-            this.просмотрАфишиToolStripMenuItem.Click += new System.EventHandler(this.просмотрАфишиToolStripMenuItem_Click);
+            this.удалитьЗаписьToolStripMenuItem.Name = "удалитьЗаписьToolStripMenuItem";
+            this.удалитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.удалитьЗаписьToolStripMenuItem.Text = "удалить запись";
+            this.удалитьЗаписьToolStripMenuItem.Click += new System.EventHandler(this.удалитьЗаписьToolStripMenuItem_Click);
+            // 
+            // добавитьЗаписьToolStripMenuItem
+            // 
+            this.добавитьЗаписьToolStripMenuItem.Name = "добавитьЗаписьToolStripMenuItem";
+            this.добавитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.добавитьЗаписьToolStripMenuItem.Text = "добавить запись";
+            this.добавитьЗаписьToolStripMenuItem.Click += new System.EventHandler(this.добавитьЗаписьToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -185,5 +203,7 @@ namespace is_4_20_st6_KURS
         private System.Windows.Forms.ToolStripMenuItem редактироватьБрониToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem добавитьудалитьАктераToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem просмотрАфишиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem удалитьЗаписьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem добавитьЗаписьToolStripMenuItem;
     }
 }

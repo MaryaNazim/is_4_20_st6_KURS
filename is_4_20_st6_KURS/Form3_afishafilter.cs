@@ -25,11 +25,13 @@ namespace is_4_20_st6_KURS
         private DataSet ds = new DataSet();
         //Представляет одну таблицу данных в памяти.
         private DataTable table = new DataTable();
+
         public Form3_afishafilter()
         {
             InitializeComponent();
         }
 
+        //Выделение всей строки по ПКМ
         private void dataGridView1_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
         {
             //Это тоже магические строки, в них тоже не вникайте
@@ -40,6 +42,7 @@ namespace is_4_20_st6_KURS
             }
         }
 
+        //Выделение всей строки по ЛКМ
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             //Магические строки - не вникать
@@ -60,7 +63,7 @@ namespace is_4_20_st6_KURS
         public void GetListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = "SELECT id_Afish AS 'Код', title AS 'Название', duration AS 'Продолжительность', dt AS 'Дата и время' FROM Afisha";
+            string commandStr = "SELECT id_Afish AS 'Код', title AS 'Название', duration AS 'Продолжжительность', dt AS 'Дата и время' FROM Afisha";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -75,7 +78,8 @@ namespace is_4_20_st6_KURS
             conn.Close();
         }
 
-        private void Form3_afisha1_Load(object sender, EventArgs e)
+        //Собтия открытия (загрузки формы)
+        private void Form3_afishafilter_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
@@ -89,10 +93,10 @@ namespace is_4_20_st6_KURS
             dataGridView1.Columns[2].Visible = true;
             dataGridView1.Columns[3].Visible = true;
             //Ширина полей
-            dataGridView1.Columns[0].FillWeight = 5;
-            dataGridView1.Columns[1].FillWeight = 80;
+            dataGridView1.Columns[0].FillWeight = 15;
+            dataGridView1.Columns[1].FillWeight = 40;
             dataGridView1.Columns[2].FillWeight = 15;
-            dataGridView1.Columns[3].FillWeight = 25;
+            dataGridView1.Columns[3].FillWeight = 15;
             //Режим для полей "Только для чтения"
             dataGridView1.Columns[0].ReadOnly = true;
             dataGridView1.Columns[1].ReadOnly = true;
@@ -109,42 +113,34 @@ namespace is_4_20_st6_KURS
             dataGridView1.ColumnHeadersVisible = true;
         }
 
+        //Кнопка обновления 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             //Метод обновления dataGridView, так как он полностью обновляется, покраски строк не будет. 
             reload_list();
         }
 
+        //Фильрация в элементе DataGrid. В случае, если используется соединение через BindingSource
+        //вы можете фильтровать его, так как данный элемент поддерживает базовый синтаксис SQL
         private void toolStripTextBox1_TextChanged(object sender, EventArgs e)
         {
             //Конструкция "LIKE" является способом "поиска" в полях. Это обычный синтаксис SQL
             bSource.Filter = "Название LIKE'" + toolStripTextBox1.Text + "%'";
         }
 
+        //Фильрация в элементе DataGrid. В случае, если используется соединение через BindingSource
+        //вы можете фильтровать его, так как данный элемент поддерживает базовый синтаксис SQL
         private void toolStripTextBox2_TextChanged(object sender, EventArgs e)
         {
             //Конструкция "LIKE" является способом "поиска" в полях
             bSource.Filter = "[Дата и время] LIKE'" + toolStripTextBox2.Text + "%'";
         }
 
+        //Кнопка очистки фильтрующих текстбоксов
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             toolStripTextBox1.Text = "";
             toolStripTextBox2.Text = "";
         }
-
-        private void добавитьСпектакльToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3_afishainsert form3_afishainsert = new Form3_afishainsert();
-            form3_afishainsert.ShowDialog();
-        }
-
-        private void удалитьСпектакльToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3_afishadelete form3_afishadelete = new Form3_afishadelete();
-            form3_afishadelete.ShowDialog();
-        }
-
-  
     }
 }

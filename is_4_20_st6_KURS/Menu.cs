@@ -47,16 +47,28 @@ namespace is_4_20_st6_KURS
             form1_auth1.ShowDialog();
         }
 
-        private void редактироватьАфишуToolStripMenuItem_Click(object sender, EventArgs e)
+        private void фильтрзаписейToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3_afishafilter form3_afisha1 = new Form3_afishafilter();
-            form3_afisha1.ShowDialog();
+            Form3_afishafilter form3_afishafilter = new Form3_afishafilter();
+            form3_afishafilter.ShowDialog();
         }
 
         private void просмотрАфишиToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3();
             form3.ShowDialog();
+        }
+
+        private void удалитьЗаписьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3_afishadelete form3_afishadelete = new Form3_afishadelete();
+            form3_afishadelete.ShowDialog();
+        }
+
+        private void добавитьЗаписьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3_afishainsert form3_afishainsert = new Form3_afishainsert();
+            form3_afishainsert.ShowDialog();
         }
     }
 }
