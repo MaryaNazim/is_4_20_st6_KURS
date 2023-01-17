@@ -49,7 +49,7 @@ namespace is_4_20_st6_KURS
 
         private void редактироватьАфишуToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3_afishatable form3_afisha1 = new Form3_afishatable();
+            Form3_afishafilter form3_afisha1 = new Form3_afishafilter();
             form3_afisha1.ShowDialog();
         }
 

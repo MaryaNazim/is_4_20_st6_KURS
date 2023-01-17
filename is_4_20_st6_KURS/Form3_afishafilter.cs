@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form3_afishatable : Form
+    public partial class Form3_afishafilter : Form
     {
         //Переменная соединения
         MySqlConnection conn;
@@ -25,7 +25,7 @@ namespace is_4_20_st6_KURS
         private DataSet ds = new DataSet();
         //Представляет одну таблицу данных в памяти.
         private DataTable table = new DataTable();
-        public Form3_afishatable()
+        public Form3_afishafilter()
         {
             InitializeComponent();
         }
