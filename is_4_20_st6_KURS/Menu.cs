@@ -35,12 +35,6 @@ namespace is_4_20_st6_KURS
            
         }
 
-        private void схемаЗалаToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form4 form4 = new Form4();
-            form4.ShowDialog();
-        }
-
         private void авторизация1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form1_auth1 form1_auth1 = new Form1_auth1();
@@ -69,6 +63,18 @@ namespace is_4_20_st6_KURS
         {
             Form3_afishainsert form3_afishainsert = new Form3_afishainsert();
             form3_afishainsert.ShowDialog();
+        }
+
+        private void редактироватьБрониToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5_orderplacedatagrid form5_orderplacedatagrid = new Form5_orderplacedatagrid();
+            form5_orderplacedatagrid.ShowDialog();
+        }
+
+        private void просмотрСхемыЗалаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.ShowDialog();
         }
     }
 }
