@@ -63,7 +63,7 @@ namespace is_4_20_st6_KURS
         public void GetListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = "SELECT id_Afish AS 'Код', title AS 'Название', duration AS 'Продолжжительность', dt AS 'Дата и время' FROM Afisha";
+            string commandStr = "SELECT id_Afish AS 'Код',title AS 'Название',duration AS 'Продолжительность', dt AS 'Дата и время' FROM Afisha";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -85,6 +85,7 @@ namespace is_4_20_st6_KURS
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
+
             //Вызываем метод для заполнение дата Грида
             GetListUsers();
             //Видимость полей в гриде

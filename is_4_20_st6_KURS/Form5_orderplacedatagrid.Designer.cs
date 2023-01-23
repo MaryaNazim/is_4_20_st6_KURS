@@ -29,7 +29,6 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5_orderplacedatagrid));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -41,14 +40,8 @@ namespace is_4_20_st6_KURS
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.удалитьЗаписьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.удалитьБроньToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.добавитьБроньToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выделенныйИДToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.toolStrip1.SuspendLayout();
-            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -97,7 +90,6 @@ namespace is_4_20_st6_KURS
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Text = "toolStripButton2";
-            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton3
             // 
@@ -107,7 +99,6 @@ namespace is_4_20_st6_KURS
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton3.Text = "toolStripButton3";
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripButton4
             // 
@@ -117,7 +108,6 @@ namespace is_4_20_st6_KURS
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton4.Text = "toolStripButton4";
-            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripLabel1
             // 
@@ -143,45 +133,6 @@ namespace is_4_20_st6_KURS
             this.toolStripLabel4.Size = new System.Drawing.Size(86, 22);
             this.toolStripLabel4.Text = "toolStripLabel4";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.удалитьЗаписьToolStripMenuItem,
-            this.удалитьБроньToolStripMenuItem,
-            this.добавитьБроньToolStripMenuItem,
-            this.выделенныйИДToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(164, 92);
-            this.contextMenuStrip1.Text = "Редактировать";
-            // 
-            // удалитьЗаписьToolStripMenuItem
-            // 
-            this.удалитьЗаписьToolStripMenuItem.Name = "удалитьЗаписьToolStripMenuItem";
-            this.удалитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.удалитьЗаписьToolStripMenuItem.Text = "Удалить запись";
-            this.удалитьЗаписьToolStripMenuItem.Click += new System.EventHandler(this.удалитьЗаписьToolStripMenuItem_Click);
-            // 
-            // удалитьБроньToolStripMenuItem
-            // 
-            this.удалитьБроньToolStripMenuItem.Name = "удалитьБроньToolStripMenuItem";
-            this.удалитьБроньToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.удалитьБроньToolStripMenuItem.Text = "Удалить бронь";
-            this.удалитьБроньToolStripMenuItem.Click += new System.EventHandler(this.удалитьБроньToolStripMenuItem_Click);
-            // 
-            // добавитьБроньToolStripMenuItem
-            // 
-            this.добавитьБроньToolStripMenuItem.Name = "добавитьБроньToolStripMenuItem";
-            this.добавитьБроньToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.добавитьБроньToolStripMenuItem.Text = "Добавить бронь";
-            this.добавитьБроньToolStripMenuItem.Click += new System.EventHandler(this.добавитьБроньToolStripMenuItem_Click);
-            // 
-            // выделенныйИДToolStripMenuItem
-            // 
-            this.выделенныйИДToolStripMenuItem.Name = "выделенныйИДToolStripMenuItem";
-            this.выделенныйИДToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.выделенныйИДToolStripMenuItem.Text = "ВыделенныйИД";
-            this.выделенныйИДToolStripMenuItem.Click += new System.EventHandler(this.выделенныйИДToolStripMenuItem_Click);
-            // 
             // Form5_orderplacedatagrid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,11 +142,10 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form5_orderplacedatagrid";
             this.Text = "Form3_afishadatagrid";
-            this.Load += new System.EventHandler(this.Form3_afishadatagrid_Load);
+            this.Load += new System.EventHandler(this.Form5_orderplacedatagrid_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,10 +163,5 @@ namespace is_4_20_st6_KURS
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel toolStripLabel4;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem удалитьЗаписьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem удалитьБроньToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem добавитьБроньToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выделенныйИДToolStripMenuItem;
     }
 }

@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace is_4_20_st6_KURS
 {
     //Класс для передачи значений между формами
-    /*static class SomeClass
+    static class SomeClass
     {
         //Статичное поле, которое хранит значение для передачи его между формами
         public static string variable_class;
@@ -15,9 +15,8 @@ namespace is_4_20_st6_KURS
         public static string new_inserted_id;
         //Статичное поле, которое хранит значение ID добаленного заказа
         public static string new_inserted_mainOrder_id;
-
     }
-    */
+    
 
     //Класс необходимый для хранения состояния авторизации во время работы программы
     static class Auth

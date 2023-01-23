@@ -29,15 +29,6 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
-            this.metroButton3 = new MetroFramework.Controls.MetroButton();
-            this.metroButton4 = new MetroFramework.Controls.MetroButton();
-            this.metroButton5 = new MetroFramework.Controls.MetroButton();
-            this.metroButton6 = new MetroFramework.Controls.MetroButton();
-            this.metroButton7 = new MetroFramework.Controls.MetroButton();
-            this.metroButton8 = new MetroFramework.Controls.MetroButton();
-            this.metroButton9 = new MetroFramework.Controls.MetroButton();
             this.metroButton10 = new MetroFramework.Controls.MetroButton();
             this.metroButton11 = new MetroFramework.Controls.MetroButton();
             this.metroButton12 = new MetroFramework.Controls.MetroButton();
@@ -102,14 +93,12 @@ namespace is_4_20_st6_KURS
             this.metroButton71 = new MetroFramework.Controls.MetroButton();
             this.metroButton72 = new MetroFramework.Controls.MetroButton();
             this.metroButton73 = new MetroFramework.Controls.MetroButton();
-            this.metroButton74 = new MetroFramework.Controls.MetroButton();
             this.metroButton75 = new MetroFramework.Controls.MetroButton();
             this.metroButton76 = new MetroFramework.Controls.MetroButton();
             this.metroButton77 = new MetroFramework.Controls.MetroButton();
             this.metroButton78 = new MetroFramework.Controls.MetroButton();
             this.metroButton79 = new MetroFramework.Controls.MetroButton();
             this.metroButton80 = new MetroFramework.Controls.MetroButton();
-            this.metroButton81 = new MetroFramework.Controls.MetroButton();
             this.metroButton82 = new MetroFramework.Controls.MetroButton();
             this.metroButton83 = new MetroFramework.Controls.MetroButton();
             this.metroButton84 = new MetroFramework.Controls.MetroButton();
@@ -119,7 +108,6 @@ namespace is_4_20_st6_KURS
             this.metroButton88 = new MetroFramework.Controls.MetroButton();
             this.metroButton89 = new MetroFramework.Controls.MetroButton();
             this.metroButton90 = new MetroFramework.Controls.MetroButton();
-            this.metroButton91 = new MetroFramework.Controls.MetroButton();
             this.metroButton92 = new MetroFramework.Controls.MetroButton();
             this.metroButton93 = new MetroFramework.Controls.MetroButton();
             this.metroButton94 = new MetroFramework.Controls.MetroButton();
@@ -127,7 +115,6 @@ namespace is_4_20_st6_KURS
             this.metroButton96 = new MetroFramework.Controls.MetroButton();
             this.metroButton97 = new MetroFramework.Controls.MetroButton();
             this.metroButton98 = new MetroFramework.Controls.MetroButton();
-            this.metroButton99 = new MetroFramework.Controls.MetroButton();
             this.metroButton100 = new MetroFramework.Controls.MetroButton();
             this.metroButton101 = new MetroFramework.Controls.MetroButton();
             this.metroButton102 = new MetroFramework.Controls.MetroButton();
@@ -135,7 +122,6 @@ namespace is_4_20_st6_KURS
             this.metroButton104 = new MetroFramework.Controls.MetroButton();
             this.metroButton105 = new MetroFramework.Controls.MetroButton();
             this.metroButton106 = new MetroFramework.Controls.MetroButton();
-            this.metroButton107 = new MetroFramework.Controls.MetroButton();
             this.metroButton108 = new MetroFramework.Controls.MetroButton();
             this.metroButton109 = new MetroFramework.Controls.MetroButton();
             this.metroButton110 = new MetroFramework.Controls.MetroButton();
@@ -143,7 +129,6 @@ namespace is_4_20_st6_KURS
             this.metroButton112 = new MetroFramework.Controls.MetroButton();
             this.metroButton113 = new MetroFramework.Controls.MetroButton();
             this.metroButton114 = new MetroFramework.Controls.MetroButton();
-            this.metroButton115 = new MetroFramework.Controls.MetroButton();
             this.metroButton116 = new MetroFramework.Controls.MetroButton();
             this.metroButton117 = new MetroFramework.Controls.MetroButton();
             this.metroButton118 = new MetroFramework.Controls.MetroButton();
@@ -151,7 +136,6 @@ namespace is_4_20_st6_KURS
             this.metroButton120 = new MetroFramework.Controls.MetroButton();
             this.metroButton121 = new MetroFramework.Controls.MetroButton();
             this.metroButton122 = new MetroFramework.Controls.MetroButton();
-            this.metroButton123 = new MetroFramework.Controls.MetroButton();
             this.metroButton124 = new MetroFramework.Controls.MetroButton();
             this.metroButton125 = new MetroFramework.Controls.MetroButton();
             this.metroButton126 = new MetroFramework.Controls.MetroButton();
@@ -159,7 +143,6 @@ namespace is_4_20_st6_KURS
             this.metroButton128 = new MetroFramework.Controls.MetroButton();
             this.metroButton129 = new MetroFramework.Controls.MetroButton();
             this.metroButton130 = new MetroFramework.Controls.MetroButton();
-            this.metroButton131 = new MetroFramework.Controls.MetroButton();
             this.metroButton132 = new MetroFramework.Controls.MetroButton();
             this.metroButton133 = new MetroFramework.Controls.MetroButton();
             this.metroButton134 = new MetroFramework.Controls.MetroButton();
@@ -167,7 +150,6 @@ namespace is_4_20_st6_KURS
             this.metroButton136 = new MetroFramework.Controls.MetroButton();
             this.metroButton137 = new MetroFramework.Controls.MetroButton();
             this.metroButton138 = new MetroFramework.Controls.MetroButton();
-            this.metroButton139 = new MetroFramework.Controls.MetroButton();
             this.metroButton140 = new MetroFramework.Controls.MetroButton();
             this.metroButton141 = new MetroFramework.Controls.MetroButton();
             this.metroButton142 = new MetroFramework.Controls.MetroButton();
@@ -175,7 +157,6 @@ namespace is_4_20_st6_KURS
             this.metroButton144 = new MetroFramework.Controls.MetroButton();
             this.metroButton145 = new MetroFramework.Controls.MetroButton();
             this.metroButton146 = new MetroFramework.Controls.MetroButton();
-            this.metroButton147 = new MetroFramework.Controls.MetroButton();
             this.metroButton148 = new MetroFramework.Controls.MetroButton();
             this.metroButton149 = new MetroFramework.Controls.MetroButton();
             this.metroButton150 = new MetroFramework.Controls.MetroButton();
@@ -183,7 +164,6 @@ namespace is_4_20_st6_KURS
             this.metroButton152 = new MetroFramework.Controls.MetroButton();
             this.metroButton153 = new MetroFramework.Controls.MetroButton();
             this.metroButton154 = new MetroFramework.Controls.MetroButton();
-            this.metroButton155 = new MetroFramework.Controls.MetroButton();
             this.metroButton156 = new MetroFramework.Controls.MetroButton();
             this.metroButton157 = new MetroFramework.Controls.MetroButton();
             this.metroButton158 = new MetroFramework.Controls.MetroButton();
@@ -191,7 +171,6 @@ namespace is_4_20_st6_KURS
             this.metroButton160 = new MetroFramework.Controls.MetroButton();
             this.metroButton161 = new MetroFramework.Controls.MetroButton();
             this.metroButton162 = new MetroFramework.Controls.MetroButton();
-            this.metroButton163 = new MetroFramework.Controls.MetroButton();
             this.metroButton164 = new MetroFramework.Controls.MetroButton();
             this.metroButton165 = new MetroFramework.Controls.MetroButton();
             this.metroButton166 = new MetroFramework.Controls.MetroButton();
@@ -199,7 +178,6 @@ namespace is_4_20_st6_KURS
             this.metroButton168 = new MetroFramework.Controls.MetroButton();
             this.metroButton169 = new MetroFramework.Controls.MetroButton();
             this.metroButton170 = new MetroFramework.Controls.MetroButton();
-            this.metroButton171 = new MetroFramework.Controls.MetroButton();
             this.metroButton172 = new MetroFramework.Controls.MetroButton();
             this.metroButton173 = new MetroFramework.Controls.MetroButton();
             this.metroButton174 = new MetroFramework.Controls.MetroButton();
@@ -207,7 +185,6 @@ namespace is_4_20_st6_KURS
             this.metroButton176 = new MetroFramework.Controls.MetroButton();
             this.metroButton177 = new MetroFramework.Controls.MetroButton();
             this.metroButton178 = new MetroFramework.Controls.MetroButton();
-            this.metroButton179 = new MetroFramework.Controls.MetroButton();
             this.metroButton180 = new MetroFramework.Controls.MetroButton();
             this.metroButton181 = new MetroFramework.Controls.MetroButton();
             this.metroButton182 = new MetroFramework.Controls.MetroButton();
@@ -215,7 +192,6 @@ namespace is_4_20_st6_KURS
             this.metroButton184 = new MetroFramework.Controls.MetroButton();
             this.metroButton185 = new MetroFramework.Controls.MetroButton();
             this.metroButton186 = new MetroFramework.Controls.MetroButton();
-            this.metroButton187 = new MetroFramework.Controls.MetroButton();
             this.metroButton188 = new MetroFramework.Controls.MetroButton();
             this.metroButton189 = new MetroFramework.Controls.MetroButton();
             this.metroButton190 = new MetroFramework.Controls.MetroButton();
@@ -223,7 +199,6 @@ namespace is_4_20_st6_KURS
             this.metroButton192 = new MetroFramework.Controls.MetroButton();
             this.metroButton193 = new MetroFramework.Controls.MetroButton();
             this.metroButton194 = new MetroFramework.Controls.MetroButton();
-            this.metroButton195 = new MetroFramework.Controls.MetroButton();
             this.metroButton196 = new MetroFramework.Controls.MetroButton();
             this.metroButton197 = new MetroFramework.Controls.MetroButton();
             this.metroButton198 = new MetroFramework.Controls.MetroButton();
@@ -231,7 +206,6 @@ namespace is_4_20_st6_KURS
             this.metroButton200 = new MetroFramework.Controls.MetroButton();
             this.metroButton201 = new MetroFramework.Controls.MetroButton();
             this.metroButton202 = new MetroFramework.Controls.MetroButton();
-            this.metroButton203 = new MetroFramework.Controls.MetroButton();
             this.metroButton204 = new MetroFramework.Controls.MetroButton();
             this.metroButton205 = new MetroFramework.Controls.MetroButton();
             this.metroButton206 = new MetroFramework.Controls.MetroButton();
@@ -239,7 +213,6 @@ namespace is_4_20_st6_KURS
             this.metroButton208 = new MetroFramework.Controls.MetroButton();
             this.metroButton209 = new MetroFramework.Controls.MetroButton();
             this.metroButton210 = new MetroFramework.Controls.MetroButton();
-            this.metroButton211 = new MetroFramework.Controls.MetroButton();
             this.metroButton212 = new MetroFramework.Controls.MetroButton();
             this.metroButton213 = new MetroFramework.Controls.MetroButton();
             this.metroButton214 = new MetroFramework.Controls.MetroButton();
@@ -247,7 +220,6 @@ namespace is_4_20_st6_KURS
             this.metroButton216 = new MetroFramework.Controls.MetroButton();
             this.metroButton217 = new MetroFramework.Controls.MetroButton();
             this.metroButton218 = new MetroFramework.Controls.MetroButton();
-            this.metroButton219 = new MetroFramework.Controls.MetroButton();
             this.metroButton220 = new MetroFramework.Controls.MetroButton();
             this.metroButton221 = new MetroFramework.Controls.MetroButton();
             this.metroButton222 = new MetroFramework.Controls.MetroButton();
@@ -255,7 +227,6 @@ namespace is_4_20_st6_KURS
             this.metroButton224 = new MetroFramework.Controls.MetroButton();
             this.metroButton225 = new MetroFramework.Controls.MetroButton();
             this.metroButton226 = new MetroFramework.Controls.MetroButton();
-            this.metroButton227 = new MetroFramework.Controls.MetroButton();
             this.metroButton228 = new MetroFramework.Controls.MetroButton();
             this.metroButton229 = new MetroFramework.Controls.MetroButton();
             this.metroButton230 = new MetroFramework.Controls.MetroButton();
@@ -263,7 +234,6 @@ namespace is_4_20_st6_KURS
             this.metroButton232 = new MetroFramework.Controls.MetroButton();
             this.metroButton233 = new MetroFramework.Controls.MetroButton();
             this.metroButton234 = new MetroFramework.Controls.MetroButton();
-            this.metroButton235 = new MetroFramework.Controls.MetroButton();
             this.metroButton236 = new MetroFramework.Controls.MetroButton();
             this.metroButton237 = new MetroFramework.Controls.MetroButton();
             this.metroButton238 = new MetroFramework.Controls.MetroButton();
@@ -271,7 +241,6 @@ namespace is_4_20_st6_KURS
             this.metroButton240 = new MetroFramework.Controls.MetroButton();
             this.metroButton241 = new MetroFramework.Controls.MetroButton();
             this.metroButton242 = new MetroFramework.Controls.MetroButton();
-            this.metroButton243 = new MetroFramework.Controls.MetroButton();
             this.metroButton244 = new MetroFramework.Controls.MetroButton();
             this.metroButton245 = new MetroFramework.Controls.MetroButton();
             this.metroButton246 = new MetroFramework.Controls.MetroButton();
@@ -279,7 +248,6 @@ namespace is_4_20_st6_KURS
             this.metroButton248 = new MetroFramework.Controls.MetroButton();
             this.metroButton249 = new MetroFramework.Controls.MetroButton();
             this.metroButton250 = new MetroFramework.Controls.MetroButton();
-            this.metroButton251 = new MetroFramework.Controls.MetroButton();
             this.metroButton252 = new MetroFramework.Controls.MetroButton();
             this.metroButton253 = new MetroFramework.Controls.MetroButton();
             this.metroButton254 = new MetroFramework.Controls.MetroButton();
@@ -287,7 +255,6 @@ namespace is_4_20_st6_KURS
             this.metroButton256 = new MetroFramework.Controls.MetroButton();
             this.metroButton257 = new MetroFramework.Controls.MetroButton();
             this.metroButton258 = new MetroFramework.Controls.MetroButton();
-            this.metroButton259 = new MetroFramework.Controls.MetroButton();
             this.metroButton260 = new MetroFramework.Controls.MetroButton();
             this.metroButton261 = new MetroFramework.Controls.MetroButton();
             this.metroButton262 = new MetroFramework.Controls.MetroButton();
@@ -295,7 +262,6 @@ namespace is_4_20_st6_KURS
             this.metroButton264 = new MetroFramework.Controls.MetroButton();
             this.metroButton265 = new MetroFramework.Controls.MetroButton();
             this.metroButton266 = new MetroFramework.Controls.MetroButton();
-            this.metroButton267 = new MetroFramework.Controls.MetroButton();
             this.metroButton268 = new MetroFramework.Controls.MetroButton();
             this.metroButton269 = new MetroFramework.Controls.MetroButton();
             this.metroButton270 = new MetroFramework.Controls.MetroButton();
@@ -303,7 +269,6 @@ namespace is_4_20_st6_KURS
             this.metroButton272 = new MetroFramework.Controls.MetroButton();
             this.metroButton273 = new MetroFramework.Controls.MetroButton();
             this.metroButton274 = new MetroFramework.Controls.MetroButton();
-            this.metroButton275 = new MetroFramework.Controls.MetroButton();
             this.metroButton276 = new MetroFramework.Controls.MetroButton();
             this.metroButton277 = new MetroFramework.Controls.MetroButton();
             this.metroButton278 = new MetroFramework.Controls.MetroButton();
@@ -311,13 +276,11 @@ namespace is_4_20_st6_KURS
             this.metroButton280 = new MetroFramework.Controls.MetroButton();
             this.metroButton281 = new MetroFramework.Controls.MetroButton();
             this.metroButton282 = new MetroFramework.Controls.MetroButton();
-            this.metroButton283 = new MetroFramework.Controls.MetroButton();
             this.metroButton284 = new MetroFramework.Controls.MetroButton();
             this.metroButton285 = new MetroFramework.Controls.MetroButton();
             this.metroButton286 = new MetroFramework.Controls.MetroButton();
             this.metroButton287 = new MetroFramework.Controls.MetroButton();
             this.metroButton288 = new MetroFramework.Controls.MetroButton();
-            this.metroButton289 = new MetroFramework.Controls.MetroButton();
             this.metroButton290 = new MetroFramework.Controls.MetroButton();
             this.metroButton291 = new MetroFramework.Controls.MetroButton();
             this.metroButton292 = new MetroFramework.Controls.MetroButton();
@@ -327,10 +290,6 @@ namespace is_4_20_st6_KURS
             this.metroButton296 = new MetroFramework.Controls.MetroButton();
             this.metroButton297 = new MetroFramework.Controls.MetroButton();
             this.metroButton298 = new MetroFramework.Controls.MetroButton();
-            this.metroButton299 = new MetroFramework.Controls.MetroButton();
-            this.metroButton300 = new MetroFramework.Controls.MetroButton();
-            this.metroButton301 = new MetroFramework.Controls.MetroButton();
-            this.metroButton302 = new MetroFramework.Controls.MetroButton();
             this.metroButton303 = new MetroFramework.Controls.MetroButton();
             this.metroButton304 = new MetroFramework.Controls.MetroButton();
             this.metroButton305 = new MetroFramework.Controls.MetroButton();
@@ -596,110 +555,56 @@ namespace is_4_20_st6_KURS
             this.metroButton402 = new MetroFramework.Controls.MetroButton();
             this.metroButton410 = new MetroFramework.Controls.MetroButton();
             this.metroButton418 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel17 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel21 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel22 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel23 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel24 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel25 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel26 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel27 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel28 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel29 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel30 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel31 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel32 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel33 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel34 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel35 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel36 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel37 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel38 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel39 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel40 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel41 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel42 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel43 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel44 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel45 = new MetroFramework.Controls.MetroLabel();
             this.SuspendLayout();
-            // 
-            // metroButton1
-            // 
-            this.metroButton1.Location = new System.Drawing.Point(40, 73);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(20, 20);
-            this.metroButton1.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton1.TabIndex = 0;
-            this.metroButton1.Text = "1";
-            this.metroButton1.UseSelectable = true;
-            this.metroButton1.UseStyleColors = true;
-            // 
-            // metroButton2
-            // 
-            this.metroButton2.Location = new System.Drawing.Point(40, 99);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(20, 20);
-            this.metroButton2.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton2.TabIndex = 1;
-            this.metroButton2.Text = "2";
-            this.metroButton2.UseSelectable = true;
-            this.metroButton2.UseStyleColors = true;
-            // 
-            // metroButton3
-            // 
-            this.metroButton3.Location = new System.Drawing.Point(40, 125);
-            this.metroButton3.Name = "metroButton3";
-            this.metroButton3.Size = new System.Drawing.Size(20, 20);
-            this.metroButton3.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton3.TabIndex = 2;
-            this.metroButton3.Text = "3";
-            this.metroButton3.UseSelectable = true;
-            this.metroButton3.UseStyleColors = true;
-            // 
-            // metroButton4
-            // 
-            this.metroButton4.Location = new System.Drawing.Point(40, 151);
-            this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(20, 20);
-            this.metroButton4.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton4.TabIndex = 3;
-            this.metroButton4.Text = "4";
-            this.metroButton4.UseSelectable = true;
-            this.metroButton4.UseStyleColors = true;
-            // 
-            // metroButton5
-            // 
-            this.metroButton5.Location = new System.Drawing.Point(107, 47);
-            this.metroButton5.Name = "metroButton5";
-            this.metroButton5.Size = new System.Drawing.Size(20, 20);
-            this.metroButton5.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroButton5.TabIndex = 4;
-            this.metroButton5.Text = "1";
-            this.metroButton5.UseSelectable = true;
-            this.metroButton5.UseStyleColors = true;
-            // 
-            // metroButton6
-            // 
-            this.metroButton6.Location = new System.Drawing.Point(107, 73);
-            this.metroButton6.Name = "metroButton6";
-            this.metroButton6.Size = new System.Drawing.Size(20, 20);
-            this.metroButton6.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroButton6.TabIndex = 5;
-            this.metroButton6.Text = "2";
-            this.metroButton6.UseSelectable = true;
-            this.metroButton6.UseStyleColors = true;
-            // 
-            // metroButton7
-            // 
-            this.metroButton7.Location = new System.Drawing.Point(107, 99);
-            this.metroButton7.Name = "metroButton7";
-            this.metroButton7.Size = new System.Drawing.Size(20, 20);
-            this.metroButton7.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroButton7.TabIndex = 6;
-            this.metroButton7.Text = "3";
-            this.metroButton7.UseSelectable = true;
-            this.metroButton7.UseStyleColors = true;
-            // 
-            // metroButton8
-            // 
-            this.metroButton8.Location = new System.Drawing.Point(107, 125);
-            this.metroButton8.Name = "metroButton8";
-            this.metroButton8.Size = new System.Drawing.Size(20, 20);
-            this.metroButton8.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroButton8.TabIndex = 7;
-            this.metroButton8.Text = "4";
-            this.metroButton8.UseSelectable = true;
-            this.metroButton8.UseStyleColors = true;
-            // 
-            // metroButton9
-            // 
-            this.metroButton9.Location = new System.Drawing.Point(107, 151);
-            this.metroButton9.Name = "metroButton9";
-            this.metroButton9.Size = new System.Drawing.Size(20, 20);
-            this.metroButton9.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroButton9.TabIndex = 8;
-            this.metroButton9.Text = "5";
-            this.metroButton9.UseSelectable = true;
-            this.metroButton9.UseStyleColors = true;
             // 
             // metroButton10
             // 
-            this.metroButton10.Location = new System.Drawing.Point(40, 196);
+            this.metroButton10.Location = new System.Drawing.Point(40, 113);
             this.metroButton10.Name = "metroButton10";
             this.metroButton10.Size = new System.Drawing.Size(20, 20);
             this.metroButton10.Style = MetroFramework.MetroColorStyle.Blue;
@@ -707,10 +612,11 @@ namespace is_4_20_st6_KURS
             this.metroButton10.Text = "1";
             this.metroButton10.UseSelectable = true;
             this.metroButton10.UseStyleColors = true;
+            this.metroButton10.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton11
             // 
-            this.metroButton11.Location = new System.Drawing.Point(40, 222);
+            this.metroButton11.Location = new System.Drawing.Point(40, 139);
             this.metroButton11.Name = "metroButton11";
             this.metroButton11.Size = new System.Drawing.Size(20, 20);
             this.metroButton11.Style = MetroFramework.MetroColorStyle.Blue;
@@ -718,10 +624,11 @@ namespace is_4_20_st6_KURS
             this.metroButton11.Text = "2";
             this.metroButton11.UseSelectable = true;
             this.metroButton11.UseStyleColors = true;
+            this.metroButton11.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton12
             // 
-            this.metroButton12.Location = new System.Drawing.Point(40, 248);
+            this.metroButton12.Location = new System.Drawing.Point(40, 165);
             this.metroButton12.Name = "metroButton12";
             this.metroButton12.Size = new System.Drawing.Size(20, 20);
             this.metroButton12.Style = MetroFramework.MetroColorStyle.Blue;
@@ -729,10 +636,11 @@ namespace is_4_20_st6_KURS
             this.metroButton12.Text = "3";
             this.metroButton12.UseSelectable = true;
             this.metroButton12.UseStyleColors = true;
+            this.metroButton12.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton13
             // 
-            this.metroButton13.Location = new System.Drawing.Point(14, 196);
+            this.metroButton13.Location = new System.Drawing.Point(14, 113);
             this.metroButton13.Name = "metroButton13";
             this.metroButton13.Size = new System.Drawing.Size(20, 20);
             this.metroButton13.Style = MetroFramework.MetroColorStyle.Blue;
@@ -740,10 +648,11 @@ namespace is_4_20_st6_KURS
             this.metroButton13.Text = "4";
             this.metroButton13.UseSelectable = true;
             this.metroButton13.UseStyleColors = true;
+            this.metroButton13.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton14
             // 
-            this.metroButton14.Location = new System.Drawing.Point(14, 222);
+            this.metroButton14.Location = new System.Drawing.Point(14, 139);
             this.metroButton14.Name = "metroButton14";
             this.metroButton14.Size = new System.Drawing.Size(20, 20);
             this.metroButton14.Style = MetroFramework.MetroColorStyle.Blue;
@@ -751,10 +660,11 @@ namespace is_4_20_st6_KURS
             this.metroButton14.Text = "5";
             this.metroButton14.UseSelectable = true;
             this.metroButton14.UseStyleColors = true;
+            this.metroButton14.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton15
             // 
-            this.metroButton15.Location = new System.Drawing.Point(14, 248);
+            this.metroButton15.Location = new System.Drawing.Point(14, 165);
             this.metroButton15.Name = "metroButton15";
             this.metroButton15.Size = new System.Drawing.Size(20, 20);
             this.metroButton15.Style = MetroFramework.MetroColorStyle.Blue;
@@ -762,10 +672,11 @@ namespace is_4_20_st6_KURS
             this.metroButton15.Text = "6";
             this.metroButton15.UseSelectable = true;
             this.metroButton15.UseStyleColors = true;
+            this.metroButton15.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton16
             // 
-            this.metroButton16.Location = new System.Drawing.Point(40, 285);
+            this.metroButton16.Location = new System.Drawing.Point(40, 216);
             this.metroButton16.Name = "metroButton16";
             this.metroButton16.Size = new System.Drawing.Size(20, 20);
             this.metroButton16.Style = MetroFramework.MetroColorStyle.Blue;
@@ -773,10 +684,11 @@ namespace is_4_20_st6_KURS
             this.metroButton16.Text = "1";
             this.metroButton16.UseSelectable = true;
             this.metroButton16.UseStyleColors = true;
+            this.metroButton16.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton17
             // 
-            this.metroButton17.Location = new System.Drawing.Point(40, 311);
+            this.metroButton17.Location = new System.Drawing.Point(40, 242);
             this.metroButton17.Name = "metroButton17";
             this.metroButton17.Size = new System.Drawing.Size(20, 20);
             this.metroButton17.Style = MetroFramework.MetroColorStyle.Blue;
@@ -784,10 +696,11 @@ namespace is_4_20_st6_KURS
             this.metroButton17.Text = "2";
             this.metroButton17.UseSelectable = true;
             this.metroButton17.UseStyleColors = true;
+            this.metroButton17.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton18
             // 
-            this.metroButton18.Location = new System.Drawing.Point(40, 337);
+            this.metroButton18.Location = new System.Drawing.Point(40, 268);
             this.metroButton18.Name = "metroButton18";
             this.metroButton18.Size = new System.Drawing.Size(20, 20);
             this.metroButton18.Style = MetroFramework.MetroColorStyle.Blue;
@@ -795,10 +708,11 @@ namespace is_4_20_st6_KURS
             this.metroButton18.Text = "3";
             this.metroButton18.UseSelectable = true;
             this.metroButton18.UseStyleColors = true;
+            this.metroButton18.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton19
             // 
-            this.metroButton19.Location = new System.Drawing.Point(14, 285);
+            this.metroButton19.Location = new System.Drawing.Point(14, 216);
             this.metroButton19.Name = "metroButton19";
             this.metroButton19.Size = new System.Drawing.Size(20, 20);
             this.metroButton19.Style = MetroFramework.MetroColorStyle.Blue;
@@ -806,10 +720,11 @@ namespace is_4_20_st6_KURS
             this.metroButton19.Text = "4";
             this.metroButton19.UseSelectable = true;
             this.metroButton19.UseStyleColors = true;
+            this.metroButton19.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton20
             // 
-            this.metroButton20.Location = new System.Drawing.Point(14, 311);
+            this.metroButton20.Location = new System.Drawing.Point(14, 242);
             this.metroButton20.Name = "metroButton20";
             this.metroButton20.Size = new System.Drawing.Size(20, 20);
             this.metroButton20.Style = MetroFramework.MetroColorStyle.Blue;
@@ -817,10 +732,11 @@ namespace is_4_20_st6_KURS
             this.metroButton20.Text = "5";
             this.metroButton20.UseSelectable = true;
             this.metroButton20.UseStyleColors = true;
+            this.metroButton20.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton21
             // 
-            this.metroButton21.Location = new System.Drawing.Point(14, 337);
+            this.metroButton21.Location = new System.Drawing.Point(14, 268);
             this.metroButton21.Name = "metroButton21";
             this.metroButton21.Size = new System.Drawing.Size(20, 20);
             this.metroButton21.Style = MetroFramework.MetroColorStyle.Blue;
@@ -828,10 +744,11 @@ namespace is_4_20_st6_KURS
             this.metroButton21.Text = "6";
             this.metroButton21.UseSelectable = true;
             this.metroButton21.UseStyleColors = true;
+            this.metroButton21.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton22
             // 
-            this.metroButton22.Location = new System.Drawing.Point(40, 377);
+            this.metroButton22.Location = new System.Drawing.Point(40, 319);
             this.metroButton22.Name = "metroButton22";
             this.metroButton22.Size = new System.Drawing.Size(20, 20);
             this.metroButton22.Style = MetroFramework.MetroColorStyle.Blue;
@@ -842,7 +759,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton23
             // 
-            this.metroButton23.Location = new System.Drawing.Point(40, 403);
+            this.metroButton23.Location = new System.Drawing.Point(40, 345);
             this.metroButton23.Name = "metroButton23";
             this.metroButton23.Size = new System.Drawing.Size(20, 20);
             this.metroButton23.Style = MetroFramework.MetroColorStyle.Blue;
@@ -853,7 +770,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton24
             // 
-            this.metroButton24.Location = new System.Drawing.Point(40, 429);
+            this.metroButton24.Location = new System.Drawing.Point(40, 371);
             this.metroButton24.Name = "metroButton24";
             this.metroButton24.Size = new System.Drawing.Size(20, 20);
             this.metroButton24.Style = MetroFramework.MetroColorStyle.Blue;
@@ -864,7 +781,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton25
             // 
-            this.metroButton25.Location = new System.Drawing.Point(14, 377);
+            this.metroButton25.Location = new System.Drawing.Point(14, 319);
             this.metroButton25.Name = "metroButton25";
             this.metroButton25.Size = new System.Drawing.Size(20, 20);
             this.metroButton25.Style = MetroFramework.MetroColorStyle.Blue;
@@ -875,7 +792,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton26
             // 
-            this.metroButton26.Location = new System.Drawing.Point(14, 403);
+            this.metroButton26.Location = new System.Drawing.Point(14, 345);
             this.metroButton26.Name = "metroButton26";
             this.metroButton26.Size = new System.Drawing.Size(20, 20);
             this.metroButton26.Style = MetroFramework.MetroColorStyle.Blue;
@@ -886,7 +803,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton27
             // 
-            this.metroButton27.Location = new System.Drawing.Point(14, 429);
+            this.metroButton27.Location = new System.Drawing.Point(14, 371);
             this.metroButton27.Name = "metroButton27";
             this.metroButton27.Size = new System.Drawing.Size(20, 20);
             this.metroButton27.Style = MetroFramework.MetroColorStyle.Blue;
@@ -897,7 +814,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton28
             // 
-            this.metroButton28.Location = new System.Drawing.Point(40, 467);
+            this.metroButton28.Location = new System.Drawing.Point(40, 409);
             this.metroButton28.Name = "metroButton28";
             this.metroButton28.Size = new System.Drawing.Size(20, 20);
             this.metroButton28.Style = MetroFramework.MetroColorStyle.Blue;
@@ -908,7 +825,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton29
             // 
-            this.metroButton29.Location = new System.Drawing.Point(40, 493);
+            this.metroButton29.Location = new System.Drawing.Point(40, 435);
             this.metroButton29.Name = "metroButton29";
             this.metroButton29.Size = new System.Drawing.Size(20, 20);
             this.metroButton29.Style = MetroFramework.MetroColorStyle.Blue;
@@ -919,7 +836,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton30
             // 
-            this.metroButton30.Location = new System.Drawing.Point(40, 519);
+            this.metroButton30.Location = new System.Drawing.Point(40, 461);
             this.metroButton30.Name = "metroButton30";
             this.metroButton30.Size = new System.Drawing.Size(20, 20);
             this.metroButton30.Style = MetroFramework.MetroColorStyle.Blue;
@@ -930,7 +847,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton31
             // 
-            this.metroButton31.Location = new System.Drawing.Point(14, 467);
+            this.metroButton31.Location = new System.Drawing.Point(14, 409);
             this.metroButton31.Name = "metroButton31";
             this.metroButton31.Size = new System.Drawing.Size(20, 20);
             this.metroButton31.Style = MetroFramework.MetroColorStyle.Blue;
@@ -941,7 +858,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton32
             // 
-            this.metroButton32.Location = new System.Drawing.Point(14, 493);
+            this.metroButton32.Location = new System.Drawing.Point(14, 435);
             this.metroButton32.Name = "metroButton32";
             this.metroButton32.Size = new System.Drawing.Size(20, 20);
             this.metroButton32.Style = MetroFramework.MetroColorStyle.Blue;
@@ -952,7 +869,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton33
             // 
-            this.metroButton33.Location = new System.Drawing.Point(14, 519);
+            this.metroButton33.Location = new System.Drawing.Point(14, 461);
             this.metroButton33.Name = "metroButton33";
             this.metroButton33.Size = new System.Drawing.Size(20, 20);
             this.metroButton33.Style = MetroFramework.MetroColorStyle.Blue;
@@ -963,7 +880,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton34
             // 
-            this.metroButton34.Location = new System.Drawing.Point(40, 562);
+            this.metroButton34.Location = new System.Drawing.Point(40, 496);
             this.metroButton34.Name = "metroButton34";
             this.metroButton34.Size = new System.Drawing.Size(20, 20);
             this.metroButton34.Style = MetroFramework.MetroColorStyle.Blue;
@@ -974,7 +891,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton35
             // 
-            this.metroButton35.Location = new System.Drawing.Point(40, 588);
+            this.metroButton35.Location = new System.Drawing.Point(40, 522);
             this.metroButton35.Name = "metroButton35";
             this.metroButton35.Size = new System.Drawing.Size(20, 20);
             this.metroButton35.Style = MetroFramework.MetroColorStyle.Blue;
@@ -985,7 +902,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton36
             // 
-            this.metroButton36.Location = new System.Drawing.Point(40, 614);
+            this.metroButton36.Location = new System.Drawing.Point(40, 548);
             this.metroButton36.Name = "metroButton36";
             this.metroButton36.Size = new System.Drawing.Size(20, 20);
             this.metroButton36.Style = MetroFramework.MetroColorStyle.Blue;
@@ -996,7 +913,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton37
             // 
-            this.metroButton37.Location = new System.Drawing.Point(14, 562);
+            this.metroButton37.Location = new System.Drawing.Point(14, 496);
             this.metroButton37.Name = "metroButton37";
             this.metroButton37.Size = new System.Drawing.Size(20, 20);
             this.metroButton37.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1007,7 +924,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton38
             // 
-            this.metroButton38.Location = new System.Drawing.Point(14, 588);
+            this.metroButton38.Location = new System.Drawing.Point(14, 522);
             this.metroButton38.Name = "metroButton38";
             this.metroButton38.Size = new System.Drawing.Size(20, 20);
             this.metroButton38.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1018,7 +935,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton39
             // 
-            this.metroButton39.Location = new System.Drawing.Point(14, 614);
+            this.metroButton39.Location = new System.Drawing.Point(14, 548);
             this.metroButton39.Name = "metroButton39";
             this.metroButton39.Size = new System.Drawing.Size(20, 20);
             this.metroButton39.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1029,7 +946,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton40
             // 
-            this.metroButton40.Location = new System.Drawing.Point(40, 650);
+            this.metroButton40.Location = new System.Drawing.Point(40, 599);
             this.metroButton40.Name = "metroButton40";
             this.metroButton40.Size = new System.Drawing.Size(20, 20);
             this.metroButton40.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1040,7 +957,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton41
             // 
-            this.metroButton41.Location = new System.Drawing.Point(40, 676);
+            this.metroButton41.Location = new System.Drawing.Point(40, 625);
             this.metroButton41.Name = "metroButton41";
             this.metroButton41.Size = new System.Drawing.Size(20, 20);
             this.metroButton41.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1051,7 +968,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton42
             // 
-            this.metroButton42.Location = new System.Drawing.Point(40, 702);
+            this.metroButton42.Location = new System.Drawing.Point(40, 651);
             this.metroButton42.Name = "metroButton42";
             this.metroButton42.Size = new System.Drawing.Size(20, 20);
             this.metroButton42.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1062,7 +979,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton43
             // 
-            this.metroButton43.Location = new System.Drawing.Point(14, 650);
+            this.metroButton43.Location = new System.Drawing.Point(14, 599);
             this.metroButton43.Name = "metroButton43";
             this.metroButton43.Size = new System.Drawing.Size(20, 20);
             this.metroButton43.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1073,7 +990,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton44
             // 
-            this.metroButton44.Location = new System.Drawing.Point(14, 676);
+            this.metroButton44.Location = new System.Drawing.Point(14, 625);
             this.metroButton44.Name = "metroButton44";
             this.metroButton44.Size = new System.Drawing.Size(20, 20);
             this.metroButton44.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1084,7 +1001,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton45
             // 
-            this.metroButton45.Location = new System.Drawing.Point(14, 702);
+            this.metroButton45.Location = new System.Drawing.Point(14, 651);
             this.metroButton45.Name = "metroButton45";
             this.metroButton45.Size = new System.Drawing.Size(20, 20);
             this.metroButton45.Style = MetroFramework.MetroColorStyle.Blue;
@@ -1095,7 +1012,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton46
             // 
-            this.metroButton46.Location = new System.Drawing.Point(133, 196);
+            this.metroButton46.Location = new System.Drawing.Point(136, 121);
             this.metroButton46.Name = "metroButton46";
             this.metroButton46.Size = new System.Drawing.Size(20, 20);
             this.metroButton46.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1106,7 +1023,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton47
             // 
-            this.metroButton47.Location = new System.Drawing.Point(133, 222);
+            this.metroButton47.Location = new System.Drawing.Point(136, 147);
             this.metroButton47.Name = "metroButton47";
             this.metroButton47.Size = new System.Drawing.Size(20, 20);
             this.metroButton47.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1117,7 +1034,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton48
             // 
-            this.metroButton48.Location = new System.Drawing.Point(133, 248);
+            this.metroButton48.Location = new System.Drawing.Point(136, 173);
             this.metroButton48.Name = "metroButton48";
             this.metroButton48.Size = new System.Drawing.Size(20, 20);
             this.metroButton48.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1128,7 +1045,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton49
             // 
-            this.metroButton49.Location = new System.Drawing.Point(133, 274);
+            this.metroButton49.Location = new System.Drawing.Point(136, 199);
             this.metroButton49.Name = "metroButton49";
             this.metroButton49.Size = new System.Drawing.Size(20, 20);
             this.metroButton49.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1139,7 +1056,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton50
             // 
-            this.metroButton50.Location = new System.Drawing.Point(133, 300);
+            this.metroButton50.Location = new System.Drawing.Point(136, 225);
             this.metroButton50.Name = "metroButton50";
             this.metroButton50.Size = new System.Drawing.Size(20, 20);
             this.metroButton50.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1150,7 +1067,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton51
             // 
-            this.metroButton51.Location = new System.Drawing.Point(133, 326);
+            this.metroButton51.Location = new System.Drawing.Point(136, 251);
             this.metroButton51.Name = "metroButton51";
             this.metroButton51.Size = new System.Drawing.Size(20, 20);
             this.metroButton51.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1161,7 +1078,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton52
             // 
-            this.metroButton52.Location = new System.Drawing.Point(133, 352);
+            this.metroButton52.Location = new System.Drawing.Point(136, 277);
             this.metroButton52.Name = "metroButton52";
             this.metroButton52.Size = new System.Drawing.Size(20, 20);
             this.metroButton52.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1172,7 +1089,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton53
             // 
-            this.metroButton53.Location = new System.Drawing.Point(133, 378);
+            this.metroButton53.Location = new System.Drawing.Point(136, 303);
             this.metroButton53.Name = "metroButton53";
             this.metroButton53.Size = new System.Drawing.Size(20, 20);
             this.metroButton53.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1183,7 +1100,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton54
             // 
-            this.metroButton54.Location = new System.Drawing.Point(133, 404);
+            this.metroButton54.Location = new System.Drawing.Point(136, 329);
             this.metroButton54.Name = "metroButton54";
             this.metroButton54.Size = new System.Drawing.Size(20, 20);
             this.metroButton54.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1194,7 +1111,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton55
             // 
-            this.metroButton55.Location = new System.Drawing.Point(133, 429);
+            this.metroButton55.Location = new System.Drawing.Point(136, 354);
             this.metroButton55.Name = "metroButton55";
             this.metroButton55.Size = new System.Drawing.Size(20, 20);
             this.metroButton55.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1205,7 +1122,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton56
             // 
-            this.metroButton56.Location = new System.Drawing.Point(107, 429);
+            this.metroButton56.Location = new System.Drawing.Point(110, 354);
             this.metroButton56.Name = "metroButton56";
             this.metroButton56.Size = new System.Drawing.Size(20, 20);
             this.metroButton56.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1216,7 +1133,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton57
             // 
-            this.metroButton57.Location = new System.Drawing.Point(107, 404);
+            this.metroButton57.Location = new System.Drawing.Point(110, 329);
             this.metroButton57.Name = "metroButton57";
             this.metroButton57.Size = new System.Drawing.Size(20, 20);
             this.metroButton57.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1227,7 +1144,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton58
             // 
-            this.metroButton58.Location = new System.Drawing.Point(107, 378);
+            this.metroButton58.Location = new System.Drawing.Point(110, 303);
             this.metroButton58.Name = "metroButton58";
             this.metroButton58.Size = new System.Drawing.Size(20, 20);
             this.metroButton58.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1238,7 +1155,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton59
             // 
-            this.metroButton59.Location = new System.Drawing.Point(107, 352);
+            this.metroButton59.Location = new System.Drawing.Point(110, 277);
             this.metroButton59.Name = "metroButton59";
             this.metroButton59.Size = new System.Drawing.Size(20, 20);
             this.metroButton59.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1249,7 +1166,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton60
             // 
-            this.metroButton60.Location = new System.Drawing.Point(107, 326);
+            this.metroButton60.Location = new System.Drawing.Point(110, 251);
             this.metroButton60.Name = "metroButton60";
             this.metroButton60.Size = new System.Drawing.Size(20, 20);
             this.metroButton60.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1260,7 +1177,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton61
             // 
-            this.metroButton61.Location = new System.Drawing.Point(107, 300);
+            this.metroButton61.Location = new System.Drawing.Point(110, 225);
             this.metroButton61.Name = "metroButton61";
             this.metroButton61.Size = new System.Drawing.Size(20, 20);
             this.metroButton61.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1271,7 +1188,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton62
             // 
-            this.metroButton62.Location = new System.Drawing.Point(107, 274);
+            this.metroButton62.Location = new System.Drawing.Point(110, 199);
             this.metroButton62.Name = "metroButton62";
             this.metroButton62.Size = new System.Drawing.Size(20, 20);
             this.metroButton62.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1282,7 +1199,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton63
             // 
-            this.metroButton63.Location = new System.Drawing.Point(107, 248);
+            this.metroButton63.Location = new System.Drawing.Point(110, 173);
             this.metroButton63.Name = "metroButton63";
             this.metroButton63.Size = new System.Drawing.Size(20, 20);
             this.metroButton63.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1293,7 +1210,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton64
             // 
-            this.metroButton64.Location = new System.Drawing.Point(107, 222);
+            this.metroButton64.Location = new System.Drawing.Point(110, 147);
             this.metroButton64.Name = "metroButton64";
             this.metroButton64.Size = new System.Drawing.Size(20, 20);
             this.metroButton64.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1304,7 +1221,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton65
             // 
-            this.metroButton65.Location = new System.Drawing.Point(107, 196);
+            this.metroButton65.Location = new System.Drawing.Point(110, 121);
             this.metroButton65.Name = "metroButton65";
             this.metroButton65.Size = new System.Drawing.Size(20, 20);
             this.metroButton65.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1316,7 +1233,7 @@ namespace is_4_20_st6_KURS
             // metroButton66
             // 
             this.metroButton66.BackColor = System.Drawing.Color.White;
-            this.metroButton66.Location = new System.Drawing.Point(159, 467);
+            this.metroButton66.Location = new System.Drawing.Point(162, 422);
             this.metroButton66.Name = "metroButton66";
             this.metroButton66.Size = new System.Drawing.Size(20, 20);
             this.metroButton66.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1328,7 +1245,7 @@ namespace is_4_20_st6_KURS
             // metroButton67
             // 
             this.metroButton67.BackColor = System.Drawing.Color.White;
-            this.metroButton67.Location = new System.Drawing.Point(133, 467);
+            this.metroButton67.Location = new System.Drawing.Point(136, 422);
             this.metroButton67.Name = "metroButton67";
             this.metroButton67.Size = new System.Drawing.Size(20, 20);
             this.metroButton67.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1340,7 +1257,7 @@ namespace is_4_20_st6_KURS
             // metroButton68
             // 
             this.metroButton68.BackColor = System.Drawing.Color.White;
-            this.metroButton68.Location = new System.Drawing.Point(107, 467);
+            this.metroButton68.Location = new System.Drawing.Point(110, 422);
             this.metroButton68.Name = "metroButton68";
             this.metroButton68.Size = new System.Drawing.Size(20, 20);
             this.metroButton68.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1352,7 +1269,7 @@ namespace is_4_20_st6_KURS
             // metroButton69
             // 
             this.metroButton69.BackColor = System.Drawing.Color.White;
-            this.metroButton69.Location = new System.Drawing.Point(81, 467);
+            this.metroButton69.Location = new System.Drawing.Point(84, 422);
             this.metroButton69.Name = "metroButton69";
             this.metroButton69.Size = new System.Drawing.Size(20, 20);
             this.metroButton69.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1363,7 +1280,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton70
             // 
-            this.metroButton70.Location = new System.Drawing.Point(81, 493);
+            this.metroButton70.Location = new System.Drawing.Point(84, 448);
             this.metroButton70.Name = "metroButton70";
             this.metroButton70.Size = new System.Drawing.Size(20, 20);
             this.metroButton70.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1374,7 +1291,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton71
             // 
-            this.metroButton71.Location = new System.Drawing.Point(107, 493);
+            this.metroButton71.Location = new System.Drawing.Point(110, 448);
             this.metroButton71.Name = "metroButton71";
             this.metroButton71.Size = new System.Drawing.Size(20, 20);
             this.metroButton71.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1385,7 +1302,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton72
             // 
-            this.metroButton72.Location = new System.Drawing.Point(133, 493);
+            this.metroButton72.Location = new System.Drawing.Point(136, 448);
             this.metroButton72.Name = "metroButton72";
             this.metroButton72.Size = new System.Drawing.Size(20, 20);
             this.metroButton72.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1396,7 +1313,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton73
             // 
-            this.metroButton73.Location = new System.Drawing.Point(159, 493);
+            this.metroButton73.Location = new System.Drawing.Point(162, 448);
             this.metroButton73.Name = "metroButton73";
             this.metroButton73.Size = new System.Drawing.Size(20, 20);
             this.metroButton73.Style = MetroFramework.MetroColorStyle.Orange;
@@ -1405,20 +1322,9 @@ namespace is_4_20_st6_KURS
             this.metroButton73.UseSelectable = true;
             this.metroButton73.UseStyleColors = true;
             // 
-            // metroButton74
-            // 
-            this.metroButton74.Location = new System.Drawing.Point(200, 447);
-            this.metroButton74.Name = "metroButton74";
-            this.metroButton74.Size = new System.Drawing.Size(20, 20);
-            this.metroButton74.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton74.TabIndex = 77;
-            this.metroButton74.Text = "1";
-            this.metroButton74.UseSelectable = true;
-            this.metroButton74.UseStyleColors = true;
-            // 
             // metroButton75
             // 
-            this.metroButton75.Location = new System.Drawing.Point(200, 422);
+            this.metroButton75.Location = new System.Drawing.Point(217, 321);
             this.metroButton75.Name = "metroButton75";
             this.metroButton75.Size = new System.Drawing.Size(20, 20);
             this.metroButton75.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1429,7 +1335,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton76
             // 
-            this.metroButton76.Location = new System.Drawing.Point(200, 396);
+            this.metroButton76.Location = new System.Drawing.Point(217, 295);
             this.metroButton76.Name = "metroButton76";
             this.metroButton76.Size = new System.Drawing.Size(20, 20);
             this.metroButton76.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1440,7 +1346,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton77
             // 
-            this.metroButton77.Location = new System.Drawing.Point(200, 370);
+            this.metroButton77.Location = new System.Drawing.Point(217, 269);
             this.metroButton77.Name = "metroButton77";
             this.metroButton77.Size = new System.Drawing.Size(20, 20);
             this.metroButton77.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1451,7 +1357,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton78
             // 
-            this.metroButton78.Location = new System.Drawing.Point(200, 344);
+            this.metroButton78.Location = new System.Drawing.Point(217, 243);
             this.metroButton78.Name = "metroButton78";
             this.metroButton78.Size = new System.Drawing.Size(20, 20);
             this.metroButton78.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1462,7 +1368,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton79
             // 
-            this.metroButton79.Location = new System.Drawing.Point(200, 318);
+            this.metroButton79.Location = new System.Drawing.Point(217, 217);
             this.metroButton79.Name = "metroButton79";
             this.metroButton79.Size = new System.Drawing.Size(20, 20);
             this.metroButton79.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1473,7 +1379,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton80
             // 
-            this.metroButton80.Location = new System.Drawing.Point(226, 318);
+            this.metroButton80.Location = new System.Drawing.Point(243, 217);
             this.metroButton80.Name = "metroButton80";
             this.metroButton80.Size = new System.Drawing.Size(20, 20);
             this.metroButton80.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1482,20 +1388,9 @@ namespace is_4_20_st6_KURS
             this.metroButton80.UseSelectable = true;
             this.metroButton80.UseStyleColors = true;
             // 
-            // metroButton81
-            // 
-            this.metroButton81.Location = new System.Drawing.Point(226, 447);
-            this.metroButton81.Name = "metroButton81";
-            this.metroButton81.Size = new System.Drawing.Size(20, 20);
-            this.metroButton81.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton81.TabIndex = 83;
-            this.metroButton81.Text = "2";
-            this.metroButton81.UseSelectable = true;
-            this.metroButton81.UseStyleColors = true;
-            // 
             // metroButton82
             // 
-            this.metroButton82.Location = new System.Drawing.Point(226, 422);
+            this.metroButton82.Location = new System.Drawing.Point(243, 321);
             this.metroButton82.Name = "metroButton82";
             this.metroButton82.Size = new System.Drawing.Size(20, 20);
             this.metroButton82.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1506,7 +1401,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton83
             // 
-            this.metroButton83.Location = new System.Drawing.Point(226, 396);
+            this.metroButton83.Location = new System.Drawing.Point(243, 295);
             this.metroButton83.Name = "metroButton83";
             this.metroButton83.Size = new System.Drawing.Size(20, 20);
             this.metroButton83.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1517,7 +1412,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton84
             // 
-            this.metroButton84.Location = new System.Drawing.Point(226, 370);
+            this.metroButton84.Location = new System.Drawing.Point(243, 269);
             this.metroButton84.Name = "metroButton84";
             this.metroButton84.Size = new System.Drawing.Size(20, 20);
             this.metroButton84.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1528,7 +1423,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton85
             // 
-            this.metroButton85.Location = new System.Drawing.Point(226, 344);
+            this.metroButton85.Location = new System.Drawing.Point(243, 243);
             this.metroButton85.Name = "metroButton85";
             this.metroButton85.Size = new System.Drawing.Size(20, 20);
             this.metroButton85.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1539,7 +1434,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton86
             // 
-            this.metroButton86.Location = new System.Drawing.Point(226, 292);
+            this.metroButton86.Location = new System.Drawing.Point(243, 191);
             this.metroButton86.Name = "metroButton86";
             this.metroButton86.Size = new System.Drawing.Size(20, 20);
             this.metroButton86.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1550,7 +1445,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton87
             // 
-            this.metroButton87.Location = new System.Drawing.Point(226, 266);
+            this.metroButton87.Location = new System.Drawing.Point(243, 165);
             this.metroButton87.Name = "metroButton87";
             this.metroButton87.Size = new System.Drawing.Size(20, 20);
             this.metroButton87.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1561,7 +1456,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton88
             // 
-            this.metroButton88.Location = new System.Drawing.Point(252, 266);
+            this.metroButton88.Location = new System.Drawing.Point(269, 165);
             this.metroButton88.Name = "metroButton88";
             this.metroButton88.Size = new System.Drawing.Size(20, 20);
             this.metroButton88.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1572,7 +1467,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton89
             // 
-            this.metroButton89.Location = new System.Drawing.Point(252, 292);
+            this.metroButton89.Location = new System.Drawing.Point(269, 191);
             this.metroButton89.Name = "metroButton89";
             this.metroButton89.Size = new System.Drawing.Size(20, 20);
             this.metroButton89.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1583,7 +1478,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton90
             // 
-            this.metroButton90.Location = new System.Drawing.Point(252, 318);
+            this.metroButton90.Location = new System.Drawing.Point(269, 217);
             this.metroButton90.Name = "metroButton90";
             this.metroButton90.Size = new System.Drawing.Size(20, 20);
             this.metroButton90.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1592,20 +1487,9 @@ namespace is_4_20_st6_KURS
             this.metroButton90.UseSelectable = true;
             this.metroButton90.UseStyleColors = true;
             // 
-            // metroButton91
-            // 
-            this.metroButton91.Location = new System.Drawing.Point(252, 447);
-            this.metroButton91.Name = "metroButton91";
-            this.metroButton91.Size = new System.Drawing.Size(20, 20);
-            this.metroButton91.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton91.TabIndex = 91;
-            this.metroButton91.Text = "3";
-            this.metroButton91.UseSelectable = true;
-            this.metroButton91.UseStyleColors = true;
-            // 
             // metroButton92
             // 
-            this.metroButton92.Location = new System.Drawing.Point(252, 422);
+            this.metroButton92.Location = new System.Drawing.Point(269, 321);
             this.metroButton92.Name = "metroButton92";
             this.metroButton92.Size = new System.Drawing.Size(20, 20);
             this.metroButton92.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1616,7 +1500,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton93
             // 
-            this.metroButton93.Location = new System.Drawing.Point(252, 396);
+            this.metroButton93.Location = new System.Drawing.Point(269, 295);
             this.metroButton93.Name = "metroButton93";
             this.metroButton93.Size = new System.Drawing.Size(20, 20);
             this.metroButton93.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1627,7 +1511,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton94
             // 
-            this.metroButton94.Location = new System.Drawing.Point(252, 370);
+            this.metroButton94.Location = new System.Drawing.Point(269, 269);
             this.metroButton94.Name = "metroButton94";
             this.metroButton94.Size = new System.Drawing.Size(20, 20);
             this.metroButton94.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1638,7 +1522,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton95
             // 
-            this.metroButton95.Location = new System.Drawing.Point(252, 344);
+            this.metroButton95.Location = new System.Drawing.Point(269, 243);
             this.metroButton95.Name = "metroButton95";
             this.metroButton95.Size = new System.Drawing.Size(20, 20);
             this.metroButton95.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1649,7 +1533,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton96
             // 
-            this.metroButton96.Location = new System.Drawing.Point(278, 266);
+            this.metroButton96.Location = new System.Drawing.Point(295, 165);
             this.metroButton96.Name = "metroButton96";
             this.metroButton96.Size = new System.Drawing.Size(20, 20);
             this.metroButton96.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1660,7 +1544,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton97
             // 
-            this.metroButton97.Location = new System.Drawing.Point(278, 292);
+            this.metroButton97.Location = new System.Drawing.Point(295, 191);
             this.metroButton97.Name = "metroButton97";
             this.metroButton97.Size = new System.Drawing.Size(20, 20);
             this.metroButton97.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1671,7 +1555,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton98
             // 
-            this.metroButton98.Location = new System.Drawing.Point(278, 318);
+            this.metroButton98.Location = new System.Drawing.Point(295, 217);
             this.metroButton98.Name = "metroButton98";
             this.metroButton98.Size = new System.Drawing.Size(20, 20);
             this.metroButton98.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1680,20 +1564,9 @@ namespace is_4_20_st6_KURS
             this.metroButton98.UseSelectable = true;
             this.metroButton98.UseStyleColors = true;
             // 
-            // metroButton99
-            // 
-            this.metroButton99.Location = new System.Drawing.Point(278, 447);
-            this.metroButton99.Name = "metroButton99";
-            this.metroButton99.Size = new System.Drawing.Size(20, 20);
-            this.metroButton99.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton99.TabIndex = 99;
-            this.metroButton99.Text = "4";
-            this.metroButton99.UseSelectable = true;
-            this.metroButton99.UseStyleColors = true;
-            // 
             // metroButton100
             // 
-            this.metroButton100.Location = new System.Drawing.Point(278, 422);
+            this.metroButton100.Location = new System.Drawing.Point(295, 321);
             this.metroButton100.Name = "metroButton100";
             this.metroButton100.Size = new System.Drawing.Size(20, 20);
             this.metroButton100.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1704,7 +1577,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton101
             // 
-            this.metroButton101.Location = new System.Drawing.Point(278, 396);
+            this.metroButton101.Location = new System.Drawing.Point(295, 295);
             this.metroButton101.Name = "metroButton101";
             this.metroButton101.Size = new System.Drawing.Size(20, 20);
             this.metroButton101.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1715,7 +1588,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton102
             // 
-            this.metroButton102.Location = new System.Drawing.Point(278, 370);
+            this.metroButton102.Location = new System.Drawing.Point(295, 269);
             this.metroButton102.Name = "metroButton102";
             this.metroButton102.Size = new System.Drawing.Size(20, 20);
             this.metroButton102.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1726,7 +1599,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton103
             // 
-            this.metroButton103.Location = new System.Drawing.Point(278, 344);
+            this.metroButton103.Location = new System.Drawing.Point(295, 243);
             this.metroButton103.Name = "metroButton103";
             this.metroButton103.Size = new System.Drawing.Size(20, 20);
             this.metroButton103.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1737,7 +1610,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton104
             // 
-            this.metroButton104.Location = new System.Drawing.Point(304, 266);
+            this.metroButton104.Location = new System.Drawing.Point(321, 165);
             this.metroButton104.Name = "metroButton104";
             this.metroButton104.Size = new System.Drawing.Size(20, 20);
             this.metroButton104.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1748,7 +1621,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton105
             // 
-            this.metroButton105.Location = new System.Drawing.Point(304, 292);
+            this.metroButton105.Location = new System.Drawing.Point(321, 191);
             this.metroButton105.Name = "metroButton105";
             this.metroButton105.Size = new System.Drawing.Size(20, 20);
             this.metroButton105.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1759,7 +1632,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton106
             // 
-            this.metroButton106.Location = new System.Drawing.Point(304, 318);
+            this.metroButton106.Location = new System.Drawing.Point(321, 217);
             this.metroButton106.Name = "metroButton106";
             this.metroButton106.Size = new System.Drawing.Size(20, 20);
             this.metroButton106.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1768,20 +1641,9 @@ namespace is_4_20_st6_KURS
             this.metroButton106.UseSelectable = true;
             this.metroButton106.UseStyleColors = true;
             // 
-            // metroButton107
-            // 
-            this.metroButton107.Location = new System.Drawing.Point(304, 447);
-            this.metroButton107.Name = "metroButton107";
-            this.metroButton107.Size = new System.Drawing.Size(20, 20);
-            this.metroButton107.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton107.TabIndex = 107;
-            this.metroButton107.Text = "5";
-            this.metroButton107.UseSelectable = true;
-            this.metroButton107.UseStyleColors = true;
-            // 
             // metroButton108
             // 
-            this.metroButton108.Location = new System.Drawing.Point(304, 422);
+            this.metroButton108.Location = new System.Drawing.Point(321, 321);
             this.metroButton108.Name = "metroButton108";
             this.metroButton108.Size = new System.Drawing.Size(20, 20);
             this.metroButton108.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1792,7 +1654,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton109
             // 
-            this.metroButton109.Location = new System.Drawing.Point(304, 396);
+            this.metroButton109.Location = new System.Drawing.Point(321, 295);
             this.metroButton109.Name = "metroButton109";
             this.metroButton109.Size = new System.Drawing.Size(20, 20);
             this.metroButton109.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1803,7 +1665,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton110
             // 
-            this.metroButton110.Location = new System.Drawing.Point(304, 370);
+            this.metroButton110.Location = new System.Drawing.Point(321, 269);
             this.metroButton110.Name = "metroButton110";
             this.metroButton110.Size = new System.Drawing.Size(20, 20);
             this.metroButton110.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1814,7 +1676,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton111
             // 
-            this.metroButton111.Location = new System.Drawing.Point(304, 344);
+            this.metroButton111.Location = new System.Drawing.Point(321, 243);
             this.metroButton111.Name = "metroButton111";
             this.metroButton111.Size = new System.Drawing.Size(20, 20);
             this.metroButton111.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1825,7 +1687,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton112
             // 
-            this.metroButton112.Location = new System.Drawing.Point(330, 266);
+            this.metroButton112.Location = new System.Drawing.Point(347, 165);
             this.metroButton112.Name = "metroButton112";
             this.metroButton112.Size = new System.Drawing.Size(20, 20);
             this.metroButton112.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1836,7 +1698,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton113
             // 
-            this.metroButton113.Location = new System.Drawing.Point(330, 292);
+            this.metroButton113.Location = new System.Drawing.Point(347, 191);
             this.metroButton113.Name = "metroButton113";
             this.metroButton113.Size = new System.Drawing.Size(20, 20);
             this.metroButton113.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1847,7 +1709,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton114
             // 
-            this.metroButton114.Location = new System.Drawing.Point(330, 318);
+            this.metroButton114.Location = new System.Drawing.Point(347, 217);
             this.metroButton114.Name = "metroButton114";
             this.metroButton114.Size = new System.Drawing.Size(20, 20);
             this.metroButton114.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1856,20 +1718,9 @@ namespace is_4_20_st6_KURS
             this.metroButton114.UseSelectable = true;
             this.metroButton114.UseStyleColors = true;
             // 
-            // metroButton115
-            // 
-            this.metroButton115.Location = new System.Drawing.Point(330, 447);
-            this.metroButton115.Name = "metroButton115";
-            this.metroButton115.Size = new System.Drawing.Size(20, 20);
-            this.metroButton115.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton115.TabIndex = 115;
-            this.metroButton115.Text = "6";
-            this.metroButton115.UseSelectable = true;
-            this.metroButton115.UseStyleColors = true;
-            // 
             // metroButton116
             // 
-            this.metroButton116.Location = new System.Drawing.Point(330, 422);
+            this.metroButton116.Location = new System.Drawing.Point(347, 321);
             this.metroButton116.Name = "metroButton116";
             this.metroButton116.Size = new System.Drawing.Size(20, 20);
             this.metroButton116.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1880,7 +1731,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton117
             // 
-            this.metroButton117.Location = new System.Drawing.Point(330, 396);
+            this.metroButton117.Location = new System.Drawing.Point(347, 295);
             this.metroButton117.Name = "metroButton117";
             this.metroButton117.Size = new System.Drawing.Size(20, 20);
             this.metroButton117.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1891,7 +1742,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton118
             // 
-            this.metroButton118.Location = new System.Drawing.Point(330, 370);
+            this.metroButton118.Location = new System.Drawing.Point(347, 269);
             this.metroButton118.Name = "metroButton118";
             this.metroButton118.Size = new System.Drawing.Size(20, 20);
             this.metroButton118.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1902,7 +1753,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton119
             // 
-            this.metroButton119.Location = new System.Drawing.Point(330, 344);
+            this.metroButton119.Location = new System.Drawing.Point(347, 243);
             this.metroButton119.Name = "metroButton119";
             this.metroButton119.Size = new System.Drawing.Size(20, 20);
             this.metroButton119.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1913,7 +1764,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton120
             // 
-            this.metroButton120.Location = new System.Drawing.Point(356, 266);
+            this.metroButton120.Location = new System.Drawing.Point(373, 165);
             this.metroButton120.Name = "metroButton120";
             this.metroButton120.Size = new System.Drawing.Size(20, 20);
             this.metroButton120.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1924,7 +1775,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton121
             // 
-            this.metroButton121.Location = new System.Drawing.Point(356, 292);
+            this.metroButton121.Location = new System.Drawing.Point(373, 191);
             this.metroButton121.Name = "metroButton121";
             this.metroButton121.Size = new System.Drawing.Size(20, 20);
             this.metroButton121.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1935,7 +1786,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton122
             // 
-            this.metroButton122.Location = new System.Drawing.Point(356, 318);
+            this.metroButton122.Location = new System.Drawing.Point(373, 217);
             this.metroButton122.Name = "metroButton122";
             this.metroButton122.Size = new System.Drawing.Size(20, 20);
             this.metroButton122.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1944,20 +1795,9 @@ namespace is_4_20_st6_KURS
             this.metroButton122.UseSelectable = true;
             this.metroButton122.UseStyleColors = true;
             // 
-            // metroButton123
-            // 
-            this.metroButton123.Location = new System.Drawing.Point(356, 447);
-            this.metroButton123.Name = "metroButton123";
-            this.metroButton123.Size = new System.Drawing.Size(20, 20);
-            this.metroButton123.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton123.TabIndex = 123;
-            this.metroButton123.Text = "7";
-            this.metroButton123.UseSelectable = true;
-            this.metroButton123.UseStyleColors = true;
-            // 
             // metroButton124
             // 
-            this.metroButton124.Location = new System.Drawing.Point(356, 422);
+            this.metroButton124.Location = new System.Drawing.Point(373, 321);
             this.metroButton124.Name = "metroButton124";
             this.metroButton124.Size = new System.Drawing.Size(20, 20);
             this.metroButton124.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1968,7 +1808,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton125
             // 
-            this.metroButton125.Location = new System.Drawing.Point(356, 396);
+            this.metroButton125.Location = new System.Drawing.Point(373, 295);
             this.metroButton125.Name = "metroButton125";
             this.metroButton125.Size = new System.Drawing.Size(20, 20);
             this.metroButton125.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1979,7 +1819,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton126
             // 
-            this.metroButton126.Location = new System.Drawing.Point(356, 370);
+            this.metroButton126.Location = new System.Drawing.Point(373, 269);
             this.metroButton126.Name = "metroButton126";
             this.metroButton126.Size = new System.Drawing.Size(20, 20);
             this.metroButton126.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -1990,7 +1830,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton127
             // 
-            this.metroButton127.Location = new System.Drawing.Point(356, 344);
+            this.metroButton127.Location = new System.Drawing.Point(373, 243);
             this.metroButton127.Name = "metroButton127";
             this.metroButton127.Size = new System.Drawing.Size(20, 20);
             this.metroButton127.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2001,7 +1841,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton128
             // 
-            this.metroButton128.Location = new System.Drawing.Point(382, 266);
+            this.metroButton128.Location = new System.Drawing.Point(399, 165);
             this.metroButton128.Name = "metroButton128";
             this.metroButton128.Size = new System.Drawing.Size(20, 20);
             this.metroButton128.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2012,7 +1852,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton129
             // 
-            this.metroButton129.Location = new System.Drawing.Point(382, 292);
+            this.metroButton129.Location = new System.Drawing.Point(399, 191);
             this.metroButton129.Name = "metroButton129";
             this.metroButton129.Size = new System.Drawing.Size(20, 20);
             this.metroButton129.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2023,7 +1863,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton130
             // 
-            this.metroButton130.Location = new System.Drawing.Point(382, 318);
+            this.metroButton130.Location = new System.Drawing.Point(399, 217);
             this.metroButton130.Name = "metroButton130";
             this.metroButton130.Size = new System.Drawing.Size(20, 20);
             this.metroButton130.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2032,20 +1872,9 @@ namespace is_4_20_st6_KURS
             this.metroButton130.UseSelectable = true;
             this.metroButton130.UseStyleColors = true;
             // 
-            // metroButton131
-            // 
-            this.metroButton131.Location = new System.Drawing.Point(382, 447);
-            this.metroButton131.Name = "metroButton131";
-            this.metroButton131.Size = new System.Drawing.Size(20, 20);
-            this.metroButton131.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton131.TabIndex = 131;
-            this.metroButton131.Text = "8";
-            this.metroButton131.UseSelectable = true;
-            this.metroButton131.UseStyleColors = true;
-            // 
             // metroButton132
             // 
-            this.metroButton132.Location = new System.Drawing.Point(382, 422);
+            this.metroButton132.Location = new System.Drawing.Point(399, 321);
             this.metroButton132.Name = "metroButton132";
             this.metroButton132.Size = new System.Drawing.Size(20, 20);
             this.metroButton132.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2056,7 +1885,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton133
             // 
-            this.metroButton133.Location = new System.Drawing.Point(382, 396);
+            this.metroButton133.Location = new System.Drawing.Point(399, 295);
             this.metroButton133.Name = "metroButton133";
             this.metroButton133.Size = new System.Drawing.Size(20, 20);
             this.metroButton133.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2067,7 +1896,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton134
             // 
-            this.metroButton134.Location = new System.Drawing.Point(382, 370);
+            this.metroButton134.Location = new System.Drawing.Point(399, 269);
             this.metroButton134.Name = "metroButton134";
             this.metroButton134.Size = new System.Drawing.Size(20, 20);
             this.metroButton134.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2078,7 +1907,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton135
             // 
-            this.metroButton135.Location = new System.Drawing.Point(382, 344);
+            this.metroButton135.Location = new System.Drawing.Point(399, 243);
             this.metroButton135.Name = "metroButton135";
             this.metroButton135.Size = new System.Drawing.Size(20, 20);
             this.metroButton135.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2089,7 +1918,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton136
             // 
-            this.metroButton136.Location = new System.Drawing.Point(408, 266);
+            this.metroButton136.Location = new System.Drawing.Point(425, 165);
             this.metroButton136.Name = "metroButton136";
             this.metroButton136.Size = new System.Drawing.Size(20, 20);
             this.metroButton136.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2100,7 +1929,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton137
             // 
-            this.metroButton137.Location = new System.Drawing.Point(408, 292);
+            this.metroButton137.Location = new System.Drawing.Point(425, 191);
             this.metroButton137.Name = "metroButton137";
             this.metroButton137.Size = new System.Drawing.Size(20, 20);
             this.metroButton137.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2111,7 +1940,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton138
             // 
-            this.metroButton138.Location = new System.Drawing.Point(408, 318);
+            this.metroButton138.Location = new System.Drawing.Point(425, 217);
             this.metroButton138.Name = "metroButton138";
             this.metroButton138.Size = new System.Drawing.Size(20, 20);
             this.metroButton138.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2120,20 +1949,9 @@ namespace is_4_20_st6_KURS
             this.metroButton138.UseSelectable = true;
             this.metroButton138.UseStyleColors = true;
             // 
-            // metroButton139
-            // 
-            this.metroButton139.Location = new System.Drawing.Point(408, 447);
-            this.metroButton139.Name = "metroButton139";
-            this.metroButton139.Size = new System.Drawing.Size(20, 20);
-            this.metroButton139.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton139.TabIndex = 139;
-            this.metroButton139.Text = "9";
-            this.metroButton139.UseSelectable = true;
-            this.metroButton139.UseStyleColors = true;
-            // 
             // metroButton140
             // 
-            this.metroButton140.Location = new System.Drawing.Point(408, 422);
+            this.metroButton140.Location = new System.Drawing.Point(425, 321);
             this.metroButton140.Name = "metroButton140";
             this.metroButton140.Size = new System.Drawing.Size(20, 20);
             this.metroButton140.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2144,7 +1962,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton141
             // 
-            this.metroButton141.Location = new System.Drawing.Point(408, 396);
+            this.metroButton141.Location = new System.Drawing.Point(425, 295);
             this.metroButton141.Name = "metroButton141";
             this.metroButton141.Size = new System.Drawing.Size(20, 20);
             this.metroButton141.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2155,7 +1973,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton142
             // 
-            this.metroButton142.Location = new System.Drawing.Point(408, 370);
+            this.metroButton142.Location = new System.Drawing.Point(425, 269);
             this.metroButton142.Name = "metroButton142";
             this.metroButton142.Size = new System.Drawing.Size(20, 20);
             this.metroButton142.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2166,7 +1984,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton143
             // 
-            this.metroButton143.Location = new System.Drawing.Point(408, 344);
+            this.metroButton143.Location = new System.Drawing.Point(425, 243);
             this.metroButton143.Name = "metroButton143";
             this.metroButton143.Size = new System.Drawing.Size(20, 20);
             this.metroButton143.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2177,7 +1995,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton144
             // 
-            this.metroButton144.Location = new System.Drawing.Point(434, 266);
+            this.metroButton144.Location = new System.Drawing.Point(451, 165);
             this.metroButton144.Name = "metroButton144";
             this.metroButton144.Size = new System.Drawing.Size(20, 20);
             this.metroButton144.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2188,7 +2006,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton145
             // 
-            this.metroButton145.Location = new System.Drawing.Point(434, 292);
+            this.metroButton145.Location = new System.Drawing.Point(451, 191);
             this.metroButton145.Name = "metroButton145";
             this.metroButton145.Size = new System.Drawing.Size(20, 20);
             this.metroButton145.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2199,7 +2017,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton146
             // 
-            this.metroButton146.Location = new System.Drawing.Point(434, 318);
+            this.metroButton146.Location = new System.Drawing.Point(451, 217);
             this.metroButton146.Name = "metroButton146";
             this.metroButton146.Size = new System.Drawing.Size(20, 20);
             this.metroButton146.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2208,20 +2026,9 @@ namespace is_4_20_st6_KURS
             this.metroButton146.UseSelectable = true;
             this.metroButton146.UseStyleColors = true;
             // 
-            // metroButton147
-            // 
-            this.metroButton147.Location = new System.Drawing.Point(434, 447);
-            this.metroButton147.Name = "metroButton147";
-            this.metroButton147.Size = new System.Drawing.Size(20, 20);
-            this.metroButton147.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton147.TabIndex = 147;
-            this.metroButton147.Text = "10";
-            this.metroButton147.UseSelectable = true;
-            this.metroButton147.UseStyleColors = true;
-            // 
             // metroButton148
             // 
-            this.metroButton148.Location = new System.Drawing.Point(434, 422);
+            this.metroButton148.Location = new System.Drawing.Point(451, 321);
             this.metroButton148.Name = "metroButton148";
             this.metroButton148.Size = new System.Drawing.Size(20, 20);
             this.metroButton148.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2232,7 +2039,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton149
             // 
-            this.metroButton149.Location = new System.Drawing.Point(434, 396);
+            this.metroButton149.Location = new System.Drawing.Point(451, 295);
             this.metroButton149.Name = "metroButton149";
             this.metroButton149.Size = new System.Drawing.Size(20, 20);
             this.metroButton149.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2243,7 +2050,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton150
             // 
-            this.metroButton150.Location = new System.Drawing.Point(434, 370);
+            this.metroButton150.Location = new System.Drawing.Point(451, 269);
             this.metroButton150.Name = "metroButton150";
             this.metroButton150.Size = new System.Drawing.Size(20, 20);
             this.metroButton150.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2254,7 +2061,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton151
             // 
-            this.metroButton151.Location = new System.Drawing.Point(434, 344);
+            this.metroButton151.Location = new System.Drawing.Point(451, 243);
             this.metroButton151.Name = "metroButton151";
             this.metroButton151.Size = new System.Drawing.Size(20, 20);
             this.metroButton151.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2265,7 +2072,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton152
             // 
-            this.metroButton152.Location = new System.Drawing.Point(460, 266);
+            this.metroButton152.Location = new System.Drawing.Point(477, 165);
             this.metroButton152.Name = "metroButton152";
             this.metroButton152.Size = new System.Drawing.Size(20, 20);
             this.metroButton152.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2276,7 +2083,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton153
             // 
-            this.metroButton153.Location = new System.Drawing.Point(460, 292);
+            this.metroButton153.Location = new System.Drawing.Point(477, 191);
             this.metroButton153.Name = "metroButton153";
             this.metroButton153.Size = new System.Drawing.Size(20, 20);
             this.metroButton153.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2287,7 +2094,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton154
             // 
-            this.metroButton154.Location = new System.Drawing.Point(460, 318);
+            this.metroButton154.Location = new System.Drawing.Point(477, 217);
             this.metroButton154.Name = "metroButton154";
             this.metroButton154.Size = new System.Drawing.Size(20, 20);
             this.metroButton154.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2296,20 +2103,9 @@ namespace is_4_20_st6_KURS
             this.metroButton154.UseSelectable = true;
             this.metroButton154.UseStyleColors = true;
             // 
-            // metroButton155
-            // 
-            this.metroButton155.Location = new System.Drawing.Point(460, 447);
-            this.metroButton155.Name = "metroButton155";
-            this.metroButton155.Size = new System.Drawing.Size(20, 20);
-            this.metroButton155.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton155.TabIndex = 155;
-            this.metroButton155.Text = "11";
-            this.metroButton155.UseSelectable = true;
-            this.metroButton155.UseStyleColors = true;
-            // 
             // metroButton156
             // 
-            this.metroButton156.Location = new System.Drawing.Point(460, 422);
+            this.metroButton156.Location = new System.Drawing.Point(477, 321);
             this.metroButton156.Name = "metroButton156";
             this.metroButton156.Size = new System.Drawing.Size(20, 20);
             this.metroButton156.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2320,7 +2116,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton157
             // 
-            this.metroButton157.Location = new System.Drawing.Point(460, 396);
+            this.metroButton157.Location = new System.Drawing.Point(477, 295);
             this.metroButton157.Name = "metroButton157";
             this.metroButton157.Size = new System.Drawing.Size(20, 20);
             this.metroButton157.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2331,7 +2127,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton158
             // 
-            this.metroButton158.Location = new System.Drawing.Point(460, 370);
+            this.metroButton158.Location = new System.Drawing.Point(477, 269);
             this.metroButton158.Name = "metroButton158";
             this.metroButton158.Size = new System.Drawing.Size(20, 20);
             this.metroButton158.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2342,7 +2138,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton159
             // 
-            this.metroButton159.Location = new System.Drawing.Point(460, 344);
+            this.metroButton159.Location = new System.Drawing.Point(477, 243);
             this.metroButton159.Name = "metroButton159";
             this.metroButton159.Size = new System.Drawing.Size(20, 20);
             this.metroButton159.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2353,7 +2149,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton160
             // 
-            this.metroButton160.Location = new System.Drawing.Point(486, 266);
+            this.metroButton160.Location = new System.Drawing.Point(503, 165);
             this.metroButton160.Name = "metroButton160";
             this.metroButton160.Size = new System.Drawing.Size(20, 20);
             this.metroButton160.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2364,7 +2160,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton161
             // 
-            this.metroButton161.Location = new System.Drawing.Point(486, 292);
+            this.metroButton161.Location = new System.Drawing.Point(503, 191);
             this.metroButton161.Name = "metroButton161";
             this.metroButton161.Size = new System.Drawing.Size(20, 20);
             this.metroButton161.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2375,7 +2171,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton162
             // 
-            this.metroButton162.Location = new System.Drawing.Point(486, 318);
+            this.metroButton162.Location = new System.Drawing.Point(503, 217);
             this.metroButton162.Name = "metroButton162";
             this.metroButton162.Size = new System.Drawing.Size(20, 20);
             this.metroButton162.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2384,20 +2180,9 @@ namespace is_4_20_st6_KURS
             this.metroButton162.UseSelectable = true;
             this.metroButton162.UseStyleColors = true;
             // 
-            // metroButton163
-            // 
-            this.metroButton163.Location = new System.Drawing.Point(486, 447);
-            this.metroButton163.Name = "metroButton163";
-            this.metroButton163.Size = new System.Drawing.Size(20, 20);
-            this.metroButton163.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton163.TabIndex = 163;
-            this.metroButton163.Text = "12";
-            this.metroButton163.UseSelectable = true;
-            this.metroButton163.UseStyleColors = true;
-            // 
             // metroButton164
             // 
-            this.metroButton164.Location = new System.Drawing.Point(486, 422);
+            this.metroButton164.Location = new System.Drawing.Point(503, 321);
             this.metroButton164.Name = "metroButton164";
             this.metroButton164.Size = new System.Drawing.Size(20, 20);
             this.metroButton164.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2408,7 +2193,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton165
             // 
-            this.metroButton165.Location = new System.Drawing.Point(486, 396);
+            this.metroButton165.Location = new System.Drawing.Point(503, 295);
             this.metroButton165.Name = "metroButton165";
             this.metroButton165.Size = new System.Drawing.Size(20, 20);
             this.metroButton165.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2419,7 +2204,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton166
             // 
-            this.metroButton166.Location = new System.Drawing.Point(486, 370);
+            this.metroButton166.Location = new System.Drawing.Point(503, 269);
             this.metroButton166.Name = "metroButton166";
             this.metroButton166.Size = new System.Drawing.Size(20, 20);
             this.metroButton166.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2430,7 +2215,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton167
             // 
-            this.metroButton167.Location = new System.Drawing.Point(486, 344);
+            this.metroButton167.Location = new System.Drawing.Point(503, 243);
             this.metroButton167.Name = "metroButton167";
             this.metroButton167.Size = new System.Drawing.Size(20, 20);
             this.metroButton167.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2441,7 +2226,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton168
             // 
-            this.metroButton168.Location = new System.Drawing.Point(512, 266);
+            this.metroButton168.Location = new System.Drawing.Point(529, 165);
             this.metroButton168.Name = "metroButton168";
             this.metroButton168.Size = new System.Drawing.Size(20, 20);
             this.metroButton168.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2452,7 +2237,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton169
             // 
-            this.metroButton169.Location = new System.Drawing.Point(512, 292);
+            this.metroButton169.Location = new System.Drawing.Point(529, 191);
             this.metroButton169.Name = "metroButton169";
             this.metroButton169.Size = new System.Drawing.Size(20, 20);
             this.metroButton169.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2463,7 +2248,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton170
             // 
-            this.metroButton170.Location = new System.Drawing.Point(512, 318);
+            this.metroButton170.Location = new System.Drawing.Point(529, 217);
             this.metroButton170.Name = "metroButton170";
             this.metroButton170.Size = new System.Drawing.Size(20, 20);
             this.metroButton170.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2472,20 +2257,9 @@ namespace is_4_20_st6_KURS
             this.metroButton170.UseSelectable = true;
             this.metroButton170.UseStyleColors = true;
             // 
-            // metroButton171
-            // 
-            this.metroButton171.Location = new System.Drawing.Point(512, 447);
-            this.metroButton171.Name = "metroButton171";
-            this.metroButton171.Size = new System.Drawing.Size(20, 20);
-            this.metroButton171.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton171.TabIndex = 171;
-            this.metroButton171.Text = "13";
-            this.metroButton171.UseSelectable = true;
-            this.metroButton171.UseStyleColors = true;
-            // 
             // metroButton172
             // 
-            this.metroButton172.Location = new System.Drawing.Point(512, 422);
+            this.metroButton172.Location = new System.Drawing.Point(529, 321);
             this.metroButton172.Name = "metroButton172";
             this.metroButton172.Size = new System.Drawing.Size(20, 20);
             this.metroButton172.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2496,7 +2270,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton173
             // 
-            this.metroButton173.Location = new System.Drawing.Point(512, 396);
+            this.metroButton173.Location = new System.Drawing.Point(529, 295);
             this.metroButton173.Name = "metroButton173";
             this.metroButton173.Size = new System.Drawing.Size(20, 20);
             this.metroButton173.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2507,7 +2281,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton174
             // 
-            this.metroButton174.Location = new System.Drawing.Point(512, 370);
+            this.metroButton174.Location = new System.Drawing.Point(529, 269);
             this.metroButton174.Name = "metroButton174";
             this.metroButton174.Size = new System.Drawing.Size(20, 20);
             this.metroButton174.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2518,7 +2292,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton175
             // 
-            this.metroButton175.Location = new System.Drawing.Point(512, 344);
+            this.metroButton175.Location = new System.Drawing.Point(529, 243);
             this.metroButton175.Name = "metroButton175";
             this.metroButton175.Size = new System.Drawing.Size(20, 20);
             this.metroButton175.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2529,7 +2303,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton176
             // 
-            this.metroButton176.Location = new System.Drawing.Point(538, 266);
+            this.metroButton176.Location = new System.Drawing.Point(555, 165);
             this.metroButton176.Name = "metroButton176";
             this.metroButton176.Size = new System.Drawing.Size(20, 20);
             this.metroButton176.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2540,7 +2314,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton177
             // 
-            this.metroButton177.Location = new System.Drawing.Point(538, 292);
+            this.metroButton177.Location = new System.Drawing.Point(555, 191);
             this.metroButton177.Name = "metroButton177";
             this.metroButton177.Size = new System.Drawing.Size(20, 20);
             this.metroButton177.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2551,7 +2325,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton178
             // 
-            this.metroButton178.Location = new System.Drawing.Point(538, 318);
+            this.metroButton178.Location = new System.Drawing.Point(555, 217);
             this.metroButton178.Name = "metroButton178";
             this.metroButton178.Size = new System.Drawing.Size(20, 20);
             this.metroButton178.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2560,20 +2334,9 @@ namespace is_4_20_st6_KURS
             this.metroButton178.UseSelectable = true;
             this.metroButton178.UseStyleColors = true;
             // 
-            // metroButton179
-            // 
-            this.metroButton179.Location = new System.Drawing.Point(538, 447);
-            this.metroButton179.Name = "metroButton179";
-            this.metroButton179.Size = new System.Drawing.Size(20, 20);
-            this.metroButton179.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton179.TabIndex = 179;
-            this.metroButton179.Text = "14";
-            this.metroButton179.UseSelectable = true;
-            this.metroButton179.UseStyleColors = true;
-            // 
             // metroButton180
             // 
-            this.metroButton180.Location = new System.Drawing.Point(538, 422);
+            this.metroButton180.Location = new System.Drawing.Point(555, 321);
             this.metroButton180.Name = "metroButton180";
             this.metroButton180.Size = new System.Drawing.Size(20, 20);
             this.metroButton180.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2584,7 +2347,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton181
             // 
-            this.metroButton181.Location = new System.Drawing.Point(538, 396);
+            this.metroButton181.Location = new System.Drawing.Point(555, 295);
             this.metroButton181.Name = "metroButton181";
             this.metroButton181.Size = new System.Drawing.Size(20, 20);
             this.metroButton181.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2595,7 +2358,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton182
             // 
-            this.metroButton182.Location = new System.Drawing.Point(538, 370);
+            this.metroButton182.Location = new System.Drawing.Point(555, 269);
             this.metroButton182.Name = "metroButton182";
             this.metroButton182.Size = new System.Drawing.Size(20, 20);
             this.metroButton182.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2606,7 +2369,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton183
             // 
-            this.metroButton183.Location = new System.Drawing.Point(538, 344);
+            this.metroButton183.Location = new System.Drawing.Point(555, 243);
             this.metroButton183.Name = "metroButton183";
             this.metroButton183.Size = new System.Drawing.Size(20, 20);
             this.metroButton183.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2617,7 +2380,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton184
             // 
-            this.metroButton184.Location = new System.Drawing.Point(927, 266);
+            this.metroButton184.Location = new System.Drawing.Point(966, 165);
             this.metroButton184.Name = "metroButton184";
             this.metroButton184.Size = new System.Drawing.Size(20, 20);
             this.metroButton184.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2628,7 +2391,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton185
             // 
-            this.metroButton185.Location = new System.Drawing.Point(927, 292);
+            this.metroButton185.Location = new System.Drawing.Point(966, 191);
             this.metroButton185.Name = "metroButton185";
             this.metroButton185.Size = new System.Drawing.Size(20, 20);
             this.metroButton185.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2639,7 +2402,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton186
             // 
-            this.metroButton186.Location = new System.Drawing.Point(927, 318);
+            this.metroButton186.Location = new System.Drawing.Point(966, 217);
             this.metroButton186.Name = "metroButton186";
             this.metroButton186.Size = new System.Drawing.Size(20, 20);
             this.metroButton186.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2648,20 +2411,9 @@ namespace is_4_20_st6_KURS
             this.metroButton186.UseSelectable = true;
             this.metroButton186.UseStyleColors = true;
             // 
-            // metroButton187
-            // 
-            this.metroButton187.Location = new System.Drawing.Point(927, 447);
-            this.metroButton187.Name = "metroButton187";
-            this.metroButton187.Size = new System.Drawing.Size(20, 20);
-            this.metroButton187.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton187.TabIndex = 283;
-            this.metroButton187.Text = "27";
-            this.metroButton187.UseSelectable = true;
-            this.metroButton187.UseStyleColors = true;
-            // 
             // metroButton188
             // 
-            this.metroButton188.Location = new System.Drawing.Point(927, 422);
+            this.metroButton188.Location = new System.Drawing.Point(966, 321);
             this.metroButton188.Name = "metroButton188";
             this.metroButton188.Size = new System.Drawing.Size(20, 20);
             this.metroButton188.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2672,7 +2424,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton189
             // 
-            this.metroButton189.Location = new System.Drawing.Point(927, 396);
+            this.metroButton189.Location = new System.Drawing.Point(966, 295);
             this.metroButton189.Name = "metroButton189";
             this.metroButton189.Size = new System.Drawing.Size(20, 20);
             this.metroButton189.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2683,7 +2435,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton190
             // 
-            this.metroButton190.Location = new System.Drawing.Point(927, 370);
+            this.metroButton190.Location = new System.Drawing.Point(966, 269);
             this.metroButton190.Name = "metroButton190";
             this.metroButton190.Size = new System.Drawing.Size(20, 20);
             this.metroButton190.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2694,7 +2446,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton191
             // 
-            this.metroButton191.Location = new System.Drawing.Point(927, 344);
+            this.metroButton191.Location = new System.Drawing.Point(966, 243);
             this.metroButton191.Name = "metroButton191";
             this.metroButton191.Size = new System.Drawing.Size(20, 20);
             this.metroButton191.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2705,7 +2457,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton192
             // 
-            this.metroButton192.Location = new System.Drawing.Point(901, 266);
+            this.metroButton192.Location = new System.Drawing.Point(940, 165);
             this.metroButton192.Name = "metroButton192";
             this.metroButton192.Size = new System.Drawing.Size(20, 20);
             this.metroButton192.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2716,7 +2468,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton193
             // 
-            this.metroButton193.Location = new System.Drawing.Point(901, 292);
+            this.metroButton193.Location = new System.Drawing.Point(940, 191);
             this.metroButton193.Name = "metroButton193";
             this.metroButton193.Size = new System.Drawing.Size(20, 20);
             this.metroButton193.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2727,7 +2479,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton194
             // 
-            this.metroButton194.Location = new System.Drawing.Point(901, 318);
+            this.metroButton194.Location = new System.Drawing.Point(940, 217);
             this.metroButton194.Name = "metroButton194";
             this.metroButton194.Size = new System.Drawing.Size(20, 20);
             this.metroButton194.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2736,20 +2488,9 @@ namespace is_4_20_st6_KURS
             this.metroButton194.UseSelectable = true;
             this.metroButton194.UseStyleColors = true;
             // 
-            // metroButton195
-            // 
-            this.metroButton195.Location = new System.Drawing.Point(901, 447);
-            this.metroButton195.Name = "metroButton195";
-            this.metroButton195.Size = new System.Drawing.Size(20, 20);
-            this.metroButton195.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton195.TabIndex = 275;
-            this.metroButton195.Text = "26";
-            this.metroButton195.UseSelectable = true;
-            this.metroButton195.UseStyleColors = true;
-            // 
             // metroButton196
             // 
-            this.metroButton196.Location = new System.Drawing.Point(901, 422);
+            this.metroButton196.Location = new System.Drawing.Point(940, 321);
             this.metroButton196.Name = "metroButton196";
             this.metroButton196.Size = new System.Drawing.Size(20, 20);
             this.metroButton196.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2760,7 +2501,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton197
             // 
-            this.metroButton197.Location = new System.Drawing.Point(901, 396);
+            this.metroButton197.Location = new System.Drawing.Point(940, 295);
             this.metroButton197.Name = "metroButton197";
             this.metroButton197.Size = new System.Drawing.Size(20, 20);
             this.metroButton197.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2771,7 +2512,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton198
             // 
-            this.metroButton198.Location = new System.Drawing.Point(901, 370);
+            this.metroButton198.Location = new System.Drawing.Point(940, 269);
             this.metroButton198.Name = "metroButton198";
             this.metroButton198.Size = new System.Drawing.Size(20, 20);
             this.metroButton198.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2782,7 +2523,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton199
             // 
-            this.metroButton199.Location = new System.Drawing.Point(901, 344);
+            this.metroButton199.Location = new System.Drawing.Point(940, 243);
             this.metroButton199.Name = "metroButton199";
             this.metroButton199.Size = new System.Drawing.Size(20, 20);
             this.metroButton199.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2793,7 +2534,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton200
             // 
-            this.metroButton200.Location = new System.Drawing.Point(875, 266);
+            this.metroButton200.Location = new System.Drawing.Point(914, 165);
             this.metroButton200.Name = "metroButton200";
             this.metroButton200.Size = new System.Drawing.Size(20, 20);
             this.metroButton200.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2804,7 +2545,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton201
             // 
-            this.metroButton201.Location = new System.Drawing.Point(875, 292);
+            this.metroButton201.Location = new System.Drawing.Point(914, 191);
             this.metroButton201.Name = "metroButton201";
             this.metroButton201.Size = new System.Drawing.Size(20, 20);
             this.metroButton201.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2815,7 +2556,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton202
             // 
-            this.metroButton202.Location = new System.Drawing.Point(875, 318);
+            this.metroButton202.Location = new System.Drawing.Point(914, 217);
             this.metroButton202.Name = "metroButton202";
             this.metroButton202.Size = new System.Drawing.Size(20, 20);
             this.metroButton202.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2824,20 +2565,9 @@ namespace is_4_20_st6_KURS
             this.metroButton202.UseSelectable = true;
             this.metroButton202.UseStyleColors = true;
             // 
-            // metroButton203
-            // 
-            this.metroButton203.Location = new System.Drawing.Point(875, 447);
-            this.metroButton203.Name = "metroButton203";
-            this.metroButton203.Size = new System.Drawing.Size(20, 20);
-            this.metroButton203.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton203.TabIndex = 267;
-            this.metroButton203.Text = "25";
-            this.metroButton203.UseSelectable = true;
-            this.metroButton203.UseStyleColors = true;
-            // 
             // metroButton204
             // 
-            this.metroButton204.Location = new System.Drawing.Point(875, 422);
+            this.metroButton204.Location = new System.Drawing.Point(914, 321);
             this.metroButton204.Name = "metroButton204";
             this.metroButton204.Size = new System.Drawing.Size(20, 20);
             this.metroButton204.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2848,7 +2578,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton205
             // 
-            this.metroButton205.Location = new System.Drawing.Point(875, 396);
+            this.metroButton205.Location = new System.Drawing.Point(914, 295);
             this.metroButton205.Name = "metroButton205";
             this.metroButton205.Size = new System.Drawing.Size(20, 20);
             this.metroButton205.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2859,7 +2589,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton206
             // 
-            this.metroButton206.Location = new System.Drawing.Point(875, 370);
+            this.metroButton206.Location = new System.Drawing.Point(914, 269);
             this.metroButton206.Name = "metroButton206";
             this.metroButton206.Size = new System.Drawing.Size(20, 20);
             this.metroButton206.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2870,7 +2600,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton207
             // 
-            this.metroButton207.Location = new System.Drawing.Point(875, 344);
+            this.metroButton207.Location = new System.Drawing.Point(914, 243);
             this.metroButton207.Name = "metroButton207";
             this.metroButton207.Size = new System.Drawing.Size(20, 20);
             this.metroButton207.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2881,7 +2611,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton208
             // 
-            this.metroButton208.Location = new System.Drawing.Point(849, 266);
+            this.metroButton208.Location = new System.Drawing.Point(888, 165);
             this.metroButton208.Name = "metroButton208";
             this.metroButton208.Size = new System.Drawing.Size(20, 20);
             this.metroButton208.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2892,7 +2622,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton209
             // 
-            this.metroButton209.Location = new System.Drawing.Point(849, 292);
+            this.metroButton209.Location = new System.Drawing.Point(888, 191);
             this.metroButton209.Name = "metroButton209";
             this.metroButton209.Size = new System.Drawing.Size(20, 20);
             this.metroButton209.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2903,7 +2633,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton210
             // 
-            this.metroButton210.Location = new System.Drawing.Point(849, 318);
+            this.metroButton210.Location = new System.Drawing.Point(888, 217);
             this.metroButton210.Name = "metroButton210";
             this.metroButton210.Size = new System.Drawing.Size(20, 20);
             this.metroButton210.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2912,20 +2642,9 @@ namespace is_4_20_st6_KURS
             this.metroButton210.UseSelectable = true;
             this.metroButton210.UseStyleColors = true;
             // 
-            // metroButton211
-            // 
-            this.metroButton211.Location = new System.Drawing.Point(849, 447);
-            this.metroButton211.Name = "metroButton211";
-            this.metroButton211.Size = new System.Drawing.Size(20, 20);
-            this.metroButton211.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton211.TabIndex = 259;
-            this.metroButton211.Text = "24";
-            this.metroButton211.UseSelectable = true;
-            this.metroButton211.UseStyleColors = true;
-            // 
             // metroButton212
             // 
-            this.metroButton212.Location = new System.Drawing.Point(849, 422);
+            this.metroButton212.Location = new System.Drawing.Point(888, 321);
             this.metroButton212.Name = "metroButton212";
             this.metroButton212.Size = new System.Drawing.Size(20, 20);
             this.metroButton212.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2936,7 +2655,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton213
             // 
-            this.metroButton213.Location = new System.Drawing.Point(849, 396);
+            this.metroButton213.Location = new System.Drawing.Point(888, 295);
             this.metroButton213.Name = "metroButton213";
             this.metroButton213.Size = new System.Drawing.Size(20, 20);
             this.metroButton213.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2947,7 +2666,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton214
             // 
-            this.metroButton214.Location = new System.Drawing.Point(849, 370);
+            this.metroButton214.Location = new System.Drawing.Point(888, 269);
             this.metroButton214.Name = "metroButton214";
             this.metroButton214.Size = new System.Drawing.Size(20, 20);
             this.metroButton214.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2958,7 +2677,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton215
             // 
-            this.metroButton215.Location = new System.Drawing.Point(849, 344);
+            this.metroButton215.Location = new System.Drawing.Point(888, 243);
             this.metroButton215.Name = "metroButton215";
             this.metroButton215.Size = new System.Drawing.Size(20, 20);
             this.metroButton215.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2969,7 +2688,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton216
             // 
-            this.metroButton216.Location = new System.Drawing.Point(823, 266);
+            this.metroButton216.Location = new System.Drawing.Point(862, 165);
             this.metroButton216.Name = "metroButton216";
             this.metroButton216.Size = new System.Drawing.Size(20, 20);
             this.metroButton216.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2980,7 +2699,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton217
             // 
-            this.metroButton217.Location = new System.Drawing.Point(823, 292);
+            this.metroButton217.Location = new System.Drawing.Point(862, 191);
             this.metroButton217.Name = "metroButton217";
             this.metroButton217.Size = new System.Drawing.Size(20, 20);
             this.metroButton217.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -2991,7 +2710,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton218
             // 
-            this.metroButton218.Location = new System.Drawing.Point(823, 318);
+            this.metroButton218.Location = new System.Drawing.Point(862, 217);
             this.metroButton218.Name = "metroButton218";
             this.metroButton218.Size = new System.Drawing.Size(20, 20);
             this.metroButton218.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3000,20 +2719,9 @@ namespace is_4_20_st6_KURS
             this.metroButton218.UseSelectable = true;
             this.metroButton218.UseStyleColors = true;
             // 
-            // metroButton219
-            // 
-            this.metroButton219.Location = new System.Drawing.Point(823, 447);
-            this.metroButton219.Name = "metroButton219";
-            this.metroButton219.Size = new System.Drawing.Size(20, 20);
-            this.metroButton219.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton219.TabIndex = 251;
-            this.metroButton219.Text = "23";
-            this.metroButton219.UseSelectable = true;
-            this.metroButton219.UseStyleColors = true;
-            // 
             // metroButton220
             // 
-            this.metroButton220.Location = new System.Drawing.Point(823, 422);
+            this.metroButton220.Location = new System.Drawing.Point(862, 321);
             this.metroButton220.Name = "metroButton220";
             this.metroButton220.Size = new System.Drawing.Size(20, 20);
             this.metroButton220.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3024,7 +2732,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton221
             // 
-            this.metroButton221.Location = new System.Drawing.Point(823, 396);
+            this.metroButton221.Location = new System.Drawing.Point(862, 295);
             this.metroButton221.Name = "metroButton221";
             this.metroButton221.Size = new System.Drawing.Size(20, 20);
             this.metroButton221.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3035,7 +2743,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton222
             // 
-            this.metroButton222.Location = new System.Drawing.Point(823, 370);
+            this.metroButton222.Location = new System.Drawing.Point(862, 269);
             this.metroButton222.Name = "metroButton222";
             this.metroButton222.Size = new System.Drawing.Size(20, 20);
             this.metroButton222.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3046,7 +2754,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton223
             // 
-            this.metroButton223.Location = new System.Drawing.Point(823, 344);
+            this.metroButton223.Location = new System.Drawing.Point(862, 243);
             this.metroButton223.Name = "metroButton223";
             this.metroButton223.Size = new System.Drawing.Size(20, 20);
             this.metroButton223.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3057,7 +2765,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton224
             // 
-            this.metroButton224.Location = new System.Drawing.Point(797, 266);
+            this.metroButton224.Location = new System.Drawing.Point(836, 165);
             this.metroButton224.Name = "metroButton224";
             this.metroButton224.Size = new System.Drawing.Size(20, 20);
             this.metroButton224.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3068,7 +2776,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton225
             // 
-            this.metroButton225.Location = new System.Drawing.Point(797, 292);
+            this.metroButton225.Location = new System.Drawing.Point(836, 191);
             this.metroButton225.Name = "metroButton225";
             this.metroButton225.Size = new System.Drawing.Size(20, 20);
             this.metroButton225.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3079,7 +2787,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton226
             // 
-            this.metroButton226.Location = new System.Drawing.Point(797, 318);
+            this.metroButton226.Location = new System.Drawing.Point(836, 217);
             this.metroButton226.Name = "metroButton226";
             this.metroButton226.Size = new System.Drawing.Size(20, 20);
             this.metroButton226.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3088,20 +2796,9 @@ namespace is_4_20_st6_KURS
             this.metroButton226.UseSelectable = true;
             this.metroButton226.UseStyleColors = true;
             // 
-            // metroButton227
-            // 
-            this.metroButton227.Location = new System.Drawing.Point(797, 447);
-            this.metroButton227.Name = "metroButton227";
-            this.metroButton227.Size = new System.Drawing.Size(20, 20);
-            this.metroButton227.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton227.TabIndex = 243;
-            this.metroButton227.Text = "22";
-            this.metroButton227.UseSelectable = true;
-            this.metroButton227.UseStyleColors = true;
-            // 
             // metroButton228
             // 
-            this.metroButton228.Location = new System.Drawing.Point(797, 422);
+            this.metroButton228.Location = new System.Drawing.Point(836, 321);
             this.metroButton228.Name = "metroButton228";
             this.metroButton228.Size = new System.Drawing.Size(20, 20);
             this.metroButton228.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3112,7 +2809,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton229
             // 
-            this.metroButton229.Location = new System.Drawing.Point(797, 396);
+            this.metroButton229.Location = new System.Drawing.Point(836, 295);
             this.metroButton229.Name = "metroButton229";
             this.metroButton229.Size = new System.Drawing.Size(20, 20);
             this.metroButton229.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3123,7 +2820,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton230
             // 
-            this.metroButton230.Location = new System.Drawing.Point(797, 370);
+            this.metroButton230.Location = new System.Drawing.Point(836, 269);
             this.metroButton230.Name = "metroButton230";
             this.metroButton230.Size = new System.Drawing.Size(20, 20);
             this.metroButton230.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3134,7 +2831,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton231
             // 
-            this.metroButton231.Location = new System.Drawing.Point(797, 344);
+            this.metroButton231.Location = new System.Drawing.Point(836, 243);
             this.metroButton231.Name = "metroButton231";
             this.metroButton231.Size = new System.Drawing.Size(20, 20);
             this.metroButton231.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3145,7 +2842,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton232
             // 
-            this.metroButton232.Location = new System.Drawing.Point(771, 266);
+            this.metroButton232.Location = new System.Drawing.Point(810, 165);
             this.metroButton232.Name = "metroButton232";
             this.metroButton232.Size = new System.Drawing.Size(20, 20);
             this.metroButton232.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3156,7 +2853,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton233
             // 
-            this.metroButton233.Location = new System.Drawing.Point(771, 292);
+            this.metroButton233.Location = new System.Drawing.Point(810, 191);
             this.metroButton233.Name = "metroButton233";
             this.metroButton233.Size = new System.Drawing.Size(20, 20);
             this.metroButton233.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3167,7 +2864,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton234
             // 
-            this.metroButton234.Location = new System.Drawing.Point(771, 318);
+            this.metroButton234.Location = new System.Drawing.Point(810, 217);
             this.metroButton234.Name = "metroButton234";
             this.metroButton234.Size = new System.Drawing.Size(20, 20);
             this.metroButton234.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3176,20 +2873,9 @@ namespace is_4_20_st6_KURS
             this.metroButton234.UseSelectable = true;
             this.metroButton234.UseStyleColors = true;
             // 
-            // metroButton235
-            // 
-            this.metroButton235.Location = new System.Drawing.Point(771, 448);
-            this.metroButton235.Name = "metroButton235";
-            this.metroButton235.Size = new System.Drawing.Size(20, 20);
-            this.metroButton235.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton235.TabIndex = 235;
-            this.metroButton235.Text = "21";
-            this.metroButton235.UseSelectable = true;
-            this.metroButton235.UseStyleColors = true;
-            // 
             // metroButton236
             // 
-            this.metroButton236.Location = new System.Drawing.Point(771, 422);
+            this.metroButton236.Location = new System.Drawing.Point(810, 321);
             this.metroButton236.Name = "metroButton236";
             this.metroButton236.Size = new System.Drawing.Size(20, 20);
             this.metroButton236.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3200,7 +2886,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton237
             // 
-            this.metroButton237.Location = new System.Drawing.Point(771, 396);
+            this.metroButton237.Location = new System.Drawing.Point(810, 295);
             this.metroButton237.Name = "metroButton237";
             this.metroButton237.Size = new System.Drawing.Size(20, 20);
             this.metroButton237.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3211,7 +2897,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton238
             // 
-            this.metroButton238.Location = new System.Drawing.Point(771, 370);
+            this.metroButton238.Location = new System.Drawing.Point(810, 269);
             this.metroButton238.Name = "metroButton238";
             this.metroButton238.Size = new System.Drawing.Size(20, 20);
             this.metroButton238.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3222,7 +2908,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton239
             // 
-            this.metroButton239.Location = new System.Drawing.Point(771, 344);
+            this.metroButton239.Location = new System.Drawing.Point(810, 243);
             this.metroButton239.Name = "metroButton239";
             this.metroButton239.Size = new System.Drawing.Size(20, 20);
             this.metroButton239.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3233,7 +2919,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton240
             // 
-            this.metroButton240.Location = new System.Drawing.Point(745, 266);
+            this.metroButton240.Location = new System.Drawing.Point(784, 165);
             this.metroButton240.Name = "metroButton240";
             this.metroButton240.Size = new System.Drawing.Size(20, 20);
             this.metroButton240.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3244,7 +2930,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton241
             // 
-            this.metroButton241.Location = new System.Drawing.Point(745, 292);
+            this.metroButton241.Location = new System.Drawing.Point(784, 191);
             this.metroButton241.Name = "metroButton241";
             this.metroButton241.Size = new System.Drawing.Size(20, 20);
             this.metroButton241.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3255,7 +2941,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton242
             // 
-            this.metroButton242.Location = new System.Drawing.Point(745, 318);
+            this.metroButton242.Location = new System.Drawing.Point(784, 217);
             this.metroButton242.Name = "metroButton242";
             this.metroButton242.Size = new System.Drawing.Size(20, 20);
             this.metroButton242.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3264,20 +2950,9 @@ namespace is_4_20_st6_KURS
             this.metroButton242.UseSelectable = true;
             this.metroButton242.UseStyleColors = true;
             // 
-            // metroButton243
-            // 
-            this.metroButton243.Location = new System.Drawing.Point(745, 447);
-            this.metroButton243.Name = "metroButton243";
-            this.metroButton243.Size = new System.Drawing.Size(20, 20);
-            this.metroButton243.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton243.TabIndex = 227;
-            this.metroButton243.Text = "20";
-            this.metroButton243.UseSelectable = true;
-            this.metroButton243.UseStyleColors = true;
-            // 
             // metroButton244
             // 
-            this.metroButton244.Location = new System.Drawing.Point(745, 422);
+            this.metroButton244.Location = new System.Drawing.Point(784, 321);
             this.metroButton244.Name = "metroButton244";
             this.metroButton244.Size = new System.Drawing.Size(20, 20);
             this.metroButton244.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3288,7 +2963,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton245
             // 
-            this.metroButton245.Location = new System.Drawing.Point(745, 396);
+            this.metroButton245.Location = new System.Drawing.Point(784, 295);
             this.metroButton245.Name = "metroButton245";
             this.metroButton245.Size = new System.Drawing.Size(20, 20);
             this.metroButton245.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3299,7 +2974,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton246
             // 
-            this.metroButton246.Location = new System.Drawing.Point(745, 370);
+            this.metroButton246.Location = new System.Drawing.Point(784, 269);
             this.metroButton246.Name = "metroButton246";
             this.metroButton246.Size = new System.Drawing.Size(20, 20);
             this.metroButton246.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3310,7 +2985,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton247
             // 
-            this.metroButton247.Location = new System.Drawing.Point(745, 344);
+            this.metroButton247.Location = new System.Drawing.Point(784, 243);
             this.metroButton247.Name = "metroButton247";
             this.metroButton247.Size = new System.Drawing.Size(20, 20);
             this.metroButton247.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3321,7 +2996,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton248
             // 
-            this.metroButton248.Location = new System.Drawing.Point(719, 266);
+            this.metroButton248.Location = new System.Drawing.Point(758, 165);
             this.metroButton248.Name = "metroButton248";
             this.metroButton248.Size = new System.Drawing.Size(20, 20);
             this.metroButton248.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3332,7 +3007,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton249
             // 
-            this.metroButton249.Location = new System.Drawing.Point(719, 292);
+            this.metroButton249.Location = new System.Drawing.Point(758, 191);
             this.metroButton249.Name = "metroButton249";
             this.metroButton249.Size = new System.Drawing.Size(20, 20);
             this.metroButton249.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3343,7 +3018,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton250
             // 
-            this.metroButton250.Location = new System.Drawing.Point(719, 318);
+            this.metroButton250.Location = new System.Drawing.Point(758, 217);
             this.metroButton250.Name = "metroButton250";
             this.metroButton250.Size = new System.Drawing.Size(20, 20);
             this.metroButton250.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3352,20 +3027,9 @@ namespace is_4_20_st6_KURS
             this.metroButton250.UseSelectable = true;
             this.metroButton250.UseStyleColors = true;
             // 
-            // metroButton251
-            // 
-            this.metroButton251.Location = new System.Drawing.Point(719, 447);
-            this.metroButton251.Name = "metroButton251";
-            this.metroButton251.Size = new System.Drawing.Size(20, 20);
-            this.metroButton251.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton251.TabIndex = 219;
-            this.metroButton251.Text = "19";
-            this.metroButton251.UseSelectable = true;
-            this.metroButton251.UseStyleColors = true;
-            // 
             // metroButton252
             // 
-            this.metroButton252.Location = new System.Drawing.Point(719, 422);
+            this.metroButton252.Location = new System.Drawing.Point(758, 321);
             this.metroButton252.Name = "metroButton252";
             this.metroButton252.Size = new System.Drawing.Size(20, 20);
             this.metroButton252.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3376,7 +3040,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton253
             // 
-            this.metroButton253.Location = new System.Drawing.Point(719, 396);
+            this.metroButton253.Location = new System.Drawing.Point(758, 295);
             this.metroButton253.Name = "metroButton253";
             this.metroButton253.Size = new System.Drawing.Size(20, 20);
             this.metroButton253.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3387,7 +3051,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton254
             // 
-            this.metroButton254.Location = new System.Drawing.Point(719, 370);
+            this.metroButton254.Location = new System.Drawing.Point(758, 269);
             this.metroButton254.Name = "metroButton254";
             this.metroButton254.Size = new System.Drawing.Size(20, 20);
             this.metroButton254.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3398,7 +3062,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton255
             // 
-            this.metroButton255.Location = new System.Drawing.Point(719, 344);
+            this.metroButton255.Location = new System.Drawing.Point(758, 243);
             this.metroButton255.Name = "metroButton255";
             this.metroButton255.Size = new System.Drawing.Size(20, 20);
             this.metroButton255.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3409,7 +3073,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton256
             // 
-            this.metroButton256.Location = new System.Drawing.Point(693, 266);
+            this.metroButton256.Location = new System.Drawing.Point(732, 165);
             this.metroButton256.Name = "metroButton256";
             this.metroButton256.Size = new System.Drawing.Size(20, 20);
             this.metroButton256.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3420,7 +3084,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton257
             // 
-            this.metroButton257.Location = new System.Drawing.Point(693, 292);
+            this.metroButton257.Location = new System.Drawing.Point(732, 191);
             this.metroButton257.Name = "metroButton257";
             this.metroButton257.Size = new System.Drawing.Size(20, 20);
             this.metroButton257.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3431,7 +3095,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton258
             // 
-            this.metroButton258.Location = new System.Drawing.Point(693, 318);
+            this.metroButton258.Location = new System.Drawing.Point(732, 217);
             this.metroButton258.Name = "metroButton258";
             this.metroButton258.Size = new System.Drawing.Size(20, 20);
             this.metroButton258.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3440,20 +3104,9 @@ namespace is_4_20_st6_KURS
             this.metroButton258.UseSelectable = true;
             this.metroButton258.UseStyleColors = true;
             // 
-            // metroButton259
-            // 
-            this.metroButton259.Location = new System.Drawing.Point(693, 447);
-            this.metroButton259.Name = "metroButton259";
-            this.metroButton259.Size = new System.Drawing.Size(20, 20);
-            this.metroButton259.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton259.TabIndex = 211;
-            this.metroButton259.Text = "18";
-            this.metroButton259.UseSelectable = true;
-            this.metroButton259.UseStyleColors = true;
-            // 
             // metroButton260
             // 
-            this.metroButton260.Location = new System.Drawing.Point(693, 422);
+            this.metroButton260.Location = new System.Drawing.Point(732, 321);
             this.metroButton260.Name = "metroButton260";
             this.metroButton260.Size = new System.Drawing.Size(20, 20);
             this.metroButton260.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3464,7 +3117,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton261
             // 
-            this.metroButton261.Location = new System.Drawing.Point(693, 396);
+            this.metroButton261.Location = new System.Drawing.Point(732, 295);
             this.metroButton261.Name = "metroButton261";
             this.metroButton261.Size = new System.Drawing.Size(20, 20);
             this.metroButton261.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3475,7 +3128,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton262
             // 
-            this.metroButton262.Location = new System.Drawing.Point(693, 370);
+            this.metroButton262.Location = new System.Drawing.Point(732, 269);
             this.metroButton262.Name = "metroButton262";
             this.metroButton262.Size = new System.Drawing.Size(20, 20);
             this.metroButton262.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3486,7 +3139,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton263
             // 
-            this.metroButton263.Location = new System.Drawing.Point(693, 344);
+            this.metroButton263.Location = new System.Drawing.Point(732, 243);
             this.metroButton263.Name = "metroButton263";
             this.metroButton263.Size = new System.Drawing.Size(20, 20);
             this.metroButton263.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3497,7 +3150,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton264
             // 
-            this.metroButton264.Location = new System.Drawing.Point(667, 266);
+            this.metroButton264.Location = new System.Drawing.Point(706, 165);
             this.metroButton264.Name = "metroButton264";
             this.metroButton264.Size = new System.Drawing.Size(20, 20);
             this.metroButton264.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3508,7 +3161,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton265
             // 
-            this.metroButton265.Location = new System.Drawing.Point(667, 292);
+            this.metroButton265.Location = new System.Drawing.Point(706, 191);
             this.metroButton265.Name = "metroButton265";
             this.metroButton265.Size = new System.Drawing.Size(20, 20);
             this.metroButton265.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3519,7 +3172,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton266
             // 
-            this.metroButton266.Location = new System.Drawing.Point(667, 318);
+            this.metroButton266.Location = new System.Drawing.Point(706, 217);
             this.metroButton266.Name = "metroButton266";
             this.metroButton266.Size = new System.Drawing.Size(20, 20);
             this.metroButton266.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3528,20 +3181,9 @@ namespace is_4_20_st6_KURS
             this.metroButton266.UseSelectable = true;
             this.metroButton266.UseStyleColors = true;
             // 
-            // metroButton267
-            // 
-            this.metroButton267.Location = new System.Drawing.Point(667, 447);
-            this.metroButton267.Name = "metroButton267";
-            this.metroButton267.Size = new System.Drawing.Size(20, 20);
-            this.metroButton267.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton267.TabIndex = 203;
-            this.metroButton267.Text = "17";
-            this.metroButton267.UseSelectable = true;
-            this.metroButton267.UseStyleColors = true;
-            // 
             // metroButton268
             // 
-            this.metroButton268.Location = new System.Drawing.Point(667, 422);
+            this.metroButton268.Location = new System.Drawing.Point(706, 321);
             this.metroButton268.Name = "metroButton268";
             this.metroButton268.Size = new System.Drawing.Size(20, 20);
             this.metroButton268.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3552,7 +3194,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton269
             // 
-            this.metroButton269.Location = new System.Drawing.Point(667, 396);
+            this.metroButton269.Location = new System.Drawing.Point(706, 295);
             this.metroButton269.Name = "metroButton269";
             this.metroButton269.Size = new System.Drawing.Size(20, 20);
             this.metroButton269.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3563,7 +3205,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton270
             // 
-            this.metroButton270.Location = new System.Drawing.Point(667, 370);
+            this.metroButton270.Location = new System.Drawing.Point(706, 269);
             this.metroButton270.Name = "metroButton270";
             this.metroButton270.Size = new System.Drawing.Size(20, 20);
             this.metroButton270.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3574,7 +3216,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton271
             // 
-            this.metroButton271.Location = new System.Drawing.Point(667, 344);
+            this.metroButton271.Location = new System.Drawing.Point(706, 243);
             this.metroButton271.Name = "metroButton271";
             this.metroButton271.Size = new System.Drawing.Size(20, 20);
             this.metroButton271.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3585,7 +3227,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton272
             // 
-            this.metroButton272.Location = new System.Drawing.Point(641, 266);
+            this.metroButton272.Location = new System.Drawing.Point(680, 165);
             this.metroButton272.Name = "metroButton272";
             this.metroButton272.Size = new System.Drawing.Size(20, 20);
             this.metroButton272.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3596,7 +3238,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton273
             // 
-            this.metroButton273.Location = new System.Drawing.Point(641, 292);
+            this.metroButton273.Location = new System.Drawing.Point(680, 191);
             this.metroButton273.Name = "metroButton273";
             this.metroButton273.Size = new System.Drawing.Size(20, 20);
             this.metroButton273.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3607,7 +3249,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton274
             // 
-            this.metroButton274.Location = new System.Drawing.Point(641, 318);
+            this.metroButton274.Location = new System.Drawing.Point(680, 217);
             this.metroButton274.Name = "metroButton274";
             this.metroButton274.Size = new System.Drawing.Size(20, 20);
             this.metroButton274.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3616,20 +3258,9 @@ namespace is_4_20_st6_KURS
             this.metroButton274.UseSelectable = true;
             this.metroButton274.UseStyleColors = true;
             // 
-            // metroButton275
-            // 
-            this.metroButton275.Location = new System.Drawing.Point(641, 447);
-            this.metroButton275.Name = "metroButton275";
-            this.metroButton275.Size = new System.Drawing.Size(20, 20);
-            this.metroButton275.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton275.TabIndex = 195;
-            this.metroButton275.Text = "16";
-            this.metroButton275.UseSelectable = true;
-            this.metroButton275.UseStyleColors = true;
-            // 
             // metroButton276
             // 
-            this.metroButton276.Location = new System.Drawing.Point(641, 422);
+            this.metroButton276.Location = new System.Drawing.Point(680, 321);
             this.metroButton276.Name = "metroButton276";
             this.metroButton276.Size = new System.Drawing.Size(20, 20);
             this.metroButton276.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3640,7 +3271,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton277
             // 
-            this.metroButton277.Location = new System.Drawing.Point(641, 396);
+            this.metroButton277.Location = new System.Drawing.Point(680, 295);
             this.metroButton277.Name = "metroButton277";
             this.metroButton277.Size = new System.Drawing.Size(20, 20);
             this.metroButton277.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3651,7 +3282,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton278
             // 
-            this.metroButton278.Location = new System.Drawing.Point(641, 370);
+            this.metroButton278.Location = new System.Drawing.Point(680, 269);
             this.metroButton278.Name = "metroButton278";
             this.metroButton278.Size = new System.Drawing.Size(20, 20);
             this.metroButton278.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3662,7 +3293,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton279
             // 
-            this.metroButton279.Location = new System.Drawing.Point(641, 344);
+            this.metroButton279.Location = new System.Drawing.Point(680, 243);
             this.metroButton279.Name = "metroButton279";
             this.metroButton279.Size = new System.Drawing.Size(20, 20);
             this.metroButton279.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3673,7 +3304,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton280
             // 
-            this.metroButton280.Location = new System.Drawing.Point(615, 266);
+            this.metroButton280.Location = new System.Drawing.Point(654, 165);
             this.metroButton280.Name = "metroButton280";
             this.metroButton280.Size = new System.Drawing.Size(20, 20);
             this.metroButton280.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3684,7 +3315,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton281
             // 
-            this.metroButton281.Location = new System.Drawing.Point(615, 292);
+            this.metroButton281.Location = new System.Drawing.Point(654, 191);
             this.metroButton281.Name = "metroButton281";
             this.metroButton281.Size = new System.Drawing.Size(20, 20);
             this.metroButton281.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3695,7 +3326,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton282
             // 
-            this.metroButton282.Location = new System.Drawing.Point(615, 318);
+            this.metroButton282.Location = new System.Drawing.Point(654, 217);
             this.metroButton282.Name = "metroButton282";
             this.metroButton282.Size = new System.Drawing.Size(20, 20);
             this.metroButton282.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3704,20 +3335,9 @@ namespace is_4_20_st6_KURS
             this.metroButton282.UseSelectable = true;
             this.metroButton282.UseStyleColors = true;
             // 
-            // metroButton283
-            // 
-            this.metroButton283.Location = new System.Drawing.Point(615, 447);
-            this.metroButton283.Name = "metroButton283";
-            this.metroButton283.Size = new System.Drawing.Size(20, 20);
-            this.metroButton283.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton283.TabIndex = 187;
-            this.metroButton283.Text = "15";
-            this.metroButton283.UseSelectable = true;
-            this.metroButton283.UseStyleColors = true;
-            // 
             // metroButton284
             // 
-            this.metroButton284.Location = new System.Drawing.Point(615, 422);
+            this.metroButton284.Location = new System.Drawing.Point(654, 321);
             this.metroButton284.Name = "metroButton284";
             this.metroButton284.Size = new System.Drawing.Size(20, 20);
             this.metroButton284.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3728,7 +3348,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton285
             // 
-            this.metroButton285.Location = new System.Drawing.Point(615, 396);
+            this.metroButton285.Location = new System.Drawing.Point(654, 295);
             this.metroButton285.Name = "metroButton285";
             this.metroButton285.Size = new System.Drawing.Size(20, 20);
             this.metroButton285.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3739,7 +3359,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton286
             // 
-            this.metroButton286.Location = new System.Drawing.Point(615, 370);
+            this.metroButton286.Location = new System.Drawing.Point(654, 269);
             this.metroButton286.Name = "metroButton286";
             this.metroButton286.Size = new System.Drawing.Size(20, 20);
             this.metroButton286.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3750,7 +3370,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton287
             // 
-            this.metroButton287.Location = new System.Drawing.Point(615, 344);
+            this.metroButton287.Location = new System.Drawing.Point(654, 243);
             this.metroButton287.Name = "metroButton287";
             this.metroButton287.Size = new System.Drawing.Size(20, 20);
             this.metroButton287.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3761,7 +3381,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton288
             // 
-            this.metroButton288.Location = new System.Drawing.Point(953, 318);
+            this.metroButton288.Location = new System.Drawing.Point(992, 217);
             this.metroButton288.Name = "metroButton288";
             this.metroButton288.Size = new System.Drawing.Size(20, 20);
             this.metroButton288.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3770,20 +3390,9 @@ namespace is_4_20_st6_KURS
             this.metroButton288.UseSelectable = true;
             this.metroButton288.UseStyleColors = true;
             // 
-            // metroButton289
-            // 
-            this.metroButton289.Location = new System.Drawing.Point(953, 447);
-            this.metroButton289.Name = "metroButton289";
-            this.metroButton289.Size = new System.Drawing.Size(20, 20);
-            this.metroButton289.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton289.TabIndex = 291;
-            this.metroButton289.Text = "28";
-            this.metroButton289.UseSelectable = true;
-            this.metroButton289.UseStyleColors = true;
-            // 
             // metroButton290
             // 
-            this.metroButton290.Location = new System.Drawing.Point(953, 422);
+            this.metroButton290.Location = new System.Drawing.Point(992, 321);
             this.metroButton290.Name = "metroButton290";
             this.metroButton290.Size = new System.Drawing.Size(20, 20);
             this.metroButton290.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3794,7 +3403,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton291
             // 
-            this.metroButton291.Location = new System.Drawing.Point(953, 396);
+            this.metroButton291.Location = new System.Drawing.Point(992, 295);
             this.metroButton291.Name = "metroButton291";
             this.metroButton291.Size = new System.Drawing.Size(20, 20);
             this.metroButton291.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3805,7 +3414,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton292
             // 
-            this.metroButton292.Location = new System.Drawing.Point(953, 370);
+            this.metroButton292.Location = new System.Drawing.Point(992, 269);
             this.metroButton292.Name = "metroButton292";
             this.metroButton292.Size = new System.Drawing.Size(20, 20);
             this.metroButton292.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3816,7 +3425,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton293
             // 
-            this.metroButton293.Location = new System.Drawing.Point(953, 344);
+            this.metroButton293.Location = new System.Drawing.Point(992, 243);
             this.metroButton293.Name = "metroButton293";
             this.metroButton293.Size = new System.Drawing.Size(20, 20);
             this.metroButton293.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -3827,7 +3436,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton294
             // 
-            this.metroButton294.Location = new System.Drawing.Point(1074, 151);
+            this.metroButton294.Location = new System.Drawing.Point(1067, 112);
             this.metroButton294.Name = "metroButton294";
             this.metroButton294.Size = new System.Drawing.Size(20, 20);
             this.metroButton294.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3838,7 +3447,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton295
             // 
-            this.metroButton295.Location = new System.Drawing.Point(1074, 125);
+            this.metroButton295.Location = new System.Drawing.Point(1067, 86);
             this.metroButton295.Name = "metroButton295";
             this.metroButton295.Size = new System.Drawing.Size(20, 20);
             this.metroButton295.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3849,7 +3458,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton296
             // 
-            this.metroButton296.Location = new System.Drawing.Point(1074, 99);
+            this.metroButton296.Location = new System.Drawing.Point(1067, 60);
             this.metroButton296.Name = "metroButton296";
             this.metroButton296.Size = new System.Drawing.Size(20, 20);
             this.metroButton296.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3860,7 +3469,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton297
             // 
-            this.metroButton297.Location = new System.Drawing.Point(1074, 73);
+            this.metroButton297.Location = new System.Drawing.Point(1067, 34);
             this.metroButton297.Name = "metroButton297";
             this.metroButton297.Size = new System.Drawing.Size(20, 20);
             this.metroButton297.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3871,7 +3480,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton298
             // 
-            this.metroButton298.Location = new System.Drawing.Point(1074, 47);
+            this.metroButton298.Location = new System.Drawing.Point(1067, 8);
             this.metroButton298.Name = "metroButton298";
             this.metroButton298.Size = new System.Drawing.Size(20, 20);
             this.metroButton298.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3880,53 +3489,9 @@ namespace is_4_20_st6_KURS
             this.metroButton298.UseSelectable = true;
             this.metroButton298.UseStyleColors = true;
             // 
-            // metroButton299
-            // 
-            this.metroButton299.Location = new System.Drawing.Point(1145, 151);
-            this.metroButton299.Name = "metroButton299";
-            this.metroButton299.Size = new System.Drawing.Size(20, 20);
-            this.metroButton299.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton299.TabIndex = 301;
-            this.metroButton299.Text = "4";
-            this.metroButton299.UseSelectable = true;
-            this.metroButton299.UseStyleColors = true;
-            // 
-            // metroButton300
-            // 
-            this.metroButton300.Location = new System.Drawing.Point(1145, 125);
-            this.metroButton300.Name = "metroButton300";
-            this.metroButton300.Size = new System.Drawing.Size(20, 20);
-            this.metroButton300.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton300.TabIndex = 300;
-            this.metroButton300.Text = "3";
-            this.metroButton300.UseSelectable = true;
-            this.metroButton300.UseStyleColors = true;
-            // 
-            // metroButton301
-            // 
-            this.metroButton301.Location = new System.Drawing.Point(1145, 99);
-            this.metroButton301.Name = "metroButton301";
-            this.metroButton301.Size = new System.Drawing.Size(20, 20);
-            this.metroButton301.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton301.TabIndex = 299;
-            this.metroButton301.Text = "2";
-            this.metroButton301.UseSelectable = true;
-            this.metroButton301.UseStyleColors = true;
-            // 
-            // metroButton302
-            // 
-            this.metroButton302.Location = new System.Drawing.Point(1145, 73);
-            this.metroButton302.Name = "metroButton302";
-            this.metroButton302.Size = new System.Drawing.Size(20, 20);
-            this.metroButton302.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroButton302.TabIndex = 298;
-            this.metroButton302.Text = "1";
-            this.metroButton302.UseSelectable = true;
-            this.metroButton302.UseStyleColors = true;
-            // 
             // metroButton303
             // 
-            this.metroButton303.Location = new System.Drawing.Point(1048, 429);
+            this.metroButton303.Location = new System.Drawing.Point(1067, 371);
             this.metroButton303.Name = "metroButton303";
             this.metroButton303.Size = new System.Drawing.Size(20, 20);
             this.metroButton303.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3937,7 +3502,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton304
             // 
-            this.metroButton304.Location = new System.Drawing.Point(1048, 404);
+            this.metroButton304.Location = new System.Drawing.Point(1067, 346);
             this.metroButton304.Name = "metroButton304";
             this.metroButton304.Size = new System.Drawing.Size(20, 20);
             this.metroButton304.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3948,7 +3513,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton305
             // 
-            this.metroButton305.Location = new System.Drawing.Point(1048, 378);
+            this.metroButton305.Location = new System.Drawing.Point(1067, 320);
             this.metroButton305.Name = "metroButton305";
             this.metroButton305.Size = new System.Drawing.Size(20, 20);
             this.metroButton305.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3959,7 +3524,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton306
             // 
-            this.metroButton306.Location = new System.Drawing.Point(1048, 352);
+            this.metroButton306.Location = new System.Drawing.Point(1067, 294);
             this.metroButton306.Name = "metroButton306";
             this.metroButton306.Size = new System.Drawing.Size(20, 20);
             this.metroButton306.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3970,7 +3535,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton307
             // 
-            this.metroButton307.Location = new System.Drawing.Point(1048, 326);
+            this.metroButton307.Location = new System.Drawing.Point(1067, 268);
             this.metroButton307.Name = "metroButton307";
             this.metroButton307.Size = new System.Drawing.Size(20, 20);
             this.metroButton307.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3981,7 +3546,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton308
             // 
-            this.metroButton308.Location = new System.Drawing.Point(1048, 300);
+            this.metroButton308.Location = new System.Drawing.Point(1067, 242);
             this.metroButton308.Name = "metroButton308";
             this.metroButton308.Size = new System.Drawing.Size(20, 20);
             this.metroButton308.Style = MetroFramework.MetroColorStyle.Orange;
@@ -3992,7 +3557,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton309
             // 
-            this.metroButton309.Location = new System.Drawing.Point(1048, 274);
+            this.metroButton309.Location = new System.Drawing.Point(1067, 216);
             this.metroButton309.Name = "metroButton309";
             this.metroButton309.Size = new System.Drawing.Size(20, 20);
             this.metroButton309.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4003,7 +3568,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton310
             // 
-            this.metroButton310.Location = new System.Drawing.Point(1048, 248);
+            this.metroButton310.Location = new System.Drawing.Point(1067, 190);
             this.metroButton310.Name = "metroButton310";
             this.metroButton310.Size = new System.Drawing.Size(20, 20);
             this.metroButton310.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4014,7 +3579,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton311
             // 
-            this.metroButton311.Location = new System.Drawing.Point(1048, 222);
+            this.metroButton311.Location = new System.Drawing.Point(1067, 164);
             this.metroButton311.Name = "metroButton311";
             this.metroButton311.Size = new System.Drawing.Size(20, 20);
             this.metroButton311.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4025,7 +3590,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton312
             // 
-            this.metroButton312.Location = new System.Drawing.Point(1048, 196);
+            this.metroButton312.Location = new System.Drawing.Point(1067, 138);
             this.metroButton312.Name = "metroButton312";
             this.metroButton312.Size = new System.Drawing.Size(20, 20);
             this.metroButton312.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4036,7 +3601,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton313
             // 
-            this.metroButton313.Location = new System.Drawing.Point(1074, 429);
+            this.metroButton313.Location = new System.Drawing.Point(1093, 371);
             this.metroButton313.Name = "metroButton313";
             this.metroButton313.Size = new System.Drawing.Size(20, 20);
             this.metroButton313.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4047,7 +3612,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton314
             // 
-            this.metroButton314.Location = new System.Drawing.Point(1074, 404);
+            this.metroButton314.Location = new System.Drawing.Point(1093, 346);
             this.metroButton314.Name = "metroButton314";
             this.metroButton314.Size = new System.Drawing.Size(20, 20);
             this.metroButton314.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4058,7 +3623,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton315
             // 
-            this.metroButton315.Location = new System.Drawing.Point(1074, 378);
+            this.metroButton315.Location = new System.Drawing.Point(1093, 320);
             this.metroButton315.Name = "metroButton315";
             this.metroButton315.Size = new System.Drawing.Size(20, 20);
             this.metroButton315.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4069,7 +3634,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton316
             // 
-            this.metroButton316.Location = new System.Drawing.Point(1074, 352);
+            this.metroButton316.Location = new System.Drawing.Point(1093, 294);
             this.metroButton316.Name = "metroButton316";
             this.metroButton316.Size = new System.Drawing.Size(20, 20);
             this.metroButton316.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4080,7 +3645,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton317
             // 
-            this.metroButton317.Location = new System.Drawing.Point(1074, 326);
+            this.metroButton317.Location = new System.Drawing.Point(1093, 268);
             this.metroButton317.Name = "metroButton317";
             this.metroButton317.Size = new System.Drawing.Size(20, 20);
             this.metroButton317.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4091,7 +3656,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton318
             // 
-            this.metroButton318.Location = new System.Drawing.Point(1074, 300);
+            this.metroButton318.Location = new System.Drawing.Point(1093, 242);
             this.metroButton318.Name = "metroButton318";
             this.metroButton318.Size = new System.Drawing.Size(20, 20);
             this.metroButton318.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4102,7 +3667,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton319
             // 
-            this.metroButton319.Location = new System.Drawing.Point(1074, 274);
+            this.metroButton319.Location = new System.Drawing.Point(1093, 216);
             this.metroButton319.Name = "metroButton319";
             this.metroButton319.Size = new System.Drawing.Size(20, 20);
             this.metroButton319.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4113,7 +3678,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton320
             // 
-            this.metroButton320.Location = new System.Drawing.Point(1074, 248);
+            this.metroButton320.Location = new System.Drawing.Point(1093, 190);
             this.metroButton320.Name = "metroButton320";
             this.metroButton320.Size = new System.Drawing.Size(20, 20);
             this.metroButton320.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4124,7 +3689,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton321
             // 
-            this.metroButton321.Location = new System.Drawing.Point(1074, 222);
+            this.metroButton321.Location = new System.Drawing.Point(1093, 164);
             this.metroButton321.Name = "metroButton321";
             this.metroButton321.Size = new System.Drawing.Size(20, 20);
             this.metroButton321.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4135,7 +3700,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton322
             // 
-            this.metroButton322.Location = new System.Drawing.Point(1074, 196);
+            this.metroButton322.Location = new System.Drawing.Point(1093, 138);
             this.metroButton322.Name = "metroButton322";
             this.metroButton322.Size = new System.Drawing.Size(20, 20);
             this.metroButton322.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4146,7 +3711,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton323
             // 
-            this.metroButton323.Location = new System.Drawing.Point(1145, 701);
+            this.metroButton323.Location = new System.Drawing.Point(1145, 672);
             this.metroButton323.Name = "metroButton323";
             this.metroButton323.Size = new System.Drawing.Size(20, 20);
             this.metroButton323.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4157,7 +3722,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton324
             // 
-            this.metroButton324.Location = new System.Drawing.Point(1145, 675);
+            this.metroButton324.Location = new System.Drawing.Point(1145, 646);
             this.metroButton324.Name = "metroButton324";
             this.metroButton324.Size = new System.Drawing.Size(20, 20);
             this.metroButton324.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4168,7 +3733,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton325
             // 
-            this.metroButton325.Location = new System.Drawing.Point(1145, 649);
+            this.metroButton325.Location = new System.Drawing.Point(1145, 620);
             this.metroButton325.Name = "metroButton325";
             this.metroButton325.Size = new System.Drawing.Size(20, 20);
             this.metroButton325.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4179,7 +3744,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton326
             // 
-            this.metroButton326.Location = new System.Drawing.Point(1171, 701);
+            this.metroButton326.Location = new System.Drawing.Point(1171, 672);
             this.metroButton326.Name = "metroButton326";
             this.metroButton326.Size = new System.Drawing.Size(20, 20);
             this.metroButton326.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4190,7 +3755,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton327
             // 
-            this.metroButton327.Location = new System.Drawing.Point(1171, 675);
+            this.metroButton327.Location = new System.Drawing.Point(1171, 646);
             this.metroButton327.Name = "metroButton327";
             this.metroButton327.Size = new System.Drawing.Size(20, 20);
             this.metroButton327.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4201,7 +3766,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton328
             // 
-            this.metroButton328.Location = new System.Drawing.Point(1171, 649);
+            this.metroButton328.Location = new System.Drawing.Point(1171, 620);
             this.metroButton328.Name = "metroButton328";
             this.metroButton328.Size = new System.Drawing.Size(20, 20);
             this.metroButton328.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4212,7 +3777,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton329
             // 
-            this.metroButton329.Location = new System.Drawing.Point(1145, 614);
+            this.metroButton329.Location = new System.Drawing.Point(1145, 576);
             this.metroButton329.Name = "metroButton329";
             this.metroButton329.Size = new System.Drawing.Size(20, 20);
             this.metroButton329.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4223,7 +3788,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton330
             // 
-            this.metroButton330.Location = new System.Drawing.Point(1145, 588);
+            this.metroButton330.Location = new System.Drawing.Point(1145, 550);
             this.metroButton330.Name = "metroButton330";
             this.metroButton330.Size = new System.Drawing.Size(20, 20);
             this.metroButton330.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4234,7 +3799,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton331
             // 
-            this.metroButton331.Location = new System.Drawing.Point(1145, 562);
+            this.metroButton331.Location = new System.Drawing.Point(1145, 524);
             this.metroButton331.Name = "metroButton331";
             this.metroButton331.Size = new System.Drawing.Size(20, 20);
             this.metroButton331.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4245,7 +3810,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton332
             // 
-            this.metroButton332.Location = new System.Drawing.Point(1171, 614);
+            this.metroButton332.Location = new System.Drawing.Point(1171, 576);
             this.metroButton332.Name = "metroButton332";
             this.metroButton332.Size = new System.Drawing.Size(20, 20);
             this.metroButton332.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4256,7 +3821,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton333
             // 
-            this.metroButton333.Location = new System.Drawing.Point(1171, 588);
+            this.metroButton333.Location = new System.Drawing.Point(1171, 550);
             this.metroButton333.Name = "metroButton333";
             this.metroButton333.Size = new System.Drawing.Size(20, 20);
             this.metroButton333.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4267,7 +3832,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton334
             // 
-            this.metroButton334.Location = new System.Drawing.Point(1171, 562);
+            this.metroButton334.Location = new System.Drawing.Point(1171, 524);
             this.metroButton334.Name = "metroButton334";
             this.metroButton334.Size = new System.Drawing.Size(20, 20);
             this.metroButton334.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4278,7 +3843,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton335
             // 
-            this.metroButton335.Location = new System.Drawing.Point(1145, 519);
+            this.metroButton335.Location = new System.Drawing.Point(1145, 479);
             this.metroButton335.Name = "metroButton335";
             this.metroButton335.Size = new System.Drawing.Size(20, 20);
             this.metroButton335.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4289,7 +3854,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton336
             // 
-            this.metroButton336.Location = new System.Drawing.Point(1145, 493);
+            this.metroButton336.Location = new System.Drawing.Point(1145, 453);
             this.metroButton336.Name = "metroButton336";
             this.metroButton336.Size = new System.Drawing.Size(20, 20);
             this.metroButton336.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4300,7 +3865,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton337
             // 
-            this.metroButton337.Location = new System.Drawing.Point(1145, 467);
+            this.metroButton337.Location = new System.Drawing.Point(1145, 427);
             this.metroButton337.Name = "metroButton337";
             this.metroButton337.Size = new System.Drawing.Size(20, 20);
             this.metroButton337.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4311,7 +3876,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton338
             // 
-            this.metroButton338.Location = new System.Drawing.Point(1171, 519);
+            this.metroButton338.Location = new System.Drawing.Point(1171, 479);
             this.metroButton338.Name = "metroButton338";
             this.metroButton338.Size = new System.Drawing.Size(20, 20);
             this.metroButton338.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4322,7 +3887,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton339
             // 
-            this.metroButton339.Location = new System.Drawing.Point(1171, 493);
+            this.metroButton339.Location = new System.Drawing.Point(1171, 453);
             this.metroButton339.Name = "metroButton339";
             this.metroButton339.Size = new System.Drawing.Size(20, 20);
             this.metroButton339.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4333,7 +3898,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton340
             // 
-            this.metroButton340.Location = new System.Drawing.Point(1171, 467);
+            this.metroButton340.Location = new System.Drawing.Point(1171, 427);
             this.metroButton340.Name = "metroButton340";
             this.metroButton340.Size = new System.Drawing.Size(20, 20);
             this.metroButton340.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4344,7 +3909,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton341
             // 
-            this.metroButton341.Location = new System.Drawing.Point(1145, 429);
+            this.metroButton341.Location = new System.Drawing.Point(1145, 386);
             this.metroButton341.Name = "metroButton341";
             this.metroButton341.Size = new System.Drawing.Size(20, 20);
             this.metroButton341.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4355,7 +3920,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton342
             // 
-            this.metroButton342.Location = new System.Drawing.Point(1145, 403);
+            this.metroButton342.Location = new System.Drawing.Point(1145, 360);
             this.metroButton342.Name = "metroButton342";
             this.metroButton342.Size = new System.Drawing.Size(20, 20);
             this.metroButton342.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4366,7 +3931,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton343
             // 
-            this.metroButton343.Location = new System.Drawing.Point(1145, 377);
+            this.metroButton343.Location = new System.Drawing.Point(1145, 334);
             this.metroButton343.Name = "metroButton343";
             this.metroButton343.Size = new System.Drawing.Size(20, 20);
             this.metroButton343.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4377,7 +3942,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton344
             // 
-            this.metroButton344.Location = new System.Drawing.Point(1171, 429);
+            this.metroButton344.Location = new System.Drawing.Point(1171, 386);
             this.metroButton344.Name = "metroButton344";
             this.metroButton344.Size = new System.Drawing.Size(20, 20);
             this.metroButton344.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4388,7 +3953,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton345
             // 
-            this.metroButton345.Location = new System.Drawing.Point(1171, 403);
+            this.metroButton345.Location = new System.Drawing.Point(1171, 360);
             this.metroButton345.Name = "metroButton345";
             this.metroButton345.Size = new System.Drawing.Size(20, 20);
             this.metroButton345.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4399,7 +3964,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton346
             // 
-            this.metroButton346.Location = new System.Drawing.Point(1171, 377);
+            this.metroButton346.Location = new System.Drawing.Point(1171, 334);
             this.metroButton346.Name = "metroButton346";
             this.metroButton346.Size = new System.Drawing.Size(20, 20);
             this.metroButton346.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4410,7 +3975,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton347
             // 
-            this.metroButton347.Location = new System.Drawing.Point(1145, 337);
+            this.metroButton347.Location = new System.Drawing.Point(1145, 293);
             this.metroButton347.Name = "metroButton347";
             this.metroButton347.Size = new System.Drawing.Size(20, 20);
             this.metroButton347.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4421,7 +3986,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton348
             // 
-            this.metroButton348.Location = new System.Drawing.Point(1145, 311);
+            this.metroButton348.Location = new System.Drawing.Point(1145, 267);
             this.metroButton348.Name = "metroButton348";
             this.metroButton348.Size = new System.Drawing.Size(20, 20);
             this.metroButton348.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4432,7 +3997,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton349
             // 
-            this.metroButton349.Location = new System.Drawing.Point(1145, 285);
+            this.metroButton349.Location = new System.Drawing.Point(1145, 241);
             this.metroButton349.Name = "metroButton349";
             this.metroButton349.Size = new System.Drawing.Size(20, 20);
             this.metroButton349.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4443,7 +4008,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton350
             // 
-            this.metroButton350.Location = new System.Drawing.Point(1171, 337);
+            this.metroButton350.Location = new System.Drawing.Point(1171, 293);
             this.metroButton350.Name = "metroButton350";
             this.metroButton350.Size = new System.Drawing.Size(20, 20);
             this.metroButton350.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4454,7 +4019,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton351
             // 
-            this.metroButton351.Location = new System.Drawing.Point(1171, 311);
+            this.metroButton351.Location = new System.Drawing.Point(1171, 267);
             this.metroButton351.Name = "metroButton351";
             this.metroButton351.Size = new System.Drawing.Size(20, 20);
             this.metroButton351.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4465,7 +4030,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton352
             // 
-            this.metroButton352.Location = new System.Drawing.Point(1171, 285);
+            this.metroButton352.Location = new System.Drawing.Point(1171, 241);
             this.metroButton352.Name = "metroButton352";
             this.metroButton352.Size = new System.Drawing.Size(20, 20);
             this.metroButton352.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4476,7 +4041,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton353
             // 
-            this.metroButton353.Location = new System.Drawing.Point(1145, 248);
+            this.metroButton353.Location = new System.Drawing.Point(1145, 190);
             this.metroButton353.Name = "metroButton353";
             this.metroButton353.Size = new System.Drawing.Size(20, 20);
             this.metroButton353.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4487,7 +4052,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton354
             // 
-            this.metroButton354.Location = new System.Drawing.Point(1145, 222);
+            this.metroButton354.Location = new System.Drawing.Point(1145, 164);
             this.metroButton354.Name = "metroButton354";
             this.metroButton354.Size = new System.Drawing.Size(20, 20);
             this.metroButton354.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4498,7 +4063,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton355
             // 
-            this.metroButton355.Location = new System.Drawing.Point(1145, 196);
+            this.metroButton355.Location = new System.Drawing.Point(1145, 138);
             this.metroButton355.Name = "metroButton355";
             this.metroButton355.Size = new System.Drawing.Size(20, 20);
             this.metroButton355.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4509,7 +4074,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton356
             // 
-            this.metroButton356.Location = new System.Drawing.Point(1171, 248);
+            this.metroButton356.Location = new System.Drawing.Point(1171, 190);
             this.metroButton356.Name = "metroButton356";
             this.metroButton356.Size = new System.Drawing.Size(20, 20);
             this.metroButton356.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4520,7 +4085,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton357
             // 
-            this.metroButton357.Location = new System.Drawing.Point(1171, 222);
+            this.metroButton357.Location = new System.Drawing.Point(1171, 164);
             this.metroButton357.Name = "metroButton357";
             this.metroButton357.Size = new System.Drawing.Size(20, 20);
             this.metroButton357.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4531,7 +4096,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton358
             // 
-            this.metroButton358.Location = new System.Drawing.Point(1171, 196);
+            this.metroButton358.Location = new System.Drawing.Point(1171, 138);
             this.metroButton358.Name = "metroButton358";
             this.metroButton358.Size = new System.Drawing.Size(20, 20);
             this.metroButton358.Style = MetroFramework.MetroColorStyle.Blue;
@@ -4542,7 +4107,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton359
             // 
-            this.metroButton359.Location = new System.Drawing.Point(1023, 493);
+            this.metroButton359.Location = new System.Drawing.Point(1044, 448);
             this.metroButton359.Name = "metroButton359";
             this.metroButton359.Size = new System.Drawing.Size(20, 20);
             this.metroButton359.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4553,7 +4118,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton360
             // 
-            this.metroButton360.Location = new System.Drawing.Point(1049, 493);
+            this.metroButton360.Location = new System.Drawing.Point(1067, 448);
             this.metroButton360.Name = "metroButton360";
             this.metroButton360.Size = new System.Drawing.Size(20, 20);
             this.metroButton360.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4564,7 +4129,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton361
             // 
-            this.metroButton361.Location = new System.Drawing.Point(1075, 493);
+            this.metroButton361.Location = new System.Drawing.Point(1093, 448);
             this.metroButton361.Name = "metroButton361";
             this.metroButton361.Size = new System.Drawing.Size(20, 20);
             this.metroButton361.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4575,7 +4140,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton362
             // 
-            this.metroButton362.Location = new System.Drawing.Point(1101, 493);
+            this.metroButton362.Location = new System.Drawing.Point(1119, 448);
             this.metroButton362.Name = "metroButton362";
             this.metroButton362.Size = new System.Drawing.Size(20, 20);
             this.metroButton362.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4586,7 +4151,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton363
             // 
-            this.metroButton363.Location = new System.Drawing.Point(1023, 467);
+            this.metroButton363.Location = new System.Drawing.Point(1044, 422);
             this.metroButton363.Name = "metroButton363";
             this.metroButton363.Size = new System.Drawing.Size(20, 20);
             this.metroButton363.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4597,7 +4162,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton364
             // 
-            this.metroButton364.Location = new System.Drawing.Point(1049, 467);
+            this.metroButton364.Location = new System.Drawing.Point(1067, 422);
             this.metroButton364.Name = "metroButton364";
             this.metroButton364.Size = new System.Drawing.Size(20, 20);
             this.metroButton364.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4608,7 +4173,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton365
             // 
-            this.metroButton365.Location = new System.Drawing.Point(1075, 467);
+            this.metroButton365.Location = new System.Drawing.Point(1093, 422);
             this.metroButton365.Name = "metroButton365";
             this.metroButton365.Size = new System.Drawing.Size(20, 20);
             this.metroButton365.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4619,7 +4184,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton366
             // 
-            this.metroButton366.Location = new System.Drawing.Point(1101, 467);
+            this.metroButton366.Location = new System.Drawing.Point(1119, 422);
             this.metroButton366.Name = "metroButton366";
             this.metroButton366.Size = new System.Drawing.Size(20, 20);
             this.metroButton366.Style = MetroFramework.MetroColorStyle.Orange;
@@ -4632,7 +4197,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton367.BackColor = System.Drawing.Color.White;
             this.metroButton367.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton367.Location = new System.Drawing.Point(720, 493);
+            this.metroButton367.Location = new System.Drawing.Point(737, 427);
             this.metroButton367.Name = "metroButton367";
             this.metroButton367.Size = new System.Drawing.Size(20, 20);
             this.metroButton367.Style = MetroFramework.MetroColorStyle.Green;
@@ -4645,7 +4210,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton368.BackColor = System.Drawing.Color.White;
             this.metroButton368.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton368.Location = new System.Drawing.Point(720, 519);
+            this.metroButton368.Location = new System.Drawing.Point(737, 453);
             this.metroButton368.Name = "metroButton368";
             this.metroButton368.Size = new System.Drawing.Size(20, 20);
             this.metroButton368.Style = MetroFramework.MetroColorStyle.Green;
@@ -4658,7 +4223,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton369.BackColor = System.Drawing.Color.White;
             this.metroButton369.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton369.Location = new System.Drawing.Point(720, 545);
+            this.metroButton369.Location = new System.Drawing.Point(737, 479);
             this.metroButton369.Name = "metroButton369";
             this.metroButton369.Size = new System.Drawing.Size(20, 20);
             this.metroButton369.Style = MetroFramework.MetroColorStyle.Green;
@@ -4671,7 +4236,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton371.BackColor = System.Drawing.Color.White;
             this.metroButton371.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton371.Location = new System.Drawing.Point(720, 649);
+            this.metroButton371.Location = new System.Drawing.Point(737, 583);
             this.metroButton371.Name = "metroButton371";
             this.metroButton371.Size = new System.Drawing.Size(20, 20);
             this.metroButton371.Style = MetroFramework.MetroColorStyle.Green;
@@ -4684,7 +4249,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton372.BackColor = System.Drawing.Color.White;
             this.metroButton372.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton372.Location = new System.Drawing.Point(720, 623);
+            this.metroButton372.Location = new System.Drawing.Point(737, 557);
             this.metroButton372.Name = "metroButton372";
             this.metroButton372.Size = new System.Drawing.Size(20, 20);
             this.metroButton372.Style = MetroFramework.MetroColorStyle.Green;
@@ -4697,7 +4262,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton373.BackColor = System.Drawing.Color.White;
             this.metroButton373.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton373.Location = new System.Drawing.Point(720, 597);
+            this.metroButton373.Location = new System.Drawing.Point(737, 531);
             this.metroButton373.Name = "metroButton373";
             this.metroButton373.Size = new System.Drawing.Size(20, 20);
             this.metroButton373.Style = MetroFramework.MetroColorStyle.Green;
@@ -4710,7 +4275,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton374.BackColor = System.Drawing.Color.White;
             this.metroButton374.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton374.Location = new System.Drawing.Point(720, 571);
+            this.metroButton374.Location = new System.Drawing.Point(737, 505);
             this.metroButton374.Name = "metroButton374";
             this.metroButton374.Size = new System.Drawing.Size(20, 20);
             this.metroButton374.Style = MetroFramework.MetroColorStyle.Green;
@@ -4723,7 +4288,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton375.BackColor = System.Drawing.Color.White;
             this.metroButton375.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton375.Location = new System.Drawing.Point(694, 493);
+            this.metroButton375.Location = new System.Drawing.Point(711, 427);
             this.metroButton375.Name = "metroButton375";
             this.metroButton375.Size = new System.Drawing.Size(20, 20);
             this.metroButton375.Style = MetroFramework.MetroColorStyle.Green;
@@ -4736,7 +4301,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton376.BackColor = System.Drawing.Color.White;
             this.metroButton376.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton376.Location = new System.Drawing.Point(694, 519);
+            this.metroButton376.Location = new System.Drawing.Point(711, 453);
             this.metroButton376.Name = "metroButton376";
             this.metroButton376.Size = new System.Drawing.Size(20, 20);
             this.metroButton376.Style = MetroFramework.MetroColorStyle.Green;
@@ -4749,7 +4314,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton377.BackColor = System.Drawing.Color.White;
             this.metroButton377.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton377.Location = new System.Drawing.Point(694, 545);
+            this.metroButton377.Location = new System.Drawing.Point(711, 479);
             this.metroButton377.Name = "metroButton377";
             this.metroButton377.Size = new System.Drawing.Size(20, 20);
             this.metroButton377.Style = MetroFramework.MetroColorStyle.Green;
@@ -4762,7 +4327,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton379.BackColor = System.Drawing.Color.White;
             this.metroButton379.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton379.Location = new System.Drawing.Point(694, 649);
+            this.metroButton379.Location = new System.Drawing.Point(711, 583);
             this.metroButton379.Name = "metroButton379";
             this.metroButton379.Size = new System.Drawing.Size(20, 20);
             this.metroButton379.Style = MetroFramework.MetroColorStyle.Green;
@@ -4775,7 +4340,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton380.BackColor = System.Drawing.Color.White;
             this.metroButton380.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton380.Location = new System.Drawing.Point(694, 623);
+            this.metroButton380.Location = new System.Drawing.Point(711, 557);
             this.metroButton380.Name = "metroButton380";
             this.metroButton380.Size = new System.Drawing.Size(20, 20);
             this.metroButton380.Style = MetroFramework.MetroColorStyle.Green;
@@ -4788,7 +4353,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton381.BackColor = System.Drawing.Color.White;
             this.metroButton381.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton381.Location = new System.Drawing.Point(694, 597);
+            this.metroButton381.Location = new System.Drawing.Point(711, 531);
             this.metroButton381.Name = "metroButton381";
             this.metroButton381.Size = new System.Drawing.Size(20, 20);
             this.metroButton381.Style = MetroFramework.MetroColorStyle.Green;
@@ -4801,7 +4366,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton382.BackColor = System.Drawing.Color.White;
             this.metroButton382.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton382.Location = new System.Drawing.Point(694, 571);
+            this.metroButton382.Location = new System.Drawing.Point(711, 505);
             this.metroButton382.Name = "metroButton382";
             this.metroButton382.Size = new System.Drawing.Size(20, 20);
             this.metroButton382.Style = MetroFramework.MetroColorStyle.Green;
@@ -4814,7 +4379,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton383.BackColor = System.Drawing.Color.White;
             this.metroButton383.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton383.Location = new System.Drawing.Point(668, 493);
+            this.metroButton383.Location = new System.Drawing.Point(685, 427);
             this.metroButton383.Name = "metroButton383";
             this.metroButton383.Size = new System.Drawing.Size(20, 20);
             this.metroButton383.Style = MetroFramework.MetroColorStyle.Green;
@@ -4827,7 +4392,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton384.BackColor = System.Drawing.Color.White;
             this.metroButton384.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton384.Location = new System.Drawing.Point(668, 519);
+            this.metroButton384.Location = new System.Drawing.Point(685, 453);
             this.metroButton384.Name = "metroButton384";
             this.metroButton384.Size = new System.Drawing.Size(20, 20);
             this.metroButton384.Style = MetroFramework.MetroColorStyle.Green;
@@ -4840,7 +4405,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton385.BackColor = System.Drawing.Color.White;
             this.metroButton385.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton385.Location = new System.Drawing.Point(668, 545);
+            this.metroButton385.Location = new System.Drawing.Point(685, 479);
             this.metroButton385.Name = "metroButton385";
             this.metroButton385.Size = new System.Drawing.Size(20, 20);
             this.metroButton385.Style = MetroFramework.MetroColorStyle.Green;
@@ -4853,7 +4418,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton387.BackColor = System.Drawing.Color.White;
             this.metroButton387.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton387.Location = new System.Drawing.Point(668, 649);
+            this.metroButton387.Location = new System.Drawing.Point(685, 583);
             this.metroButton387.Name = "metroButton387";
             this.metroButton387.Size = new System.Drawing.Size(20, 20);
             this.metroButton387.Style = MetroFramework.MetroColorStyle.Green;
@@ -4866,7 +4431,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton388.BackColor = System.Drawing.Color.White;
             this.metroButton388.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton388.Location = new System.Drawing.Point(668, 623);
+            this.metroButton388.Location = new System.Drawing.Point(685, 557);
             this.metroButton388.Name = "metroButton388";
             this.metroButton388.Size = new System.Drawing.Size(20, 20);
             this.metroButton388.Style = MetroFramework.MetroColorStyle.Green;
@@ -4879,7 +4444,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton389.BackColor = System.Drawing.Color.White;
             this.metroButton389.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton389.Location = new System.Drawing.Point(668, 597);
+            this.metroButton389.Location = new System.Drawing.Point(685, 531);
             this.metroButton389.Name = "metroButton389";
             this.metroButton389.Size = new System.Drawing.Size(20, 20);
             this.metroButton389.Style = MetroFramework.MetroColorStyle.Green;
@@ -4892,7 +4457,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton390.BackColor = System.Drawing.Color.White;
             this.metroButton390.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton390.Location = new System.Drawing.Point(668, 571);
+            this.metroButton390.Location = new System.Drawing.Point(685, 505);
             this.metroButton390.Name = "metroButton390";
             this.metroButton390.Size = new System.Drawing.Size(20, 20);
             this.metroButton390.Style = MetroFramework.MetroColorStyle.Green;
@@ -4905,7 +4470,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton391.BackColor = System.Drawing.Color.White;
             this.metroButton391.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton391.Location = new System.Drawing.Point(642, 493);
+            this.metroButton391.Location = new System.Drawing.Point(659, 427);
             this.metroButton391.Name = "metroButton391";
             this.metroButton391.Size = new System.Drawing.Size(20, 20);
             this.metroButton391.Style = MetroFramework.MetroColorStyle.Green;
@@ -4918,7 +4483,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton392.BackColor = System.Drawing.Color.White;
             this.metroButton392.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton392.Location = new System.Drawing.Point(642, 519);
+            this.metroButton392.Location = new System.Drawing.Point(659, 453);
             this.metroButton392.Name = "metroButton392";
             this.metroButton392.Size = new System.Drawing.Size(20, 20);
             this.metroButton392.Style = MetroFramework.MetroColorStyle.Green;
@@ -4931,7 +4496,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton393.BackColor = System.Drawing.Color.White;
             this.metroButton393.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton393.Location = new System.Drawing.Point(642, 545);
+            this.metroButton393.Location = new System.Drawing.Point(659, 479);
             this.metroButton393.Name = "metroButton393";
             this.metroButton393.Size = new System.Drawing.Size(20, 20);
             this.metroButton393.Style = MetroFramework.MetroColorStyle.Green;
@@ -4944,7 +4509,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton395.BackColor = System.Drawing.Color.White;
             this.metroButton395.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton395.Location = new System.Drawing.Point(642, 649);
+            this.metroButton395.Location = new System.Drawing.Point(659, 583);
             this.metroButton395.Name = "metroButton395";
             this.metroButton395.Size = new System.Drawing.Size(20, 20);
             this.metroButton395.Style = MetroFramework.MetroColorStyle.Green;
@@ -4957,7 +4522,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton396.BackColor = System.Drawing.Color.White;
             this.metroButton396.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton396.Location = new System.Drawing.Point(642, 623);
+            this.metroButton396.Location = new System.Drawing.Point(659, 557);
             this.metroButton396.Name = "metroButton396";
             this.metroButton396.Size = new System.Drawing.Size(20, 20);
             this.metroButton396.Style = MetroFramework.MetroColorStyle.Green;
@@ -4970,7 +4535,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton397.BackColor = System.Drawing.Color.White;
             this.metroButton397.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton397.Location = new System.Drawing.Point(642, 597);
+            this.metroButton397.Location = new System.Drawing.Point(659, 531);
             this.metroButton397.Name = "metroButton397";
             this.metroButton397.Size = new System.Drawing.Size(20, 20);
             this.metroButton397.Style = MetroFramework.MetroColorStyle.Green;
@@ -4983,7 +4548,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton398.BackColor = System.Drawing.Color.White;
             this.metroButton398.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton398.Location = new System.Drawing.Point(642, 571);
+            this.metroButton398.Location = new System.Drawing.Point(659, 505);
             this.metroButton398.Name = "metroButton398";
             this.metroButton398.Size = new System.Drawing.Size(20, 20);
             this.metroButton398.Style = MetroFramework.MetroColorStyle.Green;
@@ -4996,7 +4561,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton399.BackColor = System.Drawing.Color.White;
             this.metroButton399.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton399.Location = new System.Drawing.Point(616, 493);
+            this.metroButton399.Location = new System.Drawing.Point(633, 427);
             this.metroButton399.Name = "metroButton399";
             this.metroButton399.Size = new System.Drawing.Size(20, 20);
             this.metroButton399.Style = MetroFramework.MetroColorStyle.Green;
@@ -5009,7 +4574,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton400.BackColor = System.Drawing.Color.White;
             this.metroButton400.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton400.Location = new System.Drawing.Point(616, 519);
+            this.metroButton400.Location = new System.Drawing.Point(633, 453);
             this.metroButton400.Name = "metroButton400";
             this.metroButton400.Size = new System.Drawing.Size(20, 20);
             this.metroButton400.Style = MetroFramework.MetroColorStyle.Green;
@@ -5022,7 +4587,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton401.BackColor = System.Drawing.Color.White;
             this.metroButton401.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton401.Location = new System.Drawing.Point(616, 545);
+            this.metroButton401.Location = new System.Drawing.Point(633, 479);
             this.metroButton401.Name = "metroButton401";
             this.metroButton401.Size = new System.Drawing.Size(20, 20);
             this.metroButton401.Style = MetroFramework.MetroColorStyle.Green;
@@ -5035,7 +4600,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton403.BackColor = System.Drawing.Color.White;
             this.metroButton403.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton403.Location = new System.Drawing.Point(616, 649);
+            this.metroButton403.Location = new System.Drawing.Point(633, 583);
             this.metroButton403.Name = "metroButton403";
             this.metroButton403.Size = new System.Drawing.Size(20, 20);
             this.metroButton403.Style = MetroFramework.MetroColorStyle.Green;
@@ -5048,7 +4613,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton404.BackColor = System.Drawing.Color.White;
             this.metroButton404.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton404.Location = new System.Drawing.Point(616, 623);
+            this.metroButton404.Location = new System.Drawing.Point(633, 557);
             this.metroButton404.Name = "metroButton404";
             this.metroButton404.Size = new System.Drawing.Size(20, 20);
             this.metroButton404.Style = MetroFramework.MetroColorStyle.Green;
@@ -5061,7 +4626,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton405.BackColor = System.Drawing.Color.White;
             this.metroButton405.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton405.Location = new System.Drawing.Point(616, 597);
+            this.metroButton405.Location = new System.Drawing.Point(633, 531);
             this.metroButton405.Name = "metroButton405";
             this.metroButton405.Size = new System.Drawing.Size(20, 20);
             this.metroButton405.Style = MetroFramework.MetroColorStyle.Green;
@@ -5074,7 +4639,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton406.BackColor = System.Drawing.Color.White;
             this.metroButton406.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton406.Location = new System.Drawing.Point(616, 571);
+            this.metroButton406.Location = new System.Drawing.Point(633, 505);
             this.metroButton406.Name = "metroButton406";
             this.metroButton406.Size = new System.Drawing.Size(20, 20);
             this.metroButton406.Style = MetroFramework.MetroColorStyle.Green;
@@ -5087,7 +4652,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton407.BackColor = System.Drawing.Color.White;
             this.metroButton407.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton407.Location = new System.Drawing.Point(590, 493);
+            this.metroButton407.Location = new System.Drawing.Point(607, 427);
             this.metroButton407.Name = "metroButton407";
             this.metroButton407.Size = new System.Drawing.Size(20, 20);
             this.metroButton407.Style = MetroFramework.MetroColorStyle.Green;
@@ -5100,7 +4665,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton408.BackColor = System.Drawing.Color.White;
             this.metroButton408.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton408.Location = new System.Drawing.Point(590, 519);
+            this.metroButton408.Location = new System.Drawing.Point(607, 453);
             this.metroButton408.Name = "metroButton408";
             this.metroButton408.Size = new System.Drawing.Size(20, 20);
             this.metroButton408.Style = MetroFramework.MetroColorStyle.Green;
@@ -5113,7 +4678,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton409.BackColor = System.Drawing.Color.White;
             this.metroButton409.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton409.Location = new System.Drawing.Point(590, 545);
+            this.metroButton409.Location = new System.Drawing.Point(607, 479);
             this.metroButton409.Name = "metroButton409";
             this.metroButton409.Size = new System.Drawing.Size(20, 20);
             this.metroButton409.Style = MetroFramework.MetroColorStyle.Green;
@@ -5126,7 +4691,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton411.BackColor = System.Drawing.Color.White;
             this.metroButton411.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton411.Location = new System.Drawing.Point(590, 649);
+            this.metroButton411.Location = new System.Drawing.Point(607, 583);
             this.metroButton411.Name = "metroButton411";
             this.metroButton411.Size = new System.Drawing.Size(20, 20);
             this.metroButton411.Style = MetroFramework.MetroColorStyle.Green;
@@ -5139,7 +4704,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton412.BackColor = System.Drawing.Color.White;
             this.metroButton412.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton412.Location = new System.Drawing.Point(590, 623);
+            this.metroButton412.Location = new System.Drawing.Point(607, 557);
             this.metroButton412.Name = "metroButton412";
             this.metroButton412.Size = new System.Drawing.Size(20, 20);
             this.metroButton412.Style = MetroFramework.MetroColorStyle.Green;
@@ -5152,7 +4717,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton413.BackColor = System.Drawing.Color.White;
             this.metroButton413.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton413.Location = new System.Drawing.Point(590, 597);
+            this.metroButton413.Location = new System.Drawing.Point(607, 531);
             this.metroButton413.Name = "metroButton413";
             this.metroButton413.Size = new System.Drawing.Size(20, 20);
             this.metroButton413.Style = MetroFramework.MetroColorStyle.Green;
@@ -5165,7 +4730,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton414.BackColor = System.Drawing.Color.White;
             this.metroButton414.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton414.Location = new System.Drawing.Point(590, 571);
+            this.metroButton414.Location = new System.Drawing.Point(607, 505);
             this.metroButton414.Name = "metroButton414";
             this.metroButton414.Size = new System.Drawing.Size(20, 20);
             this.metroButton414.Style = MetroFramework.MetroColorStyle.Green;
@@ -5178,7 +4743,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton415.BackColor = System.Drawing.Color.White;
             this.metroButton415.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton415.Location = new System.Drawing.Point(564, 493);
+            this.metroButton415.Location = new System.Drawing.Point(581, 427);
             this.metroButton415.Name = "metroButton415";
             this.metroButton415.Size = new System.Drawing.Size(20, 20);
             this.metroButton415.Style = MetroFramework.MetroColorStyle.Green;
@@ -5191,7 +4756,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton416.BackColor = System.Drawing.Color.White;
             this.metroButton416.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton416.Location = new System.Drawing.Point(564, 519);
+            this.metroButton416.Location = new System.Drawing.Point(581, 453);
             this.metroButton416.Name = "metroButton416";
             this.metroButton416.Size = new System.Drawing.Size(20, 20);
             this.metroButton416.Style = MetroFramework.MetroColorStyle.Green;
@@ -5204,7 +4769,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton417.BackColor = System.Drawing.Color.White;
             this.metroButton417.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton417.Location = new System.Drawing.Point(564, 545);
+            this.metroButton417.Location = new System.Drawing.Point(581, 479);
             this.metroButton417.Name = "metroButton417";
             this.metroButton417.Size = new System.Drawing.Size(20, 20);
             this.metroButton417.Style = MetroFramework.MetroColorStyle.Green;
@@ -5217,7 +4782,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton419.BackColor = System.Drawing.Color.White;
             this.metroButton419.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton419.Location = new System.Drawing.Point(564, 649);
+            this.metroButton419.Location = new System.Drawing.Point(581, 583);
             this.metroButton419.Name = "metroButton419";
             this.metroButton419.Size = new System.Drawing.Size(20, 20);
             this.metroButton419.Style = MetroFramework.MetroColorStyle.Green;
@@ -5230,7 +4795,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton420.BackColor = System.Drawing.Color.White;
             this.metroButton420.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton420.Location = new System.Drawing.Point(564, 623);
+            this.metroButton420.Location = new System.Drawing.Point(581, 557);
             this.metroButton420.Name = "metroButton420";
             this.metroButton420.Size = new System.Drawing.Size(20, 20);
             this.metroButton420.Style = MetroFramework.MetroColorStyle.Green;
@@ -5243,7 +4808,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton421.BackColor = System.Drawing.Color.White;
             this.metroButton421.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton421.Location = new System.Drawing.Point(564, 597);
+            this.metroButton421.Location = new System.Drawing.Point(581, 531);
             this.metroButton421.Name = "metroButton421";
             this.metroButton421.Size = new System.Drawing.Size(20, 20);
             this.metroButton421.Style = MetroFramework.MetroColorStyle.Green;
@@ -5256,7 +4821,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton422.BackColor = System.Drawing.Color.White;
             this.metroButton422.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton422.Location = new System.Drawing.Point(564, 571);
+            this.metroButton422.Location = new System.Drawing.Point(581, 505);
             this.metroButton422.Name = "metroButton422";
             this.metroButton422.Size = new System.Drawing.Size(20, 20);
             this.metroButton422.Style = MetroFramework.MetroColorStyle.Green;
@@ -5269,7 +4834,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton423.BackColor = System.Drawing.Color.White;
             this.metroButton423.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton423.Location = new System.Drawing.Point(538, 493);
+            this.metroButton423.Location = new System.Drawing.Point(555, 427);
             this.metroButton423.Name = "metroButton423";
             this.metroButton423.Size = new System.Drawing.Size(20, 20);
             this.metroButton423.Style = MetroFramework.MetroColorStyle.Green;
@@ -5282,7 +4847,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton424.BackColor = System.Drawing.Color.White;
             this.metroButton424.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton424.Location = new System.Drawing.Point(538, 519);
+            this.metroButton424.Location = new System.Drawing.Point(555, 453);
             this.metroButton424.Name = "metroButton424";
             this.metroButton424.Size = new System.Drawing.Size(20, 20);
             this.metroButton424.Style = MetroFramework.MetroColorStyle.Green;
@@ -5295,7 +4860,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton425.BackColor = System.Drawing.Color.White;
             this.metroButton425.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton425.Location = new System.Drawing.Point(538, 545);
+            this.metroButton425.Location = new System.Drawing.Point(555, 479);
             this.metroButton425.Name = "metroButton425";
             this.metroButton425.Size = new System.Drawing.Size(20, 20);
             this.metroButton425.Style = MetroFramework.MetroColorStyle.Green;
@@ -5308,7 +4873,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton427.BackColor = System.Drawing.Color.White;
             this.metroButton427.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton427.Location = new System.Drawing.Point(538, 649);
+            this.metroButton427.Location = new System.Drawing.Point(555, 583);
             this.metroButton427.Name = "metroButton427";
             this.metroButton427.Size = new System.Drawing.Size(20, 20);
             this.metroButton427.Style = MetroFramework.MetroColorStyle.Green;
@@ -5321,7 +4886,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton428.BackColor = System.Drawing.Color.White;
             this.metroButton428.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton428.Location = new System.Drawing.Point(538, 623);
+            this.metroButton428.Location = new System.Drawing.Point(555, 557);
             this.metroButton428.Name = "metroButton428";
             this.metroButton428.Size = new System.Drawing.Size(20, 20);
             this.metroButton428.Style = MetroFramework.MetroColorStyle.Green;
@@ -5334,7 +4899,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton429.BackColor = System.Drawing.Color.White;
             this.metroButton429.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton429.Location = new System.Drawing.Point(538, 597);
+            this.metroButton429.Location = new System.Drawing.Point(555, 531);
             this.metroButton429.Name = "metroButton429";
             this.metroButton429.Size = new System.Drawing.Size(20, 20);
             this.metroButton429.Style = MetroFramework.MetroColorStyle.Green;
@@ -5347,7 +4912,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton430.BackColor = System.Drawing.Color.White;
             this.metroButton430.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton430.Location = new System.Drawing.Point(538, 571);
+            this.metroButton430.Location = new System.Drawing.Point(555, 505);
             this.metroButton430.Name = "metroButton430";
             this.metroButton430.Size = new System.Drawing.Size(20, 20);
             this.metroButton430.Style = MetroFramework.MetroColorStyle.Green;
@@ -5360,7 +4925,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton431.BackColor = System.Drawing.Color.White;
             this.metroButton431.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton431.Location = new System.Drawing.Point(512, 493);
+            this.metroButton431.Location = new System.Drawing.Point(529, 427);
             this.metroButton431.Name = "metroButton431";
             this.metroButton431.Size = new System.Drawing.Size(20, 20);
             this.metroButton431.Style = MetroFramework.MetroColorStyle.Green;
@@ -5373,7 +4938,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton432.BackColor = System.Drawing.Color.White;
             this.metroButton432.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton432.Location = new System.Drawing.Point(512, 519);
+            this.metroButton432.Location = new System.Drawing.Point(529, 453);
             this.metroButton432.Name = "metroButton432";
             this.metroButton432.Size = new System.Drawing.Size(20, 20);
             this.metroButton432.Style = MetroFramework.MetroColorStyle.Green;
@@ -5386,7 +4951,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton433.BackColor = System.Drawing.Color.White;
             this.metroButton433.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton433.Location = new System.Drawing.Point(512, 545);
+            this.metroButton433.Location = new System.Drawing.Point(529, 479);
             this.metroButton433.Name = "metroButton433";
             this.metroButton433.Size = new System.Drawing.Size(20, 20);
             this.metroButton433.Style = MetroFramework.MetroColorStyle.Green;
@@ -5399,7 +4964,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton435.BackColor = System.Drawing.Color.White;
             this.metroButton435.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton435.Location = new System.Drawing.Point(512, 649);
+            this.metroButton435.Location = new System.Drawing.Point(529, 583);
             this.metroButton435.Name = "metroButton435";
             this.metroButton435.Size = new System.Drawing.Size(20, 20);
             this.metroButton435.Style = MetroFramework.MetroColorStyle.Green;
@@ -5412,7 +4977,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton436.BackColor = System.Drawing.Color.White;
             this.metroButton436.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton436.Location = new System.Drawing.Point(512, 623);
+            this.metroButton436.Location = new System.Drawing.Point(529, 557);
             this.metroButton436.Name = "metroButton436";
             this.metroButton436.Size = new System.Drawing.Size(20, 20);
             this.metroButton436.Style = MetroFramework.MetroColorStyle.Green;
@@ -5425,7 +4990,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton437.BackColor = System.Drawing.Color.White;
             this.metroButton437.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton437.Location = new System.Drawing.Point(512, 597);
+            this.metroButton437.Location = new System.Drawing.Point(529, 531);
             this.metroButton437.Name = "metroButton437";
             this.metroButton437.Size = new System.Drawing.Size(20, 20);
             this.metroButton437.Style = MetroFramework.MetroColorStyle.Green;
@@ -5438,7 +5003,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton438.BackColor = System.Drawing.Color.White;
             this.metroButton438.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton438.Location = new System.Drawing.Point(512, 571);
+            this.metroButton438.Location = new System.Drawing.Point(529, 505);
             this.metroButton438.Name = "metroButton438";
             this.metroButton438.Size = new System.Drawing.Size(20, 20);
             this.metroButton438.Style = MetroFramework.MetroColorStyle.Green;
@@ -5451,7 +5016,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton439.BackColor = System.Drawing.Color.White;
             this.metroButton439.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton439.Location = new System.Drawing.Point(486, 493);
+            this.metroButton439.Location = new System.Drawing.Point(503, 427);
             this.metroButton439.Name = "metroButton439";
             this.metroButton439.Size = new System.Drawing.Size(20, 20);
             this.metroButton439.Style = MetroFramework.MetroColorStyle.Green;
@@ -5464,7 +5029,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton440.BackColor = System.Drawing.Color.White;
             this.metroButton440.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton440.Location = new System.Drawing.Point(486, 519);
+            this.metroButton440.Location = new System.Drawing.Point(503, 453);
             this.metroButton440.Name = "metroButton440";
             this.metroButton440.Size = new System.Drawing.Size(20, 20);
             this.metroButton440.Style = MetroFramework.MetroColorStyle.Green;
@@ -5477,7 +5042,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton441.BackColor = System.Drawing.Color.White;
             this.metroButton441.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton441.Location = new System.Drawing.Point(486, 545);
+            this.metroButton441.Location = new System.Drawing.Point(503, 479);
             this.metroButton441.Name = "metroButton441";
             this.metroButton441.Size = new System.Drawing.Size(20, 20);
             this.metroButton441.Style = MetroFramework.MetroColorStyle.Green;
@@ -5490,7 +5055,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton443.BackColor = System.Drawing.Color.White;
             this.metroButton443.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton443.Location = new System.Drawing.Point(486, 649);
+            this.metroButton443.Location = new System.Drawing.Point(503, 583);
             this.metroButton443.Name = "metroButton443";
             this.metroButton443.Size = new System.Drawing.Size(20, 20);
             this.metroButton443.Style = MetroFramework.MetroColorStyle.Green;
@@ -5503,7 +5068,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton444.BackColor = System.Drawing.Color.White;
             this.metroButton444.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton444.Location = new System.Drawing.Point(486, 623);
+            this.metroButton444.Location = new System.Drawing.Point(503, 557);
             this.metroButton444.Name = "metroButton444";
             this.metroButton444.Size = new System.Drawing.Size(20, 20);
             this.metroButton444.Style = MetroFramework.MetroColorStyle.Green;
@@ -5516,7 +5081,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton445.BackColor = System.Drawing.Color.White;
             this.metroButton445.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton445.Location = new System.Drawing.Point(486, 597);
+            this.metroButton445.Location = new System.Drawing.Point(503, 531);
             this.metroButton445.Name = "metroButton445";
             this.metroButton445.Size = new System.Drawing.Size(20, 20);
             this.metroButton445.Style = MetroFramework.MetroColorStyle.Green;
@@ -5529,7 +5094,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton446.BackColor = System.Drawing.Color.White;
             this.metroButton446.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton446.Location = new System.Drawing.Point(486, 571);
+            this.metroButton446.Location = new System.Drawing.Point(503, 505);
             this.metroButton446.Name = "metroButton446";
             this.metroButton446.Size = new System.Drawing.Size(20, 20);
             this.metroButton446.Style = MetroFramework.MetroColorStyle.Green;
@@ -5542,7 +5107,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton447.BackColor = System.Drawing.Color.White;
             this.metroButton447.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton447.Location = new System.Drawing.Point(460, 493);
+            this.metroButton447.Location = new System.Drawing.Point(477, 427);
             this.metroButton447.Name = "metroButton447";
             this.metroButton447.Size = new System.Drawing.Size(20, 20);
             this.metroButton447.Style = MetroFramework.MetroColorStyle.Green;
@@ -5555,7 +5120,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton448.BackColor = System.Drawing.Color.White;
             this.metroButton448.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton448.Location = new System.Drawing.Point(460, 519);
+            this.metroButton448.Location = new System.Drawing.Point(477, 453);
             this.metroButton448.Name = "metroButton448";
             this.metroButton448.Size = new System.Drawing.Size(20, 20);
             this.metroButton448.Style = MetroFramework.MetroColorStyle.Green;
@@ -5568,7 +5133,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton449.BackColor = System.Drawing.Color.White;
             this.metroButton449.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton449.Location = new System.Drawing.Point(460, 545);
+            this.metroButton449.Location = new System.Drawing.Point(477, 479);
             this.metroButton449.Name = "metroButton449";
             this.metroButton449.Size = new System.Drawing.Size(20, 20);
             this.metroButton449.Style = MetroFramework.MetroColorStyle.Green;
@@ -5581,7 +5146,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton451.BackColor = System.Drawing.Color.White;
             this.metroButton451.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton451.Location = new System.Drawing.Point(460, 649);
+            this.metroButton451.Location = new System.Drawing.Point(477, 583);
             this.metroButton451.Name = "metroButton451";
             this.metroButton451.Size = new System.Drawing.Size(20, 20);
             this.metroButton451.Style = MetroFramework.MetroColorStyle.Green;
@@ -5594,7 +5159,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton452.BackColor = System.Drawing.Color.White;
             this.metroButton452.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton452.Location = new System.Drawing.Point(460, 623);
+            this.metroButton452.Location = new System.Drawing.Point(477, 557);
             this.metroButton452.Name = "metroButton452";
             this.metroButton452.Size = new System.Drawing.Size(20, 20);
             this.metroButton452.Style = MetroFramework.MetroColorStyle.Green;
@@ -5607,7 +5172,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton453.BackColor = System.Drawing.Color.White;
             this.metroButton453.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton453.Location = new System.Drawing.Point(460, 597);
+            this.metroButton453.Location = new System.Drawing.Point(477, 531);
             this.metroButton453.Name = "metroButton453";
             this.metroButton453.Size = new System.Drawing.Size(20, 20);
             this.metroButton453.Style = MetroFramework.MetroColorStyle.Green;
@@ -5620,7 +5185,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton454.BackColor = System.Drawing.Color.White;
             this.metroButton454.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton454.Location = new System.Drawing.Point(460, 571);
+            this.metroButton454.Location = new System.Drawing.Point(477, 505);
             this.metroButton454.Name = "metroButton454";
             this.metroButton454.Size = new System.Drawing.Size(20, 20);
             this.metroButton454.Style = MetroFramework.MetroColorStyle.Green;
@@ -5633,7 +5198,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton455.BackColor = System.Drawing.Color.White;
             this.metroButton455.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton455.Location = new System.Drawing.Point(434, 493);
+            this.metroButton455.Location = new System.Drawing.Point(451, 427);
             this.metroButton455.Name = "metroButton455";
             this.metroButton455.Size = new System.Drawing.Size(20, 20);
             this.metroButton455.Style = MetroFramework.MetroColorStyle.Green;
@@ -5646,7 +5211,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton456.BackColor = System.Drawing.Color.White;
             this.metroButton456.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton456.Location = new System.Drawing.Point(434, 519);
+            this.metroButton456.Location = new System.Drawing.Point(451, 453);
             this.metroButton456.Name = "metroButton456";
             this.metroButton456.Size = new System.Drawing.Size(20, 20);
             this.metroButton456.Style = MetroFramework.MetroColorStyle.Green;
@@ -5659,7 +5224,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton457.BackColor = System.Drawing.Color.White;
             this.metroButton457.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton457.Location = new System.Drawing.Point(434, 545);
+            this.metroButton457.Location = new System.Drawing.Point(451, 479);
             this.metroButton457.Name = "metroButton457";
             this.metroButton457.Size = new System.Drawing.Size(20, 20);
             this.metroButton457.Style = MetroFramework.MetroColorStyle.Green;
@@ -5672,7 +5237,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton459.BackColor = System.Drawing.Color.White;
             this.metroButton459.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton459.Location = new System.Drawing.Point(434, 649);
+            this.metroButton459.Location = new System.Drawing.Point(451, 583);
             this.metroButton459.Name = "metroButton459";
             this.metroButton459.Size = new System.Drawing.Size(20, 20);
             this.metroButton459.Style = MetroFramework.MetroColorStyle.Green;
@@ -5685,7 +5250,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton460.BackColor = System.Drawing.Color.White;
             this.metroButton460.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton460.Location = new System.Drawing.Point(434, 623);
+            this.metroButton460.Location = new System.Drawing.Point(451, 557);
             this.metroButton460.Name = "metroButton460";
             this.metroButton460.Size = new System.Drawing.Size(20, 20);
             this.metroButton460.Style = MetroFramework.MetroColorStyle.Green;
@@ -5698,7 +5263,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton461.BackColor = System.Drawing.Color.White;
             this.metroButton461.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton461.Location = new System.Drawing.Point(434, 597);
+            this.metroButton461.Location = new System.Drawing.Point(451, 531);
             this.metroButton461.Name = "metroButton461";
             this.metroButton461.Size = new System.Drawing.Size(20, 20);
             this.metroButton461.Style = MetroFramework.MetroColorStyle.Green;
@@ -5711,7 +5276,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton462.BackColor = System.Drawing.Color.White;
             this.metroButton462.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton462.Location = new System.Drawing.Point(434, 571);
+            this.metroButton462.Location = new System.Drawing.Point(451, 505);
             this.metroButton462.Name = "metroButton462";
             this.metroButton462.Size = new System.Drawing.Size(20, 20);
             this.metroButton462.Style = MetroFramework.MetroColorStyle.Green;
@@ -5724,7 +5289,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton463.BackColor = System.Drawing.Color.White;
             this.metroButton463.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton463.Location = new System.Drawing.Point(408, 493);
+            this.metroButton463.Location = new System.Drawing.Point(425, 427);
             this.metroButton463.Name = "metroButton463";
             this.metroButton463.Size = new System.Drawing.Size(20, 20);
             this.metroButton463.Style = MetroFramework.MetroColorStyle.Green;
@@ -5737,7 +5302,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton464.BackColor = System.Drawing.Color.White;
             this.metroButton464.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton464.Location = new System.Drawing.Point(408, 519);
+            this.metroButton464.Location = new System.Drawing.Point(425, 453);
             this.metroButton464.Name = "metroButton464";
             this.metroButton464.Size = new System.Drawing.Size(20, 20);
             this.metroButton464.Style = MetroFramework.MetroColorStyle.Green;
@@ -5750,7 +5315,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton465.BackColor = System.Drawing.Color.White;
             this.metroButton465.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton465.Location = new System.Drawing.Point(408, 545);
+            this.metroButton465.Location = new System.Drawing.Point(425, 479);
             this.metroButton465.Name = "metroButton465";
             this.metroButton465.Size = new System.Drawing.Size(20, 20);
             this.metroButton465.Style = MetroFramework.MetroColorStyle.Green;
@@ -5763,7 +5328,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton467.BackColor = System.Drawing.Color.White;
             this.metroButton467.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton467.Location = new System.Drawing.Point(408, 649);
+            this.metroButton467.Location = new System.Drawing.Point(425, 583);
             this.metroButton467.Name = "metroButton467";
             this.metroButton467.Size = new System.Drawing.Size(20, 20);
             this.metroButton467.Style = MetroFramework.MetroColorStyle.Green;
@@ -5776,7 +5341,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton468.BackColor = System.Drawing.Color.White;
             this.metroButton468.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton468.Location = new System.Drawing.Point(408, 623);
+            this.metroButton468.Location = new System.Drawing.Point(425, 557);
             this.metroButton468.Name = "metroButton468";
             this.metroButton468.Size = new System.Drawing.Size(20, 20);
             this.metroButton468.Style = MetroFramework.MetroColorStyle.Green;
@@ -5789,7 +5354,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton469.BackColor = System.Drawing.Color.White;
             this.metroButton469.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton469.Location = new System.Drawing.Point(408, 597);
+            this.metroButton469.Location = new System.Drawing.Point(425, 531);
             this.metroButton469.Name = "metroButton469";
             this.metroButton469.Size = new System.Drawing.Size(20, 20);
             this.metroButton469.Style = MetroFramework.MetroColorStyle.Green;
@@ -5802,7 +5367,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton470.BackColor = System.Drawing.Color.White;
             this.metroButton470.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton470.Location = new System.Drawing.Point(408, 571);
+            this.metroButton470.Location = new System.Drawing.Point(425, 505);
             this.metroButton470.Name = "metroButton470";
             this.metroButton470.Size = new System.Drawing.Size(20, 20);
             this.metroButton470.Style = MetroFramework.MetroColorStyle.Green;
@@ -5815,7 +5380,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton471.BackColor = System.Drawing.Color.White;
             this.metroButton471.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton471.Location = new System.Drawing.Point(771, 493);
+            this.metroButton471.Location = new System.Drawing.Point(788, 427);
             this.metroButton471.Name = "metroButton471";
             this.metroButton471.Size = new System.Drawing.Size(20, 20);
             this.metroButton471.Style = MetroFramework.MetroColorStyle.Green;
@@ -5828,7 +5393,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton472.BackColor = System.Drawing.Color.White;
             this.metroButton472.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton472.Location = new System.Drawing.Point(771, 519);
+            this.metroButton472.Location = new System.Drawing.Point(788, 453);
             this.metroButton472.Name = "metroButton472";
             this.metroButton472.Size = new System.Drawing.Size(20, 20);
             this.metroButton472.Style = MetroFramework.MetroColorStyle.Green;
@@ -5841,7 +5406,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton473.BackColor = System.Drawing.Color.White;
             this.metroButton473.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton473.Location = new System.Drawing.Point(771, 545);
+            this.metroButton473.Location = new System.Drawing.Point(788, 479);
             this.metroButton473.Name = "metroButton473";
             this.metroButton473.Size = new System.Drawing.Size(20, 20);
             this.metroButton473.Style = MetroFramework.MetroColorStyle.Green;
@@ -5854,7 +5419,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton475.BackColor = System.Drawing.Color.White;
             this.metroButton475.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton475.Location = new System.Drawing.Point(771, 649);
+            this.metroButton475.Location = new System.Drawing.Point(788, 583);
             this.metroButton475.Name = "metroButton475";
             this.metroButton475.Size = new System.Drawing.Size(20, 20);
             this.metroButton475.Style = MetroFramework.MetroColorStyle.Green;
@@ -5867,7 +5432,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton476.BackColor = System.Drawing.Color.White;
             this.metroButton476.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton476.Location = new System.Drawing.Point(771, 623);
+            this.metroButton476.Location = new System.Drawing.Point(788, 557);
             this.metroButton476.Name = "metroButton476";
             this.metroButton476.Size = new System.Drawing.Size(20, 20);
             this.metroButton476.Style = MetroFramework.MetroColorStyle.Green;
@@ -5880,7 +5445,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton477.BackColor = System.Drawing.Color.White;
             this.metroButton477.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton477.Location = new System.Drawing.Point(771, 597);
+            this.metroButton477.Location = new System.Drawing.Point(788, 531);
             this.metroButton477.Name = "metroButton477";
             this.metroButton477.Size = new System.Drawing.Size(20, 20);
             this.metroButton477.Style = MetroFramework.MetroColorStyle.Green;
@@ -5893,7 +5458,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton478.BackColor = System.Drawing.Color.White;
             this.metroButton478.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton478.Location = new System.Drawing.Point(771, 571);
+            this.metroButton478.Location = new System.Drawing.Point(788, 505);
             this.metroButton478.Name = "metroButton478";
             this.metroButton478.Size = new System.Drawing.Size(20, 20);
             this.metroButton478.Style = MetroFramework.MetroColorStyle.Green;
@@ -5906,7 +5471,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton479.BackColor = System.Drawing.Color.White;
             this.metroButton479.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton479.Location = new System.Drawing.Point(745, 493);
+            this.metroButton479.Location = new System.Drawing.Point(762, 427);
             this.metroButton479.Name = "metroButton479";
             this.metroButton479.Size = new System.Drawing.Size(20, 20);
             this.metroButton479.Style = MetroFramework.MetroColorStyle.Green;
@@ -5919,7 +5484,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton480.BackColor = System.Drawing.Color.White;
             this.metroButton480.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton480.Location = new System.Drawing.Point(745, 519);
+            this.metroButton480.Location = new System.Drawing.Point(762, 453);
             this.metroButton480.Name = "metroButton480";
             this.metroButton480.Size = new System.Drawing.Size(20, 20);
             this.metroButton480.Style = MetroFramework.MetroColorStyle.Green;
@@ -5932,7 +5497,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton481.BackColor = System.Drawing.Color.White;
             this.metroButton481.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton481.Location = new System.Drawing.Point(745, 545);
+            this.metroButton481.Location = new System.Drawing.Point(762, 479);
             this.metroButton481.Name = "metroButton481";
             this.metroButton481.Size = new System.Drawing.Size(20, 20);
             this.metroButton481.Style = MetroFramework.MetroColorStyle.Green;
@@ -5945,7 +5510,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton483.BackColor = System.Drawing.Color.White;
             this.metroButton483.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton483.Location = new System.Drawing.Point(746, 649);
+            this.metroButton483.Location = new System.Drawing.Point(763, 583);
             this.metroButton483.Name = "metroButton483";
             this.metroButton483.Size = new System.Drawing.Size(20, 20);
             this.metroButton483.Style = MetroFramework.MetroColorStyle.Green;
@@ -5958,7 +5523,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton484.BackColor = System.Drawing.Color.White;
             this.metroButton484.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton484.Location = new System.Drawing.Point(745, 623);
+            this.metroButton484.Location = new System.Drawing.Point(762, 557);
             this.metroButton484.Name = "metroButton484";
             this.metroButton484.Size = new System.Drawing.Size(20, 20);
             this.metroButton484.Style = MetroFramework.MetroColorStyle.Green;
@@ -5971,7 +5536,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton485.BackColor = System.Drawing.Color.White;
             this.metroButton485.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton485.Location = new System.Drawing.Point(745, 597);
+            this.metroButton485.Location = new System.Drawing.Point(762, 531);
             this.metroButton485.Name = "metroButton485";
             this.metroButton485.Size = new System.Drawing.Size(20, 20);
             this.metroButton485.Style = MetroFramework.MetroColorStyle.Green;
@@ -5984,7 +5549,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton486.BackColor = System.Drawing.Color.White;
             this.metroButton486.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton486.Location = new System.Drawing.Point(745, 571);
+            this.metroButton486.Location = new System.Drawing.Point(762, 505);
             this.metroButton486.Name = "metroButton486";
             this.metroButton486.Size = new System.Drawing.Size(20, 20);
             this.metroButton486.Style = MetroFramework.MetroColorStyle.Green;
@@ -5997,7 +5562,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton487.BackColor = System.Drawing.Color.White;
             this.metroButton487.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton487.Location = new System.Drawing.Point(200, 493);
+            this.metroButton487.Location = new System.Drawing.Point(191, 427);
             this.metroButton487.Name = "metroButton487";
             this.metroButton487.Size = new System.Drawing.Size(20, 20);
             this.metroButton487.Style = MetroFramework.MetroColorStyle.Green;
@@ -6010,7 +5575,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton488.BackColor = System.Drawing.Color.White;
             this.metroButton488.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton488.Location = new System.Drawing.Point(200, 519);
+            this.metroButton488.Location = new System.Drawing.Point(191, 453);
             this.metroButton488.Name = "metroButton488";
             this.metroButton488.Size = new System.Drawing.Size(20, 20);
             this.metroButton488.Style = MetroFramework.MetroColorStyle.Green;
@@ -6023,7 +5588,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton489.BackColor = System.Drawing.Color.White;
             this.metroButton489.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton489.Location = new System.Drawing.Point(200, 545);
+            this.metroButton489.Location = new System.Drawing.Point(191, 479);
             this.metroButton489.Name = "metroButton489";
             this.metroButton489.Size = new System.Drawing.Size(20, 20);
             this.metroButton489.Style = MetroFramework.MetroColorStyle.Green;
@@ -6036,7 +5601,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton490.BackColor = System.Drawing.Color.White;
             this.metroButton490.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton490.Location = new System.Drawing.Point(200, 649);
+            this.metroButton490.Location = new System.Drawing.Point(191, 583);
             this.metroButton490.Name = "metroButton490";
             this.metroButton490.Size = new System.Drawing.Size(20, 20);
             this.metroButton490.Style = MetroFramework.MetroColorStyle.Green;
@@ -6049,7 +5614,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton491.BackColor = System.Drawing.Color.White;
             this.metroButton491.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton491.Location = new System.Drawing.Point(200, 623);
+            this.metroButton491.Location = new System.Drawing.Point(191, 557);
             this.metroButton491.Name = "metroButton491";
             this.metroButton491.Size = new System.Drawing.Size(20, 20);
             this.metroButton491.Style = MetroFramework.MetroColorStyle.Green;
@@ -6062,7 +5627,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton492.BackColor = System.Drawing.Color.White;
             this.metroButton492.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton492.Location = new System.Drawing.Point(200, 597);
+            this.metroButton492.Location = new System.Drawing.Point(191, 531);
             this.metroButton492.Name = "metroButton492";
             this.metroButton492.Size = new System.Drawing.Size(20, 20);
             this.metroButton492.Style = MetroFramework.MetroColorStyle.Green;
@@ -6075,7 +5640,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton493.BackColor = System.Drawing.Color.White;
             this.metroButton493.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton493.Location = new System.Drawing.Point(200, 571);
+            this.metroButton493.Location = new System.Drawing.Point(191, 505);
             this.metroButton493.Name = "metroButton493";
             this.metroButton493.Size = new System.Drawing.Size(20, 20);
             this.metroButton493.Style = MetroFramework.MetroColorStyle.Green;
@@ -6088,7 +5653,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton494.BackColor = System.Drawing.Color.White;
             this.metroButton494.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton494.Location = new System.Drawing.Point(226, 493);
+            this.metroButton494.Location = new System.Drawing.Point(217, 427);
             this.metroButton494.Name = "metroButton494";
             this.metroButton494.Size = new System.Drawing.Size(20, 20);
             this.metroButton494.Style = MetroFramework.MetroColorStyle.Green;
@@ -6101,7 +5666,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton495.BackColor = System.Drawing.Color.White;
             this.metroButton495.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton495.Location = new System.Drawing.Point(226, 519);
+            this.metroButton495.Location = new System.Drawing.Point(217, 453);
             this.metroButton495.Name = "metroButton495";
             this.metroButton495.Size = new System.Drawing.Size(20, 20);
             this.metroButton495.Style = MetroFramework.MetroColorStyle.Green;
@@ -6114,7 +5679,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton496.BackColor = System.Drawing.Color.White;
             this.metroButton496.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton496.Location = new System.Drawing.Point(226, 545);
+            this.metroButton496.Location = new System.Drawing.Point(217, 479);
             this.metroButton496.Name = "metroButton496";
             this.metroButton496.Size = new System.Drawing.Size(20, 20);
             this.metroButton496.Style = MetroFramework.MetroColorStyle.Green;
@@ -6127,7 +5692,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton497.BackColor = System.Drawing.Color.White;
             this.metroButton497.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton497.Location = new System.Drawing.Point(226, 649);
+            this.metroButton497.Location = new System.Drawing.Point(217, 583);
             this.metroButton497.Name = "metroButton497";
             this.metroButton497.Size = new System.Drawing.Size(20, 20);
             this.metroButton497.Style = MetroFramework.MetroColorStyle.Green;
@@ -6140,7 +5705,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton498.BackColor = System.Drawing.Color.White;
             this.metroButton498.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton498.Location = new System.Drawing.Point(226, 623);
+            this.metroButton498.Location = new System.Drawing.Point(217, 557);
             this.metroButton498.Name = "metroButton498";
             this.metroButton498.Size = new System.Drawing.Size(20, 20);
             this.metroButton498.Style = MetroFramework.MetroColorStyle.Green;
@@ -6153,7 +5718,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton499.BackColor = System.Drawing.Color.White;
             this.metroButton499.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton499.Location = new System.Drawing.Point(226, 597);
+            this.metroButton499.Location = new System.Drawing.Point(217, 531);
             this.metroButton499.Name = "metroButton499";
             this.metroButton499.Size = new System.Drawing.Size(20, 20);
             this.metroButton499.Style = MetroFramework.MetroColorStyle.Green;
@@ -6166,7 +5731,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton500.BackColor = System.Drawing.Color.White;
             this.metroButton500.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton500.Location = new System.Drawing.Point(226, 571);
+            this.metroButton500.Location = new System.Drawing.Point(217, 505);
             this.metroButton500.Name = "metroButton500";
             this.metroButton500.Size = new System.Drawing.Size(20, 20);
             this.metroButton500.Style = MetroFramework.MetroColorStyle.Green;
@@ -6179,7 +5744,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton501.BackColor = System.Drawing.Color.White;
             this.metroButton501.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton501.Location = new System.Drawing.Point(252, 493);
+            this.metroButton501.Location = new System.Drawing.Point(243, 427);
             this.metroButton501.Name = "metroButton501";
             this.metroButton501.Size = new System.Drawing.Size(20, 20);
             this.metroButton501.Style = MetroFramework.MetroColorStyle.Green;
@@ -6192,7 +5757,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton502.BackColor = System.Drawing.Color.White;
             this.metroButton502.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton502.Location = new System.Drawing.Point(252, 519);
+            this.metroButton502.Location = new System.Drawing.Point(243, 453);
             this.metroButton502.Name = "metroButton502";
             this.metroButton502.Size = new System.Drawing.Size(20, 20);
             this.metroButton502.Style = MetroFramework.MetroColorStyle.Green;
@@ -6205,7 +5770,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton503.BackColor = System.Drawing.Color.White;
             this.metroButton503.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton503.Location = new System.Drawing.Point(252, 545);
+            this.metroButton503.Location = new System.Drawing.Point(243, 479);
             this.metroButton503.Name = "metroButton503";
             this.metroButton503.Size = new System.Drawing.Size(20, 20);
             this.metroButton503.Style = MetroFramework.MetroColorStyle.Green;
@@ -6218,7 +5783,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton504.BackColor = System.Drawing.Color.White;
             this.metroButton504.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton504.Location = new System.Drawing.Point(252, 649);
+            this.metroButton504.Location = new System.Drawing.Point(243, 583);
             this.metroButton504.Name = "metroButton504";
             this.metroButton504.Size = new System.Drawing.Size(20, 20);
             this.metroButton504.Style = MetroFramework.MetroColorStyle.Green;
@@ -6231,7 +5796,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton505.BackColor = System.Drawing.Color.White;
             this.metroButton505.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton505.Location = new System.Drawing.Point(252, 623);
+            this.metroButton505.Location = new System.Drawing.Point(243, 557);
             this.metroButton505.Name = "metroButton505";
             this.metroButton505.Size = new System.Drawing.Size(20, 20);
             this.metroButton505.Style = MetroFramework.MetroColorStyle.Green;
@@ -6244,7 +5809,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton506.BackColor = System.Drawing.Color.White;
             this.metroButton506.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton506.Location = new System.Drawing.Point(252, 597);
+            this.metroButton506.Location = new System.Drawing.Point(243, 531);
             this.metroButton506.Name = "metroButton506";
             this.metroButton506.Size = new System.Drawing.Size(20, 20);
             this.metroButton506.Style = MetroFramework.MetroColorStyle.Green;
@@ -6257,7 +5822,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton507.BackColor = System.Drawing.Color.White;
             this.metroButton507.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton507.Location = new System.Drawing.Point(252, 571);
+            this.metroButton507.Location = new System.Drawing.Point(243, 505);
             this.metroButton507.Name = "metroButton507";
             this.metroButton507.Size = new System.Drawing.Size(20, 20);
             this.metroButton507.Style = MetroFramework.MetroColorStyle.Green;
@@ -6270,7 +5835,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton508.BackColor = System.Drawing.Color.White;
             this.metroButton508.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton508.Location = new System.Drawing.Point(278, 493);
+            this.metroButton508.Location = new System.Drawing.Point(269, 427);
             this.metroButton508.Name = "metroButton508";
             this.metroButton508.Size = new System.Drawing.Size(20, 20);
             this.metroButton508.Style = MetroFramework.MetroColorStyle.Green;
@@ -6283,7 +5848,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton509.BackColor = System.Drawing.Color.White;
             this.metroButton509.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton509.Location = new System.Drawing.Point(278, 519);
+            this.metroButton509.Location = new System.Drawing.Point(269, 453);
             this.metroButton509.Name = "metroButton509";
             this.metroButton509.Size = new System.Drawing.Size(20, 20);
             this.metroButton509.Style = MetroFramework.MetroColorStyle.Green;
@@ -6296,7 +5861,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton510.BackColor = System.Drawing.Color.White;
             this.metroButton510.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton510.Location = new System.Drawing.Point(278, 545);
+            this.metroButton510.Location = new System.Drawing.Point(269, 479);
             this.metroButton510.Name = "metroButton510";
             this.metroButton510.Size = new System.Drawing.Size(20, 20);
             this.metroButton510.Style = MetroFramework.MetroColorStyle.Green;
@@ -6309,7 +5874,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton511.BackColor = System.Drawing.Color.White;
             this.metroButton511.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton511.Location = new System.Drawing.Point(278, 649);
+            this.metroButton511.Location = new System.Drawing.Point(269, 583);
             this.metroButton511.Name = "metroButton511";
             this.metroButton511.Size = new System.Drawing.Size(20, 20);
             this.metroButton511.Style = MetroFramework.MetroColorStyle.Green;
@@ -6322,7 +5887,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton512.BackColor = System.Drawing.Color.White;
             this.metroButton512.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton512.Location = new System.Drawing.Point(278, 623);
+            this.metroButton512.Location = new System.Drawing.Point(269, 557);
             this.metroButton512.Name = "metroButton512";
             this.metroButton512.Size = new System.Drawing.Size(20, 20);
             this.metroButton512.Style = MetroFramework.MetroColorStyle.Green;
@@ -6335,7 +5900,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton513.BackColor = System.Drawing.Color.White;
             this.metroButton513.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton513.Location = new System.Drawing.Point(278, 597);
+            this.metroButton513.Location = new System.Drawing.Point(269, 531);
             this.metroButton513.Name = "metroButton513";
             this.metroButton513.Size = new System.Drawing.Size(20, 20);
             this.metroButton513.Style = MetroFramework.MetroColorStyle.Green;
@@ -6348,7 +5913,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton514.BackColor = System.Drawing.Color.White;
             this.metroButton514.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton514.Location = new System.Drawing.Point(278, 571);
+            this.metroButton514.Location = new System.Drawing.Point(269, 505);
             this.metroButton514.Name = "metroButton514";
             this.metroButton514.Size = new System.Drawing.Size(20, 20);
             this.metroButton514.Style = MetroFramework.MetroColorStyle.Green;
@@ -6361,7 +5926,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton515.BackColor = System.Drawing.Color.White;
             this.metroButton515.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton515.Location = new System.Drawing.Point(304, 493);
+            this.metroButton515.Location = new System.Drawing.Point(295, 427);
             this.metroButton515.Name = "metroButton515";
             this.metroButton515.Size = new System.Drawing.Size(20, 20);
             this.metroButton515.Style = MetroFramework.MetroColorStyle.Green;
@@ -6374,7 +5939,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton516.BackColor = System.Drawing.Color.White;
             this.metroButton516.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton516.Location = new System.Drawing.Point(304, 519);
+            this.metroButton516.Location = new System.Drawing.Point(295, 453);
             this.metroButton516.Name = "metroButton516";
             this.metroButton516.Size = new System.Drawing.Size(20, 20);
             this.metroButton516.Style = MetroFramework.MetroColorStyle.Green;
@@ -6387,7 +5952,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton517.BackColor = System.Drawing.Color.White;
             this.metroButton517.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton517.Location = new System.Drawing.Point(304, 545);
+            this.metroButton517.Location = new System.Drawing.Point(295, 479);
             this.metroButton517.Name = "metroButton517";
             this.metroButton517.Size = new System.Drawing.Size(20, 20);
             this.metroButton517.Style = MetroFramework.MetroColorStyle.Green;
@@ -6400,7 +5965,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton518.BackColor = System.Drawing.Color.White;
             this.metroButton518.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton518.Location = new System.Drawing.Point(304, 649);
+            this.metroButton518.Location = new System.Drawing.Point(295, 583);
             this.metroButton518.Name = "metroButton518";
             this.metroButton518.Size = new System.Drawing.Size(20, 20);
             this.metroButton518.Style = MetroFramework.MetroColorStyle.Green;
@@ -6413,7 +5978,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton519.BackColor = System.Drawing.Color.White;
             this.metroButton519.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton519.Location = new System.Drawing.Point(304, 623);
+            this.metroButton519.Location = new System.Drawing.Point(295, 557);
             this.metroButton519.Name = "metroButton519";
             this.metroButton519.Size = new System.Drawing.Size(20, 20);
             this.metroButton519.Style = MetroFramework.MetroColorStyle.Green;
@@ -6426,7 +5991,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton520.BackColor = System.Drawing.Color.White;
             this.metroButton520.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton520.Location = new System.Drawing.Point(304, 597);
+            this.metroButton520.Location = new System.Drawing.Point(295, 531);
             this.metroButton520.Name = "metroButton520";
             this.metroButton520.Size = new System.Drawing.Size(20, 20);
             this.metroButton520.Style = MetroFramework.MetroColorStyle.Green;
@@ -6439,7 +6004,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton521.BackColor = System.Drawing.Color.White;
             this.metroButton521.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton521.Location = new System.Drawing.Point(304, 571);
+            this.metroButton521.Location = new System.Drawing.Point(295, 505);
             this.metroButton521.Name = "metroButton521";
             this.metroButton521.Size = new System.Drawing.Size(20, 20);
             this.metroButton521.Style = MetroFramework.MetroColorStyle.Green;
@@ -6452,7 +6017,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton522.BackColor = System.Drawing.Color.White;
             this.metroButton522.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton522.Location = new System.Drawing.Point(356, 571);
+            this.metroButton522.Location = new System.Drawing.Point(347, 505);
             this.metroButton522.Name = "metroButton522";
             this.metroButton522.Size = new System.Drawing.Size(20, 20);
             this.metroButton522.Style = MetroFramework.MetroColorStyle.Green;
@@ -6465,7 +6030,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton523.BackColor = System.Drawing.Color.White;
             this.metroButton523.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton523.Location = new System.Drawing.Point(356, 597);
+            this.metroButton523.Location = new System.Drawing.Point(347, 531);
             this.metroButton523.Name = "metroButton523";
             this.metroButton523.Size = new System.Drawing.Size(20, 20);
             this.metroButton523.Style = MetroFramework.MetroColorStyle.Green;
@@ -6478,7 +6043,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton524.BackColor = System.Drawing.Color.White;
             this.metroButton524.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton524.Location = new System.Drawing.Point(330, 545);
+            this.metroButton524.Location = new System.Drawing.Point(321, 479);
             this.metroButton524.Name = "metroButton524";
             this.metroButton524.Size = new System.Drawing.Size(20, 20);
             this.metroButton524.Style = MetroFramework.MetroColorStyle.Green;
@@ -6491,7 +6056,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton525.BackColor = System.Drawing.Color.White;
             this.metroButton525.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton525.Location = new System.Drawing.Point(330, 649);
+            this.metroButton525.Location = new System.Drawing.Point(321, 583);
             this.metroButton525.Name = "metroButton525";
             this.metroButton525.Size = new System.Drawing.Size(20, 20);
             this.metroButton525.Style = MetroFramework.MetroColorStyle.Green;
@@ -6504,7 +6069,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton526.BackColor = System.Drawing.Color.White;
             this.metroButton526.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton526.Location = new System.Drawing.Point(330, 623);
+            this.metroButton526.Location = new System.Drawing.Point(321, 557);
             this.metroButton526.Name = "metroButton526";
             this.metroButton526.Size = new System.Drawing.Size(20, 20);
             this.metroButton526.Style = MetroFramework.MetroColorStyle.Green;
@@ -6517,7 +6082,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton527.BackColor = System.Drawing.Color.White;
             this.metroButton527.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton527.Location = new System.Drawing.Point(330, 597);
+            this.metroButton527.Location = new System.Drawing.Point(321, 531);
             this.metroButton527.Name = "metroButton527";
             this.metroButton527.Size = new System.Drawing.Size(20, 20);
             this.metroButton527.Style = MetroFramework.MetroColorStyle.Green;
@@ -6530,7 +6095,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton528.BackColor = System.Drawing.Color.White;
             this.metroButton528.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton528.Location = new System.Drawing.Point(330, 571);
+            this.metroButton528.Location = new System.Drawing.Point(321, 505);
             this.metroButton528.Name = "metroButton528";
             this.metroButton528.Size = new System.Drawing.Size(20, 20);
             this.metroButton528.Style = MetroFramework.MetroColorStyle.Green;
@@ -6543,7 +6108,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton529.BackColor = System.Drawing.Color.White;
             this.metroButton529.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton529.Location = new System.Drawing.Point(330, 674);
+            this.metroButton529.Location = new System.Drawing.Point(321, 608);
             this.metroButton529.Name = "metroButton529";
             this.metroButton529.Size = new System.Drawing.Size(20, 20);
             this.metroButton529.Style = MetroFramework.MetroColorStyle.Green;
@@ -6556,7 +6121,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton530.BackColor = System.Drawing.Color.White;
             this.metroButton530.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton530.Location = new System.Drawing.Point(304, 674);
+            this.metroButton530.Location = new System.Drawing.Point(295, 608);
             this.metroButton530.Name = "metroButton530";
             this.metroButton530.Size = new System.Drawing.Size(20, 20);
             this.metroButton530.Style = MetroFramework.MetroColorStyle.Green;
@@ -6569,7 +6134,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton531.BackColor = System.Drawing.Color.White;
             this.metroButton531.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton531.Location = new System.Drawing.Point(278, 674);
+            this.metroButton531.Location = new System.Drawing.Point(269, 608);
             this.metroButton531.Name = "metroButton531";
             this.metroButton531.Size = new System.Drawing.Size(20, 20);
             this.metroButton531.Style = MetroFramework.MetroColorStyle.Green;
@@ -6582,7 +6147,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton532.BackColor = System.Drawing.Color.White;
             this.metroButton532.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton532.Location = new System.Drawing.Point(252, 674);
+            this.metroButton532.Location = new System.Drawing.Point(243, 608);
             this.metroButton532.Name = "metroButton532";
             this.metroButton532.Size = new System.Drawing.Size(20, 20);
             this.metroButton532.Style = MetroFramework.MetroColorStyle.Green;
@@ -6595,7 +6160,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton533.BackColor = System.Drawing.Color.White;
             this.metroButton533.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton533.Location = new System.Drawing.Point(953, 493);
+            this.metroButton533.Location = new System.Drawing.Point(992, 428);
             this.metroButton533.Name = "metroButton533";
             this.metroButton533.Size = new System.Drawing.Size(20, 20);
             this.metroButton533.Style = MetroFramework.MetroColorStyle.Green;
@@ -6608,7 +6173,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton534.BackColor = System.Drawing.Color.White;
             this.metroButton534.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton534.Location = new System.Drawing.Point(953, 519);
+            this.metroButton534.Location = new System.Drawing.Point(992, 454);
             this.metroButton534.Name = "metroButton534";
             this.metroButton534.Size = new System.Drawing.Size(20, 20);
             this.metroButton534.Style = MetroFramework.MetroColorStyle.Green;
@@ -6621,7 +6186,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton535.BackColor = System.Drawing.Color.White;
             this.metroButton535.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton535.Location = new System.Drawing.Point(953, 545);
+            this.metroButton535.Location = new System.Drawing.Point(992, 480);
             this.metroButton535.Name = "metroButton535";
             this.metroButton535.Size = new System.Drawing.Size(20, 20);
             this.metroButton535.Style = MetroFramework.MetroColorStyle.Green;
@@ -6634,7 +6199,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton536.BackColor = System.Drawing.Color.White;
             this.metroButton536.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton536.Location = new System.Drawing.Point(953, 649);
+            this.metroButton536.Location = new System.Drawing.Point(992, 584);
             this.metroButton536.Name = "metroButton536";
             this.metroButton536.Size = new System.Drawing.Size(20, 20);
             this.metroButton536.Style = MetroFramework.MetroColorStyle.Green;
@@ -6647,7 +6212,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton537.BackColor = System.Drawing.Color.White;
             this.metroButton537.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton537.Location = new System.Drawing.Point(953, 623);
+            this.metroButton537.Location = new System.Drawing.Point(992, 558);
             this.metroButton537.Name = "metroButton537";
             this.metroButton537.Size = new System.Drawing.Size(20, 20);
             this.metroButton537.Style = MetroFramework.MetroColorStyle.Green;
@@ -6660,7 +6225,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton538.BackColor = System.Drawing.Color.White;
             this.metroButton538.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton538.Location = new System.Drawing.Point(953, 597);
+            this.metroButton538.Location = new System.Drawing.Point(992, 532);
             this.metroButton538.Name = "metroButton538";
             this.metroButton538.Size = new System.Drawing.Size(20, 20);
             this.metroButton538.Style = MetroFramework.MetroColorStyle.Green;
@@ -6673,7 +6238,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton539.BackColor = System.Drawing.Color.White;
             this.metroButton539.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton539.Location = new System.Drawing.Point(953, 571);
+            this.metroButton539.Location = new System.Drawing.Point(992, 506);
             this.metroButton539.Name = "metroButton539";
             this.metroButton539.Size = new System.Drawing.Size(20, 20);
             this.metroButton539.Style = MetroFramework.MetroColorStyle.Green;
@@ -6686,7 +6251,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton540.BackColor = System.Drawing.Color.White;
             this.metroButton540.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton540.Location = new System.Drawing.Point(927, 493);
+            this.metroButton540.Location = new System.Drawing.Point(966, 428);
             this.metroButton540.Name = "metroButton540";
             this.metroButton540.Size = new System.Drawing.Size(20, 20);
             this.metroButton540.Style = MetroFramework.MetroColorStyle.Green;
@@ -6699,7 +6264,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton541.BackColor = System.Drawing.Color.White;
             this.metroButton541.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton541.Location = new System.Drawing.Point(927, 519);
+            this.metroButton541.Location = new System.Drawing.Point(966, 454);
             this.metroButton541.Name = "metroButton541";
             this.metroButton541.Size = new System.Drawing.Size(20, 20);
             this.metroButton541.Style = MetroFramework.MetroColorStyle.Green;
@@ -6712,7 +6277,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton542.BackColor = System.Drawing.Color.White;
             this.metroButton542.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton542.Location = new System.Drawing.Point(927, 545);
+            this.metroButton542.Location = new System.Drawing.Point(966, 480);
             this.metroButton542.Name = "metroButton542";
             this.metroButton542.Size = new System.Drawing.Size(20, 20);
             this.metroButton542.Style = MetroFramework.MetroColorStyle.Green;
@@ -6725,7 +6290,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton543.BackColor = System.Drawing.Color.White;
             this.metroButton543.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton543.Location = new System.Drawing.Point(927, 649);
+            this.metroButton543.Location = new System.Drawing.Point(966, 584);
             this.metroButton543.Name = "metroButton543";
             this.metroButton543.Size = new System.Drawing.Size(20, 20);
             this.metroButton543.Style = MetroFramework.MetroColorStyle.Green;
@@ -6738,7 +6303,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton544.BackColor = System.Drawing.Color.White;
             this.metroButton544.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton544.Location = new System.Drawing.Point(927, 623);
+            this.metroButton544.Location = new System.Drawing.Point(966, 558);
             this.metroButton544.Name = "metroButton544";
             this.metroButton544.Size = new System.Drawing.Size(20, 20);
             this.metroButton544.Style = MetroFramework.MetroColorStyle.Green;
@@ -6751,7 +6316,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton545.BackColor = System.Drawing.Color.White;
             this.metroButton545.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton545.Location = new System.Drawing.Point(927, 597);
+            this.metroButton545.Location = new System.Drawing.Point(966, 532);
             this.metroButton545.Name = "metroButton545";
             this.metroButton545.Size = new System.Drawing.Size(20, 20);
             this.metroButton545.Style = MetroFramework.MetroColorStyle.Green;
@@ -6764,7 +6329,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton546.BackColor = System.Drawing.Color.White;
             this.metroButton546.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton546.Location = new System.Drawing.Point(927, 571);
+            this.metroButton546.Location = new System.Drawing.Point(966, 506);
             this.metroButton546.Name = "metroButton546";
             this.metroButton546.Size = new System.Drawing.Size(20, 20);
             this.metroButton546.Style = MetroFramework.MetroColorStyle.Green;
@@ -6777,7 +6342,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton547.BackColor = System.Drawing.Color.White;
             this.metroButton547.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton547.Location = new System.Drawing.Point(901, 493);
+            this.metroButton547.Location = new System.Drawing.Point(940, 428);
             this.metroButton547.Name = "metroButton547";
             this.metroButton547.Size = new System.Drawing.Size(20, 20);
             this.metroButton547.Style = MetroFramework.MetroColorStyle.Green;
@@ -6790,7 +6355,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton548.BackColor = System.Drawing.Color.White;
             this.metroButton548.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton548.Location = new System.Drawing.Point(901, 519);
+            this.metroButton548.Location = new System.Drawing.Point(940, 454);
             this.metroButton548.Name = "metroButton548";
             this.metroButton548.Size = new System.Drawing.Size(20, 20);
             this.metroButton548.Style = MetroFramework.MetroColorStyle.Green;
@@ -6803,7 +6368,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton549.BackColor = System.Drawing.Color.White;
             this.metroButton549.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton549.Location = new System.Drawing.Point(901, 545);
+            this.metroButton549.Location = new System.Drawing.Point(940, 480);
             this.metroButton549.Name = "metroButton549";
             this.metroButton549.Size = new System.Drawing.Size(20, 20);
             this.metroButton549.Style = MetroFramework.MetroColorStyle.Green;
@@ -6816,7 +6381,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton550.BackColor = System.Drawing.Color.White;
             this.metroButton550.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton550.Location = new System.Drawing.Point(901, 649);
+            this.metroButton550.Location = new System.Drawing.Point(940, 584);
             this.metroButton550.Name = "metroButton550";
             this.metroButton550.Size = new System.Drawing.Size(20, 20);
             this.metroButton550.Style = MetroFramework.MetroColorStyle.Green;
@@ -6829,7 +6394,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton551.BackColor = System.Drawing.Color.White;
             this.metroButton551.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton551.Location = new System.Drawing.Point(901, 623);
+            this.metroButton551.Location = new System.Drawing.Point(940, 558);
             this.metroButton551.Name = "metroButton551";
             this.metroButton551.Size = new System.Drawing.Size(20, 20);
             this.metroButton551.Style = MetroFramework.MetroColorStyle.Green;
@@ -6842,7 +6407,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton552.BackColor = System.Drawing.Color.White;
             this.metroButton552.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton552.Location = new System.Drawing.Point(901, 597);
+            this.metroButton552.Location = new System.Drawing.Point(940, 532);
             this.metroButton552.Name = "metroButton552";
             this.metroButton552.Size = new System.Drawing.Size(20, 20);
             this.metroButton552.Style = MetroFramework.MetroColorStyle.Green;
@@ -6855,7 +6420,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton553.BackColor = System.Drawing.Color.White;
             this.metroButton553.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton553.Location = new System.Drawing.Point(901, 571);
+            this.metroButton553.Location = new System.Drawing.Point(940, 506);
             this.metroButton553.Name = "metroButton553";
             this.metroButton553.Size = new System.Drawing.Size(20, 20);
             this.metroButton553.Style = MetroFramework.MetroColorStyle.Green;
@@ -6868,7 +6433,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton554.BackColor = System.Drawing.Color.White;
             this.metroButton554.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton554.Location = new System.Drawing.Point(875, 493);
+            this.metroButton554.Location = new System.Drawing.Point(914, 428);
             this.metroButton554.Name = "metroButton554";
             this.metroButton554.Size = new System.Drawing.Size(20, 20);
             this.metroButton554.Style = MetroFramework.MetroColorStyle.Green;
@@ -6881,7 +6446,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton555.BackColor = System.Drawing.Color.White;
             this.metroButton555.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton555.Location = new System.Drawing.Point(875, 519);
+            this.metroButton555.Location = new System.Drawing.Point(914, 454);
             this.metroButton555.Name = "metroButton555";
             this.metroButton555.Size = new System.Drawing.Size(20, 20);
             this.metroButton555.Style = MetroFramework.MetroColorStyle.Green;
@@ -6894,7 +6459,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton556.BackColor = System.Drawing.Color.White;
             this.metroButton556.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton556.Location = new System.Drawing.Point(875, 545);
+            this.metroButton556.Location = new System.Drawing.Point(914, 480);
             this.metroButton556.Name = "metroButton556";
             this.metroButton556.Size = new System.Drawing.Size(20, 20);
             this.metroButton556.Style = MetroFramework.MetroColorStyle.Green;
@@ -6907,7 +6472,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton557.BackColor = System.Drawing.Color.White;
             this.metroButton557.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton557.Location = new System.Drawing.Point(875, 649);
+            this.metroButton557.Location = new System.Drawing.Point(914, 584);
             this.metroButton557.Name = "metroButton557";
             this.metroButton557.Size = new System.Drawing.Size(20, 20);
             this.metroButton557.Style = MetroFramework.MetroColorStyle.Green;
@@ -6920,7 +6485,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton558.BackColor = System.Drawing.Color.White;
             this.metroButton558.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton558.Location = new System.Drawing.Point(875, 623);
+            this.metroButton558.Location = new System.Drawing.Point(914, 558);
             this.metroButton558.Name = "metroButton558";
             this.metroButton558.Size = new System.Drawing.Size(20, 20);
             this.metroButton558.Style = MetroFramework.MetroColorStyle.Green;
@@ -6933,7 +6498,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton559.BackColor = System.Drawing.Color.White;
             this.metroButton559.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton559.Location = new System.Drawing.Point(875, 597);
+            this.metroButton559.Location = new System.Drawing.Point(914, 532);
             this.metroButton559.Name = "metroButton559";
             this.metroButton559.Size = new System.Drawing.Size(20, 20);
             this.metroButton559.Style = MetroFramework.MetroColorStyle.Green;
@@ -6946,7 +6511,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton560.BackColor = System.Drawing.Color.White;
             this.metroButton560.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton560.Location = new System.Drawing.Point(875, 571);
+            this.metroButton560.Location = new System.Drawing.Point(914, 506);
             this.metroButton560.Name = "metroButton560";
             this.metroButton560.Size = new System.Drawing.Size(20, 20);
             this.metroButton560.Style = MetroFramework.MetroColorStyle.Green;
@@ -6959,7 +6524,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton561.BackColor = System.Drawing.Color.White;
             this.metroButton561.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton561.Location = new System.Drawing.Point(849, 493);
+            this.metroButton561.Location = new System.Drawing.Point(888, 428);
             this.metroButton561.Name = "metroButton561";
             this.metroButton561.Size = new System.Drawing.Size(20, 20);
             this.metroButton561.Style = MetroFramework.MetroColorStyle.Green;
@@ -6972,7 +6537,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton562.BackColor = System.Drawing.Color.White;
             this.metroButton562.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton562.Location = new System.Drawing.Point(849, 519);
+            this.metroButton562.Location = new System.Drawing.Point(888, 454);
             this.metroButton562.Name = "metroButton562";
             this.metroButton562.Size = new System.Drawing.Size(20, 20);
             this.metroButton562.Style = MetroFramework.MetroColorStyle.Green;
@@ -6985,7 +6550,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton563.BackColor = System.Drawing.Color.White;
             this.metroButton563.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton563.Location = new System.Drawing.Point(849, 545);
+            this.metroButton563.Location = new System.Drawing.Point(888, 480);
             this.metroButton563.Name = "metroButton563";
             this.metroButton563.Size = new System.Drawing.Size(20, 20);
             this.metroButton563.Style = MetroFramework.MetroColorStyle.Green;
@@ -6998,7 +6563,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton564.BackColor = System.Drawing.Color.White;
             this.metroButton564.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton564.Location = new System.Drawing.Point(849, 649);
+            this.metroButton564.Location = new System.Drawing.Point(888, 584);
             this.metroButton564.Name = "metroButton564";
             this.metroButton564.Size = new System.Drawing.Size(20, 20);
             this.metroButton564.Style = MetroFramework.MetroColorStyle.Green;
@@ -7011,7 +6576,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton565.BackColor = System.Drawing.Color.White;
             this.metroButton565.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton565.Location = new System.Drawing.Point(849, 623);
+            this.metroButton565.Location = new System.Drawing.Point(888, 558);
             this.metroButton565.Name = "metroButton565";
             this.metroButton565.Size = new System.Drawing.Size(20, 20);
             this.metroButton565.Style = MetroFramework.MetroColorStyle.Green;
@@ -7024,7 +6589,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton566.BackColor = System.Drawing.Color.White;
             this.metroButton566.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton566.Location = new System.Drawing.Point(849, 597);
+            this.metroButton566.Location = new System.Drawing.Point(888, 532);
             this.metroButton566.Name = "metroButton566";
             this.metroButton566.Size = new System.Drawing.Size(20, 20);
             this.metroButton566.Style = MetroFramework.MetroColorStyle.Green;
@@ -7037,7 +6602,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton567.BackColor = System.Drawing.Color.White;
             this.metroButton567.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton567.Location = new System.Drawing.Point(849, 571);
+            this.metroButton567.Location = new System.Drawing.Point(888, 506);
             this.metroButton567.Name = "metroButton567";
             this.metroButton567.Size = new System.Drawing.Size(20, 20);
             this.metroButton567.Style = MetroFramework.MetroColorStyle.Green;
@@ -7050,7 +6615,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton568.BackColor = System.Drawing.Color.White;
             this.metroButton568.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton568.Location = new System.Drawing.Point(927, 675);
+            this.metroButton568.Location = new System.Drawing.Point(966, 610);
             this.metroButton568.Name = "metroButton568";
             this.metroButton568.Size = new System.Drawing.Size(20, 20);
             this.metroButton568.Style = MetroFramework.MetroColorStyle.Green;
@@ -7063,7 +6628,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton569.BackColor = System.Drawing.Color.White;
             this.metroButton569.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton569.Location = new System.Drawing.Point(901, 675);
+            this.metroButton569.Location = new System.Drawing.Point(940, 610);
             this.metroButton569.Name = "metroButton569";
             this.metroButton569.Size = new System.Drawing.Size(20, 20);
             this.metroButton569.Style = MetroFramework.MetroColorStyle.Green;
@@ -7076,7 +6641,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton570.BackColor = System.Drawing.Color.White;
             this.metroButton570.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton570.Location = new System.Drawing.Point(875, 675);
+            this.metroButton570.Location = new System.Drawing.Point(914, 610);
             this.metroButton570.Name = "metroButton570";
             this.metroButton570.Size = new System.Drawing.Size(20, 20);
             this.metroButton570.Style = MetroFramework.MetroColorStyle.Green;
@@ -7089,7 +6654,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton571.BackColor = System.Drawing.Color.White;
             this.metroButton571.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton571.Location = new System.Drawing.Point(849, 675);
+            this.metroButton571.Location = new System.Drawing.Point(888, 610);
             this.metroButton571.Name = "metroButton571";
             this.metroButton571.Size = new System.Drawing.Size(20, 20);
             this.metroButton571.Style = MetroFramework.MetroColorStyle.Green;
@@ -7102,7 +6667,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton572.BackColor = System.Drawing.Color.White;
             this.metroButton572.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton572.Location = new System.Drawing.Point(823, 622);
+            this.metroButton572.Location = new System.Drawing.Point(862, 557);
             this.metroButton572.Name = "metroButton572";
             this.metroButton572.Size = new System.Drawing.Size(20, 20);
             this.metroButton572.Style = MetroFramework.MetroColorStyle.Green;
@@ -7115,7 +6680,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton573.BackColor = System.Drawing.Color.White;
             this.metroButton573.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton573.Location = new System.Drawing.Point(823, 597);
+            this.metroButton573.Location = new System.Drawing.Point(862, 532);
             this.metroButton573.Name = "metroButton573";
             this.metroButton573.Size = new System.Drawing.Size(20, 20);
             this.metroButton573.Style = MetroFramework.MetroColorStyle.Green;
@@ -7128,7 +6693,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton574.BackColor = System.Drawing.Color.White;
             this.metroButton574.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton574.Location = new System.Drawing.Point(823, 571);
+            this.metroButton574.Location = new System.Drawing.Point(862, 506);
             this.metroButton574.Name = "metroButton574";
             this.metroButton574.Size = new System.Drawing.Size(20, 20);
             this.metroButton574.Style = MetroFramework.MetroColorStyle.Green;
@@ -7141,7 +6706,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton575.BackColor = System.Drawing.Color.White;
             this.metroButton575.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton575.Location = new System.Drawing.Point(823, 493);
+            this.metroButton575.Location = new System.Drawing.Point(862, 428);
             this.metroButton575.Name = "metroButton575";
             this.metroButton575.Size = new System.Drawing.Size(20, 20);
             this.metroButton575.Style = MetroFramework.MetroColorStyle.Green;
@@ -7154,7 +6719,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton370.BackColor = System.Drawing.Color.White;
             this.metroButton370.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton370.Location = new System.Drawing.Point(979, 493);
+            this.metroButton370.Location = new System.Drawing.Point(1018, 428);
             this.metroButton370.Name = "metroButton370";
             this.metroButton370.Size = new System.Drawing.Size(20, 20);
             this.metroButton370.Style = MetroFramework.MetroColorStyle.Green;
@@ -7167,7 +6732,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton378.BackColor = System.Drawing.Color.White;
             this.metroButton378.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton378.Location = new System.Drawing.Point(979, 519);
+            this.metroButton378.Location = new System.Drawing.Point(1018, 454);
             this.metroButton378.Name = "metroButton378";
             this.metroButton378.Size = new System.Drawing.Size(20, 20);
             this.metroButton378.Style = MetroFramework.MetroColorStyle.Green;
@@ -7180,7 +6745,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton386.BackColor = System.Drawing.Color.White;
             this.metroButton386.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton386.Location = new System.Drawing.Point(979, 545);
+            this.metroButton386.Location = new System.Drawing.Point(1018, 480);
             this.metroButton386.Name = "metroButton386";
             this.metroButton386.Size = new System.Drawing.Size(20, 20);
             this.metroButton386.Style = MetroFramework.MetroColorStyle.Green;
@@ -7193,7 +6758,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton394.BackColor = System.Drawing.Color.White;
             this.metroButton394.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton394.Location = new System.Drawing.Point(979, 649);
+            this.metroButton394.Location = new System.Drawing.Point(1018, 584);
             this.metroButton394.Name = "metroButton394";
             this.metroButton394.Size = new System.Drawing.Size(20, 20);
             this.metroButton394.Style = MetroFramework.MetroColorStyle.Green;
@@ -7206,7 +6771,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton402.BackColor = System.Drawing.Color.White;
             this.metroButton402.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton402.Location = new System.Drawing.Point(979, 623);
+            this.metroButton402.Location = new System.Drawing.Point(1018, 558);
             this.metroButton402.Name = "metroButton402";
             this.metroButton402.Size = new System.Drawing.Size(20, 20);
             this.metroButton402.Style = MetroFramework.MetroColorStyle.Green;
@@ -7219,7 +6784,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton410.BackColor = System.Drawing.Color.White;
             this.metroButton410.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton410.Location = new System.Drawing.Point(979, 597);
+            this.metroButton410.Location = new System.Drawing.Point(1018, 532);
             this.metroButton410.Name = "metroButton410";
             this.metroButton410.Size = new System.Drawing.Size(20, 20);
             this.metroButton410.Style = MetroFramework.MetroColorStyle.Green;
@@ -7232,7 +6797,7 @@ namespace is_4_20_st6_KURS
             // 
             this.metroButton418.BackColor = System.Drawing.Color.White;
             this.metroButton418.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton418.Location = new System.Drawing.Point(979, 571);
+            this.metroButton418.Location = new System.Drawing.Point(1018, 506);
             this.metroButton418.Name = "metroButton418";
             this.metroButton418.Size = new System.Drawing.Size(20, 20);
             this.metroButton418.Style = MetroFramework.MetroColorStyle.Green;
@@ -7241,11 +6806,473 @@ namespace is_4_20_st6_KURS
             this.metroButton418.UseSelectable = true;
             this.metroButton418.UseStyleColors = true;
             // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(263, 34);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(130, 19);
+            this.metroLabel1.TabIndex = 582;
+            this.metroLabel1.Text = "название спектакля";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(593, 165);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(40, 19);
+            this.metroLabel2.TabIndex = 583;
+            this.metroLabel2.Text = "1 ряд";
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(593, 192);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel3.TabIndex = 584;
+            this.metroLabel3.Text = "2 ряд";
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(593, 218);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel4.TabIndex = 585;
+            this.metroLabel4.Text = "3 ряд";
+            // 
+            // metroLabel5
+            // 
+            this.metroLabel5.AutoSize = true;
+            this.metroLabel5.Location = new System.Drawing.Point(591, 243);
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel5.TabIndex = 586;
+            this.metroLabel5.Text = "4 ряд";
+            // 
+            // metroLabel6
+            // 
+            this.metroLabel6.AutoSize = true;
+            this.metroLabel6.Location = new System.Drawing.Point(591, 270);
+            this.metroLabel6.Name = "metroLabel6";
+            this.metroLabel6.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel6.TabIndex = 587;
+            this.metroLabel6.Text = "5 ряд";
+            // 
+            // metroLabel7
+            // 
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(591, 296);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel7.TabIndex = 588;
+            this.metroLabel7.Text = "6 ряд";
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.Location = new System.Drawing.Point(593, 322);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel8.TabIndex = 589;
+            this.metroLabel8.Text = "7 ряд";
+            // 
+            // metroLabel9
+            // 
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel9.Location = new System.Drawing.Point(578, 121);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(73, 25);
+            this.metroLabel9.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroLabel9.TabIndex = 590;
+            this.metroLabel9.Text = "ПАРТЕР";
+            this.metroLabel9.UseStyleColors = true;
+            // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel10.Location = new System.Drawing.Point(562, 386);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(112, 25);
+            this.metroLabel10.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroLabel10.TabIndex = 591;
+            this.metroLabel10.Text = "АМФИТЕАТР";
+            this.metroLabel10.UseStyleColors = true;
+            // 
+            // metroLabel11
+            // 
+            this.metroLabel11.AutoSize = true;
+            this.metroLabel11.Location = new System.Drawing.Point(379, 428);
+            this.metroLabel11.Name = "metroLabel11";
+            this.metroLabel11.Size = new System.Drawing.Size(40, 19);
+            this.metroLabel11.TabIndex = 592;
+            this.metroLabel11.Text = "1 ряд";
+            // 
+            // metroLabel12
+            // 
+            this.metroLabel12.AutoSize = true;
+            this.metroLabel12.Location = new System.Drawing.Point(379, 454);
+            this.metroLabel12.Name = "metroLabel12";
+            this.metroLabel12.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel12.TabIndex = 593;
+            this.metroLabel12.Text = "2 ряд";
+            // 
+            // metroLabel13
+            // 
+            this.metroLabel13.AutoSize = true;
+            this.metroLabel13.Location = new System.Drawing.Point(379, 479);
+            this.metroLabel13.Name = "metroLabel13";
+            this.metroLabel13.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel13.TabIndex = 594;
+            this.metroLabel13.Text = "3 ряд";
+            // 
+            // metroLabel14
+            // 
+            this.metroLabel14.AutoSize = true;
+            this.metroLabel14.Location = new System.Drawing.Point(379, 505);
+            this.metroLabel14.Name = "metroLabel14";
+            this.metroLabel14.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel14.TabIndex = 595;
+            this.metroLabel14.Text = "4 ряд";
+            // 
+            // metroLabel15
+            // 
+            this.metroLabel15.AutoSize = true;
+            this.metroLabel15.Location = new System.Drawing.Point(379, 532);
+            this.metroLabel15.Name = "metroLabel15";
+            this.metroLabel15.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel15.TabIndex = 596;
+            this.metroLabel15.Text = "5 ряд";
+            // 
+            // metroLabel16
+            // 
+            this.metroLabel16.AutoSize = true;
+            this.metroLabel16.Location = new System.Drawing.Point(379, 556);
+            this.metroLabel16.Name = "metroLabel16";
+            this.metroLabel16.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel16.TabIndex = 597;
+            this.metroLabel16.Text = "6 ряд";
+            // 
+            // metroLabel17
+            // 
+            this.metroLabel17.AutoSize = true;
+            this.metroLabel17.Location = new System.Drawing.Point(379, 584);
+            this.metroLabel17.Name = "metroLabel17";
+            this.metroLabel17.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel17.TabIndex = 598;
+            this.metroLabel17.Text = "7 ряд";
+            // 
+            // metroLabel18
+            // 
+            this.metroLabel18.AutoSize = true;
+            this.metroLabel18.Location = new System.Drawing.Point(379, 608);
+            this.metroLabel18.Name = "metroLabel18";
+            this.metroLabel18.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel18.TabIndex = 599;
+            this.metroLabel18.Text = "8 ряд";
+            // 
+            // metroLabel19
+            // 
+            this.metroLabel19.AutoSize = true;
+            this.metroLabel19.Location = new System.Drawing.Point(816, 606);
+            this.metroLabel19.Name = "metroLabel19";
+            this.metroLabel19.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel19.TabIndex = 607;
+            this.metroLabel19.Text = "8 ряд";
+            // 
+            // metroLabel20
+            // 
+            this.metroLabel20.AutoSize = true;
+            this.metroLabel20.Location = new System.Drawing.Point(816, 582);
+            this.metroLabel20.Name = "metroLabel20";
+            this.metroLabel20.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel20.TabIndex = 606;
+            this.metroLabel20.Text = "7 ряд";
+            // 
+            // metroLabel21
+            // 
+            this.metroLabel21.AutoSize = true;
+            this.metroLabel21.Location = new System.Drawing.Point(816, 554);
+            this.metroLabel21.Name = "metroLabel21";
+            this.metroLabel21.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel21.TabIndex = 605;
+            this.metroLabel21.Text = "6 ряд";
+            // 
+            // metroLabel22
+            // 
+            this.metroLabel22.AutoSize = true;
+            this.metroLabel22.Location = new System.Drawing.Point(816, 530);
+            this.metroLabel22.Name = "metroLabel22";
+            this.metroLabel22.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel22.TabIndex = 604;
+            this.metroLabel22.Text = "5 ряд";
+            // 
+            // metroLabel23
+            // 
+            this.metroLabel23.AutoSize = true;
+            this.metroLabel23.Location = new System.Drawing.Point(816, 503);
+            this.metroLabel23.Name = "metroLabel23";
+            this.metroLabel23.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel23.TabIndex = 603;
+            this.metroLabel23.Text = "4 ряд";
+            // 
+            // metroLabel24
+            // 
+            this.metroLabel24.AutoSize = true;
+            this.metroLabel24.Location = new System.Drawing.Point(816, 477);
+            this.metroLabel24.Name = "metroLabel24";
+            this.metroLabel24.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel24.TabIndex = 602;
+            this.metroLabel24.Text = "3 ряд";
+            // 
+            // metroLabel25
+            // 
+            this.metroLabel25.AutoSize = true;
+            this.metroLabel25.Location = new System.Drawing.Point(816, 452);
+            this.metroLabel25.Name = "metroLabel25";
+            this.metroLabel25.Size = new System.Drawing.Size(42, 19);
+            this.metroLabel25.TabIndex = 601;
+            this.metroLabel25.Text = "2 ряд";
+            // 
+            // metroLabel26
+            // 
+            this.metroLabel26.AutoSize = true;
+            this.metroLabel26.Location = new System.Drawing.Point(816, 426);
+            this.metroLabel26.Name = "metroLabel26";
+            this.metroLabel26.Size = new System.Drawing.Size(40, 19);
+            this.metroLabel26.TabIndex = 600;
+            this.metroLabel26.Text = "1 ряд";
+            // 
+            // metroLabel27
+            // 
+            this.metroLabel27.AutoSize = true;
+            this.metroLabel27.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel27.Location = new System.Drawing.Point(56, 74);
+            this.metroLabel27.Name = "metroLabel27";
+            this.metroLabel27.Size = new System.Drawing.Size(74, 25);
+            this.metroLabel27.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroLabel27.TabIndex = 608;
+            this.metroLabel27.Text = "БЕНУАР";
+            this.metroLabel27.UseStyleColors = true;
+            // 
+            // metroLabel28
+            // 
+            this.metroLabel28.AutoSize = true;
+            this.metroLabel28.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel28.Location = new System.Drawing.Point(1093, 86);
+            this.metroLabel28.Name = "metroLabel28";
+            this.metroLabel28.Size = new System.Drawing.Size(74, 25);
+            this.metroLabel28.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroLabel28.TabIndex = 609;
+            this.metroLabel28.Text = "БЕНУАР";
+            this.metroLabel28.UseStyleColors = true;
+            // 
+            // metroLabel29
+            // 
+            this.metroLabel29.AutoSize = true;
+            this.metroLabel29.Location = new System.Drawing.Point(105, 99);
+            this.metroLabel29.Name = "metroLabel29";
+            this.metroLabel29.Size = new System.Drawing.Size(51, 19);
+            this.metroLabel29.TabIndex = 610;
+            this.metroLabel29.Text = "Ложа 1";
+            // 
+            // metroLabel30
+            // 
+            this.metroLabel30.AutoSize = true;
+            this.metroLabel30.Location = new System.Drawing.Point(110, 400);
+            this.metroLabel30.Name = "metroLabel30";
+            this.metroLabel30.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel30.TabIndex = 611;
+            this.metroLabel30.Text = "Ложа 2";
+            // 
+            // metroLabel31
+            // 
+            this.metroLabel31.AutoSize = true;
+            this.metroLabel31.Location = new System.Drawing.Point(7, 91);
+            this.metroLabel31.Name = "metroLabel31";
+            this.metroLabel31.Size = new System.Drawing.Size(51, 19);
+            this.metroLabel31.TabIndex = 612;
+            this.metroLabel31.Text = "Ложа 1";
+            // 
+            // metroLabel32
+            // 
+            this.metroLabel32.AutoSize = true;
+            this.metroLabel32.Location = new System.Drawing.Point(14, 194);
+            this.metroLabel32.Name = "metroLabel32";
+            this.metroLabel32.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel32.TabIndex = 613;
+            this.metroLabel32.Text = "Ложа 2";
+            // 
+            // metroLabel33
+            // 
+            this.metroLabel33.AutoSize = true;
+            this.metroLabel33.Location = new System.Drawing.Point(14, 297);
+            this.metroLabel33.Name = "metroLabel33";
+            this.metroLabel33.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel33.TabIndex = 614;
+            this.metroLabel33.Text = "Ложа 3";
+            // 
+            // metroLabel34
+            // 
+            this.metroLabel34.AutoSize = true;
+            this.metroLabel34.Location = new System.Drawing.Point(14, 392);
+            this.metroLabel34.Name = "metroLabel34";
+            this.metroLabel34.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel34.TabIndex = 615;
+            this.metroLabel34.Text = "Ложа 4";
+            // 
+            // metroLabel35
+            // 
+            this.metroLabel35.AutoSize = true;
+            this.metroLabel35.Location = new System.Drawing.Point(14, 481);
+            this.metroLabel35.Name = "metroLabel35";
+            this.metroLabel35.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel35.TabIndex = 616;
+            this.metroLabel35.Text = "Ложа 5";
+            // 
+            // metroLabel36
+            // 
+            this.metroLabel36.AutoSize = true;
+            this.metroLabel36.Location = new System.Drawing.Point(14, 577);
+            this.metroLabel36.Name = "metroLabel36";
+            this.metroLabel36.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel36.TabIndex = 617;
+            this.metroLabel36.Text = "Ложа 6";
+            // 
+            // metroLabel37
+            // 
+            this.metroLabel37.AutoSize = true;
+            this.metroLabel37.Location = new System.Drawing.Point(1013, 9);
+            this.metroLabel37.Name = "metroLabel37";
+            this.metroLabel37.Size = new System.Drawing.Size(54, 19);
+            this.metroLabel37.TabIndex = 618;
+            this.metroLabel37.Text = "Ложа Б";
+            // 
+            // metroLabel38
+            // 
+            this.metroLabel38.AutoSize = true;
+            this.metroLabel38.Location = new System.Drawing.Point(1085, 116);
+            this.metroLabel38.Name = "metroLabel38";
+            this.metroLabel38.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel38.TabIndex = 619;
+            this.metroLabel38.Text = "Ложа 3";
+            // 
+            // metroLabel39
+            // 
+            this.metroLabel39.AutoSize = true;
+            this.metroLabel39.Location = new System.Drawing.Point(1067, 400);
+            this.metroLabel39.Name = "metroLabel39";
+            this.metroLabel39.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel39.TabIndex = 620;
+            this.metroLabel39.Text = "Ложа 4";
+            // 
+            // metroLabel40
+            // 
+            this.metroLabel40.AutoSize = true;
+            this.metroLabel40.Location = new System.Drawing.Point(1144, 116);
+            this.metroLabel40.Name = "metroLabel40";
+            this.metroLabel40.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel40.TabIndex = 621;
+            this.metroLabel40.Text = "Ложа 7";
+            // 
+            // metroLabel41
+            // 
+            this.metroLabel41.AutoSize = true;
+            this.metroLabel41.Location = new System.Drawing.Point(1144, 219);
+            this.metroLabel41.Name = "metroLabel41";
+            this.metroLabel41.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel41.TabIndex = 622;
+            this.metroLabel41.Text = "Ложа 8";
+            // 
+            // metroLabel42
+            // 
+            this.metroLabel42.AutoSize = true;
+            this.metroLabel42.Location = new System.Drawing.Point(1144, 316);
+            this.metroLabel42.Name = "metroLabel42";
+            this.metroLabel42.Size = new System.Drawing.Size(53, 19);
+            this.metroLabel42.TabIndex = 623;
+            this.metroLabel42.Text = "Ложа 9";
+            // 
+            // metroLabel43
+            // 
+            this.metroLabel43.AutoSize = true;
+            this.metroLabel43.Location = new System.Drawing.Point(1144, 409);
+            this.metroLabel43.Name = "metroLabel43";
+            this.metroLabel43.Size = new System.Drawing.Size(58, 19);
+            this.metroLabel43.TabIndex = 624;
+            this.metroLabel43.Text = "Ложа 10";
+            // 
+            // metroLabel44
+            // 
+            this.metroLabel44.AutoSize = true;
+            this.metroLabel44.Location = new System.Drawing.Point(1139, 507);
+            this.metroLabel44.Name = "metroLabel44";
+            this.metroLabel44.Size = new System.Drawing.Size(56, 19);
+            this.metroLabel44.TabIndex = 625;
+            this.metroLabel44.Text = "Ложа 11";
+            // 
+            // metroLabel45
+            // 
+            this.metroLabel45.AutoSize = true;
+            this.metroLabel45.Location = new System.Drawing.Point(1139, 598);
+            this.metroLabel45.Name = "metroLabel45";
+            this.metroLabel45.Size = new System.Drawing.Size(58, 19);
+            this.metroLabel45.TabIndex = 626;
+            this.metroLabel45.Text = "Ложа 12";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1241, 771);
+            this.Controls.Add(this.metroLabel45);
+            this.Controls.Add(this.metroLabel44);
+            this.Controls.Add(this.metroLabel43);
+            this.Controls.Add(this.metroLabel42);
+            this.Controls.Add(this.metroLabel41);
+            this.Controls.Add(this.metroLabel40);
+            this.Controls.Add(this.metroLabel39);
+            this.Controls.Add(this.metroLabel38);
+            this.Controls.Add(this.metroLabel37);
+            this.Controls.Add(this.metroLabel36);
+            this.Controls.Add(this.metroLabel35);
+            this.Controls.Add(this.metroLabel34);
+            this.Controls.Add(this.metroLabel33);
+            this.Controls.Add(this.metroLabel32);
+            this.Controls.Add(this.metroLabel31);
+            this.Controls.Add(this.metroLabel30);
+            this.Controls.Add(this.metroLabel29);
+            this.Controls.Add(this.metroLabel28);
+            this.Controls.Add(this.metroLabel27);
+            this.Controls.Add(this.metroLabel19);
+            this.Controls.Add(this.metroLabel20);
+            this.Controls.Add(this.metroLabel21);
+            this.Controls.Add(this.metroLabel22);
+            this.Controls.Add(this.metroLabel23);
+            this.Controls.Add(this.metroLabel24);
+            this.Controls.Add(this.metroLabel25);
+            this.Controls.Add(this.metroLabel26);
+            this.Controls.Add(this.metroLabel18);
+            this.Controls.Add(this.metroLabel17);
+            this.Controls.Add(this.metroLabel16);
+            this.Controls.Add(this.metroLabel15);
+            this.Controls.Add(this.metroLabel14);
+            this.Controls.Add(this.metroLabel13);
+            this.Controls.Add(this.metroLabel12);
+            this.Controls.Add(this.metroLabel11);
+            this.Controls.Add(this.metroLabel10);
+            this.Controls.Add(this.metroLabel9);
+            this.Controls.Add(this.metroLabel8);
+            this.Controls.Add(this.metroLabel7);
+            this.Controls.Add(this.metroLabel6);
+            this.Controls.Add(this.metroLabel5);
+            this.Controls.Add(this.metroLabel4);
+            this.Controls.Add(this.metroLabel3);
+            this.Controls.Add(this.metroLabel2);
+            this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroButton370);
             this.Controls.Add(this.metroButton378);
             this.Controls.Add(this.metroButton386);
@@ -7511,17 +7538,12 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton320);
             this.Controls.Add(this.metroButton321);
             this.Controls.Add(this.metroButton322);
-            this.Controls.Add(this.metroButton299);
-            this.Controls.Add(this.metroButton300);
-            this.Controls.Add(this.metroButton301);
-            this.Controls.Add(this.metroButton302);
             this.Controls.Add(this.metroButton294);
             this.Controls.Add(this.metroButton295);
             this.Controls.Add(this.metroButton296);
             this.Controls.Add(this.metroButton297);
             this.Controls.Add(this.metroButton298);
             this.Controls.Add(this.metroButton288);
-            this.Controls.Add(this.metroButton289);
             this.Controls.Add(this.metroButton290);
             this.Controls.Add(this.metroButton291);
             this.Controls.Add(this.metroButton292);
@@ -7529,7 +7551,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton184);
             this.Controls.Add(this.metroButton185);
             this.Controls.Add(this.metroButton186);
-            this.Controls.Add(this.metroButton187);
             this.Controls.Add(this.metroButton188);
             this.Controls.Add(this.metroButton189);
             this.Controls.Add(this.metroButton190);
@@ -7537,7 +7558,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton192);
             this.Controls.Add(this.metroButton193);
             this.Controls.Add(this.metroButton194);
-            this.Controls.Add(this.metroButton195);
             this.Controls.Add(this.metroButton196);
             this.Controls.Add(this.metroButton197);
             this.Controls.Add(this.metroButton198);
@@ -7545,7 +7565,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton200);
             this.Controls.Add(this.metroButton201);
             this.Controls.Add(this.metroButton202);
-            this.Controls.Add(this.metroButton203);
             this.Controls.Add(this.metroButton204);
             this.Controls.Add(this.metroButton205);
             this.Controls.Add(this.metroButton206);
@@ -7553,7 +7572,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton208);
             this.Controls.Add(this.metroButton209);
             this.Controls.Add(this.metroButton210);
-            this.Controls.Add(this.metroButton211);
             this.Controls.Add(this.metroButton212);
             this.Controls.Add(this.metroButton213);
             this.Controls.Add(this.metroButton214);
@@ -7561,7 +7579,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton216);
             this.Controls.Add(this.metroButton217);
             this.Controls.Add(this.metroButton218);
-            this.Controls.Add(this.metroButton219);
             this.Controls.Add(this.metroButton220);
             this.Controls.Add(this.metroButton221);
             this.Controls.Add(this.metroButton222);
@@ -7569,7 +7586,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton224);
             this.Controls.Add(this.metroButton225);
             this.Controls.Add(this.metroButton226);
-            this.Controls.Add(this.metroButton227);
             this.Controls.Add(this.metroButton228);
             this.Controls.Add(this.metroButton229);
             this.Controls.Add(this.metroButton230);
@@ -7577,7 +7593,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton232);
             this.Controls.Add(this.metroButton233);
             this.Controls.Add(this.metroButton234);
-            this.Controls.Add(this.metroButton235);
             this.Controls.Add(this.metroButton236);
             this.Controls.Add(this.metroButton237);
             this.Controls.Add(this.metroButton238);
@@ -7585,7 +7600,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton240);
             this.Controls.Add(this.metroButton241);
             this.Controls.Add(this.metroButton242);
-            this.Controls.Add(this.metroButton243);
             this.Controls.Add(this.metroButton244);
             this.Controls.Add(this.metroButton245);
             this.Controls.Add(this.metroButton246);
@@ -7593,7 +7607,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton248);
             this.Controls.Add(this.metroButton249);
             this.Controls.Add(this.metroButton250);
-            this.Controls.Add(this.metroButton251);
             this.Controls.Add(this.metroButton252);
             this.Controls.Add(this.metroButton253);
             this.Controls.Add(this.metroButton254);
@@ -7601,7 +7614,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton256);
             this.Controls.Add(this.metroButton257);
             this.Controls.Add(this.metroButton258);
-            this.Controls.Add(this.metroButton259);
             this.Controls.Add(this.metroButton260);
             this.Controls.Add(this.metroButton261);
             this.Controls.Add(this.metroButton262);
@@ -7609,7 +7621,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton264);
             this.Controls.Add(this.metroButton265);
             this.Controls.Add(this.metroButton266);
-            this.Controls.Add(this.metroButton267);
             this.Controls.Add(this.metroButton268);
             this.Controls.Add(this.metroButton269);
             this.Controls.Add(this.metroButton270);
@@ -7617,7 +7628,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton272);
             this.Controls.Add(this.metroButton273);
             this.Controls.Add(this.metroButton274);
-            this.Controls.Add(this.metroButton275);
             this.Controls.Add(this.metroButton276);
             this.Controls.Add(this.metroButton277);
             this.Controls.Add(this.metroButton278);
@@ -7625,7 +7635,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton280);
             this.Controls.Add(this.metroButton281);
             this.Controls.Add(this.metroButton282);
-            this.Controls.Add(this.metroButton283);
             this.Controls.Add(this.metroButton284);
             this.Controls.Add(this.metroButton285);
             this.Controls.Add(this.metroButton286);
@@ -7633,7 +7642,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton176);
             this.Controls.Add(this.metroButton177);
             this.Controls.Add(this.metroButton178);
-            this.Controls.Add(this.metroButton179);
             this.Controls.Add(this.metroButton180);
             this.Controls.Add(this.metroButton181);
             this.Controls.Add(this.metroButton182);
@@ -7641,7 +7649,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton168);
             this.Controls.Add(this.metroButton169);
             this.Controls.Add(this.metroButton170);
-            this.Controls.Add(this.metroButton171);
             this.Controls.Add(this.metroButton172);
             this.Controls.Add(this.metroButton173);
             this.Controls.Add(this.metroButton174);
@@ -7649,7 +7656,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton160);
             this.Controls.Add(this.metroButton161);
             this.Controls.Add(this.metroButton162);
-            this.Controls.Add(this.metroButton163);
             this.Controls.Add(this.metroButton164);
             this.Controls.Add(this.metroButton165);
             this.Controls.Add(this.metroButton166);
@@ -7657,7 +7663,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton152);
             this.Controls.Add(this.metroButton153);
             this.Controls.Add(this.metroButton154);
-            this.Controls.Add(this.metroButton155);
             this.Controls.Add(this.metroButton156);
             this.Controls.Add(this.metroButton157);
             this.Controls.Add(this.metroButton158);
@@ -7665,7 +7670,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton144);
             this.Controls.Add(this.metroButton145);
             this.Controls.Add(this.metroButton146);
-            this.Controls.Add(this.metroButton147);
             this.Controls.Add(this.metroButton148);
             this.Controls.Add(this.metroButton149);
             this.Controls.Add(this.metroButton150);
@@ -7673,7 +7677,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton136);
             this.Controls.Add(this.metroButton137);
             this.Controls.Add(this.metroButton138);
-            this.Controls.Add(this.metroButton139);
             this.Controls.Add(this.metroButton140);
             this.Controls.Add(this.metroButton141);
             this.Controls.Add(this.metroButton142);
@@ -7681,7 +7684,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton128);
             this.Controls.Add(this.metroButton129);
             this.Controls.Add(this.metroButton130);
-            this.Controls.Add(this.metroButton131);
             this.Controls.Add(this.metroButton132);
             this.Controls.Add(this.metroButton133);
             this.Controls.Add(this.metroButton134);
@@ -7689,7 +7691,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton120);
             this.Controls.Add(this.metroButton121);
             this.Controls.Add(this.metroButton122);
-            this.Controls.Add(this.metroButton123);
             this.Controls.Add(this.metroButton124);
             this.Controls.Add(this.metroButton125);
             this.Controls.Add(this.metroButton126);
@@ -7697,7 +7698,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton112);
             this.Controls.Add(this.metroButton113);
             this.Controls.Add(this.metroButton114);
-            this.Controls.Add(this.metroButton115);
             this.Controls.Add(this.metroButton116);
             this.Controls.Add(this.metroButton117);
             this.Controls.Add(this.metroButton118);
@@ -7705,7 +7705,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton104);
             this.Controls.Add(this.metroButton105);
             this.Controls.Add(this.metroButton106);
-            this.Controls.Add(this.metroButton107);
             this.Controls.Add(this.metroButton108);
             this.Controls.Add(this.metroButton109);
             this.Controls.Add(this.metroButton110);
@@ -7713,7 +7712,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton96);
             this.Controls.Add(this.metroButton97);
             this.Controls.Add(this.metroButton98);
-            this.Controls.Add(this.metroButton99);
             this.Controls.Add(this.metroButton100);
             this.Controls.Add(this.metroButton101);
             this.Controls.Add(this.metroButton102);
@@ -7721,7 +7719,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton88);
             this.Controls.Add(this.metroButton89);
             this.Controls.Add(this.metroButton90);
-            this.Controls.Add(this.metroButton91);
             this.Controls.Add(this.metroButton92);
             this.Controls.Add(this.metroButton93);
             this.Controls.Add(this.metroButton94);
@@ -7729,13 +7726,11 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton87);
             this.Controls.Add(this.metroButton86);
             this.Controls.Add(this.metroButton80);
-            this.Controls.Add(this.metroButton81);
             this.Controls.Add(this.metroButton82);
             this.Controls.Add(this.metroButton83);
             this.Controls.Add(this.metroButton84);
             this.Controls.Add(this.metroButton85);
             this.Controls.Add(this.metroButton79);
-            this.Controls.Add(this.metroButton74);
             this.Controls.Add(this.metroButton75);
             this.Controls.Add(this.metroButton76);
             this.Controls.Add(this.metroButton77);
@@ -7804,34 +7799,16 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroButton12);
             this.Controls.Add(this.metroButton11);
             this.Controls.Add(this.metroButton10);
-            this.Controls.Add(this.metroButton9);
-            this.Controls.Add(this.metroButton8);
-            this.Controls.Add(this.metroButton7);
-            this.Controls.Add(this.metroButton6);
-            this.Controls.Add(this.metroButton5);
-            this.Controls.Add(this.metroButton4);
-            this.Controls.Add(this.metroButton3);
-            this.Controls.Add(this.metroButton2);
-            this.Controls.Add(this.metroButton1);
             this.Name = "Form4";
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "СХЕМА ЗАЛА";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroButton metroButton2;
-        private MetroFramework.Controls.MetroButton metroButton3;
-        private MetroFramework.Controls.MetroButton metroButton4;
-        private MetroFramework.Controls.MetroButton metroButton5;
-        private MetroFramework.Controls.MetroButton metroButton6;
-        private MetroFramework.Controls.MetroButton metroButton7;
-        private MetroFramework.Controls.MetroButton metroButton8;
-        private MetroFramework.Controls.MetroButton metroButton9;
         private MetroFramework.Controls.MetroButton metroButton10;
         private MetroFramework.Controls.MetroButton metroButton11;
         private MetroFramework.Controls.MetroButton metroButton12;
@@ -7896,14 +7873,12 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton71;
         private MetroFramework.Controls.MetroButton metroButton72;
         private MetroFramework.Controls.MetroButton metroButton73;
-        private MetroFramework.Controls.MetroButton metroButton74;
         private MetroFramework.Controls.MetroButton metroButton75;
         private MetroFramework.Controls.MetroButton metroButton76;
         private MetroFramework.Controls.MetroButton metroButton77;
         private MetroFramework.Controls.MetroButton metroButton78;
         private MetroFramework.Controls.MetroButton metroButton79;
         private MetroFramework.Controls.MetroButton metroButton80;
-        private MetroFramework.Controls.MetroButton metroButton81;
         private MetroFramework.Controls.MetroButton metroButton82;
         private MetroFramework.Controls.MetroButton metroButton83;
         private MetroFramework.Controls.MetroButton metroButton84;
@@ -7913,7 +7888,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton88;
         private MetroFramework.Controls.MetroButton metroButton89;
         private MetroFramework.Controls.MetroButton metroButton90;
-        private MetroFramework.Controls.MetroButton metroButton91;
         private MetroFramework.Controls.MetroButton metroButton92;
         private MetroFramework.Controls.MetroButton metroButton93;
         private MetroFramework.Controls.MetroButton metroButton94;
@@ -7921,7 +7895,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton96;
         private MetroFramework.Controls.MetroButton metroButton97;
         private MetroFramework.Controls.MetroButton metroButton98;
-        private MetroFramework.Controls.MetroButton metroButton99;
         private MetroFramework.Controls.MetroButton metroButton100;
         private MetroFramework.Controls.MetroButton metroButton101;
         private MetroFramework.Controls.MetroButton metroButton102;
@@ -7929,7 +7902,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton104;
         private MetroFramework.Controls.MetroButton metroButton105;
         private MetroFramework.Controls.MetroButton metroButton106;
-        private MetroFramework.Controls.MetroButton metroButton107;
         private MetroFramework.Controls.MetroButton metroButton108;
         private MetroFramework.Controls.MetroButton metroButton109;
         private MetroFramework.Controls.MetroButton metroButton110;
@@ -7937,7 +7909,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton112;
         private MetroFramework.Controls.MetroButton metroButton113;
         private MetroFramework.Controls.MetroButton metroButton114;
-        private MetroFramework.Controls.MetroButton metroButton115;
         private MetroFramework.Controls.MetroButton metroButton116;
         private MetroFramework.Controls.MetroButton metroButton117;
         private MetroFramework.Controls.MetroButton metroButton118;
@@ -7945,7 +7916,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton120;
         private MetroFramework.Controls.MetroButton metroButton121;
         private MetroFramework.Controls.MetroButton metroButton122;
-        private MetroFramework.Controls.MetroButton metroButton123;
         private MetroFramework.Controls.MetroButton metroButton124;
         private MetroFramework.Controls.MetroButton metroButton125;
         private MetroFramework.Controls.MetroButton metroButton126;
@@ -7953,7 +7923,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton128;
         private MetroFramework.Controls.MetroButton metroButton129;
         private MetroFramework.Controls.MetroButton metroButton130;
-        private MetroFramework.Controls.MetroButton metroButton131;
         private MetroFramework.Controls.MetroButton metroButton132;
         private MetroFramework.Controls.MetroButton metroButton133;
         private MetroFramework.Controls.MetroButton metroButton134;
@@ -7961,7 +7930,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton136;
         private MetroFramework.Controls.MetroButton metroButton137;
         private MetroFramework.Controls.MetroButton metroButton138;
-        private MetroFramework.Controls.MetroButton metroButton139;
         private MetroFramework.Controls.MetroButton metroButton140;
         private MetroFramework.Controls.MetroButton metroButton141;
         private MetroFramework.Controls.MetroButton metroButton142;
@@ -7969,7 +7937,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton144;
         private MetroFramework.Controls.MetroButton metroButton145;
         private MetroFramework.Controls.MetroButton metroButton146;
-        private MetroFramework.Controls.MetroButton metroButton147;
         private MetroFramework.Controls.MetroButton metroButton148;
         private MetroFramework.Controls.MetroButton metroButton149;
         private MetroFramework.Controls.MetroButton metroButton150;
@@ -7977,7 +7944,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton152;
         private MetroFramework.Controls.MetroButton metroButton153;
         private MetroFramework.Controls.MetroButton metroButton154;
-        private MetroFramework.Controls.MetroButton metroButton155;
         private MetroFramework.Controls.MetroButton metroButton156;
         private MetroFramework.Controls.MetroButton metroButton157;
         private MetroFramework.Controls.MetroButton metroButton158;
@@ -7985,7 +7951,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton160;
         private MetroFramework.Controls.MetroButton metroButton161;
         private MetroFramework.Controls.MetroButton metroButton162;
-        private MetroFramework.Controls.MetroButton metroButton163;
         private MetroFramework.Controls.MetroButton metroButton164;
         private MetroFramework.Controls.MetroButton metroButton165;
         private MetroFramework.Controls.MetroButton metroButton166;
@@ -7993,7 +7958,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton168;
         private MetroFramework.Controls.MetroButton metroButton169;
         private MetroFramework.Controls.MetroButton metroButton170;
-        private MetroFramework.Controls.MetroButton metroButton171;
         private MetroFramework.Controls.MetroButton metroButton172;
         private MetroFramework.Controls.MetroButton metroButton173;
         private MetroFramework.Controls.MetroButton metroButton174;
@@ -8001,7 +7965,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton176;
         private MetroFramework.Controls.MetroButton metroButton177;
         private MetroFramework.Controls.MetroButton metroButton178;
-        private MetroFramework.Controls.MetroButton metroButton179;
         private MetroFramework.Controls.MetroButton metroButton180;
         private MetroFramework.Controls.MetroButton metroButton181;
         private MetroFramework.Controls.MetroButton metroButton182;
@@ -8009,7 +7972,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton184;
         private MetroFramework.Controls.MetroButton metroButton185;
         private MetroFramework.Controls.MetroButton metroButton186;
-        private MetroFramework.Controls.MetroButton metroButton187;
         private MetroFramework.Controls.MetroButton metroButton188;
         private MetroFramework.Controls.MetroButton metroButton189;
         private MetroFramework.Controls.MetroButton metroButton190;
@@ -8017,7 +7979,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton192;
         private MetroFramework.Controls.MetroButton metroButton193;
         private MetroFramework.Controls.MetroButton metroButton194;
-        private MetroFramework.Controls.MetroButton metroButton195;
         private MetroFramework.Controls.MetroButton metroButton196;
         private MetroFramework.Controls.MetroButton metroButton197;
         private MetroFramework.Controls.MetroButton metroButton198;
@@ -8025,7 +7986,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton200;
         private MetroFramework.Controls.MetroButton metroButton201;
         private MetroFramework.Controls.MetroButton metroButton202;
-        private MetroFramework.Controls.MetroButton metroButton203;
         private MetroFramework.Controls.MetroButton metroButton204;
         private MetroFramework.Controls.MetroButton metroButton205;
         private MetroFramework.Controls.MetroButton metroButton206;
@@ -8033,7 +7993,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton208;
         private MetroFramework.Controls.MetroButton metroButton209;
         private MetroFramework.Controls.MetroButton metroButton210;
-        private MetroFramework.Controls.MetroButton metroButton211;
         private MetroFramework.Controls.MetroButton metroButton212;
         private MetroFramework.Controls.MetroButton metroButton213;
         private MetroFramework.Controls.MetroButton metroButton214;
@@ -8041,7 +8000,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton216;
         private MetroFramework.Controls.MetroButton metroButton217;
         private MetroFramework.Controls.MetroButton metroButton218;
-        private MetroFramework.Controls.MetroButton metroButton219;
         private MetroFramework.Controls.MetroButton metroButton220;
         private MetroFramework.Controls.MetroButton metroButton221;
         private MetroFramework.Controls.MetroButton metroButton222;
@@ -8049,7 +8007,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton224;
         private MetroFramework.Controls.MetroButton metroButton225;
         private MetroFramework.Controls.MetroButton metroButton226;
-        private MetroFramework.Controls.MetroButton metroButton227;
         private MetroFramework.Controls.MetroButton metroButton228;
         private MetroFramework.Controls.MetroButton metroButton229;
         private MetroFramework.Controls.MetroButton metroButton230;
@@ -8057,7 +8014,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton232;
         private MetroFramework.Controls.MetroButton metroButton233;
         private MetroFramework.Controls.MetroButton metroButton234;
-        private MetroFramework.Controls.MetroButton metroButton235;
         private MetroFramework.Controls.MetroButton metroButton236;
         private MetroFramework.Controls.MetroButton metroButton237;
         private MetroFramework.Controls.MetroButton metroButton238;
@@ -8065,7 +8021,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton240;
         private MetroFramework.Controls.MetroButton metroButton241;
         private MetroFramework.Controls.MetroButton metroButton242;
-        private MetroFramework.Controls.MetroButton metroButton243;
         private MetroFramework.Controls.MetroButton metroButton244;
         private MetroFramework.Controls.MetroButton metroButton245;
         private MetroFramework.Controls.MetroButton metroButton246;
@@ -8073,7 +8028,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton248;
         private MetroFramework.Controls.MetroButton metroButton249;
         private MetroFramework.Controls.MetroButton metroButton250;
-        private MetroFramework.Controls.MetroButton metroButton251;
         private MetroFramework.Controls.MetroButton metroButton252;
         private MetroFramework.Controls.MetroButton metroButton253;
         private MetroFramework.Controls.MetroButton metroButton254;
@@ -8081,7 +8035,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton256;
         private MetroFramework.Controls.MetroButton metroButton257;
         private MetroFramework.Controls.MetroButton metroButton258;
-        private MetroFramework.Controls.MetroButton metroButton259;
         private MetroFramework.Controls.MetroButton metroButton260;
         private MetroFramework.Controls.MetroButton metroButton261;
         private MetroFramework.Controls.MetroButton metroButton262;
@@ -8089,7 +8042,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton264;
         private MetroFramework.Controls.MetroButton metroButton265;
         private MetroFramework.Controls.MetroButton metroButton266;
-        private MetroFramework.Controls.MetroButton metroButton267;
         private MetroFramework.Controls.MetroButton metroButton268;
         private MetroFramework.Controls.MetroButton metroButton269;
         private MetroFramework.Controls.MetroButton metroButton270;
@@ -8097,7 +8049,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton272;
         private MetroFramework.Controls.MetroButton metroButton273;
         private MetroFramework.Controls.MetroButton metroButton274;
-        private MetroFramework.Controls.MetroButton metroButton275;
         private MetroFramework.Controls.MetroButton metroButton276;
         private MetroFramework.Controls.MetroButton metroButton277;
         private MetroFramework.Controls.MetroButton metroButton278;
@@ -8105,13 +8056,11 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton280;
         private MetroFramework.Controls.MetroButton metroButton281;
         private MetroFramework.Controls.MetroButton metroButton282;
-        private MetroFramework.Controls.MetroButton metroButton283;
         private MetroFramework.Controls.MetroButton metroButton284;
         private MetroFramework.Controls.MetroButton metroButton285;
         private MetroFramework.Controls.MetroButton metroButton286;
         private MetroFramework.Controls.MetroButton metroButton287;
         private MetroFramework.Controls.MetroButton metroButton288;
-        private MetroFramework.Controls.MetroButton metroButton289;
         private MetroFramework.Controls.MetroButton metroButton290;
         private MetroFramework.Controls.MetroButton metroButton291;
         private MetroFramework.Controls.MetroButton metroButton292;
@@ -8121,10 +8070,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton296;
         private MetroFramework.Controls.MetroButton metroButton297;
         private MetroFramework.Controls.MetroButton metroButton298;
-        private MetroFramework.Controls.MetroButton metroButton299;
-        private MetroFramework.Controls.MetroButton metroButton300;
-        private MetroFramework.Controls.MetroButton metroButton301;
-        private MetroFramework.Controls.MetroButton metroButton302;
         private MetroFramework.Controls.MetroButton metroButton303;
         private MetroFramework.Controls.MetroButton metroButton304;
         private MetroFramework.Controls.MetroButton metroButton305;
@@ -8390,5 +8335,50 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton402;
         private MetroFramework.Controls.MetroButton metroButton410;
         private MetroFramework.Controls.MetroButton metroButton418;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroLabel metroLabel3;
+        private MetroFramework.Controls.MetroLabel metroLabel4;
+        private MetroFramework.Controls.MetroLabel metroLabel5;
+        private MetroFramework.Controls.MetroLabel metroLabel6;
+        private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroLabel metroLabel8;
+        private MetroFramework.Controls.MetroLabel metroLabel9;
+        private MetroFramework.Controls.MetroLabel metroLabel10;
+        private MetroFramework.Controls.MetroLabel metroLabel11;
+        private MetroFramework.Controls.MetroLabel metroLabel12;
+        private MetroFramework.Controls.MetroLabel metroLabel13;
+        private MetroFramework.Controls.MetroLabel metroLabel14;
+        private MetroFramework.Controls.MetroLabel metroLabel15;
+        private MetroFramework.Controls.MetroLabel metroLabel16;
+        private MetroFramework.Controls.MetroLabel metroLabel17;
+        private MetroFramework.Controls.MetroLabel metroLabel18;
+        private MetroFramework.Controls.MetroLabel metroLabel19;
+        private MetroFramework.Controls.MetroLabel metroLabel20;
+        private MetroFramework.Controls.MetroLabel metroLabel21;
+        private MetroFramework.Controls.MetroLabel metroLabel22;
+        private MetroFramework.Controls.MetroLabel metroLabel23;
+        private MetroFramework.Controls.MetroLabel metroLabel24;
+        private MetroFramework.Controls.MetroLabel metroLabel25;
+        private MetroFramework.Controls.MetroLabel metroLabel26;
+        private MetroFramework.Controls.MetroLabel metroLabel27;
+        private MetroFramework.Controls.MetroLabel metroLabel28;
+        private MetroFramework.Controls.MetroLabel metroLabel29;
+        private MetroFramework.Controls.MetroLabel metroLabel30;
+        private MetroFramework.Controls.MetroLabel metroLabel31;
+        private MetroFramework.Controls.MetroLabel metroLabel32;
+        private MetroFramework.Controls.MetroLabel metroLabel33;
+        private MetroFramework.Controls.MetroLabel metroLabel34;
+        private MetroFramework.Controls.MetroLabel metroLabel35;
+        private MetroFramework.Controls.MetroLabel metroLabel36;
+        private MetroFramework.Controls.MetroLabel metroLabel37;
+        private MetroFramework.Controls.MetroLabel metroLabel38;
+        private MetroFramework.Controls.MetroLabel metroLabel39;
+        private MetroFramework.Controls.MetroLabel metroLabel40;
+        private MetroFramework.Controls.MetroLabel metroLabel41;
+        private MetroFramework.Controls.MetroLabel metroLabel42;
+        private MetroFramework.Controls.MetroLabel metroLabel43;
+        private MetroFramework.Controls.MetroLabel metroLabel44;
+        private MetroFramework.Controls.MetroLabel metroLabel45;
     }
 }
