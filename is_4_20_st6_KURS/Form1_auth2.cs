@@ -13,7 +13,7 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form1_auth : MetroForm
+    public partial class Form1_auth2 : MetroForm
     {
         // строка подключения к БД
         string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
@@ -34,16 +34,17 @@ namespace is_4_20_st6_KURS
             while (reader.Read())
             {
                 // элементы массива [] - это значения столбцов из запроса SELECT
-                Auth.auth_login = reader[3].ToString();
-                Auth.auth_password = reader[4].ToString();
-                Auth.auth_role = Convert.ToInt32(reader[5].ToString());
+                Auth.auth_id = reader[0].ToString();
+                Auth.auth_login = reader[2].ToString();
+                Auth.auth_password = reader[3].ToString();
+                Auth.auth_role = Convert.ToInt32(reader[4].ToString());
             }
             reader.Close(); // закрываем reader
             // закрываем соединение с БД
             conn.Close();
         }
 
-        public Form1_auth()
+        public Form1_auth2()
         {
             InitializeComponent();
         }
@@ -78,6 +79,8 @@ namespace is_4_20_st6_KURS
                 //Присваеваем глобальный признак авторизации
                 Auth.auth = true;
                 //Достаем данные пользователя в случае успеха
+                //Достаем данные пользователя в случае успеха
+                GetUserInfo(metroTextBox1.Text);
                 MessageBox.Show("Авторизация успешна");
                 //Закрываем форму
                 this.Close();

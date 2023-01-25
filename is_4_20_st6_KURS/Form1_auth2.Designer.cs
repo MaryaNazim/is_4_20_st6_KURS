@@ -1,7 +1,7 @@
 ﻿
 namespace is_4_20_st6_KURS
 {
-    partial class Form1_auth
+    partial class Form1_auth2
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -29,7 +29,7 @@ namespace is_4_20_st6_KURS
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1_auth));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1_auth2));
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();

@@ -24,7 +24,7 @@ namespace is_4_20_st6_KURS
         //Статичное поле, которое хранит значение статуса авторизации
         public static bool auth = false;
         //Статичное поле, которое хранит значения ID пользователя
-        public static string auth_id_u = null;
+        public static string auth_id = null;
         public static string auth_login = null;
         public static string auth_password = null;
         //Статичное поле, которое хранит количество привелегий пользователя

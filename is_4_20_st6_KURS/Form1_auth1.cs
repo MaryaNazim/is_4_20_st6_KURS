@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form1_auth1 : Form
+    public partial class Form1_auth1 : MetroForm
     {
         public Form1_auth1()
         {
@@ -25,33 +26,33 @@ namespace is_4_20_st6_KURS
                 //И в зависимости от того, какая роль (цифра) хранится в поле класса и передана в метод, показываются те или иные кнопки.
                 //Вы можете скрыть их и не отображать вообще, здесь они просто выключены
                 case 1:
-                    label8.Text = "Максимальный";
-                    label8.ForeColor = Color.Green;
-                    button1.Enabled = true;
-                    button2.Enabled = true;
-                    button3.Enabled = true;
+                    metroLabel8.Text = "Максимальный";
+                    metroLabel8.ForeColor = Color.Green;
+                    metroButton1.Enabled = true;
+                    metroButton2.Enabled = true;
+                    metroButton3.Enabled = true;
                     break;
                 case 2:
-                    label8.Text = "Умеренный";
-                    label8.ForeColor = Color.YellowGreen;
-                    button1.Enabled = false;
-                    button2.Enabled = true;
-                    button3.Enabled = true;
+                    metroLabel8.Text = "Умеренный";
+                    metroLabel8.ForeColor = Color.YellowGreen;
+                    metroButton1.Enabled = false;
+                    metroButton2.Enabled = true;
+                    metroButton3.Enabled = true;
                     break;
                 case 3:
-                    label8.Text = "Минимальный";
-                    label8.ForeColor = Color.Yellow;
-                    button1.Enabled = false;
-                    button2.Enabled = false;
-                    button3.Enabled = true;
+                    metroLabel8.Text = "Минимальный";
+                    metroLabel8.ForeColor = Color.Yellow;
+                    metroButton1.Enabled = false;
+                    metroButton2.Enabled = false;
+                    metroButton3.Enabled = true;
                     break;
                 //Если по какой то причине в классе ничего не содержится, то всё отключается вообще
                 default:
-                    label8.Text = "Неопределённый";
-                    label8.ForeColor = Color.Red;
-                    button1.Enabled = false;
-                    button2.Enabled = false;
-                    button3.Enabled = false;
+                    metroLabel8.Text = "Неопределённый";
+                    metroLabel8.ForeColor = Color.Red;
+                    metroButton1.Enabled = false;
+                    metroButton2.Enabled = false;
+                    metroButton3.Enabled = true;
                     break;
             }
         }
@@ -61,20 +62,20 @@ namespace is_4_20_st6_KURS
             //Сокрытие текущей формы
             this.Hide();
             //Инициализируем и вызываем форму диалога авторизации
-            Form1_auth form1_Auth = new Form1_auth();
+            Form1_auth2 form1_auth2 = new Form1_auth2();
             //Вызов формы в режиме диалога
-            form1_Auth.ShowDialog();
+            form1_auth2.ShowDialog();
             //Если авторизации была успешна и в поле класса хранится истина, то делаем движуху:
             if (Auth.auth)
             {
                 //Отображаем рабочую форму
                 this.Show();
                 //Вытаскиваем из класса поля в label'ы
-                label5.Text = Auth.auth_login;
-                label4.Text = Auth.auth_password;
-                label6.Text = "Успешна!";
+                metroLabel5.Text = Auth.auth_id;
+                metroLabel4.Text = Auth.auth_login;
+                metroLabel6.Text = "Успешна!";
                 //Красим текст в label в зелёный цвет
-                label6.ForeColor = Color.Green;
+                metroLabel6.ForeColor = Color.Green;
                 //Вызываем метод управления ролями
                 ManagerRole(Auth.auth_role);
             }
@@ -84,6 +85,19 @@ namespace is_4_20_st6_KURS
                 //Закрываем форму
                 this.Close();
             }
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            //Закрываем форму
+            this.Close();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu_admin menu_admin = new Menu_admin();
+            menu_admin.ShowDialog();
         }
     }
 }

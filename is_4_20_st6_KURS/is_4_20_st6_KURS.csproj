@@ -93,11 +93,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1_auth.cs">
+    <Compile Include="Form1_auth2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1_auth.Designer.cs">
-      <DependentUpon>Form1_auth.cs</DependentUpon>
+    <Compile Include="Form1_auth2.Designer.cs">
+      <DependentUpon>Form1_auth2.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1_auth1.cs">
       <SubType>Form</SubType>
@@ -159,6 +159,12 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_admin.Designer.cs">
+      <DependentUpon>Menu_admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,8 +173,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1_auth.resx">
-      <DependentUpon>Form1_auth.cs</DependentUpon>
+    <EmbeddedResource Include="Form1_auth2.resx">
+      <DependentUpon>Form1_auth2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1_auth1.resx">
       <DependentUpon>Form1_auth1.cs</DependentUpon>
@@ -199,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_admin.resx">
+      <DependentUpon>Menu_admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

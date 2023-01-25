@@ -31,8 +31,7 @@ namespace is_4_20_st6_KURS
             while (reader.Read())
             {
                 // элементы массива [] - это значения столбцов из запроса SELECT
-                lb.Items.Add($"Название: {reader[1].ToString()} Продолжительность: {reader[2].ToString()} Дата и время: {reader[3].ToString()}");
-
+                lb.Items.Add($"Название: {reader[1].ToString()} Продолжительность: {reader[2].ToString()} дата и время: {reader[3].ToString()}");
             }
             reader.Close(); // закрываем reader
             // закрываем соединение с БД
@@ -92,7 +91,7 @@ namespace is_4_20_st6_KURS
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
-            //Вызов метода обновления списка преподавателей с передачей в качестве параметра ListBox
+
             GetListAfisha(listBox1);
         }
 
@@ -106,6 +105,7 @@ namespace is_4_20_st6_KURS
             if (InsertAfisha(ins_title,ins_duration,ins_dt))
             {
                 GetListAfisha(listBox1);
+                MessageBox.Show("Всё чотко");
             }
             //Иначе произошла какая то ошибка и покажем пользователю уведомление
             else

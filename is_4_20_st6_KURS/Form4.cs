@@ -93,6 +93,16 @@ namespace is_4_20_st6_KURS
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
+            
+            metroButton11.Click += metroButton10_Click;
+            metroButton12.Click += metroButton10_Click;
+            metroButton13.Click += metroButton10_Click;
+            metroButton14.Click += metroButton10_Click;
+            metroButton15.Click += metroButton10_Click;
+            metroButton16.Click += metroButton16_Click;
+            metroButton17.Click += metroButton16_Click;
+            metroButton18.Click += metroButton16_Click;
+
 
         }
 
@@ -141,6 +151,11 @@ namespace is_4_20_st6_KURS
                 MessageBox.Show($"место {metroLabel32.Text} забронировано");
 
             this.TopMost = true;
+        }
+
+        private void metroButton22_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

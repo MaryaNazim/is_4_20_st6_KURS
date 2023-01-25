@@ -624,7 +624,6 @@ namespace is_4_20_st6_KURS
             this.metroButton11.Text = "2";
             this.metroButton11.UseSelectable = true;
             this.metroButton11.UseStyleColors = true;
-            this.metroButton11.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton12
             // 
@@ -636,7 +635,6 @@ namespace is_4_20_st6_KURS
             this.metroButton12.Text = "3";
             this.metroButton12.UseSelectable = true;
             this.metroButton12.UseStyleColors = true;
-            this.metroButton12.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton13
             // 
@@ -648,7 +646,6 @@ namespace is_4_20_st6_KURS
             this.metroButton13.Text = "4";
             this.metroButton13.UseSelectable = true;
             this.metroButton13.UseStyleColors = true;
-            this.metroButton13.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton14
             // 
@@ -660,7 +657,6 @@ namespace is_4_20_st6_KURS
             this.metroButton14.Text = "5";
             this.metroButton14.UseSelectable = true;
             this.metroButton14.UseStyleColors = true;
-            this.metroButton14.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton15
             // 
@@ -672,7 +668,6 @@ namespace is_4_20_st6_KURS
             this.metroButton15.Text = "6";
             this.metroButton15.UseSelectable = true;
             this.metroButton15.UseStyleColors = true;
-            this.metroButton15.Click += new System.EventHandler(this.metroButton10_Click);
             // 
             // metroButton16
             // 
@@ -684,7 +679,6 @@ namespace is_4_20_st6_KURS
             this.metroButton16.Text = "1";
             this.metroButton16.UseSelectable = true;
             this.metroButton16.UseStyleColors = true;
-            this.metroButton16.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton17
             // 
@@ -696,7 +690,6 @@ namespace is_4_20_st6_KURS
             this.metroButton17.Text = "2";
             this.metroButton17.UseSelectable = true;
             this.metroButton17.UseStyleColors = true;
-            this.metroButton17.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton18
             // 
@@ -708,7 +701,6 @@ namespace is_4_20_st6_KURS
             this.metroButton18.Text = "3";
             this.metroButton18.UseSelectable = true;
             this.metroButton18.UseStyleColors = true;
-            this.metroButton18.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton19
             // 
@@ -720,7 +712,6 @@ namespace is_4_20_st6_KURS
             this.metroButton19.Text = "4";
             this.metroButton19.UseSelectable = true;
             this.metroButton19.UseStyleColors = true;
-            this.metroButton19.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton20
             // 
@@ -732,7 +723,6 @@ namespace is_4_20_st6_KURS
             this.metroButton20.Text = "5";
             this.metroButton20.UseSelectable = true;
             this.metroButton20.UseStyleColors = true;
-            this.metroButton20.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton21
             // 
@@ -744,7 +734,6 @@ namespace is_4_20_st6_KURS
             this.metroButton21.Text = "6";
             this.metroButton21.UseSelectable = true;
             this.metroButton21.UseStyleColors = true;
-            this.metroButton21.Click += new System.EventHandler(this.metroButton16_Click);
             // 
             // metroButton22
             // 
