@@ -72,10 +72,13 @@ namespace is_4_20_st6_KURS
             // metroDateTime1
             // 
             this.metroDateTime1.Location = new System.Drawing.Point(23, 94);
+            this.metroDateTime1.MaxDate = new System.DateTime(2022, 12, 31, 0, 0, 0, 0);
+            this.metroDateTime1.MinDate = new System.DateTime(2022, 12, 1, 0, 0, 0, 0);
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
             this.metroDateTime1.Size = new System.Drawing.Size(288, 29);
             this.metroDateTime1.TabIndex = 21;
+            this.metroDateTime1.Value = new System.DateTime(2022, 12, 31, 0, 0, 0, 0);
             this.metroDateTime1.ValueChanged += new System.EventHandler(this.metroDateTime1_ValueChanged);
             // 
             // metroButton1
@@ -101,6 +104,7 @@ namespace is_4_20_st6_KURS
             this.Name = "Form3";
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "Афиша";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

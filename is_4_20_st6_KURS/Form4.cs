@@ -14,6 +14,7 @@ namespace is_4_20_st6_KURS
 {
     public partial class Form4 : MetroForm
     {
+
         //Простой метод принимающий в качества параметра любой ListBox и выводящий в него список преподавателей
         public void GetListAfisha()
         {
@@ -93,6 +94,8 @@ namespace is_4_20_st6_KURS
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
+
+            metroLabel1.Text = Auth.title;
             
             metroButton11.Click += metroButton10_Click;
             metroButton12.Click += metroButton10_Click;
@@ -157,5 +160,6 @@ namespace is_4_20_st6_KURS
         {
 
         }
+
     }
 }

@@ -44,36 +44,30 @@ namespace is_4_20_st6_KURS
             //определяем переменную, хранящую количество вставленных строк
             int InsertCount = 0;
             //Объявляем переменную храняющую результат операции
-            bool result = false;
+            bool result = true;
             // открываем соединение
             conn.Open();
             // запросы
             // запрос вставки данных
             string query = $"INSERT INTO Afisha (title, duration, dt) VALUES ('{i_title}', '{i_duration}', '{i_dt}')";
-            try
+            // объект для выполнения SQL-запроса
+            MySqlCommand command = new MySqlCommand(query, conn);
+            // выполняем запрос
+            InsertCount = command.ExecuteNonQuery();
+
+            //Ессли количество вставленных строк было не 0, то есть вставлена хотя бы 1 строка
+            if (InsertCount != 0)
             {
-                // объект для выполнения SQL-запроса
-                MySqlCommand command = new MySqlCommand(query, conn);
-                // выполняем запрос
-                InsertCount = command.ExecuteNonQuery();
-                // закрываем подключение к БД
+                //то результат операции - истина
+                result = true;
+
             }
-            catch
+            else
             {
                 //Если возникла ошибка, то запрос не вставит ни одной строки
                 InsertCount = 0;
             }
-            finally
-            {
-                //Но в любом случае, нужно закрыть соединение
-                conn.Close();
-                //Ессли количество вставленных строк было не 0, то есть вставлена хотя бы 1 строка
-                if (InsertCount != 0)
-                {
-                    //то результат операции - истина
-                    result = true;
-                }
-            }
+            conn.Close();
             //Вернём результат операции, где его обработает алгоритм
             return result;
         }
@@ -105,7 +99,6 @@ namespace is_4_20_st6_KURS
             if (InsertAfisha(ins_title,ins_duration,ins_dt))
             {
                 GetListAfisha(listBox1);
-                MessageBox.Show("Всё чотко");
             }
             //Иначе произошла какая то ошибка и покажем пользователю уведомление
             else

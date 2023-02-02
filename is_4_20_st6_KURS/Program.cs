@@ -29,6 +29,8 @@ namespace is_4_20_st6_KURS
         public static string auth_password = null;
         //Статичное поле, которое хранит количество привелегий пользователя
         public static int auth_role = 0;
+
+        public static string title = null;
     }
     static class Program
     {

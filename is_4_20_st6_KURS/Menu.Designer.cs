@@ -82,12 +82,14 @@ namespace is_4_20_st6_KURS
             this.афишаToolStripMenuItem.Name = "афишаToolStripMenuItem";
             this.афишаToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.афишаToolStripMenuItem.Text = "Афиша";
+            this.афишаToolStripMenuItem.Click += new System.EventHandler(this.афишаToolStripMenuItem_Click);
             // 
             // схемаЗалаToolStripMenuItem
             // 
             this.схемаЗалаToolStripMenuItem.Name = "схемаЗалаToolStripMenuItem";
             this.схемаЗалаToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.схемаЗалаToolStripMenuItem.Text = "Схема зала";
+            this.схемаЗалаToolStripMenuItem.Click += new System.EventHandler(this.схемаЗалаToolStripMenuItem_Click);
             // 
             // Menu
             // 
