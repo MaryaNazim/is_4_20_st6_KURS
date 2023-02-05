@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 using MetroFramework.Forms;
+using MySql.Data.MySqlClient;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form5_orderplaces : MetroForm
+    public partial class Form7_afisharooms : MetroForm
     {
         //Переменная соединения
         MySqlConnection conn;
@@ -26,13 +26,12 @@ namespace is_4_20_st6_KURS
         private DataSet ds = new DataSet();
         //Представляет одну таблицу данных в памяти.
         private DataTable table = new DataTable();
-
-        public Form5_orderplaces()
+        public Form7_afisharooms()
         {
             InitializeComponent();
         }
 
-        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void metroGrid1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             //Магические строки - не вникать
             metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
@@ -52,7 +51,7 @@ namespace is_4_20_st6_KURS
         public void GetListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = "SELECT id AS 'Код', Afisha AS 'Название спектакля', place AS 'Место', OrderM AS 'Бронь' FROM OrderPlace";
+            string commandStr = "SELECT id AS 'Код', count_title AS 'Номер представления', id_Rooms AS 'Код зала', id_Afish AS 'Код афиши', time AS 'Время', price AS 'Цена' FROM AfishaRooms";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -67,7 +66,7 @@ namespace is_4_20_st6_KURS
             conn.Close();
         }
 
-        private void Form5_orderplaces_Load(object sender, EventArgs e)
+        private void Form7_afisharooms_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
@@ -80,21 +79,29 @@ namespace is_4_20_st6_KURS
             metroGrid1.Columns[1].Visible = true;
             metroGrid1.Columns[2].Visible = true;
             metroGrid1.Columns[3].Visible = true;
+            metroGrid1.Columns[4].Visible = true;
+            metroGrid1.Columns[5].Visible = true;
             //Ширина полей
             metroGrid1.Columns[0].FillWeight = 15;
             metroGrid1.Columns[1].FillWeight = 40;
             metroGrid1.Columns[2].FillWeight = 15;
             metroGrid1.Columns[3].FillWeight = 15;
+            metroGrid1.Columns[4].FillWeight = 15;
+            metroGrid1.Columns[5].FillWeight = 15;
             //Режим для полей "Только для чтения"
             metroGrid1.Columns[0].ReadOnly = true;
             metroGrid1.Columns[1].ReadOnly = true;
             metroGrid1.Columns[2].ReadOnly = true;
             metroGrid1.Columns[3].ReadOnly = true;
+            metroGrid1.Columns[4].ReadOnly = true;
+            metroGrid1.Columns[5].ReadOnly = true;
             //Растягивание полей грида
             metroGrid1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             metroGrid1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             metroGrid1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             metroGrid1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             //Убираем заголовки строк
             metroGrid1.RowHeadersVisible = false;
             //Показываем заголовки столбцов
@@ -102,7 +109,7 @@ namespace is_4_20_st6_KURS
         }
 
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
-        public bool InsertAfisha(string i_Afisha, string i_place, string i_OrderM)
+        public bool InsertAfisha(string i_count_title, string i_id_Rooms, string i_id_Afish, string i_time, string i_price)
         {
             //определяем переменную, хранящую количество вставленных строк
             int InsertCount = 0;
@@ -112,7 +119,7 @@ namespace is_4_20_st6_KURS
             conn.Open();
             // запросы
             // запрос вставки данных
-            string query = $"INSERT INTO OrderPlace (Afisha, place, OrderM) VALUES ('{i_Afisha}', '{i_place}', '{i_OrderM}')";
+            string query = $"INSERT INTO AfishaRooms (count_title, id_Rooms, id_Afish, time, price) VALUES ('{i_count_title}', '{i_id_Rooms}', '{i_id_Afish}', '{i_time}', '{i_price}')";
             // объект для выполнения SQL-запроса
             MySqlCommand command = new MySqlCommand(query, conn);
             // выполняем запрос
@@ -138,11 +145,13 @@ namespace is_4_20_st6_KURS
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             //Объявляем переменные для вставки в БД
-            string ins_Afisha = metroTextBox2.Text;
-            string ins_place = metroTextBox3.Text;
-            string ins_OrderM = metroTextBox4.Text;
+            string ins_count_title = metroTextBox2.Text;
+            string ins_id_Rooms = metroTextBox3.Text;
+            string ins_id_Afish = metroTextBox4.Text;
+            string ins_time = metroTextBox5.Text;
+            string ins_price = metroTextBox6.Text;
             //Если метод вставки записи в БД вернёт истину, то просто обновим список и увидим вставленное значение
-            if (InsertAfisha(ins_Afisha, ins_place, ins_OrderM))
+            if (InsertAfisha(ins_count_title, ins_id_Rooms, ins_id_Afish, ins_time, ins_price))
             {
                 GetListUsers();
                 reload_list();
@@ -164,7 +173,7 @@ namespace is_4_20_st6_KURS
             // открываем соединение
             conn.Open();
             // запрос удаления данных
-            string query = $"DELETE FROM OrderPlace WHERE (id='{id_del}')";
+            string query = $"DELETE FROM AfishaRooms WHERE (id='{id_del}')";
             try
             {
                 // объект для выполнения SQL-запроса
@@ -192,6 +201,7 @@ namespace is_4_20_st6_KURS
             //Вернём результат операции, где его обработает алгоритм
             return result;
         }
+
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             //Помещаем в переменную введёный ИД для удаления

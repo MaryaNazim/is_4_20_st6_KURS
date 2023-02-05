@@ -31,20 +31,23 @@ namespace is_4_20_st6_KURS
                     metroButton1.Enabled = true;
                     metroButton2.Enabled = true;
                     metroButton3.Enabled = true;
+                    metroButton4.Enabled = true;
                     break;
                 case 2:
                     metroLabel8.Text = "Умеренный";
                     metroLabel8.ForeColor = Color.YellowGreen;
                     metroButton1.Enabled = false;
-                    metroButton2.Enabled = true;
-                    metroButton3.Enabled = true;
+                    metroButton2.Enabled = false;
+                    metroButton3.Enabled = false;
+                    metroButton4.Enabled = false;
                     break;
                 case 3:
                     metroLabel8.Text = "Минимальный";
                     metroLabel8.ForeColor = Color.Yellow;
                     metroButton1.Enabled = false;
                     metroButton2.Enabled = false;
-                    metroButton3.Enabled = true;
+                    metroButton3.Enabled = false;
+                    metroButton4.Enabled = false;
                     break;
                 //Если по какой то причине в классе ничего не содержится, то всё отключается вообще
                 default:
@@ -52,7 +55,8 @@ namespace is_4_20_st6_KURS
                     metroLabel8.ForeColor = Color.Red;
                     metroButton1.Enabled = false;
                     metroButton2.Enabled = false;
-                    metroButton3.Enabled = true;
+                    metroButton3.Enabled = false;
+                    metroButton4.Enabled = false;
                     break;
             }
         }
@@ -85,19 +89,49 @@ namespace is_4_20_st6_KURS
                 //Закрываем форму
                 this.Close();
             }
+
+            metroButton1.ContextMenuStrip = metroContextMenu1;
         }
 
         private void metroButton3_Click(object sender, EventArgs e)
         {
-            //Закрываем форму
-            this.Close();
+            Form6_employ form6_employ = new Form6_employ();
+            form6_employ.ShowDialog();
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Menu_admin menu_admin = new Menu_admin();
-            menu_admin.ShowDialog();
+
+        }
+
+        private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3_afishainsert form3_afishainsert = new Form3_afishainsert();
+            form3_afishainsert.ShowDialog();
+        }
+
+        private void удалитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3_afishadelete form3_afishadelete = new Form3_afishadelete();
+            form3_afishadelete.ShowDialog();
+        }
+
+        private void поискToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3_afishafilter form3_afishafilter = new Form3_afishafilter();
+            form3_afishafilter.ShowDialog();
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            Form5_orderplaces form5_orderplaces = new Form5_orderplaces();
+            form5_orderplaces.ShowDialog();
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            Form7_afisharooms form7_afisharooms = new Form7_afisharooms();
+            form7_afisharooms.ShowDialog();
         }
     }
 }

@@ -102,10 +102,10 @@ namespace is_4_20_st6_KURS
             //Формируем колонки в элементе listView
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void metroButton1_Click(object sender, EventArgs e)
         {
             //Помещаем в переменную введёный ИД для удаления
-            string id_del = textBox1.Text;
+            string id_del = metroTextBox1.Text;
             //Если функция удалила строку, то
             if (DeleteAfisha(id_del))
             {

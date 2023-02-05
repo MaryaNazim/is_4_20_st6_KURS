@@ -12,7 +12,7 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form5_orderplaces : MetroForm
+    public partial class Form6_employ : MetroForm
     {
         //Переменная соединения
         MySqlConnection conn;
@@ -26,13 +26,12 @@ namespace is_4_20_st6_KURS
         private DataSet ds = new DataSet();
         //Представляет одну таблицу данных в памяти.
         private DataTable table = new DataTable();
-
-        public Form5_orderplaces()
+        public Form6_employ()
         {
             InitializeComponent();
         }
 
-        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void metroGrid1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             //Магические строки - не вникать
             metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
@@ -52,7 +51,7 @@ namespace is_4_20_st6_KURS
         public void GetListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = "SELECT id AS 'Код', Afisha AS 'Название спектакля', place AS 'Место', OrderM AS 'Бронь' FROM OrderPlace";
+            string commandStr = "SELECT id_emp AS 'Код', fio AS 'ФИО', dr AS 'Дата рождения', phone AS 'Номер телефона' FROM Employ";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -67,7 +66,7 @@ namespace is_4_20_st6_KURS
             conn.Close();
         }
 
-        private void Form5_orderplaces_Load(object sender, EventArgs e)
+        private void Form6_employ_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
             string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
@@ -102,7 +101,7 @@ namespace is_4_20_st6_KURS
         }
 
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
-        public bool InsertAfisha(string i_Afisha, string i_place, string i_OrderM)
+        public bool InsertAfisha(string i_fio, string i_dr, string i_phone)
         {
             //определяем переменную, хранящую количество вставленных строк
             int InsertCount = 0;
@@ -112,7 +111,7 @@ namespace is_4_20_st6_KURS
             conn.Open();
             // запросы
             // запрос вставки данных
-            string query = $"INSERT INTO OrderPlace (Afisha, place, OrderM) VALUES ('{i_Afisha}', '{i_place}', '{i_OrderM}')";
+            string query = $"INSERT INTO Employ (fio, dr, phone) VALUES ('{i_fio}', '{i_dr}', '{i_phone}')";
             // объект для выполнения SQL-запроса
             MySqlCommand command = new MySqlCommand(query, conn);
             // выполняем запрос
@@ -138,11 +137,11 @@ namespace is_4_20_st6_KURS
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             //Объявляем переменные для вставки в БД
-            string ins_Afisha = metroTextBox2.Text;
-            string ins_place = metroTextBox3.Text;
-            string ins_OrderM = metroTextBox4.Text;
+            string ins_fio = metroTextBox2.Text;
+            string ins_dr = metroTextBox3.Text;
+            string ins_phone = metroTextBox4.Text;
             //Если метод вставки записи в БД вернёт истину, то просто обновим список и увидим вставленное значение
-            if (InsertAfisha(ins_Afisha, ins_place, ins_OrderM))
+            if (InsertAfisha(ins_fio, ins_dr, ins_phone))
             {
                 GetListUsers();
                 reload_list();
@@ -164,7 +163,7 @@ namespace is_4_20_st6_KURS
             // открываем соединение
             conn.Open();
             // запрос удаления данных
-            string query = $"DELETE FROM OrderPlace WHERE (id='{id_del}')";
+            string query = $"DELETE FROM Employ WHERE (id_emp='{id_del}')";
             try
             {
                 // объект для выполнения SQL-запроса
@@ -192,6 +191,7 @@ namespace is_4_20_st6_KURS
             //Вернём результат операции, где его обработает алгоритм
             return result;
         }
+
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             //Помещаем в переменную введёный ИД для удаления
@@ -210,4 +210,5 @@ namespace is_4_20_st6_KURS
             }
         }
     }
+
 }

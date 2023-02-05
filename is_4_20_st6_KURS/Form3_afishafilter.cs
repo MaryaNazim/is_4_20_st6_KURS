@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form3_afishafilter : Form
+    public partial class Form3_afishafilter : MetroForm
     {
         //Переменная соединения
         MySqlConnection conn;
@@ -37,8 +38,8 @@ namespace is_4_20_st6_KURS
             //Это тоже магические строки, в них тоже не вникайте
             if (!e.RowIndex.Equals(-1) && !e.ColumnIndex.Equals(-1) && e.Button.Equals(MouseButtons.Right))
             {
-                dataGridView1.CurrentCell = dataGridView1[e.ColumnIndex, e.RowIndex];
-                dataGridView1.CurrentCell.Selected = true;
+                metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
+                metroGrid1.CurrentCell.Selected = true;
             }
         }
 
@@ -46,8 +47,8 @@ namespace is_4_20_st6_KURS
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             //Магические строки - не вникать
-            dataGridView1.CurrentCell = dataGridView1[e.ColumnIndex, e.RowIndex];
-            dataGridView1.CurrentRow.Selected = true;
+            metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
+            metroGrid1.CurrentRow.Selected = true;
         }
 
         //Метод обновления DataGreed
@@ -73,7 +74,7 @@ namespace is_4_20_st6_KURS
             //Указываем, что источником данных в bindingsource является заполненная выше таблица
             bSource.DataSource = table;
             //Указываем, что источником данных ДатаГрида является bindingsource 
-            dataGridView1.DataSource = bSource;
+            metroGrid1.DataSource = bSource;
             //Закрываем соединение
             conn.Close();
         }
@@ -89,29 +90,29 @@ namespace is_4_20_st6_KURS
             //Вызываем метод для заполнение дата Грида
             GetListUsers();
             //Видимость полей в гриде
-            dataGridView1.Columns[0].Visible = true;
-            dataGridView1.Columns[1].Visible = true;
-            dataGridView1.Columns[2].Visible = true;
-            dataGridView1.Columns[3].Visible = true;
+            metroGrid1.Columns[0].Visible = true;
+            metroGrid1.Columns[1].Visible = true;
+            metroGrid1.Columns[2].Visible = true;
+            metroGrid1.Columns[3].Visible = true;
             //Ширина полей
-            dataGridView1.Columns[0].FillWeight = 15;
-            dataGridView1.Columns[1].FillWeight = 40;
-            dataGridView1.Columns[2].FillWeight = 15;
-            dataGridView1.Columns[3].FillWeight = 15;
+            metroGrid1.Columns[0].FillWeight = 15;
+            metroGrid1.Columns[1].FillWeight = 40;
+            metroGrid1.Columns[2].FillWeight = 15;
+            metroGrid1.Columns[3].FillWeight = 15;
             //Режим для полей "Только для чтения"
-            dataGridView1.Columns[0].ReadOnly = true;
-            dataGridView1.Columns[1].ReadOnly = true;
-            dataGridView1.Columns[2].ReadOnly = true;
-            dataGridView1.Columns[3].ReadOnly = true;
+            metroGrid1.Columns[0].ReadOnly = true;
+            metroGrid1.Columns[1].ReadOnly = true;
+            metroGrid1.Columns[2].ReadOnly = true;
+            metroGrid1.Columns[3].ReadOnly = true;
             //Растягивание полей грида
-            dataGridView1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridView1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridView1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridView1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             //Убираем заголовки строк
-            dataGridView1.RowHeadersVisible = false;
+            metroGrid1.RowHeadersVisible = false;
             //Показываем заголовки столбцов
-            dataGridView1.ColumnHeadersVisible = true;
+            metroGrid1.ColumnHeadersVisible = true;
         }
 
         //Кнопка обновления 

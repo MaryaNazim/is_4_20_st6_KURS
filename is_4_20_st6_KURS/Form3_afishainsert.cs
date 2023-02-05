@@ -8,11 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using MetroFramework.Forms;
 
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form3_afishainsert : Form
+    public partial class Form3_afishainsert : MetroForm
     {
         //Простой метод принимающий в качества параметра любой ListBox и выводящий в него список преподавателей
         public void GetListAfisha(ListBox lb)
@@ -89,14 +90,14 @@ namespace is_4_20_st6_KURS
             GetListAfisha(listBox1);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void metroButton1_Click(object sender, EventArgs e)
         {
             //Объявляем переменные для вставки в БД
-            string ins_title = textBox1.Text;
-            string ins_duration= textBox2.Text;
-            string ins_dt = textBox3.Text;
+            string ins_title = metroTextBox1.Text;
+            string ins_duration = metroTextBox2.Text;
+            string ins_dt = metroTextBox3.Text;
             //Если метод вставки записи в БД вернёт истину, то просто обновим список и увидим вставленное значение
-            if (InsertAfisha(ins_title,ins_duration,ins_dt))
+            if (InsertAfisha(ins_title, ins_duration, ins_dt))
             {
                 GetListAfisha(listBox1);
             }
