@@ -26,7 +26,6 @@ namespace is_4_20_st6_KURS
 
         private void metroDateTime1_ValueChanged(object sender, EventArgs e)
         {
-            metroLabel1.Text = Auth.title;
             pictureBox1.Visible = true;
             switch (metroDateTime1.Value.ToShortDateString()) //dateTimePicker1.Value - значение в dateTimePicker1. ".ToShortDateString()" - преобразование типа данных в string
             {
@@ -50,31 +49,34 @@ namespace is_4_20_st6_KURS
         }
         public void Payazi()
         {
-            //metroLabel1.Text = "Р. Леонкавалло «Паяцы»";
+            metroLabel1.Text = "Р. Леонкавалло «Паяцы»";
             pictureBox1.Image = Properties.Resources.payazi_afisha;
             pictureBox1.Visible = true;
         }
         public void Shelkunchic()
         {
-            //metroLabel1.Text = "П. Чайковский «Щелкунчик»";
+            metroLabel1.Text = "П. Чайковский «Щелкунчик»";
             pictureBox1.Image = Properties.Resources.shelkuunchik;
             pictureBox1.Visible = true;
+            
         }
         public void Karenina()
         {
-            //metroLabel1.Text = "К. Монтеверди, В. А. Моцарт, Ф. Лист, С. Рахманинов, О. Респиги, Б. Бриттен, Л. Левашкевич «Анна Каренина»";
+            metroLabel1.Text = "К. Монтеверди, В. А. Моцарт, Ф. Лист, С. Рахманинов, О. Респиги, Б. Бриттен, Л. Левашкевич «Анна Каренина»";
             pictureBox1.Image = Properties.Resources._237karenina;
             pictureBox1.Visible = true;
+            
         }
         public void MisterX()
         {
-            //metroLabel1.Text = "И. Кальман «Мистер Икс»";
+            metroLabel1.Text = "И. Кальман «Мистер Икс»";
             pictureBox1.Image = Properties.Resources.misterx;
             pictureBox1.Visible = true;
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
+            Auth.title = metroLabel1.Text;
             Form4 Form4 = new Form4();
             Form4.ShowDialog();
         }
@@ -83,28 +85,6 @@ namespace is_4_20_st6_KURS
         {
             conn = new MySqlConnection(connStr);
         }
-
-        /*public void GetSpectaclInfo()
-        {
-            // устанавливаем соединение с БД
-            conn.Open();
-            // запрос
-            string sql = $"SELECT title FROM `Afisha`";
-            // объект для выполнения SQL-запроса
-            MySqlCommand command = new MySqlCommand(sql, conn);
-            // объект для чтения ответа сервера
-            MySqlDataReader reader = command.ExecuteReader();
-            // читаем результат
-            while (reader.Read())
-            {
-                // элементы массива [] - это значения столбцов из запроса SELECT
-                Auth.title = reader[1].ToString();
-            }
-            reader.Close(); // закрываем reader
-            // закрываем соединение с БД
-            conn.Close();
-        }
-        */
 
     }
 }
