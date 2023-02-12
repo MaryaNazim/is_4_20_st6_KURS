@@ -28,7 +28,7 @@ namespace is_4_20_st6_KURS
             string n_phone = metroTextBox2.Text;
 
             //Формируем запрос на изменени
-            string sql_update_current_stud = $"INSERT INTO t_client (fioClient, phoneClient) " +
+            string sql_update_current_stud = $"INSERT INTO Employ (fioClient, phoneClient) " +
                                               $"VALUES ('{n_fio}', '{n_phone}'); " +
                                               $"SELECT idClient FROM t_client WHERE (idClient = LAST_INSERT_ID());";
             // устанавливаем соединение с БД
@@ -48,7 +48,7 @@ namespace is_4_20_st6_KURS
         private void Form7_addticket_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
-            string connStr = "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
+            string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
         }
