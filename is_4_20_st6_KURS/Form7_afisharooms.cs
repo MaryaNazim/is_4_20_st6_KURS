@@ -35,6 +35,10 @@ namespace is_4_20_st6_KURS
         string titleItems_selected_rows = "";
         //Переменная которая хранит стоимость товара
         string priceItems_selected_rows = "";
+        string count_bilet_selected_rows = "";
+        string id_Rooms_selected_rows = "";
+        string time_selected_rows = "";
+        string date_selected_rows = "";
         //Перемененная отвечающая за понимание, создан ли заказ
         bool issetOrder = false;
         //Переменная для подсчёта предварительной суммы заказа
@@ -461,17 +465,25 @@ namespace is_4_20_st6_KURS
         //Добавление позиций во временную корзину
         private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            metroGrid2.Columns.Add("Код", "text");
+            metroGrid2.Columns.Add("Номер билета", "text");
+            metroGrid2.Columns.Add("Номер места", "text");
+            metroGrid2.Columns.Add("Название спектакля", "text");
+            metroGrid2.Columns.Add("Время", "text");
+            metroGrid2.Columns.Add("Дата", "text");
+            metroGrid2.Columns.Add("Цена", "text");
             //Индекс добавленной строки
-            var rowNumber = metroGrid2.Rows.Add();
+            int rowNumber = metroGrid2.Rows.Add();
             //Распихивание данных по полям грида
             metroGrid2.Rows[rowNumber].Cells[0].Value = id_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[1].Value = titleItems_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[2].Value = "1";
-            metroGrid2.Rows[rowNumber].Cells[3].Value = priceItems_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[4].Value = priceItems_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[5].Value = priceItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[1].Value = count_bilet_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[2].Value = id_Rooms_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[3].Value = titleItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[4].Value = time_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[5].Value = date_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[6].Value = priceItems_selected_rows;
             //Обновление итоговой суммы заказа
-            prSumOrder += Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[4].Value) * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[2].Value);
+            prSumOrder += Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value) * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value);
             //Вывод предварительной итоговой суммы заказа
             metroLabel6.Text = prSumOrder.ToString();
         }

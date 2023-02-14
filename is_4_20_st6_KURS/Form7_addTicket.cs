@@ -28,9 +28,9 @@ namespace is_4_20_st6_KURS
             string n_phone = metroTextBox2.Text;
 
             //Формируем запрос на изменени
-            string sql_update_current_stud = $"INSERT INTO Employ (fioClient, phoneClient) " +
+            string sql_update_current_stud = $"INSERT INTO Employ (fio, phone) " +
                                               $"VALUES ('{n_fio}', '{n_phone}'); " +
-                                              $"SELECT idClient FROM t_client WHERE (idClient = LAST_INSERT_ID());";
+                                              $"SELECT id_emp FROM Employ WHERE (id_emp = LAST_INSERT_ID());";
             // устанавливаем соединение с БД
             conn.Open();
             // объект для выполнения SQL-запроса
