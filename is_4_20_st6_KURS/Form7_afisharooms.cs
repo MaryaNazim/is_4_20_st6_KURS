@@ -29,15 +29,19 @@ namespace is_4_20_st6_KURS
         //Переменная для ID записи в БД, выбранной в гриде. Пока она не содердит значения, лучше его инициализировать с 0
         //что бы в БД не отправлялся null
         string id_selected_rows = "0";
-        //ID выбранного клиента
-        string id_selected_clients = "0";
+        //ID выбранного заказа
+        string id_selected_bilet = "0";
         //Переменная которая хранить имя товара 
         string titleItems_selected_rows = "";
         //Переменная которая хранит стоимость товара
         string priceItems_selected_rows = "";
+
         string count_bilet_selected_rows = "";
+
         string id_Rooms_selected_rows = "";
+
         string time_selected_rows = "";
+
         string date_selected_rows = "";
         //Перемененная отвечающая за понимание, создан ли заказ
         bool issetOrder = false;
@@ -47,35 +51,35 @@ namespace is_4_20_st6_KURS
         public void GetComboBox1()
         {
             //Формирование списка статусов
-            DataTable list_stud_table = new DataTable();
-            MySqlCommand list_stud_command = new MySqlCommand();
+            DataTable list_order_table = new DataTable();
+            MySqlCommand list_order_command = new MySqlCommand();
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_stud_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
-            list_stud_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
+            list_order_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
+            list_order_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
-            metroComboBox1.DataSource = list_stud_table;
+            metroComboBox1.DataSource = list_order_table;
             metroComboBox1.DisplayMember = "title";
             metroComboBox1.ValueMember = "id";
             //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_users = "SELECT id, title FROM Room";
-            list_stud_command.CommandText = sql_list_users;
-            list_stud_command.Connection = conn;
+            string sql_list_bilets = "SELECT id, title FROM Room";
+            list_order_command.CommandText = sql_list_bilets;
+            list_order_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_stud_reader;
+            MySqlDataReader list_bilets_reader;
             try
             {
                 //Инициализируем ридер
-                list_stud_reader = list_stud_command.ExecuteReader();
-                while (list_stud_reader.Read())
+                list_bilets_reader = list_order_command.ExecuteReader();
+                while (list_bilets_reader.Read())
                 {
-                    DataRow rowToAdd = list_stud_table.NewRow();
-                    rowToAdd["id"] = Convert.ToInt32(list_stud_reader[0]);
-                    rowToAdd["title"] = list_stud_reader[1].ToString();
-                    list_stud_table.Rows.Add(rowToAdd);
+                    DataRow rowToAdd = list_order_table.NewRow();
+                    rowToAdd["id"] = Convert.ToInt32(list_bilets_reader[0]);
+                    rowToAdd["title"] = list_bilets_reader[1].ToString();
+                    list_order_table.Rows.Add(rowToAdd);
                 }
-                list_stud_reader.Close();
+                list_bilets_reader.Close();
             }
             catch (Exception ex)
             {
@@ -90,35 +94,35 @@ namespace is_4_20_st6_KURS
         public void GetComboBox2(string id)
         {
             //Формирование списка статусов
-            DataTable list_stud_table = new DataTable();
-            MySqlCommand list_stud_command = new MySqlCommand();
+            DataTable list_order_table = new DataTable();
+            MySqlCommand list_order_command = new MySqlCommand();
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_stud_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
-            list_stud_table.Columns.Add(new DataColumn("count_place", System.Type.GetType("System.String")));
+            list_order_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
+            list_order_table.Columns.Add(new DataColumn("count_place", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
-            metroComboBox2.DataSource = list_stud_table;
+            metroComboBox2.DataSource = list_order_table;
             metroComboBox2.DisplayMember = "count_place";
             metroComboBox2.ValueMember = "id";
             //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_users = $"SELECT id, count_place FROM Room WHERE id = {id}";
-            list_stud_command.CommandText = sql_list_users;
-            list_stud_command.Connection = conn;
+            string sql_list_places = $"SELECT id, count_place FROM Room WHERE id = {id}";
+            list_order_command.CommandText = sql_list_places;
+            list_order_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_stud_reader;
+            MySqlDataReader list_places_reader;
             try
             {
                 //Инициализируем ридер
-                list_stud_reader = list_stud_command.ExecuteReader();
-                while (list_stud_reader.Read())
+                list_places_reader = list_order_command.ExecuteReader();
+                while (list_places_reader.Read())
                 {
-                    DataRow rowToAdd = list_stud_table.NewRow();
-                    rowToAdd["id"] = Convert.ToInt32(list_stud_reader[0]);
-                    rowToAdd["count_place"] = list_stud_reader[1].ToString();
-                    list_stud_table.Rows.Add(rowToAdd);
+                    DataRow rowToAdd = list_order_table.NewRow();
+                    rowToAdd["id"] = Convert.ToInt32(list_places_reader[0]);
+                    rowToAdd["count_place"] = list_places_reader[1].ToString();
+                    list_order_table.Rows.Add(rowToAdd);
                 }
-                list_stud_reader.Close();
+                list_places_reader.Close();
             }
             catch (Exception ex)
             {
@@ -133,35 +137,35 @@ namespace is_4_20_st6_KURS
         public void GetComboBox3()
         {
             //Формирование списка статусов
-            DataTable list_stud_table = new DataTable();
-            MySqlCommand list_stud_command = new MySqlCommand();
+            DataTable list_afisha_table = new DataTable();
+            MySqlCommand list_afisha_command = new MySqlCommand();
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_stud_table.Columns.Add(new DataColumn("id_Afisha", System.Type.GetType("System.Int32")));
-            list_stud_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
+            list_afisha_table.Columns.Add(new DataColumn("id_Afisha", System.Type.GetType("System.Int32")));
+            list_afisha_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
-            metroComboBox3.DataSource = list_stud_table;
+            metroComboBox3.DataSource = list_afisha_table;
             metroComboBox3.DisplayMember = "title";
             metroComboBox3.ValueMember = "id_Afisha";
             //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_users = "SELECT id_Afisha, title FROM Afisha";
-            list_stud_command.CommandText = sql_list_users;
-            list_stud_command.Connection = conn;
+            string sql_list_afisha = "SELECT id_Afisha, title FROM Afisha";
+            list_afisha_command.CommandText = sql_list_afisha;
+            list_afisha_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_stud_reader;
+            MySqlDataReader list_afisha_reader;
             try
             {
                 //Инициализируем ридер
-                list_stud_reader = list_stud_command.ExecuteReader();
-                while (list_stud_reader.Read())
+                list_afisha_reader = list_afisha_command.ExecuteReader();
+                while (list_afisha_reader.Read())
                 {
-                    DataRow rowToAdd = list_stud_table.NewRow();
-                    rowToAdd["id_Afisha"] = Convert.ToInt32(list_stud_reader[0]);
-                    rowToAdd["title"] = list_stud_reader[1].ToString();
-                    list_stud_table.Rows.Add(rowToAdd);
+                    DataRow rowToAdd = list_afisha_table.NewRow();
+                    rowToAdd["id_Afisha"] = Convert.ToInt32(list_afisha_reader[0]);
+                    rowToAdd["title"] = list_afisha_reader[1].ToString();
+                    list_afisha_table.Rows.Add(rowToAdd);
                 }
-                list_stud_reader.Close();
+                list_afisha_reader.Close();
             }
             catch (Exception ex)
             {
@@ -177,33 +181,33 @@ namespace is_4_20_st6_KURS
         public void GetComboBox4(string id_Afisha)
         {
             //Формирование списка статусов
-            DataTable list_stud_table = new DataTable();
-            MySqlCommand list_stud_command = new MySqlCommand();
+            DataTable list_afisha_table = new DataTable();
+            MySqlCommand list_afisha_command = new MySqlCommand();
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_stud_table.Columns.Add(new DataColumn("id_Afisha", System.Type.GetType("System.Int32")));
-            list_stud_table.Columns.Add(new DataColumn("dt", System.Type.GetType("System.String")));
+            list_afisha_table.Columns.Add(new DataColumn("id_Afisha", System.Type.GetType("System.Int32")));
+            list_afisha_table.Columns.Add(new DataColumn("dt", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
-            metroComboBox4.DataSource = list_stud_table;
+            metroComboBox4.DataSource = list_afisha_table;
             metroComboBox4.DisplayMember = "dt";
             metroComboBox4.ValueMember = "id_Afisha";
             //Формируем строку запроса на отображение списка статусов прав пользователя
             string sql_list_users = $"SELECT id_Afisha, dt FROM Afisha WHERE id_Afisha = {id_Afisha}";
-            list_stud_command.CommandText = sql_list_users;
-            list_stud_command.Connection = conn;
+            list_afisha_command.CommandText = sql_list_users;
+            list_afisha_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
             MySqlDataReader list_stud_reader;
             try
             {
                 //Инициализируем ридер
-                list_stud_reader = list_stud_command.ExecuteReader();
+                list_stud_reader = list_afisha_command.ExecuteReader();
                 while (list_stud_reader.Read())
                 {
-                    DataRow rowToAdd = list_stud_table.NewRow();
+                    DataRow rowToAdd = list_afisha_table.NewRow();
                     rowToAdd["id_Afisha"] = Convert.ToInt32(list_stud_reader[0]);
                     rowToAdd["dt"] = list_stud_reader[1].ToString();
-                    list_stud_table.Rows.Add(rowToAdd);
+                    list_afisha_table.Rows.Add(rowToAdd);
                 }
                 list_stud_reader.Close();
             }
@@ -416,13 +420,13 @@ namespace is_4_20_st6_KURS
         {
             //Объявляем форму
             Form7_addticket formNewClient = new Form7_addticket();
-            //Открываем форму в режиме диалога
             formNewClient.ShowDialog();
             //Вызываем обновление данных в комбобоксе с клиентами
             GetComboBox3();
             //устанавливаем в комбобоксе строки со значением добавленного только что клиента
             metroComboBox3.SelectedValue = Convert.ToInt32(SomeClass.new_inserted_id);
             toolStripStatusLabel1.Text = $"Добавлен клиент в БД с ID {SomeClass.new_inserted_id}";
+
         }
 
         //Метод добавления заказа в главную таблицу заказов
@@ -430,7 +434,7 @@ namespace is_4_20_st6_KURS
         {
             //Определяем значение переменных для записи в БД
             string dataOrder = DateTime.Now.ToShortDateString();
-            string idClient = id_selected_clients;
+            string idClient = id_selected_bilet;
             string summOrder = "0";
 
             //Формируем запрос на вставку с возвратом последного вставленного ID
@@ -454,7 +458,7 @@ namespace is_4_20_st6_KURS
         private void metroButton1_Click(object sender, EventArgs e)
         {
             //Устанавливаем в переменную ИД выбранного клиента для формирования заказа
-            id_selected_clients = metroComboBox3.SelectedValue.ToString();
+            id_selected_bilet = metroComboBox2.SelectedValue.ToString();
             //Создание заказа с запоминанием ID этого самого заказа, она нужна для формирования позиций в составе зказа
             InsertOrderMain();
             //Изменение переменной отчечающей за понимание, создан ли заказ
@@ -502,16 +506,17 @@ namespace is_4_20_st6_KURS
                 for (int i = 0; i < countPosition; i++)
                 {
                     //Задание переменных для формирования запроса в БД
-                    string idItems = metroGrid2.Rows[i].Cells[0].Value.ToString();
-                    string countItems = metroGrid2.Rows[i].Cells[2].Value.ToString();
-                    double priceItems = Convert.ToDouble(metroGrid2.Rows[i].Cells[3].Value);
+                    string id = metroGrid2.Rows[i].Cells[0].Value.ToString();
+                    string datatime = metroGrid2.Rows[i].Cells[2].Value.ToString();
+                    string id_emp = metroGrid2.Rows[i].Cells[3].Value.ToString();
+                    double price= Convert.ToInt32(metroGrid2.Rows[i].Cells[4].Value);
                     //Получение номера заказа в рамках которого добавляются позиции
                     string idOrder = SomeClass.new_inserted_mainOrder_id;
                     //Подсчёт итоговой суммы
-                    sumOrder += Convert.ToInt32(countItems) * priceItems;
+                    sumOrder += Convert.ToInt32(countPosition) * price;
                     //Формирование запросов на добавение позиций заказа
-                    string query = $"INSERT INTO t_positionOrders (idItems, countItems, idMainOrders) " +
-                        $"VALUES ('{idItems}', '{countItems}', {idOrder})";
+                    string query = $"INSERT INTO OrderM (id, datatime, empl) " +
+                        $"VALUES ('{id}', '{datatime}', {id_emp})";
                     // объект для выполнения SQL-запроса
                     MySqlCommand command = new MySqlCommand(query, conn);
                     // выполняем запрос

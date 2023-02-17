@@ -24,12 +24,12 @@ namespace is_4_20_st6_KURS
         private void metroButton1_Click(object sender, EventArgs e)
         {
             //Определяем значение переменных для записи в БД
-            string n_fio = metroTextBox1.Text;
-            string n_phone = metroTextBox2.Text;
+            string datetime = metroTextBox1.Text;
+            string emp = metroTextBox2.Text;
 
             //Формируем запрос на изменени
-            string sql_update_current_stud = $"INSERT INTO Employ (fio, phone) " +
-                                              $"VALUES ('{n_fio}', '{n_phone}'); " +
+            string sql_update_current_stud = $"INSERT INTO OrderM (datatime, empl) " +
+                                              $"VALUES ('{datetime}', '{emp}'); " +
                                               $"SELECT id_emp FROM Employ WHERE (id_emp = LAST_INSERT_ID());";
             // устанавливаем соединение с БД
             conn.Open();
@@ -38,7 +38,7 @@ namespace is_4_20_st6_KURS
             // выполняем запрос
             string id_insert_client = command.ExecuteScalar().ToString();
             SomeClass.new_inserted_id = id_insert_client;
-            //MessageBox.Show($"ID нового клиента {id_insert_client}");
+            MessageBox.Show($"ID нового клиента {id_insert_client}");
             // закрываем подключение к БД
             conn.Close();
             //Закрываем форму

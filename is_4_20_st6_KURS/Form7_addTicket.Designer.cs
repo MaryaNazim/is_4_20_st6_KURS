@@ -36,7 +36,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(57, 157);
+            this.metroButton1.Location = new System.Drawing.Point(57, 167);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(113, 23);
             this.metroButton1.TabIndex = 0;
@@ -50,7 +50,7 @@ namespace is_4_20_st6_KURS
             // 
             // 
             this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(91, 1);
             this.metroTextBox1.CustomButton.Name = "";
             this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -82,7 +82,7 @@ namespace is_4_20_st6_KURS
             // 
             // 
             this.metroTextBox2.CustomButton.Image = null;
-            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(91, 1);
             this.metroTextBox2.CustomButton.Name = "";
             this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -112,7 +112,7 @@ namespace is_4_20_st6_KURS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(269, 221);
+            this.ClientSize = new System.Drawing.Size(269, 302);
             this.Controls.Add(this.metroTextBox2);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroButton1);
