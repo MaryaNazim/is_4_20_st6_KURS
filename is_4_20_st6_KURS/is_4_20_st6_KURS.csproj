@@ -159,11 +159,11 @@
     <Compile Include="Form5_orderplaces.Designer.cs">
       <DependentUpon>Form5_orderplaces.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7_addticket.cs">
+    <Compile Include="Form7_addvisitor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7_addticket.Designer.cs">
-      <DependentUpon>Form7_addticket.cs</DependentUpon>
+    <Compile Include="Form7_addvisitor.Designer.cs">
+      <DependentUpon>Form7_addvisitor.cs</DependentUpon>
     </Compile>
     <Compile Include="Form7_afisharooms.cs">
       <SubType>Form</SubType>
@@ -176,12 +176,6 @@
     </Compile>
     <Compile Include="Form8_OrderM.Designer.cs">
       <DependentUpon>Form8_OrderM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menu_admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu_admin.Designer.cs">
-      <DependentUpon>Menu_admin.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -224,17 +218,14 @@
     <EmbeddedResource Include="Form6_employ.resx">
       <DependentUpon>Form6_employ.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7_addticket.resx">
-      <DependentUpon>Form7_addticket.cs</DependentUpon>
+    <EmbeddedResource Include="Form7_addvisitor.resx">
+      <DependentUpon>Form7_addvisitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form7_afisharooms.resx">
       <DependentUpon>Form7_afisharooms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form8_OrderM.resx">
       <DependentUpon>Form8_OrderM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu_admin.resx">
-      <DependentUpon>Menu_admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

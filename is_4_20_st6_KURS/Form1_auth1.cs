@@ -32,6 +32,7 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = true;
                     metroButton3.Enabled = true;
                     metroButton4.Enabled = true;
+                    metroButton5.Enabled = true;
                     break;
                 case 2:
                     metroLabel8.Text = "Умеренный";
@@ -40,6 +41,7 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
+                    metroButton5.Enabled = true;
                     break;
                 case 3:
                     metroLabel8.Text = "Минимальный";
@@ -48,6 +50,7 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
+                    metroButton5.Enabled = true;
                     break;
                 //Если по какой то причине в классе ничего не содержится, то всё отключается вообще
                 default:
@@ -57,6 +60,7 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
+                    metroButton5.Enabled = false;
                     break;
             }
         }
@@ -132,6 +136,12 @@ namespace is_4_20_st6_KURS
         {
             Form7_afisharooms form7_afisharooms = new Form7_afisharooms();
             form7_afisharooms.ShowDialog();
+        }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.ShowDialog();
         }
     }
 }

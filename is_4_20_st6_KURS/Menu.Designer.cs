@@ -32,8 +32,6 @@ namespace is_4_20_st6_KURS
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.авторизацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.регистрацияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.афишаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.схемаЗалаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,8 +51,6 @@ namespace is_4_20_st6_KURS
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.авторизацияToolStripMenuItem,
-            this.регистрацияToolStripMenuItem1,
             this.афишаToolStripMenuItem,
             this.схемаЗалаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(20, 60);
@@ -62,20 +58,6 @@ namespace is_4_20_st6_KURS
             this.menuStrip1.Size = new System.Drawing.Size(452, 24);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // авторизацияToolStripMenuItem
-            // 
-            this.авторизацияToolStripMenuItem.Name = "авторизацияToolStripMenuItem";
-            this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
-            this.авторизацияToolStripMenuItem.Text = "Авторизация";
-            this.авторизацияToolStripMenuItem.Click += new System.EventHandler(this.авторизацияToolStripMenuItem_Click);
-            // 
-            // регистрацияToolStripMenuItem1
-            // 
-            this.регистрацияToolStripMenuItem1.Name = "регистрацияToolStripMenuItem1";
-            this.регистрацияToolStripMenuItem1.Size = new System.Drawing.Size(88, 20);
-            this.регистрацияToolStripMenuItem1.Text = "Регистрация";
-            this.регистрацияToolStripMenuItem1.Click += new System.EventHandler(this.регистрацияToolStripMenuItem1_Click);
             // 
             // афишаToolStripMenuItem
             // 
@@ -113,8 +95,6 @@ namespace is_4_20_st6_KURS
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem авторизацияToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem регистрацияToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem афишаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem схемаЗалаToolStripMenuItem;
     }

@@ -42,7 +42,7 @@ namespace is_4_20_st6_KURS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Form1_auth1());
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace is_4_20_st6_KURS
 {
-    partial class Form7_addticket
+    partial class Form7_addvisitor
     {
         /// <summary>
         /// Required designer variable.
@@ -117,7 +117,7 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroButton1);
             this.Name = "Form7_addticket";
-            this.Text = "Form7_addTicket";
+            this.Text = "Form7_addVisitor";
             this.Load += new System.EventHandler(this.Form7_addticket_Load);
             this.ResumeLayout(false);
 

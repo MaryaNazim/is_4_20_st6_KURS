@@ -12,11 +12,11 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form7_addticket : MetroForm
+    public partial class Form7_addvisitor : MetroForm
     {
         //Объявляем объект соединения глобально
         MySqlConnection conn;
-        public Form7_addticket()
+        public Form7_addvisitor()
         {
             InitializeComponent();
         }
@@ -24,13 +24,13 @@ namespace is_4_20_st6_KURS
         private void metroButton1_Click(object sender, EventArgs e)
         {
             //Определяем значение переменных для записи в БД
-            string datetime = metroTextBox1.Text;
-            string emp = metroTextBox2.Text;
+            string fio = metroTextBox1.Text;
+            string phone_number = metroTextBox2.Text;
 
             //Формируем запрос на изменени
-            string sql_update_current_stud = $"INSERT INTO OrderM (datatime, empl) " +
-                                              $"VALUES ('{datetime}', '{emp}'); " +
-                                              $"SELECT id_emp FROM Employ WHERE (id_emp = LAST_INSERT_ID());";
+            string sql_update_current_stud = $"INSERT INTO Visitors (fio, phone_number) " +
+                                              $"VALUES ('{fio}', '{phone_number}'); " +
+                                              $"SELECT id FROM OrderM WHERE (id = LAST_INSERT_ID());";
             // устанавливаем соединение с БД
             conn.Open();
             // объект для выполнения SQL-запроса
@@ -38,7 +38,7 @@ namespace is_4_20_st6_KURS
             // выполняем запрос
             string id_insert_client = command.ExecuteScalar().ToString();
             SomeClass.new_inserted_id = id_insert_client;
-            MessageBox.Show($"ID нового клиента {id_insert_client}");
+            //MessageBox.Show($"ID нового клиента {id_insert_client}");
             // закрываем подключение к БД
             conn.Close();
             //Закрываем форму

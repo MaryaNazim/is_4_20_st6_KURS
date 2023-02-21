@@ -18,18 +18,6 @@ namespace is_4_20_st6_KURS
             InitializeComponent();
         }
 
-        private void регистрацияToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Form2_registr form2_registr = new Form2_registr();
-            form2_registr.ShowDialog();
-        }
-
-        private void авторизацияToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form1_auth1 form1_auth1 = new Form1_auth1();
-            form1_auth1.ShowDialog();
-        }
-
         private void схемаЗалаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4();
