@@ -117,29 +117,11 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3_afishadelete.cs">
+    <Compile Include="Form3_afisha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3_afishadelete.Designer.cs">
-      <DependentUpon>Form3_afishadelete.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3_afishafilter.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3_afishafilter.Designer.cs">
-      <DependentUpon>Form3_afishafilter.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3_afishainsert.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3_afishainsert.Designer.cs">
-      <DependentUpon>Form3_afishainsert.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3_afishaupdate.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3_afishaupdate.Designer.cs">
-      <DependentUpon>Form3_afishaupdate.cs</DependentUpon>
+    <Compile Include="Form3_afisha.Designer.cs">
+      <DependentUpon>Form3_afisha.cs</DependentUpon>
     </Compile>
     <Compile Include="Form4.cs">
       <SubType>Form</SubType>
@@ -147,23 +129,29 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6_employ.cs">
+    <Compile Include="Form6_employees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6_employ.Designer.cs">
-      <DependentUpon>Form6_employ.cs</DependentUpon>
+    <Compile Include="Form6_employees.Designer.cs">
+      <DependentUpon>Form6_employees.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5_orderplaces.cs">
+    <Compile Include="Form5_order.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5_orderplaces.Designer.cs">
-      <DependentUpon>Form5_orderplaces.cs</DependentUpon>
+    <Compile Include="Form5_order.Designer.cs">
+      <DependentUpon>Form5_order.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7_addvisitor.cs">
+    <Compile Include="Form7_bilets.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7_addvisitor.Designer.cs">
-      <DependentUpon>Form7_addvisitor.cs</DependentUpon>
+    <Compile Include="Form7_bilets.Designer.cs">
+      <DependentUpon>Form7_bilets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7_visitors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7_visitors.Designer.cs">
+      <DependentUpon>Form7_visitors.cs</DependentUpon>
     </Compile>
     <Compile Include="Form7_afisharooms.cs">
       <SubType>Form</SubType>
@@ -171,11 +159,17 @@
     <Compile Include="Form7_afisharooms.Designer.cs">
       <DependentUpon>Form7_afisharooms.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8_OrderM.cs">
+    <Compile Include="Form8_actors.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8_OrderM.Designer.cs">
-      <DependentUpon>Form8_OrderM.cs</DependentUpon>
+    <Compile Include="Form8_actors.Designer.cs">
+      <DependentUpon>Form8_actors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8_actorafisha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8_actorafisha.Designer.cs">
+      <DependentUpon>Form8_actorafisha.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -197,35 +191,32 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3_afishadelete.resx">
-      <DependentUpon>Form3_afishadelete.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3_afishafilter.resx">
-      <DependentUpon>Form3_afishafilter.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3_afishainsert.resx">
-      <DependentUpon>Form3_afishainsert.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3_afishaupdate.resx">
-      <DependentUpon>Form3_afishaupdate.cs</DependentUpon>
+    <EmbeddedResource Include="Form3_afisha.resx">
+      <DependentUpon>Form3_afisha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5_orderplaces.resx">
-      <DependentUpon>Form5_orderplaces.cs</DependentUpon>
+    <EmbeddedResource Include="Form5_order.resx">
+      <DependentUpon>Form5_order.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6_employ.resx">
-      <DependentUpon>Form6_employ.cs</DependentUpon>
+    <EmbeddedResource Include="Form6_employees.resx">
+      <DependentUpon>Form6_employees.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7_addvisitor.resx">
-      <DependentUpon>Form7_addvisitor.cs</DependentUpon>
+    <EmbeddedResource Include="Form7_bilets.resx">
+      <DependentUpon>Form7_bilets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7_visitors.resx">
+      <DependentUpon>Form7_visitors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form7_afisharooms.resx">
       <DependentUpon>Form7_afisharooms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8_OrderM.resx">
-      <DependentUpon>Form8_OrderM.cs</DependentUpon>
+    <EmbeddedResource Include="Form8_actors.resx">
+      <DependentUpon>Form8_actors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8_actorafisha.resx">
+      <DependentUpon>Form8_actorafisha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

@@ -12,7 +12,7 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form6_employ : MetroForm
+    public partial class Form6_employees : MetroForm
     {
         //Переменная соединения
         MySqlConnection conn;
@@ -26,7 +26,11 @@ namespace is_4_20_st6_KURS
         private DataSet ds = new DataSet();
         //Представляет одну таблицу данных в памяти.
         private DataTable table = new DataTable();
-        public Form6_employ()
+        //Переменная для ID записи в БД, выбранной в гриде. Пока она не содердит значения, лучше его инициализировать с 0
+        //что бы в БД не отправлялся null
+        string id_selected_rows = "0";
+
+        public Form6_employees()
         {
             InitializeComponent();
         }
@@ -36,6 +40,7 @@ namespace is_4_20_st6_KURS
             //Магические строки - не вникать
             metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
             metroGrid1.CurrentRow.Selected = true;
+            GetSelectedIDString();
         }
 
         //Метод обновления DataGreed
@@ -69,7 +74,7 @@ namespace is_4_20_st6_KURS
         private void Form6_employ_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
-            string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+            string connStr = "server=chuc.sdlik.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
             //Вызываем метод для заполнение дата Грида
@@ -100,6 +105,7 @@ namespace is_4_20_st6_KURS
             metroGrid1.ColumnHeadersVisible = true;
         }
 
+        /*
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
         public bool InsertAfisha(string i_fio, string i_dr, string i_phone)
         {
@@ -133,9 +139,25 @@ namespace is_4_20_st6_KURS
             //Вернём результат операции, где его обработает алгоритм
             return result;
         }
+        */
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
+            string tmp = $"INSERT INTO pyaterochka (title, price, date_expiration) VALUES ('{metroTextBox1.Text}', '{metroTextBox2.Text}', '{metroTextBox3.Text}')";
+            MySqlCommand cmd = new MySqlCommand(tmp, conn);
+            try
+            {
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                conn.Close();
+                MessageBox.Show("Добавление прошло успешно");
+                reload_list();
+            }
+            /*
             //Объявляем переменные для вставки в БД
             string ins_fio = metroTextBox2.Text;
             string ins_dr = metroTextBox3.Text;
@@ -151,8 +173,10 @@ namespace is_4_20_st6_KURS
             {
                 MessageBox.Show("Ошибка");
             }
+            */
         }
 
+        /*
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
         public bool DeletePrepods(string id_del)
         {
@@ -191,9 +215,11 @@ namespace is_4_20_st6_KURS
             //Вернём результат операции, где его обработает алгоритм
             return result;
         }
+        */
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
+            /*
             //Помещаем в переменную введёный ИД для удаления
             string id_del = metroTextBox1.Text;
             //Если функция удалила строку, то
@@ -208,6 +234,50 @@ namespace is_4_20_st6_KURS
             {
                 MessageBox.Show("Произошла ошибка.", "Ошибка");
             }
+            */
+            //Формируем строку запроса на добавление строк
+            string sql_delete = "DELETE FROM pyaterochka WHERE id='" + id_selected_rows + "'";
+            //Посылаем запрос на обновление данных
+            MySqlCommand delete = new MySqlCommand(sql_delete, conn);
+            try
+            {
+                conn.Open();
+                delete.ExecuteNonQuery();
+                MessageBox.Show("Удаление прошло успешно", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка удаления строки \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+            finally
+            {
+                conn.Close();
+                reload_list();
+            }
+        }
+
+        private void metroGrid1_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (!e.RowIndex.Equals(-1) && !e.ColumnIndex.Equals(-1) && e.Button.Equals(MouseButtons.Right))
+            {
+                metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
+                //dataGridView1.CurrentRow.Selected = true;
+                metroGrid1.CurrentCell.Selected = true;
+                GetSelectedIDString();
+            }
+        }
+
+        //Метод получения ID выделенной строки, для последующего вызова его в нужных методах
+        public void GetSelectedIDString()
+        {
+            //Переменная для индекс выбранной строки в гриде
+            string index_selected_rows;
+            //Индекс выбранной строки
+            index_selected_rows = metroGrid1.SelectedCells[0].RowIndex.ToString();
+            //ID конкретной записи в Базе данных, на основании индекса строки
+            id_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[0].Value.ToString();
+
         }
     }
 

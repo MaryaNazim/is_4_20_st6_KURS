@@ -41,12 +41,13 @@ namespace is_4_20_st6_KURS
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
-            this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroContextMenu1 = new MetroFramework.Controls.MetroContextMenu(this.components);
             this.добавитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
+            this.metroButton6 = new MetroFramework.Controls.MetroButton();
             this.metroContextMenu1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -152,16 +153,6 @@ namespace is_4_20_st6_KURS
             this.metroButton3.UseSelectable = true;
             this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
-            // metroButton4
-            // 
-            this.metroButton4.Location = new System.Drawing.Point(31, 313);
-            this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(260, 23);
-            this.metroButton4.TabIndex = 22;
-            this.metroButton4.Text = "СПЕКТАКЛИ";
-            this.metroButton4.UseSelectable = true;
-            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
-            // 
             // metroContextMenu1
             // 
             this.metroContextMenu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -176,21 +167,28 @@ namespace is_4_20_st6_KURS
             this.добавитьToolStripMenuItem.Name = "добавитьToolStripMenuItem";
             this.добавитьToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.добавитьToolStripMenuItem.Text = "добавить";
-            this.добавитьToolStripMenuItem.Click += new System.EventHandler(this.добавитьToolStripMenuItem_Click);
             // 
             // удалитьToolStripMenuItem
             // 
             this.удалитьToolStripMenuItem.Name = "удалитьToolStripMenuItem";
             this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.удалитьToolStripMenuItem.Text = "удалить";
-            this.удалитьToolStripMenuItem.Click += new System.EventHandler(this.удалитьToolStripMenuItem_Click);
             // 
             // поискToolStripMenuItem
             // 
             this.поискToolStripMenuItem.Name = "поискToolStripMenuItem";
             this.поискToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.поискToolStripMenuItem.Text = "поиск";
-            this.поискToolStripMenuItem.Click += new System.EventHandler(this.поискToolStripMenuItem_Click);
+            // 
+            // metroButton4
+            // 
+            this.metroButton4.Location = new System.Drawing.Point(31, 313);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(260, 23);
+            this.metroButton4.TabIndex = 22;
+            this.metroButton4.Text = "ПОЛЬЗОВАТЕЛЬСКОЕ МЕНЮ";
+            this.metroButton4.UseSelectable = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
             // metroButton5
             // 
@@ -198,15 +196,26 @@ namespace is_4_20_st6_KURS
             this.metroButton5.Name = "metroButton5";
             this.metroButton5.Size = new System.Drawing.Size(260, 23);
             this.metroButton5.TabIndex = 23;
-            this.metroButton5.Text = "ПОЛЬЗОВАТЕЛЬСКОЕ МЕНЮ";
+            this.metroButton5.Text = "АКТЁРЫ";
             this.metroButton5.UseSelectable = true;
             this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
+            // 
+            // metroButton6
+            // 
+            this.metroButton6.Location = new System.Drawing.Point(31, 371);
+            this.metroButton6.Name = "metroButton6";
+            this.metroButton6.Size = new System.Drawing.Size(260, 23);
+            this.metroButton6.TabIndex = 24;
+            this.metroButton6.Text = "БИЛЕТЫ";
+            this.metroButton6.UseSelectable = true;
+            this.metroButton6.Click += new System.EventHandler(this.metroButton6_Click);
             // 
             // Form1_auth1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 411);
+            this.ClientSize = new System.Drawing.Size(349, 411);
+            this.Controls.Add(this.metroButton6);
             this.Controls.Add(this.metroButton5);
             this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.metroButton3);
@@ -243,11 +252,12 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton3;
-        private MetroFramework.Controls.MetroButton metroButton4;
         private MetroFramework.Controls.MetroContextMenu metroContextMenu1;
         private System.Windows.Forms.ToolStripMenuItem добавитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem удалитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem поискToolStripMenuItem;
+        private MetroFramework.Controls.MetroButton metroButton4;
         private MetroFramework.Controls.MetroButton metroButton5;
+        private MetroFramework.Controls.MetroButton metroButton6;
     }
 }

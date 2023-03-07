@@ -14,7 +14,8 @@ namespace is_4_20_st6_KURS
         //Статичное поле, которое хранит значения ID добавленного клиента на Form15-addClient
         public static string new_inserted_id;
         //Статичное поле, которое хранит значение ID добаленного заказа
-        public static string new_inserted_mainOrder_id;
+        public static string new_inserted_Order_id;
+
     }
     
 

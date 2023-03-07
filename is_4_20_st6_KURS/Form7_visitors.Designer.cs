@@ -1,7 +1,7 @@
 ﻿
 namespace is_4_20_st6_KURS
 {
-    partial class Form7_addvisitor
+    partial class Form7_visitors
     {
         /// <summary>
         /// Required designer variable.
@@ -36,11 +36,11 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(57, 167);
+            this.metroButton1.Location = new System.Drawing.Point(150, 156);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(113, 23);
+            this.metroButton1.Size = new System.Drawing.Size(97, 23);
             this.metroButton1.TabIndex = 0;
-            this.metroButton1.Text = "metroButton1";
+            this.metroButton1.Text = "добавить";
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
@@ -59,8 +59,8 @@ namespace is_4_20_st6_KURS
             this.metroTextBox1.CustomButton.UseSelectable = true;
             this.metroTextBox1.CustomButton.Visible = false;
             this.metroTextBox1.Lines = new string[] {
-        "metroTextBox1"};
-            this.metroTextBox1.Location = new System.Drawing.Point(57, 63);
+        "ФИО"};
+            this.metroTextBox1.Location = new System.Drawing.Point(23, 75);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
@@ -69,9 +69,9 @@ namespace is_4_20_st6_KURS
             this.metroTextBox1.SelectionLength = 0;
             this.metroTextBox1.SelectionStart = 0;
             this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(113, 23);
+            this.metroTextBox1.Size = new System.Drawing.Size(224, 23);
             this.metroTextBox1.TabIndex = 1;
-            this.metroTextBox1.Text = "metroTextBox1";
+            this.metroTextBox1.Text = "ФИО";
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -91,8 +91,8 @@ namespace is_4_20_st6_KURS
             this.metroTextBox2.CustomButton.UseSelectable = true;
             this.metroTextBox2.CustomButton.Visible = false;
             this.metroTextBox2.Lines = new string[] {
-        "metroTextBox2"};
-            this.metroTextBox2.Location = new System.Drawing.Point(57, 105);
+        "Номер телефона"};
+            this.metroTextBox2.Location = new System.Drawing.Point(23, 104);
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '\0';
@@ -101,23 +101,24 @@ namespace is_4_20_st6_KURS
             this.metroTextBox2.SelectionLength = 0;
             this.metroTextBox2.SelectionStart = 0;
             this.metroTextBox2.ShortcutsEnabled = true;
-            this.metroTextBox2.Size = new System.Drawing.Size(113, 23);
+            this.metroTextBox2.Size = new System.Drawing.Size(144, 23);
             this.metroTextBox2.TabIndex = 2;
-            this.metroTextBox2.Text = "metroTextBox2";
+            this.metroTextBox2.Text = "Номер телефона";
             this.metroTextBox2.UseSelectable = true;
             this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // Form7_addticket
+            // Form7_addvisitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(269, 302);
+            this.ClientSize = new System.Drawing.Size(285, 207);
             this.Controls.Add(this.metroTextBox2);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroButton1);
-            this.Name = "Form7_addticket";
-            this.Text = "Form7_addVisitor";
+            this.Name = "Form7_addvisitor";
+            this.Style = MetroFramework.MetroColorStyle.Red;
+            this.Text = "Добавить посетителя";
             this.Load += new System.EventHandler(this.Form7_addticket_Load);
             this.ResumeLayout(false);
 

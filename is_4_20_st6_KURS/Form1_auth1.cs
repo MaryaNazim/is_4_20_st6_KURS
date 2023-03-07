@@ -32,7 +32,6 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = true;
                     metroButton3.Enabled = true;
                     metroButton4.Enabled = true;
-                    metroButton5.Enabled = true;
                     break;
                 case 2:
                     metroLabel8.Text = "Умеренный";
@@ -41,7 +40,6 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
-                    metroButton5.Enabled = true;
                     break;
                 case 3:
                     metroLabel8.Text = "Минимальный";
@@ -50,7 +48,6 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
-                    metroButton5.Enabled = true;
                     break;
                 //Если по какой то причине в классе ничего не содержится, то всё отключается вообще
                 default:
@@ -60,7 +57,6 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
-                    metroButton5.Enabled = false;
                     break;
             }
         }
@@ -99,49 +95,39 @@ namespace is_4_20_st6_KURS
 
         private void metroButton3_Click(object sender, EventArgs e)
         {
-            Form6_employ form6_employ = new Form6_employ();
-            form6_employ.ShowDialog();
+            Form6_employees form6_employees = new Form6_employees();
+            form6_employees.ShowDialog();
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-
+            Form3_afisha form3_afisha = new Form3_afisha();
+            form3_afisha.ShowDialog();
         }
 
-        private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3_afishainsert form3_afishainsert = new Form3_afishainsert();
-            form3_afishainsert.ShowDialog();
-        }
-
-        private void удалитьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3_afishadelete form3_afishadelete = new Form3_afishadelete();
-            form3_afishadelete.ShowDialog();
-        }
-
-        private void поискToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3_afishafilter form3_afishafilter = new Form3_afishafilter();
-            form3_afishafilter.ShowDialog();
-        }
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            Form5_orderplaces form5_orderplaces = new Form5_orderplaces();
-            form5_orderplaces.ShowDialog();
+            Form5_order form5_order = new Form5_order();
+            form5_order.ShowDialog();
         }
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
-            Form7_afisharooms form7_afisharooms = new Form7_afisharooms();
-            form7_afisharooms.ShowDialog();
+            Menu menu = new Menu();
+            menu.ShowDialog();
         }
 
         private void metroButton5_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
-            menu.ShowDialog();
+            Form8_actorafisha form8_actorafisha = new Form8_actorafisha();
+            form8_actorafisha.ShowDialog();
+        }
+
+        private void metroButton6_Click(object sender, EventArgs e)
+        {
+            Form7_bilets form7_bilets = new Form7_bilets();
+            form7_bilets.ShowDialog();
         }
     }
 }

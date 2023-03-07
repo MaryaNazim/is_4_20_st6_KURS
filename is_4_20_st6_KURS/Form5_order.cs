@@ -12,7 +12,7 @@ using MetroFramework.Forms;
 
 namespace is_4_20_st6_KURS
 {
-    public partial class Form3_afishafilter : MetroForm
+    public partial class Form5_order : MetroForm
     {
         //Переменная соединения
         MySqlConnection conn;
@@ -26,29 +26,14 @@ namespace is_4_20_st6_KURS
         private DataSet ds = new DataSet();
         //Представляет одну таблицу данных в памяти.
         private DataTable table = new DataTable();
+        //Переменная для ID записи в БД, выбранной в гриде. Пока она не содердит значения, лучше его инициализировать с 0
+        //что бы в БД не отправлялся null
+        string id_selected_rows = "0";
 
-        public Form3_afishafilter()
+
+        public Form5_order()
         {
             InitializeComponent();
-        }
-
-        //Выделение всей строки по ПКМ
-        private void dataGridView1_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            //Это тоже магические строки, в них тоже не вникайте
-            if (!e.RowIndex.Equals(-1) && !e.ColumnIndex.Equals(-1) && e.Button.Equals(MouseButtons.Right))
-            {
-                metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
-                metroGrid1.CurrentCell.Selected = true;
-            }
-        }
-
-        //Выделение всей строки по ЛКМ
-        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            //Магические строки - не вникать
-            metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
-            metroGrid1.CurrentRow.Selected = true;
         }
 
         //Метод обновления DataGreed
@@ -64,7 +49,7 @@ namespace is_4_20_st6_KURS
         public void GetListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = "SELECT id_Afish AS 'Код',title AS 'Название',duration AS 'Продолжительность', dt AS 'Дата и время' FROM Afisha";
+            string commandStr = "SELECT id AS 'Код', datatime AS 'Время', empl AS 'Сотрудник', id_visitor AS 'Код клиента', total_Pr AS 'Итоговая цена' FROM OrderM";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -79,14 +64,12 @@ namespace is_4_20_st6_KURS
             conn.Close();
         }
 
-        //Собтия открытия (загрузки формы)
-        private void Form3_afishafilter_Load(object sender, EventArgs e)
+        private void Form5_orderplaces_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
-            string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+            string connStr = "server=chuc.sdlik.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
-
             //Вызываем метод для заполнение дата Грида
             GetListUsers();
             //Видимость полей в гриде
@@ -115,34 +98,68 @@ namespace is_4_20_st6_KURS
             metroGrid1.ColumnHeadersVisible = true;
         }
 
-        //Кнопка обновления 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            //Метод обновления dataGridView, так как он полностью обновляется, покраски строк не будет. 
+            Form7_afisharooms form7_afisharooms = new Form7_afisharooms();
+            form7_afisharooms.ShowDialog();
             reload_list();
         }
 
-        //Фильрация в элементе DataGrid. В случае, если используется соединение через BindingSource
-        //вы можете фильтровать его, так как данный элемент поддерживает базовый синтаксис SQL
-        private void toolStripTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            //Конструкция "LIKE" является способом "поиска" в полях. Это обычный синтаксис SQL
-            bSource.Filter = "Название LIKE'" + toolStripTextBox1.Text + "%'";
-        }
-
-        //Фильрация в элементе DataGrid. В случае, если используется соединение через BindingSource
-        //вы можете фильтровать его, так как данный элемент поддерживает базовый синтаксис SQL
-        private void toolStripTextBox2_TextChanged(object sender, EventArgs e)
-        {
-            //Конструкция "LIKE" является способом "поиска" в полях
-            bSource.Filter = "[Дата и время] LIKE'" + toolStripTextBox2.Text + "%'";
-        }
-
-        //Кнопка очистки фильтрующих текстбоксов
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            toolStripTextBox1.Text = "";
-            toolStripTextBox2.Text = "";
+            //Формируем строку запроса на добавление строк
+            string sql_delete = "DELETE FROM OrderM WHERE id='" + id_selected_rows + "'";
+            //Посылаем запрос на обновление данных
+            MySqlCommand delete = new MySqlCommand(sql_delete, conn);
+            try
+            {
+                conn.Open();
+                delete.ExecuteNonQuery();
+                MessageBox.Show("Удаление прошло успешно", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка удаления строки \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+            finally
+            {
+                conn.Close();
+                reload_list();
+            }
         }
+
+        private void metroGrid1_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (!e.RowIndex.Equals(-1) && !e.ColumnIndex.Equals(-1) && e.Button.Equals(MouseButtons.Right))
+            {
+                metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
+                //dataGridView1.CurrentRow.Selected = true;
+                metroGrid1.CurrentCell.Selected = true;
+ 
+                GetSelectedIDString();
+            }
+        }
+
+        private void metroGrid1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            //Магические строки
+            metroGrid1.CurrentCell = metroGrid1[e.ColumnIndex, e.RowIndex];
+            metroGrid1.CurrentRow.Selected = true;
+            GetSelectedIDString();
+        }
+
+        //Метод получения ID выделенной строки, для последующего вызова его в нужных методах
+        public void GetSelectedIDString()
+        {
+            //Переменная для индекс выбранной строки в гриде
+            string index_selected_rows;
+            //Индекс выбранной строки
+            index_selected_rows = metroGrid1.SelectedCells[0].RowIndex.ToString();
+            //ID конкретной записи в Базе данных, на основании индекса строки
+            id_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[0].Value.ToString();
+
+        }
+
     }
 }

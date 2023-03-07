@@ -29,12 +29,20 @@ namespace is_4_20_st6_KURS
         //Переменная для ID записи в БД, выбранной в гриде. Пока она не содердит значения, лучше его инициализировать с 0
         //что бы в БД не отправлялся null
         string id_selected_rows = "0";
-        //ID выбранного заказа
-        string id_selected_bilet = "0";
+        //ID выбранного клиента
+        string id_selected_clients = "0";
         //Переменная которая хранить имя товара 
         string titleItems_selected_rows = "";
         //Переменная которая хранит стоимость товара
         string priceItems_selected_rows = "";
+
+        string countPlaceItems_selected_rows = "";
+
+        string countBiletItems_selected_rows = "";
+
+        string timeItems_selected_rows = "";
+
+        string dateItems_selected_rows = "";
 
         //Перемененная отвечающая за понимание, создан ли заказ
         bool issetOrder = false;
@@ -44,35 +52,35 @@ namespace is_4_20_st6_KURS
         public void GetComboBox1()
         {
             //Формирование списка статусов
-            DataTable list_order_table = new DataTable();
-            MySqlCommand list_order_command = new MySqlCommand();
+            DataTable list_stud_table = new DataTable();
+            MySqlCommand list_stud_command = new MySqlCommand();
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_order_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
-            list_order_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
+            list_stud_table.Columns.Add(new DataColumn("id_Afisha", System.Type.GetType("System.Int32")));
+            list_stud_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
-            metroComboBox1.DataSource = list_order_table;
+            metroComboBox1.DataSource = list_stud_table;
             metroComboBox1.DisplayMember = "title";
-            metroComboBox1.ValueMember = "id";
+            metroComboBox1.ValueMember = "id_Afisha";
             //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_bilets = "SELECT id, title FROM Room";
-            list_order_command.CommandText = sql_list_bilets;
-            list_order_command.Connection = conn;
+            string sql_list_users = "SELECT id_Afisha, title FROM Afisha";
+            list_stud_command.CommandText = sql_list_users;
+            list_stud_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_bilets_reader;
+            MySqlDataReader list_stud_reader;
             try
             {
                 //Инициализируем ридер
-                list_bilets_reader = list_order_command.ExecuteReader();
-                while (list_bilets_reader.Read())
+                list_stud_reader = list_stud_command.ExecuteReader();
+                while (list_stud_reader.Read())
                 {
-                    DataRow rowToAdd = list_order_table.NewRow();
-                    rowToAdd["id"] = Convert.ToInt32(list_bilets_reader[0]);
-                    rowToAdd["title"] = list_bilets_reader[1].ToString();
-                    list_order_table.Rows.Add(rowToAdd);
+                    DataRow rowToAdd = list_stud_table.NewRow();
+                    rowToAdd["id_Afisha"] = Convert.ToInt32(list_stud_reader[0]);
+                    rowToAdd["title"] = list_stud_reader[1].ToString();
+                    list_stud_table.Rows.Add(rowToAdd);
                 }
-                list_bilets_reader.Close();
+                list_stud_reader.Close();
             }
             catch (Exception ex)
             {
@@ -84,38 +92,38 @@ namespace is_4_20_st6_KURS
                 conn.Close();
             }
         }
-        public void GetComboBox2(string id)
+        public void GetComboBox2(string id_Afisha)
         {
             //Формирование списка статусов
-            DataTable list_order_table = new DataTable();
-            MySqlCommand list_order_command = new MySqlCommand();
+            DataTable list_stud_table = new DataTable();
+            MySqlCommand list_stud_command = new MySqlCommand();
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_order_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
-            list_order_table.Columns.Add(new DataColumn("count_place", System.Type.GetType("System.String")));
+            list_stud_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
+            list_stud_table.Columns.Add(new DataColumn("count_bilet", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
-            metroComboBox2.DataSource = list_order_table;
-            metroComboBox2.DisplayMember = "count_place";
+            metroComboBox2.DataSource = list_stud_table;
+            metroComboBox2.DisplayMember = "count_bilet";
             metroComboBox2.ValueMember = "id";
             //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_places = $"SELECT id, count_place FROM Room WHERE id = {id}";
-            list_order_command.CommandText = sql_list_places;
-            list_order_command.Connection = conn;
+            string sql_list_users = $"SELECT id, count_bilet FROM AfishaRooms WHERE id = {id_Afisha}";
+            list_stud_command.CommandText = sql_list_users;
+            list_stud_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_places_reader;
+            MySqlDataReader list_stud_reader;
             try
             {
                 //Инициализируем ридер
-                list_places_reader = list_order_command.ExecuteReader();
-                while (list_places_reader.Read())
+                list_stud_reader = list_stud_command.ExecuteReader();
+                while (list_stud_reader.Read())
                 {
-                    DataRow rowToAdd = list_order_table.NewRow();
-                    rowToAdd["id"] = Convert.ToInt32(list_places_reader[0]);
-                    rowToAdd["count_place"] = list_places_reader[1].ToString();
-                    list_order_table.Rows.Add(rowToAdd);
+                    DataRow rowToAdd = list_stud_table.NewRow();
+                    rowToAdd["id"] = Convert.ToInt32(list_stud_reader[0]);
+                    rowToAdd["count_bilet"] = list_stud_reader[1].ToString();
+                    list_stud_table.Rows.Add(rowToAdd);
                 }
-                list_places_reader.Close();
+                list_stud_reader.Close();
             }
             catch (Exception ex)
             {
@@ -129,91 +137,6 @@ namespace is_4_20_st6_KURS
         }
         public void GetComboBox3()
         {
-            /*
-            //Формирование списка статусов
-            DataTable list_afisha_table = new DataTable();
-            MySqlCommand list_afisha_command = new MySqlCommand();
-            //Открываем соединение
-            conn.Open();
-            //Формируем столбцы для комбобокса списка ЦП
-            list_afisha_table.Columns.Add(new DataColumn("id_Afisha", System.Type.GetType("System.Int32")));
-            list_afisha_table.Columns.Add(new DataColumn("title", System.Type.GetType("System.String")));
-            //Настройка видимости полей комбобокса
-            metroComboBox3.DataSource = list_afisha_table;
-            metroComboBox3.DisplayMember = "title";
-            metroComboBox3.ValueMember = "id_Afisha";
-            //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_afisha = "SELECT id_Afisha, title FROM Afisha";
-            list_afisha_command.CommandText = sql_list_afisha;
-            list_afisha_command.Connection = conn;
-            //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_afisha_reader;
-            try
-            {
-                //Инициализируем ридер
-                list_afisha_reader = list_afisha_command.ExecuteReader();
-                while (list_afisha_reader.Read())
-                {
-                    DataRow rowToAdd = list_afisha_table.NewRow();
-                    rowToAdd["id_Afisha"] = Convert.ToInt32(list_afisha_reader[0]);
-                    rowToAdd["title"] = list_afisha_reader[1].ToString();
-                    list_afisha_table.Rows.Add(rowToAdd);
-                }
-                list_afisha_reader.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка чтения списка ЦП \n\n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
-            }
-            finally
-            {
-                conn.Close();
-            }
-            */
-
-            /*
-            //Формирование списка статусов
-            DataTable list_afisha_table = new DataTable();
-            MySqlCommand list_afisha_command = new MySqlCommand();
-            //Открываем соединение
-            conn.Open();
-            //Формируем столбцы для комбобокса списка ЦП
-            list_afisha_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
-            list_afisha_table.Columns.Add(new DataColumn("Afisha", System.Type.GetType("System.String")));
-            //Настройка видимости полей комбобокса
-            metroComboBox3.DataSource = list_afisha_table;
-            metroComboBox3.DisplayMember = "Afisha";
-            metroComboBox3.ValueMember = "id";
-            //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_afisha = "SELECT id, Afisha FROM OrderPlace";
-            list_afisha_command.CommandText = sql_list_afisha;
-            list_afisha_command.Connection = conn;
-            //Формирование списка ЦП для combobox'a
-            MySqlDataReader list_afisha_reader;
-            try
-            {
-                //Инициализируем ридер
-                list_afisha_reader = list_afisha_command.ExecuteReader();
-                while (list_afisha_reader.Read())
-                {
-                    DataRow rowToAdd = list_afisha_table.NewRow();
-                    rowToAdd["id"] = Convert.ToInt32(list_afisha_reader[0]);
-                    rowToAdd["Afisha"] = list_afisha_reader[1].ToString();
-                    list_afisha_table.Rows.Add(rowToAdd);
-                }
-                list_afisha_reader.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка чтения списка ЦП \n\n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
-            }
-            finally
-            {
-                conn.Close();
-            }
-            */
             //Формирование списка статусов
             DataTable list_order_table = new DataTable();
             MySqlCommand list_order_command = new MySqlCommand();
@@ -265,7 +188,7 @@ namespace is_4_20_st6_KURS
         private void Form7_afisharooms_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
-            string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+            string connStr = "server=chuc.sdlik.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
             //Вызов заполнения первого Combobox
@@ -340,6 +263,7 @@ namespace is_4_20_st6_KURS
             metroGrid1.Columns[3].Visible = true;
             metroGrid1.Columns[4].Visible = true;
             metroGrid1.Columns[5].Visible = true;
+            metroGrid1.Columns[6].Visible = true;
             //Ширина полей
             metroGrid1.Columns[0].FillWeight = 10;
             metroGrid1.Columns[1].FillWeight = 70;
@@ -347,6 +271,7 @@ namespace is_4_20_st6_KURS
             metroGrid1.Columns[3].FillWeight = 20;
             metroGrid1.Columns[4].FillWeight = 20;
             metroGrid1.Columns[5].FillWeight = 20;
+            metroGrid1.Columns[6].FillWeight = 20;
             //Режим для полей "Только для чтения"
             metroGrid1.Columns[0].ReadOnly = true;
             metroGrid1.Columns[1].ReadOnly = true;
@@ -354,6 +279,7 @@ namespace is_4_20_st6_KURS
             metroGrid1.Columns[3].ReadOnly = true;
             metroGrid1.Columns[4].ReadOnly = true;
             metroGrid1.Columns[5].ReadOnly = true;
+            metroGrid1.Columns[6].ReadOnly = true;
             //Растягивание полей грида
             metroGrid1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             metroGrid1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
@@ -361,16 +287,18 @@ namespace is_4_20_st6_KURS
             metroGrid1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             metroGrid1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             metroGrid1.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            metroGrid1.Columns[6].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             //Убираем заголовки строк
             metroGrid1.RowHeadersVisible = false;
             //Показываем заголовки столбцов
+            metroGrid1.ColumnHeadersVisible = true;
         }
 
         //Метод загрузки товаров в грид1 без условия, то есть грузятся все товары
         public void GetFirstListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = $"SELECT id AS 'Код', count_bilet AS 'Номер билета' , id_Rooms AS 'Код зала', id_Afish AS 'Код афиши', date AS 'Дата', time AS 'Время', price AS 'Цена' FROM AfishaRooms";
+            string commandStr = $"SELECT id AS 'Код', count_bilet AS 'Номер билета', id_Rooms AS 'Код места', id_Afish AS 'Код представления', time AS 'Время', date AS 'Дата', price  AS 'Цена товара' FROM AfishaRooms";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -386,10 +314,10 @@ namespace is_4_20_st6_KURS
 
         }
         //Метод наполнения виртуальной таблицы и присвоение её к датагриду
-        public void GetListUsers(string id)
+        public void GetListUsers(string idCountBilet)
         {
             //Запрос для вывода строк в БД
-            string commandStr = $"SELECT id AS 'Код', count_bilet AS 'Номер билета', id_Rooms AS 'Код зала', id_Afish AS 'Код афиши', date AS 'Дата', time AS 'Время', price AS 'Цена' FROM AfishaRooms WHERE id = {id}";
+            string commandStr = $"SELECT id AS 'Код', count_bilet AS 'Номер билета', id_Rooms AS 'Код места', id_Afish AS 'Код представления', time AS 'Время', date AS 'Дата', price  AS 'Цена товара' FROM AfishaRooms WHERE id= {idCountBilet}";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn
@@ -422,9 +350,9 @@ namespace is_4_20_st6_KURS
             //ID конкретной записи в Базе данных, на основании индекса строки
             id_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[0].Value.ToString();
             //название товара конкретной записи в Базе данных, на основании индекса строки
-            titleItems_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[1].Value.ToString();
+            titleItems_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[3].Value.ToString();
             //стоимость товара конкретной записи в Базе данных, на основании индекса строки
-            priceItems_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[2].Value.ToString();
+            priceItems_selected_rows = metroGrid1.Rows[Convert.ToInt32(index_selected_rows)].Cells[6].Value.ToString();
 
         }
 
@@ -453,7 +381,7 @@ namespace is_4_20_st6_KURS
         private void metroButton2_Click(object sender, EventArgs e)
         {
             //Объявляем форму
-            Form7_addvisitor formNewClient = new Form7_addvisitor();
+            Form7_visitors formNewClient = new Form7_visitors();
             formNewClient.ShowDialog();
             //Вызываем обновление данных в комбобоксе с клиентами
             GetComboBox3();
@@ -462,17 +390,16 @@ namespace is_4_20_st6_KURS
             toolStripStatusLabel1.Text = $"Добавлен клиент в БД с ID {SomeClass.new_inserted_id}";
 
         }
-
         //Метод добавления заказа в главную таблицу заказов
         public void InsertOrderMain()
         {
             //Определяем значение переменных для записи в БД
             string dataOrder = DateTime.Now.ToString("yyyy-MM-dd");
-            string idClient = id_selected_bilet;
+            string idClient = id_selected_clients; 
             string summOrder = "0";
 
             //Формируем запрос на вставку с возвратом последного вставленного ID
-            string sql_update_current_stud = $"INSERT INTO OrderM (datatime, id_visitor, total_Pr) " +
+            string sql_update_current_stud = $"INSERT INTO OrderM (datatime, empl, id_visitor, total_Pr) " +
                                               $"VALUES ('{dataOrder}', '{idClient}', '{summOrder}'); " +
                                               $"SELECT id FROM OrderM WHERE (id = LAST_INSERT_ID());";
             // устанавливаем соединение с БД
@@ -482,9 +409,9 @@ namespace is_4_20_st6_KURS
             // выполняем запрос
             string new_inserted_mainOrder_id = command.ExecuteScalar().ToString();
             //Записываем возвращённый последний добавленный ID заказа в глобальную переменную
-            SomeClass.new_inserted_mainOrder_id = new_inserted_mainOrder_id;
+            SomeClass.new_inserted_Order_id = new_inserted_mainOrder_id;
             //Пишем инфу в статус бар
-            toolStripStatusLabel1.Text = $"Добавлен заказ в БД с ID {SomeClass.new_inserted_mainOrder_id}";
+            toolStripStatusLabel1.Text = $"Добавлен заказ в БД с ID {SomeClass.new_inserted_Order_id}";
             // закрываем подключение к БД
             conn.Close();
         }
@@ -492,7 +419,7 @@ namespace is_4_20_st6_KURS
         private void metroButton1_Click(object sender, EventArgs e)
         {
             //Устанавливаем в переменную ИД выбранного клиента для формирования заказа
-            id_selected_bilet = metroComboBox3.SelectedValue.ToString();
+            id_selected_clients = metroComboBox3.SelectedValue.ToString();
             //Создание заказа с запоминанием ID этого самого заказа, она нужна для формирования позиций в составе зказа
             InsertOrderMain();
             //Изменение переменной отчечающей за понимание, создан ли заказ
@@ -503,44 +430,49 @@ namespace is_4_20_st6_KURS
         //Добавление позиций во временную корзину
         private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //Определяем количество товаров в DataGridView2
+            int countPosition = metroGrid2.Rows.Count;
+
             /*
-            metroGrid2.Columns.Add("Код", "text");
-            metroGrid2.Columns.Add("Номер билета", "text");
-            metroGrid2.Columns.Add("Номер места", "text");
-            metroGrid2.Columns.Add("Название спектакля", "text");
-            metroGrid2.Columns.Add("Время", "text");
-            metroGrid2.Columns.Add("Дата", "text");
-            metroGrid2.Columns.Add("Цена", "text");
-            //Индекс добавленной строки
-            int rowNumber = metroGrid2.Rows.Add();
-            //Распихивание данных по полям грида
-            metroGrid2.Rows[rowNumber].Cells[0].Value = id_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[1].Value = count_bilet_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[2].Value = id_Rooms_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[3].Value = titleItems_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[4].Value = time_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[5].Value = date_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[6].Value = priceItems_selected_rows;
-            //Обновление итоговой суммы заказа
-            prSumOrder += Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value) * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value);
-            //Вывод предварительной итоговой суммы заказа
-            metroLabel6.Text = prSumOrder.ToString();
-            */
             metroGrid2.Columns.Add("Код", "text");
             metroGrid2.Columns.Add("title", "text");
             metroGrid2.Columns.Add("1", "text");
             metroGrid2.Columns.Add("Цена", "text");
             metroGrid2.Columns.Add("Цена", "text");
-            //Индекс добавленной строки
             int rowNumber = metroGrid2.Rows.Add();
-            //Распихивание данных по полям грида
             metroGrid2.Rows[rowNumber].Cells[0].Value = id_selected_rows;
             metroGrid2.Rows[rowNumber].Cells[1].Value = titleItems_selected_rows;
             metroGrid2.Rows[rowNumber].Cells[2].Value = "1";
             metroGrid2.Rows[rowNumber].Cells[3].Value = priceItems_selected_rows;
             metroGrid2.Rows[rowNumber].Cells[4].Value = priceItems_selected_rows;
+            */
+
+            
+            metroGrid2.Columns.Add("text", "Код");
+            metroGrid2.Columns.Add("text", "Номер билета");
+            metroGrid2.Columns.Add("text", "Код места");
+            metroGrid2.Columns.Add("text", "Код представления");
+            metroGrid2.Columns.Add("text", "Время");
+            metroGrid2.Columns.Add("text", "Дата");
+            metroGrid2.Columns.Add("text", "Цена");
+            
+            
+            //Индекс добавленной строки
+            int rowNumber = metroGrid2.Rows.Add();
+            //Распихивание данных по полям грида
+            metroGrid2.Rows[rowNumber].Cells[0].Value = id_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[1].Value = countBiletItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[2].Value = countPlaceItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[3].Value = titleItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[4].Value = timeItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[5].Value = dateItems_selected_rows;
+            metroGrid2.Rows[rowNumber].Cells[6].Value = priceItems_selected_rows;
+
+            metroGrid2.RowHeadersVisible = false;
+
             //Обновление итоговой суммы заказа
-            prSumOrder += Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[4].Value) * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[2].Value);
+            //prSumOrder += Convert.ToDouble(countPosition) * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value);
+            prSumOrder += 1 * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value);
             //Вывод предварительной итоговой суммы заказа
             metroLabel6.Text = prSumOrder.ToString();
         }
@@ -558,36 +490,19 @@ namespace is_4_20_st6_KURS
                 conn.Open();
                 for (int i = 0; i < countPosition; i++)
                 {
-                    /*
                     //Задание переменных для формирования запроса в БД
-                    string id = metroGrid2.Rows[i].Cells[0].Value.ToString();
-                    string datatime = DateTime.Now.ToString("yyyy-MM-dd");
-                    string id_emp = metroGrid2.Rows[i].Cells[2].Value.ToString();
-                    double price= Convert.ToInt32(metroGrid2.Rows[i].Cells[3].Value);
+                    string idItems = Convert.ToString(metroGrid2.Rows[i].Cells[3].Value);
+                    string countItems = Convert.ToString(metroGrid2.Rows[i].Cells[2].Value);
+                    double priceItems = Convert.ToDouble(metroGrid2.Rows[i].Cells[6].Value);
                     //Получение номера заказа в рамках которого добавляются позиции
-                    string idOrder = SomeClass.new_inserted_mainOrder_id;
+                    string idOrder = SomeClass.new_inserted_Order_id;
                     //Подсчёт итоговой суммы
-                    sumOrder += Convert.ToInt32(countPosition) * price;
+                    //sumOrder = Convert.ToDouble(countPosition) * Convert.ToDouble(metroGrid2.Rows[i].Cells[6].Value);
+                    sumOrder = prSumOrder;
+                    //sumOrder += Convert.ToInt32(countItems) * priceItems;
                     //Формирование запросов на добавение позиций заказа
-                    string query = $"INSERT INTO OrderM (id, datatime, empl) " +
-                        $"VALUES ('{id}', '{datatime}', '{id_emp}')";
-                    // объект для выполнения SQL-запроса
-                    MySqlCommand command = new MySqlCommand(query, conn);
-                    // выполняем запрос
-                    command.ExecuteNonQuery();
-                    // закрываем подключение к БД
-                    */
-                    //Задание переменных для формирования запроса в БД
-                    string idItems = metroGrid2.Rows[i].Cells[0].Value.ToString();
-                    string countItems = metroGrid2.Rows[i].Cells[2].Value.ToString();
-                    double priceItems = Convert.ToDouble(metroGrid2.Rows[i].Cells[3].Value);
-                    //Получение номера заказа в рамках которого добавляются позиции
-                    string idOrder = SomeClass.new_inserted_mainOrder_id;
-                    //Подсчёт итоговой суммы
-                    sumOrder += Convert.ToInt32(countItems) * priceItems;
-                    //Формирование запросов на добавение позиций заказа
-                    string query = $"INSERT INTO OrderPlace (id, place, OrderM) " +
-                        $"VALUES ('{idItems}', '{countItems}', {idOrder})";
+                    string query = $"INSERT INTO OrderPlace (Afisha, place, OrderM) " +
+                        $"VALUES ('{idItems}', '{countItems}', '{idOrder}')";
                     // объект для выполнения SQL-запроса
                     MySqlCommand command = new MySqlCommand(query, conn);
                     // выполняем запрос
@@ -597,11 +512,11 @@ namespace is_4_20_st6_KURS
                 conn.Close();
 
                 //Обновление итоговой суммы заказа
-                toolStripStatusLabel1.Text = $"Итоговая сумма заказа №{SomeClass.new_inserted_mainOrder_id} составляет {sumOrder}";
+                toolStripStatusLabel1.Text = $"Итоговая сумма заказа №{SomeClass.new_inserted_Order_id} составляет {sumOrder}";
                 //Открываем подключение к БД
                 conn.Open();
                 // запрос обновления данных
-                string query2 = $"UPDATE OrderM SET total_Pr='{sumOrder}' WHERE (id='{SomeClass.new_inserted_mainOrder_id}')";
+                string query2 = $"UPDATE OrderM SET total_Pr='{sumOrder}' WHERE (id='{SomeClass.new_inserted_Order_id}')";
                 // объект для выполнения SQL-запроса
                 MySqlCommand comman1 = new MySqlCommand(query2, conn);
                 // выполняем запрос
@@ -611,7 +526,7 @@ namespace is_4_20_st6_KURS
                 //Чистим корзину
                 metroGrid2.Rows.Clear();
                 //Чистим переменную хранящую созданный заказ
-                SomeClass.new_inserted_mainOrder_id = "0";
+                SomeClass.new_inserted_Order_id = "0";
             }
             else
             {
@@ -619,16 +534,17 @@ namespace is_4_20_st6_KURS
             }
         }
 
+        
         private void metroGrid2_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
             //Обнуляем предварительную сумму заказа
             prSumOrder = 0;
             //Определяем индекс выбранной строки
-            int selRowNum = metroGrid2.CurrentCell.RowIndex;
+            //int selRowNum = metroGrid2.CurrentCell.RowIndex;
             //Формируем тоговую сумму по позиции
-            double itogPosition = Convert.ToDouble(metroGrid2.Rows[selRowNum].Cells[3].Value) * Convert.ToDouble(metroGrid2.Rows[selRowNum].Cells[2].Value);
+            //double itogPosition = Convert.ToDouble(metroGrid2.Rows[selRowNum].Cells[3].Value) * Convert.ToDouble(metroGrid2.Rows[selRowNum].Cells[2].Value);
             //Присваиваем итоговую сумму в ячейку
-            metroGrid2.Rows[selRowNum].Cells[4].Value = itogPosition.ToString();
+            //metroGrid2.Rows[selRowNum].Cells[4].Value = itogPosition.ToString();
             //Определяем количество товаров в DataGridView2
             int countPosition = metroGrid2.Rows.Count;
             //Определяем цикл для добавление позиций заказа в таблицу
@@ -636,54 +552,16 @@ namespace is_4_20_st6_KURS
             for (int i = 0; i < countPosition; i++)
             {
                 string countItems = metroGrid2.Rows[i].Cells[2].Value.ToString();
-                double priceItems = Convert.ToDouble(metroGrid2.Rows[i].Cells[3].Value);
+                double priceItems = Convert.ToDouble(metroGrid2.Rows[i].Cells[6].Value);
                 //Подсчёт итоговой суммы
-                prSumOrder += Convert.ToInt32(countItems) * priceItems;
+                prSumOrder = Convert.ToInt32(countItems) * priceItems;
+                //prSumOrder = Convert.ToInt32(countPosition) * priceItems;
             }
             //Вывод обновлённый суммы заказа в лэйбл
             metroLabel6.Text = prSumOrder.ToString();
         }
+        
 
-
-        private void metroComboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            //Чистим виртуальную таблицу
-            table.Clear();
-            //Вызываем метод наполнения ДатаГрид только теми объектами, которые подходят по условию
-            GetListUsers(metroComboBox3.SelectedValue.ToString());
-            //Видимость полей в гриде
-            metroGrid1.Columns[0].Visible = true;
-            metroGrid1.Columns[1].Visible = true;
-            metroGrid1.Columns[2].Visible = true;
-            metroGrid1.Columns[3].Visible = true;
-            metroGrid1.Columns[4].Visible = true;
-            metroGrid1.Columns[5].Visible = true;
-            //Ширина полей
-            metroGrid1.Columns[0].FillWeight = 10;
-            metroGrid1.Columns[1].FillWeight = 70;
-            metroGrid1.Columns[2].FillWeight = 20;
-            metroGrid1.Columns[3].FillWeight = 20;
-            metroGrid1.Columns[4].FillWeight = 20;
-            metroGrid1.Columns[5].FillWeight = 20;
-            //Режим для полей "Только для чтения"
-            metroGrid1.Columns[0].ReadOnly = true;
-            metroGrid1.Columns[1].ReadOnly = true;
-            metroGrid1.Columns[2].ReadOnly = true;
-            metroGrid1.Columns[3].ReadOnly = true;
-            metroGrid1.Columns[4].ReadOnly = true;
-            metroGrid1.Columns[5].ReadOnly = true;
-            //Растягивание полей грида
-            metroGrid1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            metroGrid1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            metroGrid1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            metroGrid1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            metroGrid1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            metroGrid1.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            //Убираем заголовки строк
-            metroGrid1.RowHeadersVisible = false;
-            //Показываем заголовки столбцов
-
-        }
 
     }
 }

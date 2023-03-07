@@ -91,7 +91,7 @@ namespace is_4_20_st6_KURS
         private void Form4_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
-            string connStr = "server=chuc.caseum.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+            string connStr = "server=chuc.sdlik.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
 
