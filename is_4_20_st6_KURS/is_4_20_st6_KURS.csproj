@@ -147,12 +147,6 @@
     <Compile Include="Form7_bilets.Designer.cs">
       <DependentUpon>Form7_bilets.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7_visitors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form7_visitors.Designer.cs">
-      <DependentUpon>Form7_visitors.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form7_afisharooms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,9 +199,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form7_bilets.resx">
       <DependentUpon>Form7_bilets.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form7_visitors.resx">
-      <DependentUpon>Form7_visitors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form7_afisharooms.resx">
       <DependentUpon>Form7_afisharooms.cs</DependentUpon>

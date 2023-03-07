@@ -143,14 +143,14 @@ namespace is_4_20_st6_KURS
             //Открываем соединение
             conn.Open();
             //Формируем столбцы для комбобокса списка ЦП
-            list_order_table.Columns.Add(new DataColumn("id", System.Type.GetType("System.Int32")));
+            list_order_table.Columns.Add(new DataColumn("id_emp", System.Type.GetType("System.Int32")));
             list_order_table.Columns.Add(new DataColumn("fio", System.Type.GetType("System.String")));
             //Настройка видимости полей комбобокса
             metroComboBox3.DataSource = list_order_table;
             metroComboBox3.DisplayMember = "fio";
-            metroComboBox3.ValueMember = "id";
+            metroComboBox3.ValueMember = "id_emp";
             //Формируем строку запроса на отображение списка статусов прав пользователя
-            string sql_list_bilets = "SELECT id, fio FROM Visitors";
+            string sql_list_bilets = "SELECT id_emp, fio FROM Employ";
             list_order_command.CommandText = sql_list_bilets;
             list_order_command.Connection = conn;
             //Формирование списка ЦП для combobox'a
@@ -162,7 +162,7 @@ namespace is_4_20_st6_KURS
                 while (list_bilets_reader.Read())
                 {
                     DataRow rowToAdd = list_order_table.NewRow();
-                    rowToAdd["id"] = Convert.ToInt32(list_bilets_reader[0]);
+                    rowToAdd["id_emp"] = Convert.ToInt32(list_bilets_reader[0]);
                     rowToAdd["fio"] = list_bilets_reader[1].ToString();
                     list_order_table.Rows.Add(rowToAdd);
                 }
@@ -378,18 +378,6 @@ namespace is_4_20_st6_KURS
             GetSelectedIDString();
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
-        {
-            //Объявляем форму
-            Form7_visitors formNewClient = new Form7_visitors();
-            formNewClient.ShowDialog();
-            //Вызываем обновление данных в комбобоксе с клиентами
-            GetComboBox3();
-            //устанавливаем в комбобоксе строки со значением добавленного только что клиента
-            metroComboBox3.SelectedValue = Convert.ToInt32(SomeClass.new_inserted_id);
-            toolStripStatusLabel1.Text = $"Добавлен клиент в БД с ID {SomeClass.new_inserted_id}";
-
-        }
         //Метод добавления заказа в главную таблицу заказов
         public void InsertOrderMain()
         {
@@ -399,7 +387,7 @@ namespace is_4_20_st6_KURS
             string summOrder = "0";
 
             //Формируем запрос на вставку с возвратом последного вставленного ID
-            string sql_update_current_stud = $"INSERT INTO OrderM (datatime, empl, id_visitor, total_Pr) " +
+            string sql_update_current_stud = $"INSERT INTO OrderM (datatime, empl, total_Pr) " +
                                               $"VALUES ('{dataOrder}', '{idClient}', '{summOrder}'); " +
                                               $"SELECT id FROM OrderM WHERE (id = LAST_INSERT_ID());";
             // устанавливаем соединение с БД
@@ -433,21 +421,6 @@ namespace is_4_20_st6_KURS
             //Определяем количество товаров в DataGridView2
             int countPosition = metroGrid2.Rows.Count;
 
-            /*
-            metroGrid2.Columns.Add("Код", "text");
-            metroGrid2.Columns.Add("title", "text");
-            metroGrid2.Columns.Add("1", "text");
-            metroGrid2.Columns.Add("Цена", "text");
-            metroGrid2.Columns.Add("Цена", "text");
-            int rowNumber = metroGrid2.Rows.Add();
-            metroGrid2.Rows[rowNumber].Cells[0].Value = id_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[1].Value = titleItems_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[2].Value = "1";
-            metroGrid2.Rows[rowNumber].Cells[3].Value = priceItems_selected_rows;
-            metroGrid2.Rows[rowNumber].Cells[4].Value = priceItems_selected_rows;
-            */
-
-            
             metroGrid2.Columns.Add("text", "Код");
             metroGrid2.Columns.Add("text", "Номер билета");
             metroGrid2.Columns.Add("text", "Код места");
@@ -471,7 +444,6 @@ namespace is_4_20_st6_KURS
             metroGrid2.RowHeadersVisible = false;
 
             //Обновление итоговой суммы заказа
-            //prSumOrder += Convert.ToDouble(countPosition) * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value);
             prSumOrder += 1 * Convert.ToDouble(metroGrid2.Rows[rowNumber].Cells[6].Value);
             //Вывод предварительной итоговой суммы заказа
             metroLabel6.Text = prSumOrder.ToString();

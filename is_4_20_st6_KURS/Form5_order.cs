@@ -49,7 +49,7 @@ namespace is_4_20_st6_KURS
         public void GetListUsers()
         {
             //Запрос для вывода строк в БД
-            string commandStr = "SELECT id AS 'Код', datatime AS 'Время', empl AS 'Сотрудник', id_visitor AS 'Код клиента', total_Pr AS 'Итоговая цена' FROM OrderM";
+            string commandStr = "SELECT id AS 'Код', datatime AS 'Время', empl AS 'Сотрудник', total_Pr AS 'Итоговая цена' FROM OrderM";
             //Открываем соединение
             conn.Open();
             //Объявляем команду, которая выполнить запрос в соединении conn

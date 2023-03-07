@@ -39,7 +39,6 @@ namespace is_4_20_st6_KURS
             this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
             this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.metroGrid2 = new MetroFramework.Controls.MetroGrid();
             this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
@@ -136,19 +135,9 @@ namespace is_4_20_st6_KURS
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
-            // metroButton2
-            // 
-            this.metroButton2.Location = new System.Drawing.Point(14, 255);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(124, 23);
-            this.metroButton2.TabIndex = 4;
-            this.metroButton2.Text = "Создать";
-            this.metroButton2.UseSelectable = true;
-            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
-            // 
             // metroButton3
             // 
-            this.metroButton3.Location = new System.Drawing.Point(14, 284);
+            this.metroButton3.Location = new System.Drawing.Point(14, 255);
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(124, 23);
             this.metroButton3.TabIndex = 5;
@@ -297,7 +286,6 @@ namespace is_4_20_st6_KURS
             this.Controls.Add(this.metroComboBox3);
             this.Controls.Add(this.metroGrid2);
             this.Controls.Add(this.metroButton3);
-            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroComboBox2);
             this.Controls.Add(this.metroComboBox1);
@@ -321,7 +309,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroComboBox metroComboBox1;
         private MetroFramework.Controls.MetroComboBox metroComboBox2;
         private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroGrid metroGrid2;
         private MetroFramework.Controls.MetroComboBox metroComboBox3;

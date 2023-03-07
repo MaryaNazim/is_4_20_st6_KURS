@@ -188,7 +188,7 @@ namespace is_4_20_st6_KURS
             metroGrid1.Columns[6].Visible = true;
             //Ширина полей
             metroGrid1.Columns[0].FillWeight = 10;
-            metroGrid1.Columns[1].FillWeight = 70;
+            metroGrid1.Columns[1].FillWeight = 20;
             metroGrid1.Columns[2].FillWeight = 20;
             metroGrid1.Columns[3].FillWeight = 20;
             metroGrid1.Columns[4].FillWeight = 20;
