@@ -600,6 +600,7 @@ namespace is_4_20_st6_KURS
             this.metroLabel43 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel44 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel45 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel46 = new MetroFramework.Controls.MetroLabel();
             this.SuspendLayout();
             // 
             // metroButton10
@@ -7212,11 +7213,21 @@ namespace is_4_20_st6_KURS
             this.metroLabel45.TabIndex = 626;
             this.metroLabel45.Text = "Ложа 12";
             // 
+            // metroLabel46
+            // 
+            this.metroLabel46.AutoSize = true;
+            this.metroLabel46.Location = new System.Drawing.Point(407, 35);
+            this.metroLabel46.Name = "metroLabel46";
+            this.metroLabel46.Size = new System.Drawing.Size(90, 19);
+            this.metroLabel46.TabIndex = 627;
+            this.metroLabel46.Text = "metroLabel46";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1241, 771);
+            this.Controls.Add(this.metroLabel46);
             this.Controls.Add(this.metroLabel45);
             this.Controls.Add(this.metroLabel44);
             this.Controls.Add(this.metroLabel43);
@@ -8369,5 +8380,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroLabel metroLabel43;
         private MetroFramework.Controls.MetroLabel metroLabel44;
         private MetroFramework.Controls.MetroLabel metroLabel45;
+        private MetroFramework.Controls.MetroLabel metroLabel46;
     }
 }

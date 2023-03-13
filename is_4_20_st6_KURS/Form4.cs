@@ -53,11 +53,12 @@ namespace is_4_20_st6_KURS
         private void Form4_Load(object sender, EventArgs e)
         {
             // строка подключения к БД
-            string connStr = "server=chuc.sdlik.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+            string connStr = "server=10.90.12.110;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
             // создаём объект для подключения к БД
             conn = new MySqlConnection(connStr);
 
             metroLabel1.Text = Auth.title;
+            metroLabel46.Text = Convert.ToString(prSumOrder);
             
             metroButton11.Click += metroButton10_Click;
             metroButton12.Click += metroButton10_Click;
@@ -103,6 +104,7 @@ namespace is_4_20_st6_KURS
             issetOrder = true;
             //Создание заказа с запоминанием ID этого самого заказа, она нужна для формирования позиций в составе зказа
             InsertOrderMain();
+            GetPriceInfo(Convert.ToString(prSumOrder));
             if (issetOrder)
             {
                 //переменная хранящая итоговую сумму заказа
@@ -131,12 +133,12 @@ namespace is_4_20_st6_KURS
                     if (result == DialogResult.Yes)
                     {
 
-                        //Подсчёт итоговой суммы
-                        //sumOrder = Convert.ToDouble(countPosition) * Convert.ToDouble(metroGrid2.Rows[i].Cells[6].Value);
-                         sumOrder = prSumOrder;
-                        //sumOrder += Convert.ToInt32(countItems) * priceItems;
-                        //Формирование запросов на добавение позиций заказа
-                        string query = $"INSERT INTO OrderPlace (Afisha, place, OrderM) " +
+                    //Подсчёт итоговой суммы
+                    //sumOrder = Convert.ToDouble(countPosition) * Convert.ToDouble(metroGrid2.Rows[i].Cells[6].Value);
+                    sumOrder = prSumOrder;
+                    //sumOrder += Convert.ToInt32(countItems) * priceItems;
+                    //Формирование запросов на добавение позиций заказа
+                    string query = $"INSERT INTO OrderPlace (Afisha, place, OrderM) " +
                             $"VALUES ('{ins_Afisha}', '{id_selected_place}', '{idOrder}')";
                         //conn.Open();
                         // объект для выполнения SQL-запроса
@@ -149,7 +151,7 @@ namespace is_4_20_st6_KURS
                     {
                         MessageBox.Show("Ошибка");
                     }
-                MessageBox.Show($"место {ins_title} {ins_count_place}забронировано");
+                MessageBox.Show($"место {ins_title} {ins_count_place} забронировано");
 
                 this.TopMost = true;
                 //Обновление итоговой суммы заказа
@@ -197,6 +199,30 @@ namespace is_4_20_st6_KURS
         {
 
         }
+
+        public void GetPriceInfo(string prSumOrder)
+        {
+
+            // устанавливаем соединение с БД
+            conn.Open();
+            //запрос
+            string sql = $"SELECT id, count_bilet, id_Rooms, id_Afish , time, date, price FROM AfishaRooms";
+            // объект для выполнения SQL-запроса
+            MySqlCommand command = new MySqlCommand(sql, conn);
+            // объект для чтения ответа сервера
+            MySqlDataReader reader = command.ExecuteReader();
+            // читаем результат
+            while (reader.Read())
+            {
+                metroLabel1.Text = reader[4].ToString();
+                metroLabel46.Text = reader[6].ToString();
+            }
+            reader.Close(); // закрываем reader
+            // закрываем соединение с БД
+            conn.Close();
+        }
+
+
 
     }
 }
