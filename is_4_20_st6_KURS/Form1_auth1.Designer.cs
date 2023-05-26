@@ -48,6 +48,7 @@ namespace is_4_20_st6_KURS
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
+            this.metroButton7 = new MetroFramework.Controls.MetroButton();
             this.metroContextMenu1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,9 +120,9 @@ namespace is_4_20_st6_KURS
             this.metroLabel8.AutoSize = true;
             this.metroLabel8.Location = new System.Drawing.Point(185, 173);
             this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(92, 19);
+            this.metroLabel8.Size = new System.Drawing.Size(117, 19);
             this.metroLabel8.TabIndex = 18;
-            this.metroLabel8.Text = "Неопределен";
+            this.metroLabel8.Text = "Неопределённый";
             // 
             // metroButton1
             // 
@@ -182,7 +183,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton4
             // 
-            this.metroButton4.Location = new System.Drawing.Point(31, 313);
+            this.metroButton4.Location = new System.Drawing.Point(31, 371);
             this.metroButton4.Name = "metroButton4";
             this.metroButton4.Size = new System.Drawing.Size(260, 23);
             this.metroButton4.TabIndex = 22;
@@ -192,7 +193,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton5
             // 
-            this.metroButton5.Location = new System.Drawing.Point(31, 342);
+            this.metroButton5.Location = new System.Drawing.Point(31, 313);
             this.metroButton5.Name = "metroButton5";
             this.metroButton5.Size = new System.Drawing.Size(260, 23);
             this.metroButton5.TabIndex = 23;
@@ -202,7 +203,7 @@ namespace is_4_20_st6_KURS
             // 
             // metroButton6
             // 
-            this.metroButton6.Location = new System.Drawing.Point(31, 371);
+            this.metroButton6.Location = new System.Drawing.Point(31, 342);
             this.metroButton6.Name = "metroButton6";
             this.metroButton6.Size = new System.Drawing.Size(260, 23);
             this.metroButton6.TabIndex = 24;
@@ -210,11 +211,22 @@ namespace is_4_20_st6_KURS
             this.metroButton6.UseSelectable = true;
             this.metroButton6.Click += new System.EventHandler(this.metroButton6_Click);
             // 
+            // metroButton7
+            // 
+            this.metroButton7.Location = new System.Drawing.Point(31, 400);
+            this.metroButton7.Name = "metroButton7";
+            this.metroButton7.Size = new System.Drawing.Size(260, 23);
+            this.metroButton7.TabIndex = 25;
+            this.metroButton7.Text = "ВЫХОД";
+            this.metroButton7.UseSelectable = true;
+            this.metroButton7.Click += new System.EventHandler(this.metroButton7_Click);
+            // 
             // Form1_auth1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 411);
+            this.ClientSize = new System.Drawing.Size(351, 434);
+            this.Controls.Add(this.metroButton7);
             this.Controls.Add(this.metroButton6);
             this.Controls.Add(this.metroButton5);
             this.Controls.Add(this.metroButton4);
@@ -259,5 +271,6 @@ namespace is_4_20_st6_KURS
         private MetroFramework.Controls.MetroButton metroButton4;
         private MetroFramework.Controls.MetroButton metroButton5;
         private MetroFramework.Controls.MetroButton metroButton6;
+        private MetroFramework.Controls.MetroButton metroButton7;
     }
 }

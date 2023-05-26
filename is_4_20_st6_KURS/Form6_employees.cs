@@ -143,7 +143,7 @@ namespace is_4_20_st6_KURS
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            string tmp = $"INSERT INTO pyaterochka (title, price, date_expiration) VALUES ('{metroTextBox1.Text}', '{metroTextBox2.Text}', '{metroTextBox3.Text}')";
+            string tmp = $"INSERT INTO Employ (fio, dr, phone) VALUES ('{metroTextBox1.Text}', '{metroDateTime1.Value.ToString("yyyy-MM-dd")}', '{metroTextBox3.Text}')";
             MySqlCommand cmd = new MySqlCommand(tmp, conn);
             try
             {
@@ -236,24 +236,28 @@ namespace is_4_20_st6_KURS
             }
             */
             //Формируем строку запроса на добавление строк
-            string sql_delete = "DELETE FROM pyaterochka WHERE id='" + id_selected_rows + "'";
-            //Посылаем запрос на обновление данных
-            MySqlCommand delete = new MySqlCommand(sql_delete, conn);
-            try
+            DialogResult result = MessageBox.Show("Вы действительно хотите удалить запись ?", "Сообщение", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
+            if (result == DialogResult.Yes)
             {
-                conn.Open();
-                delete.ExecuteNonQuery();
-                MessageBox.Show("Удаление прошло успешно", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка удаления строки \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
-            }
-            finally
-            {
-                conn.Close();
-                reload_list();
+                string sql_delete = "DELETE FROM Employ WHERE id_emp ='" + id_selected_rows + "'";
+                //Посылаем запрос на обновление данных
+                MySqlCommand delete = new MySqlCommand(sql_delete, conn);
+                try
+                {
+                    conn.Open();
+                    delete.ExecuteNonQuery();
+                    MessageBox.Show("Удаление прошло успешно", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка удаления строки \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Application.Exit();
+                }
+                finally
+                {
+                    conn.Close();
+                    reload_list();
+                }
             }
         }
 

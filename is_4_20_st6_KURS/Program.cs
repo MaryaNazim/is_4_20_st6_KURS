@@ -15,7 +15,6 @@ namespace is_4_20_st6_KURS
         public static string new_inserted_id;
         //Статичное поле, которое хранит значение ID добаленного заказа
         public static string new_inserted_Order_id;
-
     }
     
 

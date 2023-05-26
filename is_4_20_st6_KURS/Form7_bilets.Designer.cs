@@ -126,7 +126,7 @@ namespace is_4_20_st6_KURS
             this.metroTextBox1.CustomButton.UseSelectable = true;
             this.metroTextBox1.CustomButton.Visible = false;
             this.metroTextBox1.Lines = new string[] {
-        "номер билета"};
+        "Номер билета"};
             this.metroTextBox1.Location = new System.Drawing.Point(23, 63);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
@@ -138,7 +138,7 @@ namespace is_4_20_st6_KURS
             this.metroTextBox1.ShortcutsEnabled = true;
             this.metroTextBox1.Size = new System.Drawing.Size(162, 23);
             this.metroTextBox1.TabIndex = 3;
-            this.metroTextBox1.Text = "номер билета";
+            this.metroTextBox1.Text = "Номер билета";
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -158,7 +158,7 @@ namespace is_4_20_st6_KURS
             this.metroTextBox2.CustomButton.UseSelectable = true;
             this.metroTextBox2.CustomButton.Visible = false;
             this.metroTextBox2.Lines = new string[] {
-        "цена"};
+        "Цена"};
             this.metroTextBox2.Location = new System.Drawing.Point(23, 188);
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
@@ -170,7 +170,7 @@ namespace is_4_20_st6_KURS
             this.metroTextBox2.ShortcutsEnabled = true;
             this.metroTextBox2.Size = new System.Drawing.Size(162, 23);
             this.metroTextBox2.TabIndex = 5;
-            this.metroTextBox2.Text = "цена";
+            this.metroTextBox2.Text = "Цена";
             this.metroTextBox2.UseSelectable = true;
             this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);

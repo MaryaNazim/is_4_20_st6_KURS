@@ -24,7 +24,6 @@ namespace is_4_20_st6_KURS
             switch (role)
             {
                 //И в зависимости от того, какая роль (цифра) хранится в поле класса и передана в метод, показываются те или иные кнопки.
-                //Вы можете скрыть их и не отображать вообще, здесь они просто выключены
                 case 1:
                     metroLabel8.Text = "Максимальный";
                     metroLabel8.ForeColor = Color.Green;
@@ -32,6 +31,9 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = true;
                     metroButton3.Enabled = true;
                     metroButton4.Enabled = true;
+                    metroButton5.Enabled = true;
+                    metroButton6.Enabled = true;
+                    metroButton7.Enabled = true;
                     break;
                 case 2:
                     metroLabel8.Text = "Умеренный";
@@ -39,15 +41,27 @@ namespace is_4_20_st6_KURS
                     metroButton1.Enabled = false;
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
-                    metroButton4.Enabled = false;
+                    metroButton4.Enabled = true;
+                    metroButton5.Enabled = false;
+                    metroButton6.Enabled = false;
+                    metroButton7.Enabled = true;
                     break;
                 case 3:
+                    //Сокрытие текущей формы
+                    this.Hide();
+                    //Инициализируем и вызываем форму диалога авторизации
+                    Menu user_menu = new Menu();
+                    //Вызов формы в режиме диалога
+                    user_menu.ShowDialog();
                     metroLabel8.Text = "Минимальный";
                     metroLabel8.ForeColor = Color.Yellow;
                     metroButton1.Enabled = false;
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
-                    metroButton4.Enabled = false;
+                    metroButton4.Enabled = true;
+                    metroButton5.Enabled = false;
+                    metroButton6.Enabled = false;
+                    metroButton7.Enabled = true;
                     break;
                 //Если по какой то причине в классе ничего не содержится, то всё отключается вообще
                 default:
@@ -57,6 +71,9 @@ namespace is_4_20_st6_KURS
                     metroButton2.Enabled = false;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = false;
+                    metroButton5.Enabled = false;
+                    metroButton6.Enabled = false;
+                    metroButton7.Enabled = true;
                     break;
             }
         }
@@ -87,7 +104,7 @@ namespace is_4_20_st6_KURS
             else
             {
                 //Закрываем форму
-                this.Close();
+                this.Hide();
             }
 
             metroButton1.ContextMenuStrip = metroContextMenu1;
@@ -128,6 +145,13 @@ namespace is_4_20_st6_KURS
         {
             Form7_bilets form7_bilets = new Form7_bilets();
             form7_bilets.ShowDialog();
+        }
+
+        private void metroButton7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1_auth1 form1_auth1 = new Form1_auth1();
+            form1_auth1.ShowDialog(); 
         }
     }
 }

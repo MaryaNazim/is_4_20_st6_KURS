@@ -34,12 +34,12 @@ namespace is_4_20_st6_KURS
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
+            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
             this.SuspendLayout();
@@ -76,38 +76,6 @@ namespace is_4_20_st6_KURS
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroTextBox2
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox2.CustomButton.Image = null;
-            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(135, 1);
-            this.metroTextBox2.CustomButton.Name = "";
-            this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox2.CustomButton.TabIndex = 1;
-            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox2.CustomButton.UseSelectable = true;
-            this.metroTextBox2.CustomButton.Visible = false;
-            this.metroTextBox2.Lines = new string[] {
-        "Дата рождения"};
-            this.metroTextBox2.Location = new System.Drawing.Point(20, 120);
-            this.metroTextBox2.MaxLength = 32767;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.SelectionLength = 0;
-            this.metroTextBox2.SelectionStart = 0;
-            this.metroTextBox2.ShortcutsEnabled = true;
-            this.metroTextBox2.Size = new System.Drawing.Size(157, 23);
-            this.metroTextBox2.TabIndex = 1;
-            this.metroTextBox2.Text = "Дата рождения";
-            this.metroTextBox2.UseSelectable = true;
-            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
             // metroTextBox3
             // 
             // 
@@ -124,7 +92,7 @@ namespace is_4_20_st6_KURS
             this.metroTextBox3.CustomButton.Visible = false;
             this.metroTextBox3.Lines = new string[] {
         "Номер телефона"};
-            this.metroTextBox3.Location = new System.Drawing.Point(20, 149);
+            this.metroTextBox3.Location = new System.Drawing.Point(20, 155);
             this.metroTextBox3.MaxLength = 32767;
             this.metroTextBox3.Name = "metroTextBox3";
             this.metroTextBox3.PasswordChar = '\0';
@@ -218,17 +186,25 @@ namespace is_4_20_st6_KURS
             this.metroGrid1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.metroGrid1_CellMouseClick);
             this.metroGrid1.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.metroGrid1_CellMouseDown);
             // 
-            // Form6_employ
+            // metroDateTime1
+            // 
+            this.metroDateTime1.Location = new System.Drawing.Point(20, 120);
+            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
+            this.metroDateTime1.Name = "metroDateTime1";
+            this.metroDateTime1.Size = new System.Drawing.Size(157, 29);
+            this.metroDateTime1.TabIndex = 6;
+            // 
+            // Form6_employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(749, 312);
+            this.Controls.Add(this.metroDateTime1);
             this.Controls.Add(this.metroGrid1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.metroTextBox3);
-            this.Controls.Add(this.metroTextBox2);
             this.Controls.Add(this.metroTextBox1);
-            this.Name = "Form6_employ";
+            this.Name = "Form6_employees";
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "Форма записей сотрудников";
             this.Load += new System.EventHandler(this.Form6_employ_Load);
@@ -243,11 +219,11 @@ namespace is_4_20_st6_KURS
         #endregion
 
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
         private MetroFramework.Controls.MetroTextBox metroTextBox3;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private MetroFramework.Controls.MetroGrid metroGrid1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private MetroFramework.Controls.MetroDateTime metroDateTime1;
     }
 }

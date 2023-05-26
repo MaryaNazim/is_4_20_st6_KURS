@@ -16,9 +16,9 @@ namespace is_4_20_st6_KURS
     public partial class Form1_auth2 : MetroForm
     {
         // строка подключения к БД
-        string connStr = "server=10.90.12.110;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+        string connStr = "server=chuc.sdlik.ru;port=33333;user=st_4_20_6;database=is_4_20_st6_KURS;password=22702128;";
+        //Переменная соединения
         MySqlConnection conn;
-        //Метод запроса данных пользователя по логину для запоминания их в полях класса
 
         //Вычисление хэша строки и возрат его из метода
         static string sha256(string randomString)
@@ -34,6 +34,7 @@ namespace is_4_20_st6_KURS
             return hash.ToString();
         }
 
+        //Метод запроса данных пользователя по логину для запоминания их в полях класса
         public void GetUserInfo(string login)
         {
             // устанавливаем соединение с БД
@@ -92,7 +93,6 @@ namespace is_4_20_st6_KURS
             {
                 //Присваеваем глобальный признак авторизации
                 Auth.auth = true;
-                //Достаем данные пользователя в случае успеха
                 //Достаем данные пользователя в случае успеха
                 GetUserInfo(metroTextBox1.Text);
                 MessageBox.Show("Авторизация успешна");

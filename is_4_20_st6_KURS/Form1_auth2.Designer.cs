@@ -158,7 +158,7 @@ namespace is_4_20_st6_KURS
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(160, 23);
             this.metroButton1.TabIndex = 14;
-            this.metroButton1.Text = "ВОЙТИ";
+            this.metroButton1.Text = "Войти";
             this.metroButton1.UseCustomBackColor = true;
             this.metroButton1.UseCustomForeColor = true;
             this.metroButton1.UseSelectable = true;

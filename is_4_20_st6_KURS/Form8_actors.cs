@@ -145,25 +145,29 @@ namespace is_4_20_st6_KURS
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            //Формируем строку запроса на добавление строк
-            string sql_delete = "DELETE FROM Actor WHERE id_Actor='" + id_selected_rows + "'";
-            //Посылаем запрос на обновление данных
-            MySqlCommand delete = new MySqlCommand(sql_delete, conn);
-            try
+            DialogResult result = MessageBox.Show("Вы действительно хотите удалить запись ?", "Сообщение", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
+            if (result == DialogResult.Yes)
             {
-                conn.Open();
-                delete.ExecuteNonQuery();
-                MessageBox.Show("Удаление прошло успешно", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка удаления строки \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
-            }
-            finally
-            {
-                conn.Close();
-                reload_list();
+                //Формируем строку запроса на добавление строк
+                string sql_delete = "DELETE FROM Actor WHERE id_Actor='" + id_selected_rows + "'";
+                //Посылаем запрос на обновление данных
+                MySqlCommand delete = new MySqlCommand(sql_delete, conn);
+                try
+                {
+                    conn.Open();
+                    delete.ExecuteNonQuery();
+                    MessageBox.Show("Удаление прошло успешно", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка удаления строки \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Application.Exit();
+                }
+                finally
+                {
+                    conn.Close();
+                    reload_list();
+                }
             }
         }
     }
