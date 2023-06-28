@@ -502,7 +502,7 @@ namespace is_4_20_st6_KURS
             }
             else
             {
-                MessageBox.Show("Заказ не создан. Создайте заказ!");
+                MessageBox.Show("Заказ не создан. Создайте заказ!", "Информация");
             }
         }
 

@@ -326,7 +326,7 @@ namespace is_4_20_st6_KURS
             finally
             {
                 conn.Close();
-                MessageBox.Show("Добавление прошло успешно");
+                MessageBox.Show("Добавление прошло успешно", "Информация");
                 reload_list();
             }
         }

@@ -165,12 +165,6 @@
     <Compile Include="Form8_actorafisha.Designer.cs">
       <DependentUpon>Form8_actorafisha.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1_auth2.resx">
@@ -208,9 +202,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form8_actorafisha.resx">
       <DependentUpon>Form8_actorafisha.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -39,20 +39,20 @@ namespace is_4_20_st6_KURS
                     metroLabel8.Text = "Умеренный";
                     metroLabel8.ForeColor = Color.YellowGreen;
                     metroButton1.Enabled = false;
-                    metroButton2.Enabled = false;
+                    metroButton2.Enabled = true;
                     metroButton3.Enabled = false;
                     metroButton4.Enabled = true;
                     metroButton5.Enabled = false;
-                    metroButton6.Enabled = false;
+                    metroButton6.Enabled = true;
                     metroButton7.Enabled = true;
                     break;
                 case 3:
                     //Сокрытие текущей формы
                     this.Hide();
                     //Инициализируем и вызываем форму диалога авторизации
-                    Menu user_menu = new Menu();
+                    Form3 form3 = new Form3();
                     //Вызов формы в режиме диалога
-                    user_menu.ShowDialog();
+                    form3.ShowDialog();
                     metroLabel8.Text = "Минимальный";
                     metroLabel8.ForeColor = Color.Yellow;
                     metroButton1.Enabled = false;
@@ -131,8 +131,8 @@ namespace is_4_20_st6_KURS
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
-            menu.ShowDialog();
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
         }
 
         private void metroButton5_Click(object sender, EventArgs e)

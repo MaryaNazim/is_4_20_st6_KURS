@@ -20,6 +20,18 @@ namespace is_4_20_st6_KURS
         public static string login;
         public static string password;
         //Простой метод добавляющий в таблицу записи, в качестве параметров принимает ФИО и Предмет
+        static string sha256(string randomString)
+        {
+            //Тут происходит криптографическая магия. Смысл данного метода заключается в том, что строка залетает в метод
+            var crypt = new System.Security.Cryptography.SHA256Managed();
+            var hash = new System.Text.StringBuilder();
+            byte[] crypto = crypt.ComputeHash(Encoding.UTF8.GetBytes(randomString));
+            foreach (byte theByte in crypto)
+            {
+                hash.Append(theByte.ToString("x2"));
+            }
+            return hash.ToString();
+        }
         public bool InsertUser(int id_emp,string login, string password)
         {
             //определяем переменную, хранящую количество вставленных строк
@@ -30,7 +42,7 @@ namespace is_4_20_st6_KURS
             conn.Open();
             // запросы
             // запрос вставки данных
-            string query = $"INSERT INTO `Users` (`id_emp`,`login`,`password`) VALUES ('{id_emp}','{login}','{password}')";
+            string query = $"INSERT INTO `Users` (`id_emp`,`login`,`password`,`role`) VALUES ('{id_emp}','{login}','{sha256(password)}','{3}')";
             try
             {
                 // объект для выполнения SQL-запроса
@@ -48,7 +60,7 @@ namespace is_4_20_st6_KURS
                 if (InsertCount != 0)
                 {
                     //то результат операции - истина
-                    result = true;
+                    result = false;
                 }
             }
             //Вернём результат операции, где его обработает алгоритм
@@ -68,15 +80,13 @@ namespace is_4_20_st6_KURS
             //Если метод вставки записи в БД вернёт истину, то просто обновим список и увидим вставленное значение
             if (InsertUser(id_emp,login, password))
             {
-                MessageBox.Show("Пользователь зарегистрирован");
+                MessageBox.Show("Пользователь успешно зарегистрирован","Информация");
                 this.Hide();
-                Form3 Form3 = new Form3();
-                Form3.Show();
             }
             //Иначе произошла какая то ошибка и покажем пользователю уведомление
             else
             {
-                MessageBox.Show("Ошибка при регистрации");
+                MessageBox.Show("Ошибка при регистрации","Ошибка");
             }
         }
 

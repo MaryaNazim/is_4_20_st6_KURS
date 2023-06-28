@@ -139,7 +139,7 @@ namespace is_4_20_st6_KURS
             {
                 conn.Close();
                 reload_list();
-                MessageBox.Show("Добавление прошло успешно");
+                MessageBox.Show("Добавление прошло успешно", "Информация");
             }
         }
 

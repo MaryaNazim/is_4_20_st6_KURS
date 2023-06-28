@@ -143,7 +143,8 @@ namespace is_4_20_st6_KURS
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            string tmp = $"INSERT INTO Employ (fio, dr, phone) VALUES ('{metroTextBox1.Text}', '{metroDateTime1.Value.ToString("yyyy-MM-dd")}', '{metroTextBox3.Text}')";
+            string ins_phone = Convert.ToString(metroTextBox3.Text);
+            string tmp = $"INSERT INTO Employ (fio, dr, phone) VALUES ('{metroTextBox1.Text}', '{metroDateTime1.Value.ToString("yyyy-MM-dd")}', '{Convert.ToDecimal(ins_phone)}')";
             MySqlCommand cmd = new MySqlCommand(tmp, conn);
             try
             {
@@ -154,7 +155,7 @@ namespace is_4_20_st6_KURS
             finally
             {
                 conn.Close();
-                MessageBox.Show("Добавление прошло успешно");
+                MessageBox.Show("Добавление прошло успешно", "Информация");
                 reload_list();
             }
             /*

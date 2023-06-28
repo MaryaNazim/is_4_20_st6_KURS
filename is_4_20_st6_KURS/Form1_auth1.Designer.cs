@@ -187,7 +187,7 @@ namespace is_4_20_st6_KURS
             this.metroButton4.Name = "metroButton4";
             this.metroButton4.Size = new System.Drawing.Size(260, 23);
             this.metroButton4.TabIndex = 22;
-            this.metroButton4.Text = "ПОЛЬЗОВАТЕЛЬСКОЕ МЕНЮ";
+            this.metroButton4.Text = "ЗАБРОНИРОВАТЬ МЕСТО";
             this.metroButton4.UseSelectable = true;
             this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 

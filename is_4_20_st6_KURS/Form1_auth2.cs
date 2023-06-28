@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using MetroFramework.Forms;
@@ -64,47 +65,57 @@ namespace is_4_20_st6_KURS
             InitializeComponent();
         }
 
+        Thread thread1;
+        Form1_auth1 Form1_Auth1 = new Form1_auth1();
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            //Запрос в БД на предмет того, если ли строка с подходящим логином и паролем
-            string sql = "SELECT * FROM `Users` WHERE `login` = @un and  `password`= @up";
-            //Открытие соединения
-            conn.Open();
-            //Объявляем таблицу
-            DataTable table = new DataTable();
-            //Объявляем адаптер
-            MySqlDataAdapter adapter = new MySqlDataAdapter();
-            //Объявляем команду
-            MySqlCommand command = new MySqlCommand(sql, conn);
-            //Определяем параметры
-            command.Parameters.Add("@un", MySqlDbType.VarChar, 255);
-            command.Parameters.Add("@up", MySqlDbType.VarChar, 255);
-            //Присваиваем параметрам значение
-            command.Parameters["@un"].Value = metroTextBox1.Text;
-            command.Parameters["@up"].Value = sha256(metroTextBox2.Text);
-            //Заносим команду в адаптер
-            adapter.SelectCommand = command;
-            //Заполняем таблицу
-            adapter.Fill(table);
-            //Закрываем соединение
-            conn.Close();
-            //Если вернулась больше 0 строк, значит такой пользователь существует
-            if (table.Rows.Count > 0)
+            thread1 = new Thread(()=>
             {
-                //Присваеваем глобальный признак авторизации
-                Auth.auth = true;
-                //Достаем данные пользователя в случае успеха
-                GetUserInfo(metroTextBox1.Text);
-                MessageBox.Show("Авторизация успешна");
-                //Закрываем форму
-                this.Close();
-            }
-            else
-            {
-                //Отобразить сообщение о том, что авторизаия неуспешна
-                MessageBox.Show("Неверные данные авторизации!");
-            }
+                //Запрос в БД на предмет того, если ли строка с подходящим логином и паролем
+                string sql = "SELECT * FROM `Users` WHERE `login` = @un and  `password`= @up";
+                //Открытие соединения
+                conn.Open();
+                //Объявляем таблицу
+                DataTable table = new DataTable();
+                //Объявляем адаптер
+                MySqlDataAdapter adapter = new MySqlDataAdapter();
+                //Объявляем команду
+                MySqlCommand command = new MySqlCommand(sql, conn);
+                //Определяем параметры
+                command.Parameters.Add("@un", MySqlDbType.VarChar, 255);
+                command.Parameters.Add("@up", MySqlDbType.VarChar, 255);
+                //Присваиваем параметрам значение
+                command.Parameters["@un"].Value = metroTextBox1.Text;
+                command.Parameters["@up"].Value = sha256(metroTextBox2.Text);
+                //Заносим команду в адаптер
+                adapter.SelectCommand = command;
+                //Заполняем таблицу
+                adapter.Fill(table);
+                //Закрываем соединение
+                conn.Close();
+                //Если вернулась больше 0 строк, значит такой пользователь существует
+                if (table.Rows.Count > 0)
+                {
+                    //Присваеваем глобальный признак авторизации
+                    Auth.auth = true;
+                    //Достаем данные пользователя в случае успеха
+                    GetUserInfo(metroTextBox1.Text);
+                    MessageBox.Show("Авторизация успешна", "Информация");
+                    //Закрываем форму
+                    //this.Close();
+                    //this.Invoke(new Action(() => Form1_Auth1.Show()));
+                    this.Invoke(new Action(() => Hide())); //скрытие данной формы
+                }
+                else
+                {
+                    //Отобразить сообщение о том, что авторизаия неуспешна
+                    MessageBox.Show("Неверные данные авторизации", "Информация");
+                }
+
+            });
+            thread1.Start();
         }
+        
 
         private void Form1_auth2_Load(object sender, EventArgs e)
         {
@@ -127,6 +138,12 @@ namespace is_4_20_st6_KURS
             pictureBox3.Visible = true;
             pictureBox4.Visible = false;
 
+        }
+
+        private void metroLink1_Click(object sender, EventArgs e)
+        {
+            Form2_registr form2_registr = new Form2_registr();
+            form2_registr.ShowDialog();
         }
     }
 }

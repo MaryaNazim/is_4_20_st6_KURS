@@ -812,6 +812,7 @@ namespace is_4_20_st6_KURS
             this.metroButton28.Text = "1";
             this.metroButton28.UseSelectable = true;
             this.metroButton28.UseStyleColors = true;
+            this.metroButton28.Click += new System.EventHandler(this.metroButton28_Click);
             // 
             // metroButton29
             // 
@@ -878,6 +879,7 @@ namespace is_4_20_st6_KURS
             this.metroButton34.Text = "1";
             this.metroButton34.UseSelectable = true;
             this.metroButton34.UseStyleColors = true;
+            this.metroButton34.Click += new System.EventHandler(this.metroButton34_Click);
             // 
             // metroButton35
             // 
@@ -944,6 +946,7 @@ namespace is_4_20_st6_KURS
             this.metroButton40.Text = "1";
             this.metroButton40.UseSelectable = true;
             this.metroButton40.UseStyleColors = true;
+            this.metroButton40.Click += new System.EventHandler(this.metroButton40_Click);
             // 
             // metroButton41
             // 
@@ -1010,6 +1013,7 @@ namespace is_4_20_st6_KURS
             this.metroButton46.Text = "1";
             this.metroButton46.UseSelectable = true;
             this.metroButton46.UseStyleColors = true;
+            this.metroButton46.Click += new System.EventHandler(this.metroButton46_Click);
             // 
             // metroButton47
             // 
@@ -1231,6 +1235,7 @@ namespace is_4_20_st6_KURS
             this.metroButton66.Text = "1";
             this.metroButton66.UseSelectable = true;
             this.metroButton66.UseStyleColors = true;
+            this.metroButton66.Click += new System.EventHandler(this.metroButton66_Click);
             // 
             // metroButton67
             // 
@@ -1322,6 +1327,7 @@ namespace is_4_20_st6_KURS
             this.metroButton75.Text = "1";
             this.metroButton75.UseSelectable = true;
             this.metroButton75.UseStyleColors = true;
+            this.metroButton75.Click += new System.EventHandler(this.metroButton75_Click);
             // 
             // metroButton76
             // 
@@ -1333,6 +1339,7 @@ namespace is_4_20_st6_KURS
             this.metroButton76.Text = "1";
             this.metroButton76.UseSelectable = true;
             this.metroButton76.UseStyleColors = true;
+            this.metroButton76.Click += new System.EventHandler(this.metroButton76_Click);
             // 
             // metroButton77
             // 
@@ -1344,6 +1351,7 @@ namespace is_4_20_st6_KURS
             this.metroButton77.Text = "1";
             this.metroButton77.UseSelectable = true;
             this.metroButton77.UseStyleColors = true;
+            this.metroButton77.Click += new System.EventHandler(this.metroButton77_Click);
             // 
             // metroButton78
             // 
@@ -1355,6 +1363,7 @@ namespace is_4_20_st6_KURS
             this.metroButton78.Text = "1";
             this.metroButton78.UseSelectable = true;
             this.metroButton78.UseStyleColors = true;
+            this.metroButton78.Click += new System.EventHandler(this.metroButton78_Click);
             // 
             // metroButton79
             // 
@@ -1366,6 +1375,7 @@ namespace is_4_20_st6_KURS
             this.metroButton79.Text = "1";
             this.metroButton79.UseSelectable = true;
             this.metroButton79.UseStyleColors = true;
+            this.metroButton79.Click += new System.EventHandler(this.metroButton79_Click);
             // 
             // metroButton80
             // 
@@ -1432,6 +1442,7 @@ namespace is_4_20_st6_KURS
             this.metroButton86.Text = "1";
             this.metroButton86.UseSelectable = true;
             this.metroButton86.UseStyleColors = true;
+            this.metroButton86.Click += new System.EventHandler(this.metroButton86_Click);
             // 
             // metroButton87
             // 
@@ -1443,6 +1454,7 @@ namespace is_4_20_st6_KURS
             this.metroButton87.Text = "1";
             this.metroButton87.UseSelectable = true;
             this.metroButton87.UseStyleColors = true;
+            this.metroButton87.Click += new System.EventHandler(this.metroButton87_Click);
             // 
             // metroButton88
             // 
